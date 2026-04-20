@@ -1,0 +1,42 @@
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+.card {
+  width: min(100%, 560px);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.card h1 {
+  margin: 0 0 0.8rem;
+  font-family: var(--font-display);
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  font-weight: 600;
+}
+

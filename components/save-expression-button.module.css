@@ -1,0 +1,20 @@
+.button {
+  border: 1px solid var(--border);
+  background: var(--surface-strong);
+  border-radius: 999px;
+  padding: 0.68rem 1rem;
+  color: var(--text);
+  cursor: pointer;
+  transition: transform 140ms ease, border-color 140ms ease;
+  font-size: 0.9rem;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(214, 97, 60, 0.5);
+}
+
+.compact {
+  padding: 0.52rem 0.82rem;
+  font-size: 0.82rem;
+}

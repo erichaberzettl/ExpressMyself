@@ -1,0 +1,131 @@
+.page {
+  padding: 1.25rem 0 4rem;
+}
+
+.topBar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.85rem;
+}
+
+.heroCopy,
+.controls,
+.infoCard {
+  padding: 1.15rem 1.25rem;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.widgetEyebrow {
+  margin: 0;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.heroCopy h1 {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1.02;
+}
+
+.lead {
+  margin: 0;
+  max-width: 54ch;
+  color: var(--muted);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  align-self: start;
+  padding: 0.45rem;
+  background: rgba(255, 255, 255, 0.66);
+  border: 1px solid rgba(31, 41, 51, 0.08);
+}
+
+.languageDock {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding-right: 0.25rem;
+}
+
+.languageCount {
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+.subtleAction,
+.primaryAction {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 0.9rem;
+  font-weight: 500;
+  border-radius: 999px;
+  font-size: 0.88rem;
+}
+
+.subtleAction {
+  color: var(--muted);
+}
+
+.primaryAction {
+  background: #22313b;
+  color: #fef8f2;
+}
+
+.widgetShell {
+  margin-top: 1rem;
+}
+
+.bottomGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.infoCard h3 {
+  margin: 0 0 0.65rem;
+}
+
+.infoCard p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 860px) {
+  .topBar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .controls {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .bottomGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .languageDock {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
