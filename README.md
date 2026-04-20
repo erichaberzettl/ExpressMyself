@@ -1,5 +1,7 @@
 # ExpressMyself
 
+A small app to learn typical idioms and expressions in different languages.
+
 ExpressMyself is a small `Next.js + TypeScript + React` language-learning app focused on common expressions, idioms, and practical everyday phrases. The first version is intentionally simple: curated content, no accounts, and a clean interface that can later feed a Chrome extension UI.
 
 ## What is in this version
