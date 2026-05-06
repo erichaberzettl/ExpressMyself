@@ -1,8 +1,7 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExpressionCard } from "@/components/expression-card";
-import { SaveExpressionButton } from "@/components/save-expression-button";
-import { getExpressionById, getRelatedExpressions } from "@/lib/expressions";
+import { PersistentAppHeader } from "@/components/persistent-app-header";
+import { getExpressionByIdDb, getRelatedExpressionsDb } from "@/lib/expression-repository";
 import { languagesByCode } from "@/lib/languages";
 import styles from "./page.module.css";
 
@@ -14,24 +13,18 @@ type ExpressionPageProps = {
 
 export default async function ExpressionPage({ params }: ExpressionPageProps) {
   const { id } = await params;
-  const expression = getExpressionById(id);
+  const expression = await getExpressionByIdDb(id);
 
   if (!expression) {
     notFound();
   }
 
-  const related = getRelatedExpressions(expression, 3);
+  const related = await getRelatedExpressionsDb(expression, 3);
   const language = languagesByCode[expression.language];
 
   return (
     <main className={styles.page}>
-      <header className={styles.header}>
-        <Link href="/">ExpressMyself</Link>
-        <nav className={styles.nav}>
-          <Link href="/saved">Saved</Link>
-          <Link href="/library">Library</Link>
-        </nav>
-      </header>
+      <PersistentAppHeader />
 
       <section className={styles.hero}>
         <div>
@@ -41,10 +34,9 @@ export default async function ExpressionPage({ params }: ExpressionPageProps) {
             A quick, practical breakdown of when people actually use this expression.
           </p>
         </div>
-        <SaveExpressionButton expressionId={expression.id} />
       </section>
 
-      <ExpressionCard expression={expression} compact={false} />
+      <ExpressionCard expression={expression} compact={false} showSaveButton />
 
       {related.length > 0 ? (
         <section className={styles.relatedSection}>
@@ -54,7 +46,7 @@ export default async function ExpressionPage({ params }: ExpressionPageProps) {
           </div>
           <div className={styles.relatedGrid}>
             {related.map((item) => (
-              <ExpressionCard key={item.id} expression={item} compact />
+              <ExpressionCard key={item.id} expression={item} listPreview />
             ))}
           </div>
         </section>

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "pt-a-fila-anda-0",
+    "language": "pt",
+    "expression": "A fila anda",
+    "literalTranslation": "The line moves on",
+    "meaning": "Life moves forward and you should not stay stuck in what has passed.",
+    "usageNote": "Use it when someone needs to accept that a chapter is over and keep going.",
+    "exampleSentence": "Foi triste, mas a fila anda e ele decidiu recomeçar.",
+    "exampleTranslation": "It was sad, but life moves on and he decided to start again.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-caminho-1",
+    "language": "pt",
+    "expression": "A caminho",
+    "literalTranslation": "On the way",
+    "meaning": "Already on the route or getting closer to happening.",
+    "usageNote": "Use it for people, deliveries, or results that are not here yet but are coming.",
+    "exampleSentence": "Calma, o relatório já está a caminho.",
+    "exampleTranslation": "Relax, the report is already on its way.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-cereja-do-bolo-2",
+    "language": "pt",
+    "expression": "A cereja do bolo",
+    "literalTranslation": "The cherry on the cake",
+    "meaning": "The final detail that makes something especially good.",
+    "usageNote": "Use it when one last addition completes an already positive situation.",
+    "exampleSentence": "O bônus no fim do mês foi a cereja do bolo.",
+    "exampleTranslation": "The bonus at the end of the month was the perfect finishing touch.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-contragosto-3",
+    "language": "pt",
+    "expression": "A contragosto",
+    "literalTranslation": "Against one's taste",
+    "meaning": "Reluctantly and without real willingness.",
+    "usageNote": "Use it when someone agrees to something only because they feel they have to.",
+    "exampleSentence": "Ele aceitou a mudança a contragosto.",
+    "exampleTranslation": "He accepted the change reluctantly.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-gota-que-transbordou-o-copo-4",
+    "language": "pt",
+    "expression": "A gota que transbordou o copo",
+    "literalTranslation": "The drop that overflowed the cup",
+    "meaning": "The final small problem that makes a bad situation unbearable.",
+    "usageNote": "Use it when patience finally runs out because one last thing pushes it too far.",
+    "exampleSentence": "A terceira promessa quebrada foi a gota que transbordou o copo.",
+    "exampleTranslation": "The third broken promise was the last straw.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-luz-no-fim-do-tunel-5",
+    "language": "pt",
+    "expression": "A luz no fim do túnel",
+    "literalTranslation": "The light at the end of the tunnel",
+    "meaning": "A sign that a difficult period may finally improve.",
+    "usageNote": "Use it when there is still hardship, but you can finally see a hopeful way forward.",
+    "exampleSentence": "Com esse contrato novo, começamos a ver uma luz no fim do túnel.",
+    "exampleTranslation": "With that new contract, we are finally seeing a light at the end of the tunnel.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-portas-fechadas-6",
+    "language": "pt",
+    "expression": "A portas fechadas",
+    "literalTranslation": "With closed doors",
+    "meaning": "In private and away from public view.",
+    "usageNote": "Use it when a conversation or decision happens confidentially.",
+    "exampleSentence": "A reunião decisiva aconteceu a portas fechadas.",
+    "exampleTranslation": "The decisive meeting happened behind closed doors.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-luz-de-7",
+    "language": "pt",
+    "expression": "À luz de",
+    "literalTranslation": "In the light of",
+    "meaning": "Considering a fact or perspective that changes how something should be judged.",
+    "usageNote": "Use it to introduce relevant context before drawing a conclusion.",
+    "exampleSentence": "À luz dos novos dados, precisamos rever o plano.",
+    "exampleTranslation": "In light of the new data, we need to review the plan.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-frente-de-seu-tempo-8",
+    "language": "pt",
+    "expression": "À frente de seu tempo",
+    "literalTranslation": "Ahead of one's time",
+    "meaning": "More advanced or visionary than the period around it.",
+    "usageNote": "Use it for ideas or people that only get fully appreciated later.",
+    "exampleSentence": "Muita gente achou o projeto estranho, mas ele estava à frente de seu tempo.",
+    "exampleTranslation": "Many people found the project strange, but it was ahead of its time.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-preco-de-banana-9",
+    "language": "pt",
+    "expression": "A preço de banana",
+    "literalTranslation": "At banana price",
+    "meaning": "Very cheaply and far below normal value.",
+    "usageNote": "Use it when something is being sold for so little that it feels almost absurd.",
+    "exampleSentence": "Eles venderam o estoque antigo a preço de banana.",
+    "exampleTranslation": "They sold the old stock for next to nothing.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-mao-de-semear-10",
+    "language": "pt",
+    "expression": "À mão de semear",
+    "literalTranslation": "At hand for sowing",
+    "meaning": "Very easy to find or easily available.",
+    "usageNote": "Use it when something is close by and requires little effort to get.",
+    "exampleSentence": "Com tanto café à mão de semear, ninguém vai dormir na reunião.",
+    "exampleTranslation": "With so much coffee readily available, nobody is going to fall asleep in the meeting.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-casa-caiu-11",
+    "language": "pt",
+    "expression": "A casa caiu",
+    "literalTranslation": "The house fell",
+    "meaning": "The trouble has arrived and the consequences can no longer be avoided.",
+    "usageNote": "Use it when someone's secret, mistake, or scheme has finally been exposed.",
+    "exampleSentence": "Quando descobriram a fraude, a casa caiu de vez.",
+    "exampleTranslation": "When they discovered the fraud, everything fell apart for good.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-fio-12",
+    "language": "pt",
+    "expression": "A fio",
+    "literalTranslation": "In a row",
+    "meaning": "Continuously and without interruption.",
+    "usageNote": "Use it when something keeps happening for a long stretch of time.",
+    "exampleSentence": "Ele trabalhou dez horas a fio para terminar a entrega.",
+    "exampleTranslation": "He worked ten straight hours to finish the delivery.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-montanha-parir-um-rato-13",
+    "language": "pt",
+    "expression": "A montanha parir um rato",
+    "literalTranslation": "For the mountain to give birth to a mouse",
+    "meaning": "A huge buildup that ends in a tiny, disappointing result.",
+    "usageNote": "Use it when grand promises produce almost nothing in the end.",
+    "exampleSentence": "Falaram tanto da novidade, mas foi a montanha a parir um rato.",
+    "exampleTranslation": "They hyped the news so much, but it turned out to be a huge buildup for almost nothing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-deus-dara-14",
+    "language": "pt",
+    "expression": "A Deus dará",
+    "literalTranslation": "To God will give",
+    "meaning": "Left to chance, without planning or control.",
+    "usageNote": "Use it when something is being handled in a dangerously improvised way.",
+    "exampleSentence": "Não dá para tocar esse projeto a Deus dará.",
+    "exampleTranslation": "We cannot run this project by pure chance and improvisation.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-paisana-15",
+    "language": "pt",
+    "expression": "À paisana",
+    "literalTranslation": "In civilian style",
+    "meaning": "Without a uniform or official appearance.",
+    "usageNote": "Use it when someone is present in plain clothes and not visibly in their formal role.",
+    "exampleSentence": "Os policiais estavam à paisana no evento.",
+    "exampleTranslation": "The police officers were at the event in plain clothes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-a-passo-de-caracol-16",
+    "language": "pt",
+    "expression": "A passo de caracol",
+    "literalTranslation": "At snail pace",
+    "meaning": "Very slowly.",
+    "usageNote": "Use it when progress is crawling and testing your patience.",
+    "exampleSentence": "A aprovação está andando a passo de caracol.",
+    "exampleTranslation": "The approval process is moving at a snail's pace.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-chutar-o-balde-17",
+    "language": "pt",
+    "expression": "Chutar o balde",
+    "literalTranslation": "To kick the bucket",
+    "meaning": "To stop holding back and act recklessly or in total frustration.",
+    "usageNote": "Use it when someone suddenly stops being careful and decides not to care anymore.",
+    "exampleSentence": "Depois de meses de pressão, ele chutou o balde e pediu demissão.",
+    "exampleTranslation": "After months of pressure, he snapped and quit.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-dar-com-a-lingua-nos-dentes-18",
+    "language": "pt",
+    "expression": "Dar com a língua nos dentes",
+    "literalTranslation": "To hit the teeth with the tongue",
+    "meaning": "To let a secret slip.",
+    "usageNote": "Use it when someone reveals confidential information by accident or carelessness.",
+    "exampleSentence": "Eu ia fazer surpresa, mas o Pedro deu com a língua nos dentes.",
+    "exampleTranslation": "I was planning a surprise, but Pedro let the secret slip.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pt-ficar-de-maos-abanando-19",
+    "language": "pt",
+    "expression": "Ficar de mãos abanando",
+    "literalTranslation": "To be left with waving hands",
+    "meaning": "To end up with nothing after expecting something.",
+    "usageNote": "Use it when effort or hope leads to an empty-handed result.",
+    "exampleSentence": "Chegamos cedo mesmo assim ficamos de mãos abanando.",
+    "exampleTranslation": "We arrived early and still ended up empty-handed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  }
+]

@@ -1,27 +1,82 @@
 "use client";
 
-import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { AppHeader } from "@/components/app-header";
 import { ExpressionCard } from "@/components/expression-card";
-import { LanguageSwitcher } from "@/components/language-switcher";
-import { filterExpressions, getAvailableTags, getExpressionsForLanguage } from "@/lib/expressions";
+import { fetchExpressionsForLanguage } from "@/lib/client-expression-api";
+import { filterExpressionsInEntries, getAvailableTagsFromEntries } from "@/lib/expressions";
+import { getTopicTagLabel } from "@/lib/topic-tags";
+import { ExpressionEntry, LanguageCode } from "@/lib/types";
+import { usePersistedContentTypes } from "@/lib/use-persisted-content-types";
 import { usePersistedLanguage } from "@/lib/use-persisted-language";
 import styles from "./library-experience.module.css";
 
-export function LibraryExperience() {
+type LibraryExperienceProps = {
+  initialExpressions: ExpressionEntry[];
+  loadExpressions?: (language: LanguageCode) => Promise<ExpressionEntry[]>;
+};
+
+export function LibraryExperience({
+  initialExpressions,
+  loadExpressions = fetchExpressionsForLanguage
+}: LibraryExperienceProps) {
   const [language, setLanguage] = usePersistedLanguage("en");
+  const [selectedContentTypes, toggleContentType] = usePersistedContentTypes();
   const [query, setQuery] = useState("");
   const [tag, setTag] = useState<string>("all");
+  const [entries, setEntries] = useState(initialExpressions);
+  const hasSkippedInitialLoad = useRef(false);
 
-  const entries = useMemo(() => getExpressionsForLanguage(language), [language]);
-  const tags = useMemo(() => getAvailableTags(language), [language]);
+  useEffect(() => {
+    if (!hasSkippedInitialLoad.current && language === "en") {
+      hasSkippedInitialLoad.current = true;
+      return;
+    }
+
+    let cancelled = false;
+
+    loadExpressions(language)
+      .then((nextEntries) => {
+        if (!cancelled) {
+          setEntries(nextEntries);
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setEntries([]);
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [language, loadExpressions]);
+
+  const tags = useMemo(() => getAvailableTagsFromEntries(entries), [entries]);
   const filtered = useMemo(
-    () => filterExpressions({ language, query, tag: tag === "all" ? undefined : tag }),
-    [language, query, tag]
+    () =>
+      filterExpressionsInEntries(entries, {
+        language,
+        query,
+        tag: tag === "all" ? undefined : tag,
+        contentTypes: selectedContentTypes
+      }),
+    [entries, language, query, selectedContentTypes, tag]
   );
 
   return (
     <main className={styles.page}>
+      <AppHeader
+        language={language}
+        onLanguageChange={(nextLanguage) => {
+          setLanguage(nextLanguage);
+          setTag("all");
+        }}
+        selectedContentTypes={selectedContentTypes}
+        onToggleContentType={toggleContentType}
+        phraseCount={filtered.length}
+      />
+
       <header className={styles.header}>
         <div>
           <p className={styles.eyebrow}>Library</p>
@@ -30,21 +85,9 @@ export function LibraryExperience() {
             Search the curated phrase set by language, topic, or expression text.
           </p>
         </div>
-        <div className={styles.links}>
-          <Link href="/saved">Saved phrases</Link>
-          <Link href="/">Back home</Link>
-        </div>
       </header>
 
       <section className={styles.toolbar}>
-        <LanguageSwitcher
-          value={language}
-          onChange={(nextLanguage) => {
-            setLanguage(nextLanguage);
-            setTag("all");
-          }}
-        />
-
         <label className={styles.searchField}>
           <span>Search</span>
           <input
@@ -60,7 +103,7 @@ export function LibraryExperience() {
             <option value="all">All topics</option>
             {tags.map((item) => (
               <option key={item} value={item}>
-                {item}
+                {getTopicTagLabel(item)}
               </option>
             ))}
           </select>
@@ -76,7 +119,7 @@ export function LibraryExperience() {
       {filtered.length > 0 ? (
         <section className={styles.grid}>
           {filtered.map((expression) => (
-            <ExpressionCard key={expression.id} expression={expression} compact />
+            <ExpressionCard key={expression.id} expression={expression} listPreview />
           ))}
         </section>
       ) : (

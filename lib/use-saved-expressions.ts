@@ -5,12 +5,38 @@ import { useEffect, useState } from "react";
 const STORAGE_KEY = "express-myself-saved-ids";
 const STORAGE_EVENT = "express-myself-saved-updated";
 
-function readSavedIds(): string[] {
+type ChromeStorageArea = {
+  get: (keys: string[], callback?: (items: Record<string, unknown>) => void) => Promise<Record<string, unknown>> | void;
+  set: (items: Record<string, unknown>, callback?: () => void) => Promise<void> | void;
+};
+
+function getChromeStorage(): ChromeStorageArea | null {
+  return typeof window !== "undefined" ? window.chrome?.storage?.local ?? null : null;
+}
+
+async function readSavedIds(): Promise<string[]> {
   if (typeof window === "undefined") {
     return [];
   }
 
-  const stored = window.localStorage.getItem(STORAGE_KEY);
+  const chromeStorage = getChromeStorage();
+  const stored =
+    chromeStorage
+      ? await new Promise<string | null>((resolve) => {
+          const maybePromise = chromeStorage.get([STORAGE_KEY], (items) => {
+            const value = items?.[STORAGE_KEY];
+            resolve(typeof value === "string" ? value : null);
+          });
+
+          if (maybePromise && typeof (maybePromise as Promise<Record<string, unknown>>).then === "function") {
+            (maybePromise as Promise<Record<string, unknown>>).then((items) => {
+              const value = items?.[STORAGE_KEY];
+              resolve(typeof value === "string" ? value : null);
+            });
+          }
+        })
+      : window.localStorage.getItem(STORAGE_KEY);
+
   if (!stored) {
     return [];
   }
@@ -29,19 +55,30 @@ export function useSavedExpressions() {
   const [hasLoaded, setHasLoaded] = useState(false);
 
   useEffect(() => {
-    setSavedIds(readSavedIds());
-    setHasLoaded(true);
+    let cancelled = false;
 
-    const syncSavedIds = () => {
-      setSavedIds(readSavedIds());
+    const syncSavedIds = async () => {
+      const nextSavedIds = await readSavedIds();
+      if (!cancelled) {
+        setSavedIds(nextSavedIds);
+      }
     };
+
+    void syncSavedIds().then(() => {
+      if (!cancelled) {
+        setHasLoaded(true);
+      }
+    });
 
     window.addEventListener("storage", syncSavedIds);
     window.addEventListener(STORAGE_EVENT, syncSavedIds as EventListener);
+    window.chrome?.storage?.onChanged?.addListener(syncSavedIds);
 
     return () => {
+      cancelled = true;
       window.removeEventListener("storage", syncSavedIds);
       window.removeEventListener(STORAGE_EVENT, syncSavedIds as EventListener);
+      window.chrome?.storage?.onChanged?.removeListener(syncSavedIds);
     };
   }, []);
 
@@ -50,7 +87,14 @@ export function useSavedExpressions() {
       return;
     }
 
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(savedIds));
+    const serialized = JSON.stringify(savedIds);
+    const chromeStorage = getChromeStorage();
+    if (chromeStorage) {
+      void chromeStorage.set({ [STORAGE_KEY]: serialized });
+      return;
+    }
+
+    window.localStorage.setItem(STORAGE_KEY, serialized);
   }, [hasLoaded, savedIds]);
 
   const toggleSaved = (expressionId: string) => {
@@ -59,7 +103,13 @@ export function useSavedExpressions() {
         ? current.filter((item) => item !== expressionId)
         : [...current, expressionId];
 
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(nextSavedIds));
+      const serialized = JSON.stringify(nextSavedIds);
+      const chromeStorage = getChromeStorage();
+      if (chromeStorage) {
+        void chromeStorage.set({ [STORAGE_KEY]: serialized });
+      } else {
+        window.localStorage.setItem(STORAGE_KEY, serialized);
+      }
       window.dispatchEvent(new Event(STORAGE_EVENT));
       return nextSavedIds;
     });

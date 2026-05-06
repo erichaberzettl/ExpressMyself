@@ -1,0 +1,322 @@
+[
+  {
+    "id": "fr-a-plus-tard-0",
+    "language": "fr",
+    "expression": "À plus tard",
+    "literalTranslation": "Until later",
+    "meaning": "A casual way to say you will see someone later.",
+    "usageNote": "Use it when leaving without making the goodbye feel too formal.",
+    "exampleSentence": "Je file à la gare, à plus tard.",
+    "exampleTranslation": "I am heading to the station, see you later.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-acheter-chat-en-poche-1",
+    "language": "fr",
+    "expression": "Acheter chat en poche",
+    "literalTranslation": "To buy a cat in a pocket",
+    "meaning": "To buy something without checking it properly first.",
+    "usageNote": "Use it when warning someone not to agree to a purchase blindly.",
+    "exampleSentence": "Sans démonstration, je ne veux pas acheter chat en poche.",
+    "exampleTranslation": "Without a demo, I do not want to buy it blindly.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-a-votre-sante-2",
+    "language": "fr",
+    "expression": "À votre santé",
+    "literalTranslation": "To your health",
+    "meaning": "A polite toast meaning 'cheers.'",
+    "usageNote": "Use it when raising a glass in a formal or polite setting.",
+    "exampleSentence": "À votre santé, et merci d'être venus ce soir.",
+    "exampleTranslation": "Cheers, and thank you for coming tonight.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-a-la-votre-3",
+    "language": "fr",
+    "expression": "À la vôtre",
+    "literalTranslation": "To yours",
+    "meaning": "An informal way to say 'cheers' in a toast.",
+    "usageNote": "Use it with friends or in relaxed social settings when clinking glasses.",
+    "exampleSentence": "On a enfin fini le projet, à la vôtre.",
+    "exampleTranslation": "We finally finished the project, cheers everyone.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-absent-le-chat-les-souris-dansent-4",
+    "language": "fr",
+    "expression": "Absent le chat, les souris dansent",
+    "literalTranslation": "When the cat is away, the mice dance",
+    "meaning": "People behave more freely when the authority figure is gone.",
+    "usageNote": "Use it when a boss, parent, or teacher leaves and discipline disappears immediately.",
+    "exampleSentence": "Dès que le manager est parti, absent le chat, les souris dansent.",
+    "exampleTranslation": "As soon as the manager left, everyone started acting freely.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-a-contre-courant-5",
+    "language": "fr",
+    "expression": "À contre-courant",
+    "literalTranslation": "Against the current",
+    "meaning": "Going against the prevailing trend or opinion.",
+    "usageNote": "Use it when someone deliberately chooses a different direction from the majority.",
+    "exampleSentence": "Il aime travailler à contre-courant quand tout le monde suit la mode.",
+    "exampleTranslation": "He likes to work against the trend when everyone else follows fashion.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-a-la-une-6",
+    "language": "fr",
+    "expression": "À la une",
+    "literalTranslation": "On the front page",
+    "meaning": "Featured as the main news or top story.",
+    "usageNote": "Use it when something receives the most visible public attention.",
+    "exampleSentence": "Le scandale était à la une pendant toute la semaine.",
+    "exampleTranslation": "The scandal was the headline story all week.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-a-la-saint-glinglin-7",
+    "language": "fr",
+    "expression": "À la Saint-Glinglin",
+    "literalTranslation": "On Saint Glinglin's day",
+    "meaning": "At an imaginary time that will never really come.",
+    "usageNote": "Use it when a promise sounds so vague that it effectively means 'never.'",
+    "exampleSentence": "S'il attend leur validation, ce sera pour la Saint-Glinglin.",
+    "exampleTranslation": "If he waits for their approval, it will happen at some imaginary never-date.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-a-la-bonne-franquette-8",
+    "language": "fr",
+    "expression": "À la bonne franquette",
+    "literalTranslation": "In the good French way",
+    "meaning": "In a simple, relaxed, and unpretentious way.",
+    "usageNote": "Use it for informal meals or gatherings with no ceremony or fuss.",
+    "exampleSentence": "On dîne à la bonne franquette ce soir, chacun apporte quelque chose.",
+    "exampleTranslation": "We are having a simple, relaxed dinner tonight, and everyone is bringing something.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-a-l-anglaise-9",
+    "language": "fr",
+    "expression": "À l'anglaise",
+    "literalTranslation": "In the English way",
+    "meaning": "Without ceremony or quietly, often by slipping away.",
+    "usageNote": "Use it when someone leaves without drawing attention to their departure.",
+    "exampleSentence": "Il est parti à l'anglaise avant la fin de la réception.",
+    "exampleTranslation": "He slipped away quietly before the reception ended.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-a-la-fortune-du-pot-10",
+    "language": "fr",
+    "expression": "À la fortune du pot",
+    "literalTranslation": "According to the luck of the pot",
+    "meaning": "Eating whatever simple food is available without special preparation.",
+    "usageNote": "Use it when inviting someone to a modest, spontaneous meal rather than a planned feast.",
+    "exampleSentence": "Passe ce soir, on mangera à la fortune du pot.",
+    "exampleTranslation": "Come by tonight and we will eat whatever simple meal is on hand.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-poser-un-lapin-11",
+    "language": "fr",
+    "expression": "Poser un lapin",
+    "literalTranslation": "To place a rabbit",
+    "meaning": "To stand someone up and not show up as agreed.",
+    "usageNote": "Use it when a person fails to appear for a meeting without warning.",
+    "exampleSentence": "Il m'a posé un lapin hier soir sans même envoyer un message.",
+    "exampleTranslation": "He stood me up last night without even sending a message.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-avoir-le-cafard-12",
+    "language": "fr",
+    "expression": "Avoir le cafard",
+    "literalTranslation": "To have the cockroach",
+    "meaning": "To feel low, gloomy, or depressed.",
+    "usageNote": "Use it in casual conversation when someone is down and lacks their usual energy.",
+    "exampleSentence": "Depuis son départ, elle a le cafard.",
+    "exampleTranslation": "Since he left, she has been feeling really down.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-couter-les-yeux-de-la-tete-13",
+    "language": "fr",
+    "expression": "Coûter les yeux de la tête",
+    "literalTranslation": "To cost the eyes from the head",
+    "meaning": "To be extremely expensive.",
+    "usageNote": "Use it when something costs far more than feels reasonable.",
+    "exampleSentence": "Ce quartier est pratique, mais les loyers y coûtent les yeux de la tête.",
+    "exampleTranslation": "That neighborhood is convenient, but the rents there cost a fortune.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-donner-sa-langue-au-chat-14",
+    "language": "fr",
+    "expression": "Donner sa langue au chat",
+    "literalTranslation": "To give one's tongue to the cat",
+    "meaning": "To give up trying to guess the answer.",
+    "usageNote": "Use it when a riddle or question defeats you and you want the answer revealed.",
+    "exampleSentence": "Je donne ma langue au chat, c'était quoi la surprise ?",
+    "exampleTranslation": "I give up guessing, what was the surprise?",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-mettre-les-pieds-dans-le-plat-15",
+    "language": "fr",
+    "expression": "Mettre les pieds dans le plat",
+    "literalTranslation": "To put one's feet in the dish",
+    "meaning": "To say something awkwardly direct that creates discomfort.",
+    "usageNote": "Use it when someone brings up a sensitive subject too bluntly.",
+    "exampleSentence": "En parlant de son divorce devant tout le monde, il a mis les pieds dans le plat.",
+    "exampleTranslation": "By talking about her divorce in front of everyone, he said something painfully awkward.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-tomber-dans-les-pommes-16",
+    "language": "fr",
+    "expression": "Tomber dans les pommes",
+    "literalTranslation": "To fall into the apples",
+    "meaning": "To faint or pass out.",
+    "usageNote": "Use it in everyday speech when someone suddenly loses consciousness or nearly does.",
+    "exampleSentence": "Avec cette chaleur, j'ai cru qu'il allait tomber dans les pommes.",
+    "exampleTranslation": "With that heat, I thought he was going to faint.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-avoir-la-tete-dans-les-nuages-17",
+    "language": "fr",
+    "expression": "Avoir la tête dans les nuages",
+    "literalTranslation": "To have one's head in the clouds",
+    "meaning": "To be distracted or lost in thought.",
+    "usageNote": "Use it when someone is physically present but mentally somewhere else.",
+    "exampleSentence": "Depuis ce matin, j'ai la tête dans les nuages et j'oublie tout.",
+    "exampleTranslation": "Since this morning, I have been daydreaming and forgetting everything.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-mettre-de-l-eau-dans-son-vin-18",
+    "language": "fr",
+    "expression": "Mettre de l'eau dans son vin",
+    "literalTranslation": "To put water in one's wine",
+    "meaning": "To become less extreme or more willing to compromise.",
+    "usageNote": "Use it when someone softens their demands or tone after being too rigid.",
+    "exampleSentence": "Après la discussion, il a mis un peu d'eau dans son vin.",
+    "exampleTranslation": "After the discussion, he became a bit more moderate and willing to compromise.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "fr-chercher-midi-a-quatorze-heures-19",
+    "language": "fr",
+    "expression": "Chercher midi à quatorze heures",
+    "literalTranslation": "To look for noon at two o'clock",
+    "meaning": "To overcomplicate something that is actually simple.",
+    "usageNote": "Use it when someone invents unnecessary complications instead of accepting the obvious solution.",
+    "exampleSentence": "Ne cherche pas midi à quatorze heures, la solution est déjà là.",
+    "exampleTranslation": "Do not overcomplicate it, the solution is already right there.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  }
+]

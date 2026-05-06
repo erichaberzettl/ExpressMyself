@@ -1,0 +1,302 @@
+[
+  {
+    "id": "en-above-and-beyond-0",
+    "language": "en",
+    "expression": "Above and beyond",
+    "meaning": "Doing more than what is required or expected.",
+    "usageNote": "Use it to praise extra effort, especially when someone clearly exceeded the basic standard.",
+    "exampleSentence": "The support team went above and beyond to fix the issue before launch.",
+    "exampleTranslation": "The support team did much more than expected to fix the issue before launch.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-above-board-1",
+    "language": "en",
+    "expression": "Above board",
+    "meaning": "Honest, open, and free from deception.",
+    "usageNote": "Use it when you want to stress that a deal, process, or action was handled transparently.",
+    "exampleSentence": "Everything about the agreement was above board from the start.",
+    "exampleTranslation": "Everything about the agreement was handled honestly from the start.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-about-time-2",
+    "language": "en",
+    "expression": "About time",
+    "meaning": "Used to say something should have happened much earlier.",
+    "usageNote": "Use it when a person or result finally arrives after an irritating delay.",
+    "exampleSentence": "It is about time we replaced that broken laptop.",
+    "exampleTranslation": "We should have replaced that broken laptop a long time ago.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-15-minutes-of-fame-3",
+    "language": "en",
+    "expression": "15 minutes of fame",
+    "meaning": "A very short period of public attention that fades quickly.",
+    "usageNote": "Use it when someone becomes briefly famous and then disappears from the spotlight again.",
+    "exampleSentence": "The video gave him 15 minutes of fame, but people moved on by the next week.",
+    "exampleTranslation": "The video made him briefly famous, but the attention disappeared by the next week.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-800-pound-gorilla-4",
+    "language": "en",
+    "expression": "800-pound gorilla",
+    "meaning": "A dominant person or organization that is hard for others to ignore.",
+    "usageNote": "Use it when one player in a market or conversation has overwhelming power.",
+    "exampleSentence": "That company is the 800-pound gorilla in the industry, so everyone reacts to its pricing.",
+    "exampleTranslation": "That company dominates the industry so strongly that everyone reacts to its pricing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-a-boon-and-a-bane-5",
+    "language": "en",
+    "expression": "A boon and a bane",
+    "meaning": "Something that brings both clear benefits and serious drawbacks.",
+    "usageNote": "Use it when a tool or change helps in one way but creates problems in another.",
+    "exampleSentence": "Remote work has been a boon and a bane for the team depending on the project.",
+    "exampleTranslation": "Remote work has been both helpful and difficult for the team depending on the project.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-11th-commandment-6",
+    "language": "en",
+    "expression": "11th commandment",
+    "meaning": "An unwritten rule that people in a group treat as if it must never be broken.",
+    "usageNote": "Use it when a norm feels so strong that it functions like a sacred rule.",
+    "exampleSentence": "In that office, replying to the founder immediately is practically the 11th commandment.",
+    "exampleTranslation": "In that office, replying to the founder immediately feels like an untouchable rule.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-back-to-the-drawing-board-7",
+    "language": "en",
+    "expression": "Back to the drawing board",
+    "meaning": "Forced to start planning again after a failed attempt.",
+    "usageNote": "Use it when a solution did not work and the team has to rethink the approach from scratch.",
+    "exampleSentence": "The prototype kept crashing, so it was back to the drawing board.",
+    "exampleTranslation": "The prototype kept crashing, so we had to start planning again from scratch.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-bend-over-backwards-8",
+    "language": "en",
+    "expression": "Bend over backwards",
+    "meaning": "To make an extreme effort to help or please someone.",
+    "usageNote": "Use it when someone is trying very hard, sometimes too hard, to be accommodating.",
+    "exampleSentence": "She bent over backwards to make the guests feel comfortable.",
+    "exampleTranslation": "She made an exceptional effort to make the guests feel comfortable.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-by-the-book-9",
+    "language": "en",
+    "expression": "By the book",
+    "meaning": "Following rules or official procedure very strictly.",
+    "usageNote": "Use it when someone cares more about correctness and compliance than flexibility.",
+    "exampleSentence": "The auditor does everything by the book, so sloppy records will not survive the review.",
+    "exampleTranslation": "The auditor follows procedure very strictly, so sloppy records will not survive the review.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-cut-corners-10",
+    "language": "en",
+    "expression": "Cut corners",
+    "meaning": "To save time or money by doing something in a cheaper or easier but lower-quality way.",
+    "usageNote": "Use it when speed or cost savings cause standards to drop.",
+    "exampleSentence": "They cut corners during testing, and the bugs showed up in production.",
+    "exampleTranslation": "They used shortcuts during testing, and the bugs appeared in production.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-in-the-same-boat-11",
+    "language": "en",
+    "expression": "In the same boat",
+    "meaning": "In the same difficult situation as someone else.",
+    "usageNote": "Use it to build solidarity when several people are dealing with the same problem.",
+    "exampleSentence": "Do not panic, we are all in the same boat and we will figure it out together.",
+    "exampleTranslation": "Do not panic, we are all facing the same problem and will solve it together.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-on-thin-ice-12",
+    "language": "en",
+    "expression": "On thin ice",
+    "meaning": "In a risky situation where one more mistake could cause trouble.",
+    "usageNote": "Use it when someone's position feels unstable and consequences are close.",
+    "exampleSentence": "He is already on thin ice with the client after missing two deadlines.",
+    "exampleTranslation": "He is already in a risky position with the client after missing two deadlines.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-pull-someone-s-leg-13",
+    "language": "en",
+    "expression": "Pull someone's leg",
+    "meaning": "To tease someone by saying something that is not meant to be taken seriously.",
+    "usageNote": "Use it when the joke is playful rather than genuinely misleading.",
+    "exampleSentence": "Relax, I was only pulling your leg about the surprise inspection.",
+    "exampleTranslation": "Relax, I was only teasing you about the surprise inspection.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-miss-the-boat-14",
+    "language": "en",
+    "expression": "Miss the boat",
+    "meaning": "To be too late to take advantage of an opportunity.",
+    "usageNote": "Use it when hesitation or delay causes someone to lose their chance.",
+    "exampleSentence": "If we wait another month to apply, we might miss the boat.",
+    "exampleTranslation": "If we wait another month to apply, we may lose the opportunity.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-let-the-cat-out-of-the-bag-15",
+    "language": "en",
+    "expression": "Let the cat out of the bag",
+    "meaning": "To reveal a secret earlier than intended.",
+    "usageNote": "Use it when someone spoils a surprise or shares confidential news too soon.",
+    "exampleSentence": "I was saving the announcement for dinner, but Jake let the cat out of the bag.",
+    "exampleTranslation": "I was saving the announcement for dinner, but Jake revealed the secret too soon.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-under-the-gun-16",
+    "language": "en",
+    "expression": "Under the gun",
+    "meaning": "Under intense pressure or urgent time constraints.",
+    "usageNote": "Use it when someone must perform quickly while feeling a lot of stress.",
+    "exampleSentence": "The team was under the gun all week trying to finish before the conference.",
+    "exampleTranslation": "The team was under heavy pressure all week trying to finish before the conference.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-throw-in-the-towel-17",
+    "language": "en",
+    "expression": "Throw in the towel",
+    "meaning": "To give up and stop trying.",
+    "usageNote": "Use it when someone decides the effort is no longer worth continuing.",
+    "exampleSentence": "We were close to throwing in the towel before the final patch worked.",
+    "exampleTranslation": "We were close to giving up before the final patch worked.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-costs-an-arm-and-a-leg-18",
+    "language": "en",
+    "expression": "Costs an arm and a leg",
+    "meaning": "To be extremely expensive.",
+    "usageNote": "Use it when the price of something feels unreasonably high.",
+    "exampleSentence": "That apartment is beautiful, but it costs an arm and a leg.",
+    "exampleTranslation": "That apartment is beautiful, but it is extremely expensive.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "en-hit-the-sack-19",
+    "language": "en",
+    "expression": "Hit the sack",
+    "meaning": "To go to bed or go to sleep.",
+    "usageNote": "Use it informally when you are tired and ready to end the day.",
+    "exampleSentence": "I am going to hit the sack early because tomorrow starts at five.",
+    "exampleTranslation": "I am going to bed early because tomorrow starts at five.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  }
+]

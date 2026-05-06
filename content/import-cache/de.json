@@ -1,0 +1,323 @@
+[
+  {
+    "id": "de-alter-schutzt-vor-torheit-nicht-0",
+    "language": "de",
+    "expression": "Alter schützt vor Torheit nicht",
+    "literalTranslation": "Age does not protect against foolishness",
+    "meaning": "Even experienced or older people still make foolish mistakes.",
+    "usageNote": "Use it when someone should have known better but still did something unwise.",
+    "exampleSentence": "Er hat den Link wirklich angeklickt, Alter schützt vor Torheit nicht.",
+    "exampleTranslation": "He really clicked that link; age does not stop people from doing foolish things.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-aller-guten-dinge-sind-drei-1",
+    "language": "de",
+    "expression": "Aller guten Dinge sind drei",
+    "literalTranslation": "All good things are three",
+    "meaning": "The third attempt often brings success.",
+    "usageNote": "Use it to encourage someone to try once more after two failed attempts.",
+    "exampleSentence": "Versuch es noch einmal, aller guten Dinge sind drei.",
+    "exampleTranslation": "Try it one more time, third time is often the charm.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-aus-den-augen-aus-dem-sinn-2",
+    "language": "de",
+    "expression": "Aus den Augen, aus dem Sinn",
+    "literalTranslation": "Out of the eyes, out of the mind",
+    "meaning": "People or things are often forgotten when they are no longer around.",
+    "usageNote": "Use it when distance or absence makes attention fade quickly.",
+    "exampleSentence": "Seit dem Umzug melden sich viele seltener, aus den Augen, aus dem Sinn.",
+    "exampleTranslation": "Since the move, many people check in less often; out of sight, out of mind.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-alle-wege-fuhren-nach-rom-3",
+    "language": "de",
+    "expression": "Alle Wege führen nach Rom",
+    "literalTranslation": "All roads lead to Rome",
+    "meaning": "There is more than one good way to reach the same goal.",
+    "usageNote": "Use it when a team is arguing over method even though several options would work.",
+    "exampleSentence": "Lass sie den anderen Ansatz testen, alle Wege führen nach Rom.",
+    "exampleTranslation": "Let them try the other approach; there is more than one way to get there.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-allen-menschen-recht-getan-ist-eine-kunst-die-niemand-kann-4",
+    "language": "de",
+    "expression": "Allen Menschen recht getan, ist eine Kunst, die niemand kann",
+    "literalTranslation": "To please all people is an art that no one can do",
+    "meaning": "It is impossible to satisfy everyone.",
+    "usageNote": "Use it when you need to accept that some people will stay unhappy no matter what you choose.",
+    "exampleSentence": "Entscheide dich einfach, allen Menschen recht getan, ist eine Kunst, die niemand kann.",
+    "exampleTranslation": "Just make the decision; pleasing everyone is impossible.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-alte-liebe-rostet-nicht-5",
+    "language": "de",
+    "expression": "Alte Liebe rostet nicht",
+    "literalTranslation": "Old love does not rust",
+    "meaning": "Old affection often returns easily, even after a long time.",
+    "usageNote": "Use it when feelings, habits, or fondness come back surprisingly fast.",
+    "exampleSentence": "Nach Jahren haben sie sich wiedergetroffen und sofort gemerkt: Alte Liebe rostet nicht.",
+    "exampleTranslation": "They met again after years and immediately felt that old affection does not disappear easily.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-auch-ein-blindes-huhn-findet-mal-ein-korn-6",
+    "language": "de",
+    "expression": "Auch ein blindes Huhn findet mal ein Korn",
+    "literalTranslation": "Even a blind chicken finds a grain sometimes",
+    "meaning": "Even an unlikely person can get something right once in a while.",
+    "usageNote": "Use it jokingly when someone succeeds despite low expectations.",
+    "exampleSentence": "Der Tipp war diesmal richtig, auch ein blindes Huhn findet mal ein Korn.",
+    "exampleTranslation": "That guess was right this time; even an unlikely person gets lucky now and then.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-angriff-ist-die-beste-verteidigung-7",
+    "language": "de",
+    "expression": "Angriff ist die beste Verteidigung",
+    "literalTranslation": "Attack is the best defense",
+    "meaning": "Taking the initiative can protect you better than waiting passively.",
+    "usageNote": "Use it when being proactive is the smartest way to avoid a larger problem.",
+    "exampleSentence": "Wir sprechen das Risiko jetzt offen an, Angriff ist die beste Verteidigung.",
+    "exampleTranslation": "We are addressing the risk openly now; being proactive is our best protection.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-aller-anfang-ist-schwer-8",
+    "language": "de",
+    "expression": "Aller Anfang ist schwer",
+    "literalTranslation": "Every beginning is hard",
+    "meaning": "Starting something new is usually the hardest stage.",
+    "usageNote": "Use it to encourage patience at the beginning of a new habit, job, or skill.",
+    "exampleSentence": "Bleib dran, aller Anfang ist schwer.",
+    "exampleTranslation": "Keep going; the beginning is always the hardest part.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-asche-auf-mein-haupt-9",
+    "language": "de",
+    "expression": "Asche auf mein Haupt",
+    "literalTranslation": "Ashes on my head",
+    "meaning": "I admit my fault and accept the blame.",
+    "usageNote": "Use it when you want to confess a mistake with a slightly dramatic or humorous tone.",
+    "exampleSentence": "Asche auf mein Haupt, ich habe die Datei wirklich an die falsche Gruppe geschickt.",
+    "exampleTranslation": "My fault entirely; I really sent the file to the wrong group.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-armut-schandet-nicht-10",
+    "language": "de",
+    "expression": "Armut schändet nicht",
+    "literalTranslation": "Poverty does not disgrace",
+    "meaning": "Lacking money does not make a person shameful or inferior.",
+    "usageNote": "Use it to defend dignity when people are judged for not having much.",
+    "exampleSentence": "Er hatte einfache Kleidung an, aber Armut schändet nicht.",
+    "exampleTranslation": "He wore simple clothes, but having little money is nothing to be ashamed of.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-der-ton-macht-die-musik-11",
+    "language": "de",
+    "expression": "Der Ton macht die Musik",
+    "literalTranslation": "The tone makes the music",
+    "meaning": "How something is said matters as much as the message itself.",
+    "usageNote": "Use it when someone is technically right but communicating in an unnecessarily harsh way.",
+    "exampleSentence": "Du hast vielleicht recht, aber der Ton macht die Musik.",
+    "exampleTranslation": "You may be right, but the way you say it matters.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-ubung-macht-den-meister-12",
+    "language": "de",
+    "expression": "Übung macht den Meister",
+    "literalTranslation": "Practice makes the master",
+    "meaning": "Real skill comes through repeated practice.",
+    "usageNote": "Use it to encourage someone who is still learning and feels frustrated too early.",
+    "exampleSentence": "Noch klappt es nicht perfekt, aber Übung macht den Meister.",
+    "exampleTranslation": "It is not perfect yet, but practice is what builds real skill.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-wer-rastet-der-rostet-13",
+    "language": "de",
+    "expression": "Wer rastet, der rostet",
+    "literalTranslation": "Who rests, rusts",
+    "meaning": "If you stop staying active, you lose energy and sharpness.",
+    "usageNote": "Use it to encourage movement, practice, or curiosity instead of becoming passive.",
+    "exampleSentence": "Komm mit spazieren, wer rastet, der rostet.",
+    "exampleTranslation": "Come for a walk; if you stop moving, you lose your edge.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-wo-ein-wille-ist-ist-auch-ein-weg-14",
+    "language": "de",
+    "expression": "Wo ein Wille ist, ist auch ein Weg",
+    "literalTranslation": "Where there is a will, there is also a way",
+    "meaning": "Strong determination helps people find solutions.",
+    "usageNote": "Use it to motivate someone who feels stuck but still has options if they keep trying.",
+    "exampleSentence": "Es wird schwer, aber wo ein Wille ist, ist auch ein Weg.",
+    "exampleTranslation": "It will be hard, but determination usually opens a path.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-was-du-heute-kannst-besorgen-das-verschiebe-nicht-auf-morgen-15",
+    "language": "de",
+    "expression": "Was du heute kannst besorgen, das verschiebe nicht auf morgen",
+    "literalTranslation": "What you can take care of today, do not postpone until tomorrow",
+    "meaning": "Do not put off a task that can already be finished now.",
+    "usageNote": "Use it when someone keeps delaying something small that will only become more annoying later.",
+    "exampleSentence": "Schick die Mail jetzt, was du heute kannst besorgen, das verschiebe nicht auf morgen.",
+    "exampleTranslation": "Send the email now; do not postpone what you can do today.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-aus-einer-mucke-einen-elefanten-machen-16",
+    "language": "de",
+    "expression": "Aus einer Mücke einen Elefanten machen",
+    "literalTranslation": "To make an elephant out of a mosquito",
+    "meaning": "To turn a small problem into something huge.",
+    "usageNote": "Use it when someone reacts far too dramatically to a minor issue.",
+    "exampleSentence": "Es war nur ein Tippfehler, mach nicht gleich aus einer Mücke einen Elefanten.",
+    "exampleTranslation": "It was only a typo; do not blow it wildly out of proportion.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-ins-fettnapfchen-treten-17",
+    "language": "de",
+    "expression": "Ins Fettnäpfchen treten",
+    "literalTranslation": "To step into the grease bowl",
+    "meaning": "To say or do something socially awkward or embarrassing.",
+    "usageNote": "Use it when someone accidentally offends another person or raises the wrong topic at the wrong time.",
+    "exampleSentence": "Mit der Frage nach ihrem Gehalt ist er voll ins Fettnäpfchen getreten.",
+    "exampleTranslation": "By asking about her salary, he really put his foot in his mouth.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-den-roten-faden-verlieren-18",
+    "language": "de",
+    "expression": "Den roten Faden verlieren",
+    "literalTranslation": "To lose the red thread",
+    "meaning": "To lose the main point or train of thought.",
+    "usageNote": "Use it when speaking, writing, or planning suddenly becomes unfocused.",
+    "exampleSentence": "Warte kurz, ich habe gerade den roten Faden verloren.",
+    "exampleTranslation": "Wait a second, I just lost my train of thought.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "de-jemandem-einen-baren-aufbinden-19",
+    "language": "de",
+    "expression": "Jemandem einen Bären aufbinden",
+    "literalTranslation": "To tie a bear onto someone",
+    "meaning": "To tell someone an unbelievable story or obvious nonsense.",
+    "usageNote": "Use it when a person is clearly trying to fool someone with a ridiculous explanation.",
+    "exampleSentence": "Er wollte mir einen Bären aufbinden, aber ich habe ihm kein Wort geglaubt.",
+    "exampleTranslation": "He tried to feed me a ridiculous story, but I did not believe a word of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  }
+]

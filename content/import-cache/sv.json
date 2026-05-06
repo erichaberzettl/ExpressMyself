@@ -1,0 +1,386 @@
+[
+  {
+    "id": "sv-ana-ugglor-i-mossen-0",
+    "language": "sv",
+    "expression": "Ana ugglor i mossen",
+    "literalTranslation": "To sense owls in the marsh",
+    "meaning": "To suspect that something is not right.",
+    "usageNote": "Use it when details do not add up and you feel there is a hidden problem.",
+    "exampleSentence": "När han ändrade sin historia började jag ana ugglor i mossen.",
+    "exampleTranslation": "When he changed his story, I started to suspect that something was wrong.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-aldrig-i-livet-1",
+    "language": "sv",
+    "expression": "Aldrig i livet",
+    "literalTranslation": "Never in life",
+    "meaning": "Absolutely not, not under any circumstances.",
+    "usageNote": "Use it for a strong refusal when you want your answer to sound final.",
+    "exampleSentence": "Aldrig i livet att jag hoppar i det där iskalla vattnet.",
+    "exampleTranslation": "There is no way I am jumping into that freezing water.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-av-samma-skrot-och-korn-2",
+    "language": "sv",
+    "expression": "Av samma skrot och korn",
+    "literalTranslation": "Of the same scrap and grain",
+    "meaning": "Very similar in character, often in a negative way.",
+    "usageNote": "Use it when two people or things share the same flaws or tendencies.",
+    "exampleSentence": "De två cheferna är av samma skrot och korn när det gäller kontrollbehov.",
+    "exampleTranslation": "Those two managers are cut from the same cloth when it comes to needing control.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-bakom-las-och-bom-3",
+    "language": "sv",
+    "expression": "Bakom lås och bom",
+    "literalTranslation": "Behind lock and bar",
+    "meaning": "Locked up securely, often in prison or behind strong security.",
+    "usageNote": "Use it when someone or something is kept firmly shut away.",
+    "exampleSentence": "Efter inbrottet låg smyckena bakom lås och bom.",
+    "exampleTranslation": "After the burglary, the jewelry was kept locked up securely.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-av-bara-farten-4",
+    "language": "sv",
+    "expression": "Av bara farten",
+    "literalTranslation": "Just from the momentum",
+    "meaning": "Almost automatically because the movement or habit was already in motion.",
+    "usageNote": "Use it when one action leads directly to another without much separate thought.",
+    "exampleSentence": "Jag gick förbi bageriet och köpte bröd av bara farten.",
+    "exampleTranslation": "I walked past the bakery and ended up buying bread almost automatically.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-be-tusen-ganger-om-ursakt-5",
+    "language": "sv",
+    "expression": "Be tusen gånger om ursäkt",
+    "literalTranslation": "To apologize a thousand times",
+    "meaning": "To apologize very deeply and repeatedly.",
+    "usageNote": "Use it when someone feels strongly at fault and wants to show sincere regret.",
+    "exampleSentence": "Han fick be tusen gånger om ursäkt efter sitt klumpiga skämt.",
+    "exampleTranslation": "He had to apologize profusely after his clumsy joke.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-bara-barnet-6",
+    "language": "sv",
+    "expression": "Bara barnet",
+    "literalTranslation": "Only the child",
+    "meaning": "Very simple or easy for someone to do.",
+    "usageNote": "Use it when a task feels almost embarrassingly easy to the person doing it.",
+    "exampleSentence": "För henne var den där analysen bara barnet.",
+    "exampleTranslation": "For her, that analysis was ridiculously easy.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-a-och-o-7",
+    "language": "sv",
+    "expression": "A och O",
+    "literalTranslation": "A and O",
+    "meaning": "The most essential part of something.",
+    "usageNote": "Use it when you want to stress the single most important requirement for success.",
+    "exampleSentence": "Tydlig kommunikation är A och O i ett distansteam.",
+    "exampleTranslation": "Clear communication is absolutely essential in a remote team.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-alla-hall-och-kanter-8",
+    "language": "sv",
+    "expression": "Alla håll och kanter",
+    "literalTranslation": "All directions and edges",
+    "meaning": "From every direction or in many different ways at once.",
+    "usageNote": "Use it when people, ideas, or pressure are coming at you from everywhere.",
+    "exampleSentence": "Frågorna kom från alla håll och kanter efter presentationen.",
+    "exampleTranslation": "Questions came from all directions after the presentation.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-ha-is-i-magen-9",
+    "language": "sv",
+    "expression": "Ha is i magen",
+    "literalTranslation": "To have ice in the stomach",
+    "meaning": "To stay calm and patient under pressure.",
+    "usageNote": "Use it when someone needs to avoid panicking and wait for the right moment.",
+    "exampleSentence": "Vi måste ha is i magen tills kunden svarar.",
+    "exampleTranslation": "We need to stay calm and patient until the client responds.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-ingen-ko-pa-isen-10",
+    "language": "sv",
+    "expression": "Ingen ko på isen",
+    "literalTranslation": "No cow on the ice",
+    "meaning": "There is no real danger yet, so there is no need to panic.",
+    "usageNote": "Use it to calm someone who is worrying before the situation has actually turned serious.",
+    "exampleSentence": "Det är förseningar, men det är ingen ko på isen än.",
+    "exampleTranslation": "There are delays, but it is not a real crisis yet.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-sitta-med-skagget-i-brevladan-11",
+    "language": "sv",
+    "expression": "Sitta med skägget i brevlådan",
+    "literalTranslation": "To sit with the beard in the mailbox",
+    "meaning": "To end up in an awkward mess because of your own actions.",
+    "usageNote": "Use it when someone gets stuck with embarrassing consequences they should have avoided.",
+    "exampleSentence": "Om vi lovar för mycket nu sitter vi snart med skägget i brevlådan.",
+    "exampleTranslation": "If we promise too much now, we will soon be stuck in an awkward mess.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-kasta-in-handduken-12",
+    "language": "sv",
+    "expression": "Kasta in handduken",
+    "literalTranslation": "To throw in the towel",
+    "meaning": "To give up and stop trying.",
+    "usageNote": "Use it when someone decides the effort is no longer worth continuing.",
+    "exampleSentence": "Vi var nära att kasta in handduken efter tredje felet.",
+    "exampleTranslation": "We were close to giving up after the third failure.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-glida-in-pa-en-rakmacka-13",
+    "language": "sv",
+    "expression": "Glida in på en räkmacka",
+    "literalTranslation": "To slide in on a shrimp sandwich",
+    "meaning": "To get an easy ride with unusual comfort or privilege.",
+    "usageNote": "Use it when someone reaches a good position without facing the usual hardship.",
+    "exampleSentence": "Han gled inte in på en räkmacka, han jobbade hårt för varje steg.",
+    "exampleTranslation": "He did not get an easy ride; he worked hard for every step.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-nara-skjuter-ingen-hare-14",
+    "language": "sv",
+    "expression": "Nära skjuter ingen hare",
+    "literalTranslation": "Close does not shoot any hare",
+    "meaning": "Almost succeeding still does not count as success.",
+    "usageNote": "Use it when someone wants credit for coming close even though the goal was not reached.",
+    "exampleSentence": "Vi var nästan klara, men nära skjuter ingen hare.",
+    "exampleTranslation": "We were almost done, but almost is not the same as success.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-fa-andan-ur-vagnen-15",
+    "language": "sv",
+    "expression": "Få ändan ur vagnen",
+    "literalTranslation": "To get the backside out of the wagon",
+    "meaning": "To finally get moving and take action.",
+    "usageNote": "Use it when someone has delayed long enough and now needs to stop hesitating.",
+    "exampleSentence": "Nu måste vi få ändan ur vagnen och boka resan.",
+    "exampleTranslation": "Now we need to get moving and book the trip.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-koka-soppa-pa-en-spik-16",
+    "language": "sv",
+    "expression": "Koka soppa på en spik",
+    "literalTranslation": "To cook soup from a nail",
+    "meaning": "To make something useful out of very little.",
+    "usageNote": "Use it when creativity and resourcefulness matter more than abundant resources.",
+    "exampleSentence": "Med den budgeten fick teamet verkligen koka soppa på en spik.",
+    "exampleTranslation": "With that budget, the team really had to make something out of almost nothing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-vara-ute-pa-hal-is-17",
+    "language": "sv",
+    "expression": "Vara ute på hal is",
+    "literalTranslation": "To be out on slippery ice",
+    "meaning": "To be in a risky position or making claims on uncertain ground.",
+    "usageNote": "Use it when someone is overconfident even though the situation is unstable.",
+    "exampleSentence": "Om du lovar det där är du ute på hal is.",
+    "exampleTranslation": "If you promise that, you are on dangerous ground.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-gora-en-hona-av-en-fjader-18",
+    "language": "sv",
+    "expression": "Göra en höna av en fjäder",
+    "literalTranslation": "To make a hen out of a feather",
+    "meaning": "To exaggerate something tiny into something much bigger.",
+    "usageNote": "Use it when someone turns a small issue into a dramatic problem.",
+    "exampleSentence": "Det var bara ett missförstånd, gör inte en höna av en fjäder.",
+    "exampleTranslation": "It was only a misunderstanding; do not make a huge drama out of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-fa-blodad-tand-19",
+    "language": "sv",
+    "expression": "Få blodad tand",
+    "literalTranslation": "To get a bloodied tooth",
+    "meaning": "To become eager for more after an early taste of success.",
+    "usageNote": "Use it when one good result makes someone even more motivated to keep going.",
+    "exampleSentence": "Efter första försäljningen fick hon blodad tand och startade eget på riktigt.",
+    "exampleTranslation": "After the first sale, she got a real appetite for more and launched her business for real.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-det-gar-ingen-nod-pa-20",
+    "language": "sv",
+    "expression": "Det går ingen nöd på",
+    "literalTranslation": "No distress goes on",
+    "meaning": "Someone is doing fine, even if they complain or the circumstances sound difficult.",
+    "usageNote": "Use it to say that a person is managing perfectly well despite minor setbacks or dramatic framing.",
+    "exampleSentence": "Han missade bonusen i år, men det går ingen nöd på honom.",
+    "exampleTranslation": "He missed the bonus this year, but he is doing just fine.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-vara-ute-pa-djupt-vatten-21",
+    "language": "sv",
+    "expression": "Vara ute på djupt vatten",
+    "literalTranslation": "To be out on deep water",
+    "meaning": "To be out of your depth or in a situation you are not really equipped to handle.",
+    "usageNote": "Use it when someone has gone beyond what they fully understand and is now in a precarious position.",
+    "exampleSentence": "Utan juridisk hjälp var vi ute på djupt vatten i förhandlingen.",
+    "exampleTranslation": "Without legal help, we were out of our depth in the negotiation.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-som-vatten-pa-en-gas-22",
+    "language": "sv",
+    "expression": "Som vatten på en gås",
+    "literalTranslation": "Like water on a goose",
+    "meaning": "Something has no visible effect and is easily ignored.",
+    "usageNote": "Use it when criticism, warnings, or pressure simply do not seem to stick.",
+    "exampleSentence": "Alla våra påminnelser rann av honom som vatten på en gås.",
+    "exampleTranslation": "All our reminders rolled off him like water off a duck's back.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "sv-ga-inte-over-an-efter-vatten-23",
+    "language": "sv",
+    "expression": "Gå inte över ån efter vatten",
+    "literalTranslation": "Do not cross the stream for water",
+    "meaning": "Do not make something more complicated than it needs to be when an easier solution already exists.",
+    "usageNote": "Use it when someone is overlooking a simple local option and reaching for a needlessly complex fix.",
+    "exampleSentence": "Vi har redan datan internt, så gå inte över ån efter vatten.",
+    "exampleTranslation": "We already have the data internally, so do not make this harder than it needs to be.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  }
+]

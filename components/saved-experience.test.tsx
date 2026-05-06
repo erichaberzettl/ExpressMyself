@@ -2,10 +2,11 @@ import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { SaveExpressionButton } from "@/components/save-expression-button";
 import { SavedExperience } from "@/components/saved-experience";
+import { getExpressionsByIds } from "@/lib/expressions";
 
 describe("SavedExperience", () => {
   it("shows the empty state when nothing is saved", () => {
-    render(<SavedExperience />);
+    render(<SavedExperience loadExpressionsByIds={async (ids) => getExpressionsByIds(ids)} />);
 
     expect(screen.getByText("No saved phrases yet")).toBeInTheDocument();
   });
@@ -13,7 +14,7 @@ describe("SavedExperience", () => {
   it("renders saved expressions from local storage", async () => {
     window.localStorage.setItem("express-myself-saved-ids", JSON.stringify(["en-break-a-leg"]));
 
-    render(<SavedExperience />);
+    render(<SavedExperience loadExpressionsByIds={async (ids) => getExpressionsByIds(ids)} />);
 
     await waitFor(() => {
       expect(screen.getByText("Break a leg")).toBeInTheDocument();
@@ -26,7 +27,7 @@ describe("SavedExperience", () => {
 
     await user.click(screen.getByRole("button", { name: "Save phrase" }));
 
-    render(<SavedExperience />);
+    render(<SavedExperience loadExpressionsByIds={async (ids) => getExpressionsByIds(ids)} />);
 
     await waitFor(() => {
       expect(screen.getByText("Break a leg")).toBeInTheDocument();

@@ -13,6 +13,20 @@
   height: 100%;
 }
 
+.listPreview {
+  height: 100%;
+  justify-content: space-between;
+  gap: 0.85rem;
+  min-height: 14rem;
+  padding: 1.25rem;
+}
+
+.previewMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .head {
   display: flex;
   align-items: flex-start;
@@ -68,11 +82,22 @@
   line-height: 1;
 }
 
+.listPreview h2 {
+  font-size: 2rem;
+}
+
 .meaning {
   margin: 0.95rem 0 1.15rem;
   font-size: 1.14rem;
   color: var(--text);
   line-height: 1.55;
+}
+
+.previewTranslation {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.5;
 }
 
 .details {
@@ -115,6 +140,28 @@
   font-weight: 600;
   font-size: 0.88rem;
   padding: 0.38rem 0;
+}
+
+.previewLanguage {
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.previewType {
+  border-radius: 999px;
+  padding: 0.24rem 0.55rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.previewSpacer {
+  min-width: 1px;
 }
 
 .tags {

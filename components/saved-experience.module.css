@@ -5,9 +5,9 @@
 .header {
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
   gap: 1rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .eyebrow {
@@ -31,13 +31,6 @@
   max-width: 58ch;
 }
 
-.links {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.links a,
 .emptyState a {
   display: inline-flex;
   align-items: center;
@@ -46,17 +39,6 @@
   padding: 0.72rem 1rem;
   border-radius: 999px;
   font-weight: 700;
-}
-
-.links a {
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.72);
-}
-
-.links a:first-child {
-  background: #22313b;
-  border-color: transparent;
-  color: #fef8f2;
 }
 
 .summary {
@@ -98,7 +80,6 @@
 
 @media (max-width: 900px) {
   .header {
-    flex-direction: column;
-    align-items: flex-start;
+    margin-top: 0.9rem;
   }
 }

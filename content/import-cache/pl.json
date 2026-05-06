@@ -1,0 +1,322 @@
+[
+  {
+    "id": "pl-nie-moj-cyrk-nie-moje-ma-py-0",
+    "language": "pl",
+    "expression": "Nie mój cyrk, nie moje małpy",
+    "literalTranslation": "Not my circus, not my monkeys",
+    "meaning": "This is not my problem or responsibility.",
+    "usageNote": "Use it when you want to distance yourself from chaos that someone else created.",
+    "exampleSentence": "Oni znowu się kłócą o budżet, ale to nie mój cyrk, nie moje małpy.",
+    "exampleTranslation": "They are arguing about the budget again, but that is not my problem.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-bu-ka-z-mas-em-1",
+    "language": "pl",
+    "expression": "Bułka z masłem",
+    "literalTranslation": "A bread roll with butter",
+    "meaning": "Something very easy to do.",
+    "usageNote": "Use it when a task feels simple and requires little effort.",
+    "exampleSentence": "Dla niej ten egzamin to była bułka z masłem.",
+    "exampleTranslation": "For her, that exam was a piece of cake.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-miec-muchy-w-nosie-2",
+    "language": "pl",
+    "expression": "Mieć muchy w nosie",
+    "literalTranslation": "To have flies in one's nose",
+    "meaning": "To be irritable and in a bad mood.",
+    "usageNote": "Use it when someone is snapping at others for no big reason.",
+    "exampleSentence": "Nie pytaj go teraz, ma dziś muchy w nosie.",
+    "exampleTranslation": "Do not ask him right now; he is in a bad mood today.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-rzucac-grochem-o-sciane-3",
+    "language": "pl",
+    "expression": "Rzucać grochem o ścianę",
+    "literalTranslation": "To throw peas at the wall",
+    "meaning": "To speak or argue without getting any result.",
+    "usageNote": "Use it when your words clearly are not getting through to the other person.",
+    "exampleSentence": "Tłumaczenie mu zasad to jak rzucać grochem o ścianę.",
+    "exampleTranslation": "Explaining the rules to him is like talking to a wall.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-miec-dwie-lewe-rece-4",
+    "language": "pl",
+    "expression": "Mieć dwie lewe ręce",
+    "literalTranslation": "To have two left hands",
+    "meaning": "To be very clumsy or bad at practical tasks.",
+    "usageNote": "Use it when someone is hopeless with repairs, tools, or hands-on work.",
+    "exampleSentence": "Nie każ mi składać szafki, mam dwie lewe ręce.",
+    "exampleTranslation": "Do not ask me to assemble the cabinet; I am hopeless with practical tasks.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-jak-sobie-poscielesz-tak-sie-wyspisz-5",
+    "language": "pl",
+    "expression": "Jak sobie pościelesz, tak się wyśpisz",
+    "literalTranslation": "As you make your bed, so you will sleep",
+    "meaning": "You have to live with the consequences of your own choices.",
+    "usageNote": "Use it when someone created their own problem and now has to deal with it.",
+    "exampleSentence": "Zignorował wszystkie ostrzeżenia, więc jak sobie pościelił, tak się wyśpi.",
+    "exampleTranslation": "He ignored every warning, so now he has to live with the result.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-leje-jak-z-cebra-6",
+    "language": "pl",
+    "expression": "Leje jak z cebra",
+    "literalTranslation": "It pours as if from a bucket",
+    "meaning": "It is raining extremely hard.",
+    "usageNote": "Use it for heavy rain that makes normal plans difficult.",
+    "exampleSentence": "Nie idziemy na spacer, bo leje jak z cebra.",
+    "exampleTranslation": "We are not going for a walk because it is pouring rain.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-miec-zwiazane-rece-7",
+    "language": "pl",
+    "expression": "Mieć związane ręce",
+    "literalTranslation": "To have tied hands",
+    "meaning": "To be unable to act because of restrictions.",
+    "usageNote": "Use it when rules, orders, or circumstances block someone from helping.",
+    "exampleSentence": "Chciałbym coś zmienić, ale mam związane ręce.",
+    "exampleTranslation": "I would like to change something, but my hands are tied.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-robic-z-ig-y-wid-y-8",
+    "language": "pl",
+    "expression": "Robić z igły widły",
+    "literalTranslation": "To make a pitchfork out of a needle",
+    "meaning": "To exaggerate a small problem into something huge.",
+    "usageNote": "Use it when someone turns a minor issue into a dramatic crisis.",
+    "exampleSentence": "To tylko drobny błąd, nie rób z igły wideł.",
+    "exampleTranslation": "It is only a small mistake, do not make a huge drama out of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-byc-w-siodmym-niebie-9",
+    "language": "pl",
+    "expression": "Być w siódmym niebie",
+    "literalTranslation": "To be in the seventh heaven",
+    "meaning": "To be extremely happy.",
+    "usageNote": "Use it when someone feels delighted and emotionally on top of the world.",
+    "exampleSentence": "Była w siódmym niebie, kiedy dostała tę pracę.",
+    "exampleTranslation": "She was over the moon when she got that job.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-miec-serce-na-d-oni-10",
+    "language": "pl",
+    "expression": "Mieć serce na dłoni",
+    "literalTranslation": "To have a heart on the palm",
+    "meaning": "To be kind, generous, and ready to help.",
+    "usageNote": "Use it to praise someone whose warmth shows naturally in how they treat others.",
+    "exampleSentence": "Ona ma serce na dłoni i zawsze znajdzie czas dla innych.",
+    "exampleTranslation": "She is genuinely warm-hearted and always finds time for other people.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-mowic-prosto-z-mostu-11",
+    "language": "pl",
+    "expression": "Mówić prosto z mostu",
+    "literalTranslation": "To speak straight from the bridge",
+    "meaning": "To speak very directly and without sugarcoating.",
+    "usageNote": "Use it when someone says exactly what they think without softening the message.",
+    "exampleSentence": "On zawsze mówi prosto z mostu, nawet jeśli to niewygodne.",
+    "exampleTranslation": "He always speaks very directly, even when it is uncomfortable.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-trzymac-kciuki-12",
+    "language": "pl",
+    "expression": "Trzymać kciuki",
+    "literalTranslation": "To hold thumbs",
+    "meaning": "To wish someone luck.",
+    "usageNote": "Use it before an exam, interview, competition, or any stressful moment.",
+    "exampleSentence": "Jutro mam rozmowę, więc trzymaj za mnie kciuki.",
+    "exampleTranslation": "I have an interview tomorrow, so keep your fingers crossed for me.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-nawarzyc-sobie-piwa-13",
+    "language": "pl",
+    "expression": "Nawarzyć sobie piwa",
+    "literalTranslation": "To brew beer for oneself",
+    "meaning": "To create a mess that you now have to deal with yourself.",
+    "usageNote": "Use it when someone causes a problem through their own actions and then faces the fallout.",
+    "exampleSentence": "Sam sobie nawarzył piwa, więc teraz musi to posprzątać.",
+    "exampleTranslation": "He made this mess himself, so now he has to clean it up.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-co-ma-wisiec-nie-utonie-14",
+    "language": "pl",
+    "expression": "Co ma wisieć, nie utonie",
+    "literalTranslation": "What is meant to hang will not drown",
+    "meaning": "What is destined to happen will happen anyway.",
+    "usageNote": "Use it when someone resigns themselves to an outcome that seems unavoidable.",
+    "exampleSentence": "Zobaczymy wynik jutro, co ma wisieć, nie utonie.",
+    "exampleTranslation": "We will see the result tomorrow; what is meant to happen will happen.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-miec-olej-w-g-owie-15",
+    "language": "pl",
+    "expression": "Mieć olej w głowie",
+    "literalTranslation": "To have oil in the head",
+    "meaning": "To be sensible and think clearly.",
+    "usageNote": "Use it when praising someone's good judgment and common sense.",
+    "exampleSentence": "Spokojnie, ona ma olej w głowie i nie podpisze niczego bez czytania.",
+    "exampleTranslation": "Do not worry, she has good sense and will not sign anything without reading it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-chodzic-spac-z-kurami-16",
+    "language": "pl",
+    "expression": "Chodzić spać z kurami",
+    "literalTranslation": "To go to sleep with the hens",
+    "meaning": "To go to bed very early.",
+    "usageNote": "Use it playfully when someone keeps unusually early hours.",
+    "exampleSentence": "Od kiedy biega rano, chodzi spać z kurami.",
+    "exampleTranslation": "Ever since he started running in the mornings, he goes to bed extremely early.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-spuscic-z-tonu-17",
+    "language": "pl",
+    "expression": "Spuścić z tonu",
+    "literalTranslation": "To lower the tone",
+    "meaning": "To calm down and speak less aggressively.",
+    "usageNote": "Use it when someone needs to become less harsh, loud, or arrogant.",
+    "exampleSentence": "Po uwadze szefa od razu spuścił z tonu.",
+    "exampleTranslation": "After the boss spoke up, he immediately softened his tone.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-wyjsc-jak-zab-ocki-na-mydle-18",
+    "language": "pl",
+    "expression": "Wyjść jak Zabłocki na mydle",
+    "literalTranslation": "To end up like Zabłocki on soap",
+    "meaning": "To lose badly on a clever plan that backfires.",
+    "usageNote": "Use it when someone tries to be smart or profitable and ends up worse off than before.",
+    "exampleSentence": "Chciał oszczędzić na naprawie i wyszedł jak Zabłocki na mydle.",
+    "exampleTranslation": "He tried to save money on the repair and ended up far worse off.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "pl-a-nuz-widelec-19",
+    "language": "pl",
+    "expression": "A nuż, widelec",
+    "literalTranslation": "Maybe, fork",
+    "meaning": "Maybe, just maybe, something unexpected will work out.",
+    "usageNote": "Use it when you are taking a small chance without much certainty.",
+    "exampleSentence": "Wyślę jeszcze jedno zgłoszenie, a nuż, widelec się uda.",
+    "exampleTranslation": "I will send one more application; maybe, just maybe, it will work out.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "nl-af-en-toe-0",
+    "language": "nl",
+    "expression": "Af en toe",
+    "literalTranslation": "Off and then",
+    "meaning": "Now and then or occasionally.",
+    "usageNote": "Use it for something that happens from time to time but not very often.",
+    "exampleSentence": "Ik werk graag thuis, maar af en toe ga ik ook bewust naar kantoor.",
+    "exampleTranslation": "I like working from home, but now and then I deliberately go to the office.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-achter-het-net-vissen-1",
+    "language": "nl",
+    "expression": "Achter het net vissen",
+    "literalTranslation": "To fish behind the net",
+    "meaning": "To miss out on something because you were too late or unlucky.",
+    "usageNote": "Use it when an opportunity goes to someone else and you end up with nothing.",
+    "exampleSentence": "We wilden kaartjes kopen, maar we visten achter het net.",
+    "exampleTranslation": "We wanted to buy tickets, but we missed out.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-aan-het-kortste-eind-trekken-2",
+    "language": "nl",
+    "expression": "Aan het kortste eind trekken",
+    "literalTranslation": "To pull the shortest end",
+    "meaning": "To end up with the worst outcome or the least favorable position.",
+    "usageNote": "Use it when someone gets the bad deal while others come out better.",
+    "exampleSentence": "Bij de verdeling trok hij weer aan het kortste eind.",
+    "exampleTranslation": "In the distribution, he ended up with the worst deal again.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-aanzien-des-persoons-3",
+    "language": "nl",
+    "expression": "Aanzien des persoons",
+    "literalTranslation": "Regard of the person",
+    "meaning": "Judging people unfairly based on who they are rather than what is fair.",
+    "usageNote": "Use it when status, identity, or personal bias influences a decision improperly.",
+    "exampleSentence": "Een rechter hoort zonder aanzien des persoons te beslissen.",
+    "exampleTranslation": "A judge should decide without unfair bias toward the person involved.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-achter-de-rug-4",
+    "language": "nl",
+    "expression": "Achter de rug",
+    "literalTranslation": "Behind the back",
+    "meaning": "Already finished, especially something difficult or unpleasant.",
+    "usageNote": "Use it when you feel relief that a stressful event is now over.",
+    "exampleSentence": "Het examen is eindelijk achter de rug.",
+    "exampleTranslation": "The exam is finally behind me.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-aard-van-het-beestje-5",
+    "language": "nl",
+    "expression": "Aard van het beestje",
+    "literalTranslation": "Nature of the little beast",
+    "meaning": "Someone's basic nature or the way they are built.",
+    "usageNote": "Use it when a habit or trait feels deeply rooted in a person's character.",
+    "exampleSentence": "Hij wil alles controleren, dat is gewoon de aard van het beestje.",
+    "exampleTranslation": "He wants to control everything; that is simply his nature.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-aan-de-touwtjes-trekken-6",
+    "language": "nl",
+    "expression": "Aan de touwtjes trekken",
+    "literalTranslation": "To pull the little strings",
+    "meaning": "To control things behind the scenes.",
+    "usageNote": "Use it when the real decision-maker is not the most visible person in the room.",
+    "exampleSentence": "Officieel leidt zij het team, maar hij trekt aan de touwtjes.",
+    "exampleTranslation": "Officially she leads the team, but he is really pulling the strings.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-alle-registers-opentrekken-7",
+    "language": "nl",
+    "expression": "Alle registers opentrekken",
+    "literalTranslation": "To pull open all the stops",
+    "meaning": "To use every possible resource or effort.",
+    "usageNote": "Use it when someone throws everything they have into a challenge.",
+    "exampleSentence": "Voor die deadline moesten we alle registers opentrekken.",
+    "exampleTranslation": "To meet that deadline, we had to pull out all the stops.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-academisch-kwartier-8",
+    "language": "nl",
+    "expression": "Academisch kwartier",
+    "literalTranslation": "Academic quarter hour",
+    "meaning": "A socially tolerated delay of about fifteen minutes.",
+    "usageNote": "Use it when a meeting or lecture starts a little later than the stated time and everyone accepts it.",
+    "exampleSentence": "De docent begon na een academisch kwartier pas met de les.",
+    "exampleTranslation": "The lecturer only started the class after the usual fifteen-minute academic delay.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-achter-het-behang-kunnen-plakken-9",
+    "language": "nl",
+    "expression": "Achter het behang kunnen plakken",
+    "literalTranslation": "To be able to stick behind the wallpaper",
+    "meaning": "To irritate someone so much they want you out of sight.",
+    "usageNote": "Use it when a person is behaving in a deeply annoying way.",
+    "exampleSentence": "Na drie uur klagen kon ik hem wel achter het behang plakken.",
+    "exampleTranslation": "After three hours of complaining, he was driving me up the wall.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-addertje-onder-het-gras-10",
+    "language": "nl",
+    "expression": "Addertje onder het gras",
+    "literalTranslation": "A little snake under the grass",
+    "meaning": "A hidden problem or catch that is easy to miss at first.",
+    "usageNote": "Use it when an offer or plan seems fine until you notice the complication underneath.",
+    "exampleSentence": "Het contract zag er goed uit, maar er zat een addertje onder het gras.",
+    "exampleTranslation": "The contract looked good, but there was a hidden catch.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-aan-de-hand-zijn-11",
+    "language": "nl",
+    "expression": "Aan de hand zijn",
+    "literalTranslation": "To be at the hand",
+    "meaning": "To be going on or happening, often about a problem.",
+    "usageNote": "Use it when you sense that something is wrong and want to ask what the issue is.",
+    "exampleSentence": "Je kijkt zo bezorgd, wat is er aan de hand?",
+    "exampleTranslation": "You look so worried, what is going on?",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-aan-het-langste-eind-trekken-12",
+    "language": "nl",
+    "expression": "Aan het langste eind trekken",
+    "literalTranslation": "To pull the longest end",
+    "meaning": "To come out on top or with the most favorable result.",
+    "usageNote": "Use it when one person benefits most from the outcome.",
+    "exampleSentence": "Na de onderhandelingen trok de leverancier aan het langste eind.",
+    "exampleTranslation": "After the negotiations, the supplier came out ahead.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-aanstalten-maken-13",
+    "language": "nl",
+    "expression": "Aanstalten maken",
+    "literalTranslation": "To make preparations",
+    "meaning": "To begin getting ready to do something.",
+    "usageNote": "Use it when the intention is visible but the action has not fully started yet.",
+    "exampleSentence": "Ze maakte al aanstalten om te vertrekken toen de telefoon ging.",
+    "exampleTranslation": "She was already making moves to leave when the phone rang.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-advocaat-van-de-duivel-14",
+    "language": "nl",
+    "expression": "Advocaat van de duivel",
+    "literalTranslation": "Lawyer of the devil",
+    "meaning": "Someone who argues the opposite side to test an idea.",
+    "usageNote": "Use it when a person raises objections not because they agree with them, but to strengthen the discussion.",
+    "exampleSentence": "Ik speel even advocaat van de duivel: wat als de klant nee zegt?",
+    "exampleTranslation": "Let me play devil's advocate for a moment: what if the client says no?",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-aan-de-tand-voelen-15",
+    "language": "nl",
+    "expression": "Aan de tand voelen",
+    "literalTranslation": "To feel someone by the tooth",
+    "meaning": "To question someone closely to see what they really know or intend.",
+    "usageNote": "Use it when you probe someone carefully rather than accepting the first answer.",
+    "exampleSentence": "De journalist voelde de minister flink aan de tand.",
+    "exampleTranslation": "The journalist questioned the minister closely.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-achter-gesloten-deuren-16",
+    "language": "nl",
+    "expression": "Achter gesloten deuren",
+    "literalTranslation": "Behind closed doors",
+    "meaning": "In private and away from public view.",
+    "usageNote": "Use it when something happens confidentially rather than openly.",
+    "exampleSentence": "De laatste onderhandelingen vonden achter gesloten deuren plaats.",
+    "exampleTranslation": "The final negotiations took place behind closed doors.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-achter-slot-en-grendel-17",
+    "language": "nl",
+    "expression": "Achter slot en grendel",
+    "literalTranslation": "Behind lock and bolt",
+    "meaning": "Locked up securely, often in prison or storage.",
+    "usageNote": "Use it when someone or something is kept under firm physical security.",
+    "exampleSentence": "Na de inbraak gingen alle waardevolle spullen achter slot en grendel.",
+    "exampleTranslation": "After the burglary, all valuables were locked up securely.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-de-kat-uit-de-boom-kijken-18",
+    "language": "nl",
+    "expression": "De kat uit de boom kijken",
+    "literalTranslation": "To watch the cat out of the tree",
+    "meaning": "To wait and see before taking action.",
+    "usageNote": "Use it when someone prefers to observe first instead of jumping in immediately.",
+    "exampleSentence": "In nieuwe groepen kijkt hij eerst de kat uit de boom.",
+    "exampleTranslation": "In new groups, he likes to wait and see before getting involved.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "nl-iets-door-de-vingers-zien-19",
+    "language": "nl",
+    "expression": "Iets door de vingers zien",
+    "literalTranslation": "To see something through the fingers",
+    "meaning": "To overlook a mistake on purpose.",
+    "usageNote": "Use it when someone knows a rule was broken but chooses not to enforce it.",
+    "exampleSentence": "De docent zag het deze keer door de vingers omdat iedereen moe was.",
+    "exampleTranslation": "The teacher let it slide this time because everyone was tired.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  }
+]

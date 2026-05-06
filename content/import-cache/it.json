@@ -1,0 +1,322 @@
+[
+  {
+    "id": "it-a-capo-0",
+    "language": "it",
+    "expression": "A capo",
+    "literalTranslation": "At the head",
+    "meaning": "Back at the beginning or starting over from the top.",
+    "usageNote": "Use it when a process resets and you have to begin again instead of continuing.",
+    "exampleSentence": "Con quell'errore siamo tornati a capo.",
+    "exampleTranslation": "With that mistake, we ended up back at the beginning.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-braccio-1",
+    "language": "it",
+    "expression": "A braccio",
+    "literalTranslation": "By the arm",
+    "meaning": "Improvised, without preparation, or done off the cuff.",
+    "usageNote": "Use it when someone speaks or performs spontaneously instead of following notes or a script.",
+    "exampleSentence": "Ha parlato a braccio per dieci minuti e se l'è cavata benissimo.",
+    "exampleTranslation": "He spoke off the cuff for ten minutes and handled it very well.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-passo-di-lumaca-2",
+    "language": "it",
+    "expression": "A passo di lumaca",
+    "literalTranslation": "At a snail's pace",
+    "meaning": "Extremely slowly.",
+    "usageNote": "Use it when progress is so slow that it becomes frustrating or absurd.",
+    "exampleSentence": "La pratica si muove a passo di lumaca da settimane.",
+    "exampleTranslation": "The application has been moving at a snail's pace for weeks.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-casa-del-diavolo-3",
+    "language": "it",
+    "expression": "A casa del diavolo",
+    "literalTranslation": "At the devil's house",
+    "meaning": "Very far away, in a remote and inconvenient place.",
+    "usageNote": "Use it when something feels so far away that getting there seems like a burden.",
+    "exampleSentence": "L'hotel era a casa del diavolo e ci abbiamo messo due ore.",
+    "exampleTranslation": "The hotel was in the middle of nowhere and it took us two hours to get there.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-bocca-aperta-4",
+    "language": "it",
+    "expression": "A bocca aperta",
+    "literalTranslation": "With an open mouth",
+    "meaning": "Stunned, amazed, or left speechless.",
+    "usageNote": "Use it when someone reacts to surprising news or a striking performance.",
+    "exampleSentence": "Il finale ci ha lasciati tutti a bocca aperta.",
+    "exampleTranslation": "The ending left all of us completely speechless.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-chiare-lettere-5",
+    "language": "it",
+    "expression": "A chiare lettere",
+    "literalTranslation": "In clear letters",
+    "meaning": "Very clearly and without ambiguity.",
+    "usageNote": "Use it when a message is stated directly so nobody can pretend to misunderstand it.",
+    "exampleSentence": "Gliel'ho scritto a chiare lettere nella mail.",
+    "exampleTranslation": "I wrote it to him in completely clear terms in the email.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-gambe-levate-6",
+    "language": "it",
+    "expression": "A gambe levate",
+    "literalTranslation": "With raised legs",
+    "meaning": "At top speed, especially while running away.",
+    "usageNote": "Use it when someone leaves or escapes in a great hurry.",
+    "exampleSentence": "Quando ha visto il cane, è scappato a gambe levate.",
+    "exampleTranslation": "When he saw the dog, he ran off at full speed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-cascata-7",
+    "language": "it",
+    "expression": "A cascata",
+    "literalTranslation": "Like a waterfall",
+    "meaning": "In a chain or cascading sequence, one thing triggering the next.",
+    "usageNote": "Use it when effects, decisions, or actions spread one after another.",
+    "exampleSentence": "Un piccolo ritardo ha creato problemi a cascata per tutta la giornata.",
+    "exampleTranslation": "One small delay created a cascade of problems for the whole day.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-bocca-asciutta-8",
+    "language": "it",
+    "expression": "A bocca asciutta",
+    "literalTranslation": "With a dry mouth",
+    "meaning": "Left empty-handed or disappointed after expecting something.",
+    "usageNote": "Use it when someone hoped for a reward or result and got nothing.",
+    "exampleSentence": "Aveva fatto la fila per ore ed è rimasto a bocca asciutta.",
+    "exampleTranslation": "He waited in line for hours and still went home empty-handed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-dispetto-di-9",
+    "language": "it",
+    "expression": "A dispetto di",
+    "literalTranslation": "In spite of",
+    "meaning": "Despite something that could have prevented the result.",
+    "usageNote": "Use it to highlight that an outcome happened anyway, even though the circumstances were difficult.",
+    "exampleSentence": "A dispetto della stanchezza, ha finito il lavoro in tempo.",
+    "exampleTranslation": "Despite being tired, she finished the work on time.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-colpi-di-10",
+    "language": "it",
+    "expression": "A colpi di",
+    "literalTranslation": "By blows of",
+    "meaning": "By relying heavily on one repeated means or tool.",
+    "usageNote": "Use it when progress happens through sheer repetition, pressure, or one dominant method.",
+    "exampleSentence": "Ha imparato il software a colpi di tentativi ed errori.",
+    "exampleTranslation": "He learned the software through repeated trial and error.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-man-bassa-11",
+    "language": "it",
+    "expression": "A man bassa",
+    "literalTranslation": "With low hand",
+    "meaning": "On a large scale and with almost greedy enthusiasm.",
+    "usageNote": "Use it when someone grabs, buys, or collects a lot of something all at once.",
+    "exampleSentence": "Durante i saldi comprava libri a man bassa.",
+    "exampleTranslation": "During the sale, she was buying books in huge quantities.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-freddo-12",
+    "language": "it",
+    "expression": "A freddo",
+    "literalTranslation": "Cold",
+    "meaning": "With emotional distance or after having time to cool down and think.",
+    "usageNote": "Use it when judging or deciding something more calmly than in the heat of the moment.",
+    "exampleSentence": "A freddo, mi rendo conto che aveva ragione lui.",
+    "exampleTranslation": "Looking at it calmly now, I realize he was right.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-cielo-aperto-13",
+    "language": "it",
+    "expression": "A cielo aperto",
+    "literalTranslation": "Under open sky",
+    "meaning": "Outdoors and not enclosed.",
+    "usageNote": "Use it for events, work, or places that happen entirely in the open air.",
+    "exampleSentence": "Quest'estate faranno un cinema a cielo aperto nel parco.",
+    "exampleTranslation": "This summer they are putting on an open-air cinema in the park.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-cuore-aperto-14",
+    "language": "it",
+    "expression": "A cuore aperto",
+    "literalTranslation": "With an open heart",
+    "meaning": "With complete honesty and emotional openness.",
+    "usageNote": "Use it when someone speaks sincerely about personal feelings or difficult truths.",
+    "exampleSentence": "Abbiamo parlato a cuore aperto di quello che non funzionava più.",
+    "exampleTranslation": "We spoke openly and honestly about what was no longer working.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-a-crepapelle-15",
+    "language": "it",
+    "expression": "A crepapelle",
+    "literalTranslation": "Until the skin bursts",
+    "meaning": "To an extreme degree, often about laughing or eating.",
+    "usageNote": "Use it when the intensity is so strong that it feels exaggerated and physical.",
+    "exampleSentence": "Con quel video abbiamo riso a crepapelle.",
+    "exampleTranslation": "That video made us laugh unbelievably hard.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-essere-al-verde-16",
+    "language": "it",
+    "expression": "Essere al verde",
+    "literalTranslation": "To be at the green",
+    "meaning": "To be broke or almost out of money.",
+    "usageNote": "Use it when someone cannot really afford new expenses right now.",
+    "exampleSentence": "Dopo il trasloco sono al verde fino al prossimo stipendio.",
+    "exampleTranslation": "After the move, I am broke until the next paycheck.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-prendere-due-piccioni-con-una-fava-17",
+    "language": "it",
+    "expression": "Prendere due piccioni con una fava",
+    "literalTranslation": "To catch two pigeons with one bean",
+    "meaning": "To achieve two useful results with one action.",
+    "usageNote": "Use it when one plan solves two needs at once.",
+    "exampleSentence": "Se passo in centro posso comprare il regalo e vedere Luca, così prendo due piccioni con una fava.",
+    "exampleTranslation": "If I go downtown I can buy the gift and see Luca, so I get two things done at once.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-avere-le-mani-bucate-18",
+    "language": "it",
+    "expression": "Avere le mani bucate",
+    "literalTranslation": "To have holes in one's hands",
+    "meaning": "To spend money too easily and too quickly.",
+    "usageNote": "Use it when someone cannot hold on to money because they keep buying things.",
+    "exampleSentence": "Marco ha le mani bucate: lo pagano il venerdì ed è già senza soldi lunedì.",
+    "exampleTranslation": "Marco spends money far too easily: he gets paid on Friday and is already short by Monday.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "it-fare-il-passo-piu-lungo-della-gamba-19",
+    "language": "it",
+    "expression": "Fare il passo più lungo della gamba",
+    "literalTranslation": "To take a step longer than the leg",
+    "meaning": "To take on more than you can realistically handle.",
+    "usageNote": "Use it when ambition outruns resources, skill, or common sense.",
+    "exampleSentence": "Con tre progetti insieme stiamo facendo il passo più lungo della gamba.",
+    "exampleTranslation": "With three projects at once, we are taking on more than we can handle.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  }
+]

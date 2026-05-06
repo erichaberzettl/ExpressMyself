@@ -1,26 +1,9 @@
 .page {
-  padding: 2rem 0 4rem;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  font-weight: 600;
-}
-
-.nav {
-  display: flex;
-  gap: 1rem;
-  color: var(--muted);
+  padding: 1.5rem 0 4rem;
 }
 
 .hero {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
+  margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
 
@@ -74,4 +57,3 @@
     flex-direction: column;
   }
 }
-

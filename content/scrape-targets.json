@@ -1,0 +1,161 @@
+[
+  {
+    "code": "en",
+    "label": "English",
+    "nativeLabel": "English",
+    "categoryTitles": [
+      "Category:English_idioms",
+      "Category:English_proverbs",
+      "Category:English_colloquialisms",
+      "Category:English_multiword_terms",
+      {
+        "title": "Kategorie:Sprichwort_(Englisch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php",
+        "languageLabel": "Englisch"
+      }
+    ]
+  },
+  {
+    "code": "es",
+    "label": "Spanish",
+    "nativeLabel": "Español",
+    "categoryTitles": [
+      "Category:Spanish_idioms",
+      "Category:Spanish_proverbs",
+      "Category:Spanish_colloquialisms",
+      "Category:Spanish_multiword_terms",
+      {
+        "title": "Kategorie:Sprichwort_(Spanisch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php",
+        "languageLabel": "Spanisch"
+      }
+    ]
+  },
+  {
+    "code": "fr",
+    "label": "French",
+    "nativeLabel": "Français",
+    "categoryTitles": [
+      "Category:French_idioms",
+      "Category:French_proverbs",
+      "Category:French_colloquialisms",
+      "Category:French_multiword_terms",
+      {
+        "title": "Kategorie:Sprichwort_(Französisch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php",
+        "languageLabel": "Französisch"
+      }
+    ]
+  },
+  {
+    "code": "de",
+    "label": "Deutsch",
+    "nativeLabel": "Deutsch",
+    "categoryTitles": [
+      {
+        "title": "Kategorie:Sprichwort_(Deutsch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php"
+      },
+      {
+        "title": "Kategorie:Redewendung_(Deutsch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php"
+      }
+    ]
+  },
+  {
+    "code": "pt",
+    "label": "Portuguese",
+    "nativeLabel": "Português",
+    "categoryTitles": [
+      "Category:Portuguese_idioms",
+      "Category:Portuguese_proverbs",
+      "Category:Portuguese_colloquialisms",
+      "Category:Portuguese_multiword_terms",
+      {
+        "title": "Kategorie:Sprichwort_(Portugiesisch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php",
+        "languageLabel": "Portugiesisch"
+      }
+    ]
+  },
+  {
+    "code": "it",
+    "label": "Italian",
+    "nativeLabel": "Italiano",
+    "categoryTitles": [
+      "Category:Italian_idioms",
+      "Category:Italian_proverbs",
+      "Category:Italian_colloquialisms",
+      "Category:Italian_multiword_terms",
+      {
+        "title": "Kategorie:Sprichwort_(Italienisch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php",
+        "languageLabel": "Italienisch"
+      }
+    ]
+  },
+  {
+    "code": "nl",
+    "label": "Dutch",
+    "nativeLabel": "Nederlands",
+    "categoryTitles": [
+      "Category:Dutch_idioms",
+      "Category:Dutch_proverbs",
+      "Category:Dutch_colloquialisms",
+      "Category:Dutch_multiword_terms",
+      {
+        "title": "Kategorie:Sprichwort_(Niederländisch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php",
+        "languageLabel": "Niederländisch"
+      }
+    ]
+  },
+  {
+    "code": "sv",
+    "label": "Swedish",
+    "nativeLabel": "Svenska",
+    "categoryTitles": [
+      "Category:Swedish_idioms",
+      "Category:Swedish_proverbs",
+      "Category:Swedish_colloquialisms",
+      "Category:Swedish_multiword_terms",
+      {
+        "title": "Kategorie:Sprichwort_(Schwedisch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php",
+        "languageLabel": "Schwedisch"
+      }
+    ]
+  },
+  {
+    "code": "da",
+    "label": "Danish",
+    "nativeLabel": "Dansk",
+    "categoryTitles": [
+      "Category:Danish_idioms",
+      "Category:Danish_proverbs",
+      "Category:Danish_colloquialisms",
+      "Category:Danish_multiword_terms",
+      {
+        "title": "Kategorie:Sprichwort_(Dänisch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php",
+        "languageLabel": "Dänisch"
+      }
+    ]
+  },
+  {
+    "code": "pl",
+    "label": "Polish",
+    "nativeLabel": "Polski",
+    "categoryTitles": [
+      "Category:Polish_idioms",
+      "Category:Polish_proverbs",
+      "Category:Polish_colloquialisms",
+      "Category:Polish_multiword_terms",
+      {
+        "title": "Kategorie:Sprichwort_(Polnisch)",
+        "apiBase": "https://de.wiktionary.org/w/api.php",
+        "languageLabel": "Polnisch"
+      }
+    ]
+  }
+]

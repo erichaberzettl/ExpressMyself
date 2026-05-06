@@ -1,10 +1,14 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { HomeExperience } from "@/components/home-experience";
+import { getExpressionsForLanguage } from "@/lib/expressions";
+import { ExpressionEntry } from "@/lib/types";
+
+const loadExpressions = async () => getExpressionsForLanguage("en");
 
 describe("HomeExperience", () => {
   it("renders the daily expression widget shell", () => {
-    render(<HomeExperience />);
+    render(<HomeExperience initialExpressions={getExpressionsForLanguage("en")} loadExpressions={loadExpressions} />);
 
     expect(screen.getByText("ExpressMyself")).toBeInTheDocument();
     expect(screen.getByText("Saved")).toBeInTheDocument();
@@ -13,7 +17,7 @@ describe("HomeExperience", () => {
 
   it("shows a different expression when next is clicked", async () => {
     const user = userEvent.setup();
-    render(<HomeExperience />);
+    render(<HomeExperience initialExpressions={getExpressionsForLanguage("en")} loadExpressions={loadExpressions} />);
 
     const initialHeading = screen.getByRole("heading", { level: 2 }).textContent;
     await user.click(screen.getByRole("button", { name: "Next" }));
@@ -22,12 +26,49 @@ describe("HomeExperience", () => {
   });
 
   it("renders an audio control on the expression card", () => {
-    render(<HomeExperience />);
+    render(<HomeExperience initialExpressions={getExpressionsForLanguage("en")} loadExpressions={loadExpressions} />);
 
     expect(screen.getByRole("button", { name: /listen to/i })).toBeInTheDocument();
   });
 
-  it("speaks only the expression with a slower preferred voice", async () => {
+  it("lets users toggle categories from the main controls", async () => {
+    const user = userEvent.setup();
+    const entries: ExpressionEntry[] = [
+      {
+        id: "en-idiom",
+        language: "en",
+        expression: "Break a leg",
+        meaning: "Good luck.",
+        usageNote: "Before a performance.",
+        exampleSentence: "Break a leg tonight.",
+        exampleTranslation: "Good luck tonight.",
+        difficulty: "basic",
+        tags: ["performance"],
+        contentType: "idiom"
+      },
+      {
+        id: "en-word",
+        language: "en",
+        expression: "Airheaded",
+        meaning: "Silly or foolish.",
+        usageNote: "Informal description.",
+        exampleSentence: "That sounded airheaded.",
+        exampleTranslation: "That sounded foolish.",
+        difficulty: "intermediate",
+        tags: ["informal"],
+        contentType: "word"
+      }
+    ];
+
+    render(<HomeExperience initialExpressions={entries} loadExpressions={async () => entries} />);
+
+    expect(screen.getByText("2 phrases")).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Choose categories" }));
+    await user.click(screen.getByRole("checkbox", { name: "Words" }));
+    expect(screen.getByText("1 phrases")).toBeInTheDocument();
+  });
+
+  it("speaks English with the browser's normal default voice", async () => {
     const user = userEvent.setup();
     const speak = vi.fn();
     const cancel = vi.fn();
@@ -54,7 +95,7 @@ describe("HomeExperience", () => {
       value: { speak, cancel, getVoices }
     });
 
-    render(<HomeExperience />);
+    render(<HomeExperience initialExpressions={getExpressionsForLanguage("en")} loadExpressions={loadExpressions} />);
     const expression = screen.getByRole("heading", { level: 2 }).textContent ?? "";
 
     await user.click(screen.getByRole("button", { name: /listen to/i }));
@@ -63,8 +104,9 @@ describe("HomeExperience", () => {
     expect(speak).toHaveBeenCalledTimes(1);
     const utterance = speak.mock.calls[0][0] as MockUtterance;
     expect(utterance.text).toBe(expression);
-    expect(utterance.rate).toBe(0.84);
-    expect(utterance.voice?.name).toBe("Samantha");
+    expect(utterance.lang).toBe("en-US");
+    expect(utterance.rate).toBe(1);
+    expect(utterance.voice).toBeUndefined();
   });
 
   it("does not assign an english voice to a spanish expression", async () => {
@@ -96,12 +138,50 @@ describe("HomeExperience", () => {
       }
     });
 
-    render(<HomeExperience />);
+    render(<HomeExperience initialExpressions={getExpressionsForLanguage("en")} loadExpressions={async (language) => getExpressionsForLanguage(language)} />);
     await user.selectOptions(screen.getByLabelText("Language"), "es");
     await user.click(screen.getByRole("button", { name: /listen to/i }));
 
     const utterance = speak.mock.calls.at(-1)?.[0] as MockUtterance;
     expect(utterance.lang).toBe("es-ES");
     expect(utterance.voice).toBeUndefined();
+  });
+
+  it("speaks immediately even when the browser has not loaded voices yet", async () => {
+    const user = userEvent.setup();
+    const speak = vi.fn();
+    const cancel = vi.fn();
+    const resume = vi.fn();
+
+    class MockUtterance {
+      text: string;
+      lang = "";
+      rate = 1;
+      pitch = 1;
+      voice?: { name: string; lang: string };
+
+      constructor(text: string) {
+        this.text = text;
+      }
+    }
+
+    vi.stubGlobal("SpeechSynthesisUtterance", MockUtterance);
+    Object.defineProperty(window, "speechSynthesis", {
+      configurable: true,
+      value: {
+        speak,
+        cancel,
+        resume,
+        getVoices: () => []
+      }
+    });
+
+    render(<HomeExperience initialExpressions={getExpressionsForLanguage("en")} loadExpressions={loadExpressions} />);
+
+    await user.click(screen.getByRole("button", { name: /listen to/i }));
+
+    expect(cancel).toHaveBeenCalled();
+    expect(resume).toHaveBeenCalled();
+    expect(speak).toHaveBeenCalledTimes(1);
   });
 });

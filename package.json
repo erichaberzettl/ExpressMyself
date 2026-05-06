@@ -5,14 +5,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:extension": "node ./scripts/build-extension.mjs",
+    "build:extension-assets": "python3 ./scripts/generate-extension-assets.py && node ./scripts/build-extension.mjs",
+    "package:extension": "node ./scripts/build-extension.mjs && node ./scripts/package-extension.mjs",
     "start": "next start",
     "test": "vitest run",
     "test:watch": "vitest",
+    "tags:report": "node --import tsx ./scripts/tag-report.ts",
     "import:wiktapi": "node ./scripts/import-wiktapi.mjs",
-    "build:imported-content": "node ./scripts/build-imported-content.mjs"
+    "scrape:idioms": "node ./scripts/scrape-wiktionary-idioms.mjs",
+    "build:imported-content": "node ./scripts/build-imported-content.mjs",
+    "db:push": "node ./scripts/db-push.mjs",
+    "db:seed": "node ./scripts/db-seed.mjs"
   },
   "dependencies": {
-    "next": "^15.0.0",
+    "next": "^16.2.4",
+    "pg": "^8.20.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -21,10 +29,12 @@
     "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^14.5.2",
     "@types/node": "^22.10.2",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "@vitejs/plugin-react": "^4.3.4",
     "jsdom": "^25.0.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.7.2",
     "vitest": "^2.1.8"
   }

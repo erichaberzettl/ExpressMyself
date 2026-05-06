@@ -3,12 +3,18 @@
 import Link from "next/link";
 import { languagesByCode } from "@/lib/languages";
 import { ExpressionEntry, LanguageCode } from "@/lib/types";
+import {
+  getExpressionContentType,
+  getExpressionContentTypeLabel
+} from "@/lib/expression-content";
+import { getTopicTagLabel, normalizeEntryTags } from "@/lib/topic-tags";
 import { SaveExpressionButton } from "@/components/save-expression-button";
 import styles from "./expression-card.module.css";
 
 type ExpressionCardProps = {
   expression: ExpressionEntry;
   compact?: boolean;
+  listPreview?: boolean;
   showSaveButton?: boolean;
   onNextExpression?: () => void;
 };
@@ -17,13 +23,13 @@ const voiceConfigByLanguage: Record<
   LanguageCode,
   {
     lang: string;
-    family: string;
+    families: string[];
     preferredVoiceNames: string[];
   }
 > = {
   en: {
     lang: "en-US",
-    family: "en",
+    families: ["en"],
     preferredVoiceNames: [
       "Samantha",
       "Ava",
@@ -36,13 +42,48 @@ const voiceConfigByLanguage: Record<
   },
   es: {
     lang: "es-ES",
-    family: "es",
+    families: ["es"],
     preferredVoiceNames: ["Monica", "Paulina", "Jorge", "Google español", "Google español de España"]
+  },
+  fr: {
+    lang: "fr-FR",
+    families: ["fr"],
+    preferredVoiceNames: ["Thomas", "Amelie", "Google français"]
   },
   de: {
     lang: "de-DE",
-    family: "de",
+    families: ["de"],
     preferredVoiceNames: ["Anna", "Petra", "Vicki", "Google Deutsch", "Google Deutsch (Deutschland)"]
+  },
+  pt: {
+    lang: "pt-PT",
+    families: ["pt"],
+    preferredVoiceNames: ["Joana", "Luciana", "Google português"]
+  },
+  it: {
+    lang: "it-IT",
+    families: ["it"],
+    preferredVoiceNames: ["Alice", "Luca", "Google italiano"]
+  },
+  nl: {
+    lang: "nl-NL",
+    families: ["nl"],
+    preferredVoiceNames: ["Xander", "Claire", "Google Nederlands"]
+  },
+  sv: {
+    lang: "sv-SE",
+    families: ["sv"],
+    preferredVoiceNames: ["Alva", "Oskar", "Google svenska"]
+  },
+  da: {
+    lang: "da-DK",
+    families: ["da"],
+    preferredVoiceNames: ["Sara", "Magnus", "Google dansk"]
+  },
+  pl: {
+    lang: "pl-PL",
+    families: ["pl"],
+    preferredVoiceNames: ["Zosia", "Krzysztof", "Google polski"]
   }
 };
 
@@ -50,10 +91,15 @@ function selectVoiceForLanguage(
   voices: SpeechSynthesisVoice[],
   language: LanguageCode
 ): SpeechSynthesisVoice | null {
+  if (language === "en") {
+    return null;
+  }
+
   const config = voiceConfigByLanguage[language];
-  const matchingVoices = voices.filter((voice) =>
-    voice.lang.toLowerCase().startsWith(config.family.toLowerCase())
-  );
+  const matchingVoices = voices.filter((voice) => {
+    const voiceLang = voice.lang.toLowerCase();
+    return config.families.some((family) => voiceLang.startsWith(family.toLowerCase()));
+  });
 
   if (matchingVoices.length === 0) {
     return null;
@@ -77,56 +123,78 @@ function selectVoiceForLanguage(
 export function ExpressionCard({
   expression,
   compact = false,
+  listPreview = false,
   showSaveButton = false,
   onNextExpression
 }: ExpressionCardProps) {
   const language = languagesByCode[expression.language];
+  const contentType = getExpressionContentType(expression);
+  const visibleTags = normalizeEntryTags(expression);
+  const hasExample = expression.exampleSentence.trim().length > 0;
+  const hasExampleTranslation = expression.exampleTranslation.trim().length > 0;
 
   const speakExpression = () => {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+    if (
+      typeof window === "undefined" ||
+      !("speechSynthesis" in window) ||
+      typeof SpeechSynthesisUtterance === "undefined"
+    ) {
       return;
     }
 
     const config = voiceConfigByLanguage[expression.language];
-    const speakWithVoice = () => {
+    const speakWithVoice = (selectedVoice?: SpeechSynthesisVoice | null) => {
       const utterance = new SpeechSynthesisUtterance(expression.expression);
       utterance.lang = config.lang;
-      utterance.rate = 0.84;
+      utterance.rate = expression.language === "en" ? 1 : 0.84;
       utterance.pitch = 1;
-
-      const selectedVoice = selectVoiceForLanguage(
-        window.speechSynthesis.getVoices(),
-        expression.language
-      );
 
       if (selectedVoice) {
         utterance.voice = selectedVoice;
       }
 
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(utterance);
+      const synth = window.speechSynthesis;
+      synth.cancel();
+      synth.resume?.();
+      synth.speak(utterance);
     };
 
-    const voices = window.speechSynthesis.getVoices();
+    const synth = window.speechSynthesis;
+    const voices = synth.getVoices();
+    const selectedVoice = selectVoiceForLanguage(voices, expression.language);
 
-    if (voices.length > 0) {
-      speakWithVoice();
+    // Speak immediately from the click event so embedded browsers do not treat it
+    // as an async autoplay attempt if voices load late.
+    speakWithVoice(selectedVoice);
+
+    if (voices.length > 0 || selectedVoice) {
       return;
     }
 
-    const synth = window.speechSynthesis;
-    const handleVoicesChanged = () => {
-      synth.removeEventListener?.("voiceschanged", handleVoicesChanged);
-      speakWithVoice();
-    };
-
-    synth.addEventListener?.("voiceschanged", handleVoicesChanged, { once: true });
-
-    window.setTimeout(() => {
-      synth.removeEventListener?.("voiceschanged", handleVoicesChanged);
-      speakWithVoice();
-    }, 250);
+    // Trigger voice enumeration for later clicks on browsers that populate lazily.
+    synth.getVoices();
   };
+
+  if (listPreview) {
+    return (
+      <article className={`${styles.card} ${styles.listPreview}`}>
+        <div className={styles.previewMeta}>
+          <span className={styles.previewLanguage}>{language.label}</span>
+          <span className={styles.previewType}>{getExpressionContentTypeLabel(contentType)}</span>
+        </div>
+        <h2>{expression.expression}</h2>
+        <p className={styles.previewTranslation}>
+          {expression.literalTranslation ?? expression.meaning}
+        </p>
+        <div className={styles.footer}>
+          <span className={styles.previewSpacer} />
+          <Link className={styles.detailsLink} href={`/expression/${expression.id}`}>
+            Details
+          </Link>
+        </div>
+      </article>
+    );
+  }
 
   return (
     <article className={`${styles.card} ${compact ? styles.compact : ""}`}>
@@ -163,16 +231,22 @@ export function ExpressionCard({
         ) : null}
         <dt>Use it when</dt>
         <dd>{expression.usageNote}</dd>
-        <dt>Example</dt>
-        <dd>
-          {expression.exampleSentence}
-          <span className={styles.translation}>{expression.exampleTranslation}</span>
-        </dd>
+        {hasExample ? (
+          <>
+            <dt>Example</dt>
+            <dd>
+              {expression.exampleSentence}
+              {hasExampleTranslation ? (
+                <span className={styles.translation}>{expression.exampleTranslation}</span>
+              ) : null}
+            </dd>
+          </>
+        ) : null}
       </dl>
       <div className={styles.footer}>
         <div className={styles.tags}>
-          {expression.tags.map((tag) => (
-            <span key={tag}>{tag}</span>
+          {visibleTags.map((tag) => (
+            <span key={tag}>{getTopicTagLabel(tag)}</span>
           ))}
         </div>
         <Link className={styles.detailsLink} href={`/expression/${expression.id}`}>

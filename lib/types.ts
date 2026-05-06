@@ -1,8 +1,9 @@
-export const supportedLanguages = ["en", "es", "de"] as const;
+export const supportedLanguages = ["en", "es", "fr", "de", "pt", "it", "nl", "sv", "da", "pl"] as const;
 
 export type LanguageCode = (typeof supportedLanguages)[number];
 
 export type ExpressionDifficulty = "basic" | "intermediate";
+export type ExpressionContentType = "idiom" | "colloquialism" | "word";
 
 export type ExpressionEntry = {
   id: string;
@@ -15,11 +16,12 @@ export type ExpressionEntry = {
   exampleTranslation: string;
   difficulty: ExpressionDifficulty;
   tags: string[];
+  contentType?: ExpressionContentType;
 };
 
 export type ExpressionFilter = {
   language: LanguageCode;
   query?: string;
   tag?: string;
+  contentTypes?: ExpressionContentType[];
 };
-

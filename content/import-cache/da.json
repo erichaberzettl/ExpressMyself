@@ -1,0 +1,322 @@
+[
+  {
+    "id": "da-alle-gode-gange-tre-0",
+    "language": "da",
+    "expression": "Alle gode gange tre",
+    "literalTranslation": "All good times are three",
+    "meaning": "The third try often works out after earlier attempts fail.",
+    "usageNote": "Use it to encourage someone to try once more after two disappointing results.",
+    "exampleSentence": "Prøv igen, alle gode gange tre.",
+    "exampleTranslation": "Try again, third time is usually the lucky one.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-appelsin-i-turbanen-1",
+    "language": "da",
+    "expression": "Appelsin i turbanen",
+    "literalTranslation": "An orange in the turban",
+    "meaning": "An unexpected stroke of luck.",
+    "usageNote": "Use it when something good happens by surprise and feels like a lucky bonus.",
+    "exampleSentence": "Den ekstra fridag var virkelig en appelsin i turbanen.",
+    "exampleTranslation": "That extra day off was a real lucky break.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-aldrig-i-livet-2",
+    "language": "da",
+    "expression": "Aldrig i livet",
+    "literalTranslation": "Never in life",
+    "meaning": "Absolutely not, not under any circumstances.",
+    "usageNote": "Use it for a strong refusal when you want to sound emphatic and final.",
+    "exampleSentence": "Aldrig i livet om jeg tager det møde klokken seks om morgenen.",
+    "exampleTranslation": "There is no way I am taking that meeting at six in the morning.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-bide-i-det-sure-ble-3",
+    "language": "da",
+    "expression": "Bide i det sure æble",
+    "literalTranslation": "To bite into the sour apple",
+    "meaning": "To accept an unpleasant but necessary task.",
+    "usageNote": "Use it when someone stops resisting and does what has to be done anyway.",
+    "exampleSentence": "Jeg måtte bide i det sure æble og ringe for at beklage.",
+    "exampleTranslation": "I had to bite the bullet and call to apologize.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-bl-se-en-halv-pelikan-4",
+    "language": "da",
+    "expression": "Blæse en halv pelikan",
+    "literalTranslation": "To blow half a pelican",
+    "meaning": "To be blowing very hard, usually about the wind or weather.",
+    "usageNote": "Use it in an informal, colorful way when the weather feels rough and stormy.",
+    "exampleSentence": "Vi blev inde hele dagen, for det blæste en halv pelikan ved kysten.",
+    "exampleTranslation": "We stayed inside all day because it was blowing like crazy at the coast.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-at-falde-er-ingen-skam-men-at-blive-liggende-er-5",
+    "language": "da",
+    "expression": "At falde er ingen skam, men at blive liggende er",
+    "literalTranslation": "To fall is no shame, but to stay lying down is",
+    "meaning": "Making a mistake is acceptable, but refusing to recover from it is not.",
+    "usageNote": "Use it to motivate someone after a setback and shift the focus toward getting back up.",
+    "exampleSentence": "Det gik galt i dag, men at falde er ingen skam, men at blive liggende er.",
+    "exampleTranslation": "It went badly today, but failing is not the worst part, staying down is.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-blod-er-tykkere-end-vand-6",
+    "language": "da",
+    "expression": "Blod er tykkere end vand",
+    "literalTranslation": "Blood is thicker than water",
+    "meaning": "Family ties often feel stronger than other loyalties.",
+    "usageNote": "Use it when relatives choose each other first, even in difficult situations.",
+    "exampleSentence": "De skændes tit, men blod er tykkere end vand, når det virkelig gælder.",
+    "exampleTranslation": "They argue often, but family comes first when it really matters.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-al-begyndelse-er-sv-r-7",
+    "language": "da",
+    "expression": "Al begyndelse er svær",
+    "literalTranslation": "Every beginning is difficult",
+    "meaning": "Starting something new is usually the hardest part.",
+    "usageNote": "Use it to reassure someone who feels discouraged early in a learning process.",
+    "exampleSentence": "Bliv ved med at øve dig, al begyndelse er svær.",
+    "exampleTranslation": "Keep practicing, the beginning is always the hardest part.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-bag-skyerne-er-himlen-altid-bla-8",
+    "language": "da",
+    "expression": "Bag skyerne er himlen altid blå",
+    "literalTranslation": "Behind the clouds the sky is always blue",
+    "meaning": "A difficult moment can still have hope behind it.",
+    "usageNote": "Use it to comfort someone when things feel heavy but you want to stress that the situation can improve.",
+    "exampleSentence": "Det ser mørkt ud nu, men bag skyerne er himlen altid blå.",
+    "exampleTranslation": "It looks dark right now, but there is still hope beyond it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-blind-passager-9",
+    "language": "da",
+    "expression": "Blind passager",
+    "literalTranslation": "Blind passenger",
+    "meaning": "Someone who comes along without paying or without being properly included.",
+    "usageNote": "Use it literally for stowaways or figuratively for people getting a free ride on others' efforts.",
+    "exampleSentence": "Han gled med som blind passager på projektet uden selv at bidrage.",
+    "exampleTranslation": "He slipped into the project like a stowaway without contributing himself.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-dans-pa-roser-10",
+    "language": "da",
+    "expression": "Dans på roser",
+    "literalTranslation": "A dance on roses",
+    "meaning": "An easy, pleasant, or trouble-free situation.",
+    "usageNote": "Use it most often in the negative when you want to say something is not effortless.",
+    "exampleSentence": "Det er ikke nogen dans på roser at starte sin egen virksomhed.",
+    "exampleTranslation": "Starting your own company is no walk in the park.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-by-i-rusland-11",
+    "language": "da",
+    "expression": "By i Rusland",
+    "literalTranslation": "A city in Russia",
+    "meaning": "Something completely unfamiliar or unknown to someone.",
+    "usageNote": "Use it when a subject, name, or skill means absolutely nothing to the listener.",
+    "exampleSentence": "Regnskab er en by i Rusland for mig.",
+    "exampleTranslation": "Accounting is completely foreign to me.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-bl-d-i-bolden-12",
+    "language": "da",
+    "expression": "Blød i bolden",
+    "literalTranslation": "Soft in the ball",
+    "meaning": "Too soft-hearted or too easy to persuade.",
+    "usageNote": "Use it when someone gives in easily because they do not like being strict.",
+    "exampleSentence": "Hun siger nej først, men hun er blød i bolden og ender med at hjælpe.",
+    "exampleTranslation": "She says no at first, but she is soft-hearted and ends up helping.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-bordet-fanger-13",
+    "language": "da",
+    "expression": "Bordet fanger",
+    "literalTranslation": "The table catches",
+    "meaning": "A spoken agreement counts and should be honored.",
+    "usageNote": "Use it when you want to remind someone that they already gave their word.",
+    "exampleSentence": "Du lovede at tage vagten, og bordet fanger.",
+    "exampleTranslation": "You promised to take the shift, and your word now counts.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-betale-prisen-14",
+    "language": "da",
+    "expression": "Betale prisen",
+    "literalTranslation": "To pay the price",
+    "meaning": "To suffer the consequences of a choice or mistake.",
+    "usageNote": "Use it when an action leads to a cost, sacrifice, or unpleasant result later on.",
+    "exampleSentence": "Hvis vi springer testen over nu, betaler vi prisen senere.",
+    "exampleTranslation": "If we skip the testing now, we will pay for it later.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-bygge-pa-sand-15",
+    "language": "da",
+    "expression": "Bygge på sand",
+    "literalTranslation": "To build on sand",
+    "meaning": "To base something on a weak or unreliable foundation.",
+    "usageNote": "Use it when a plan, argument, or relationship is unstable from the start.",
+    "exampleSentence": "Hele strategien bygger på sand, hvis tallene ikke passer.",
+    "exampleTranslation": "The whole strategy rests on shaky ground if the numbers are wrong.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-have-ben-i-n-sen-16",
+    "language": "da",
+    "expression": "Have ben i næsen",
+    "literalTranslation": "To have legs in the nose",
+    "meaning": "To be bold, determined, and not easily pushed around.",
+    "usageNote": "Use it to praise someone who speaks up for themselves and acts decisively.",
+    "exampleSentence": "Hun har ben i næsen og lod sig ikke presse i forhandlingen.",
+    "exampleTranslation": "She is tough and did not let herself be pushed around in the negotiation.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-sla-to-fluer-med-et-sm-k-17",
+    "language": "da",
+    "expression": "Slå to fluer med ét smæk",
+    "literalTranslation": "To hit two flies with one swat",
+    "meaning": "To solve two problems with one action.",
+    "usageNote": "Use it when one plan gives you two useful results at once.",
+    "exampleSentence": "Hvis vi tager toget, kan vi besøge Anna og spare parkering, så slår vi to fluer med ét smæk.",
+    "exampleTranslation": "If we take the train, we can visit Anna and save on parking, so we kill two birds with one stone.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-s-tte-n-sen-op-efter-noget-18",
+    "language": "da",
+    "expression": "Sætte næsen op efter noget",
+    "literalTranslation": "To set the nose after something",
+    "meaning": "To hope strongly for something specific.",
+    "usageNote": "Use it when someone has fixed their hopes on one outcome and may be disappointed if it does not happen.",
+    "exampleSentence": "Børnene har sat næsen op efter en tur i Tivoli i weekenden.",
+    "exampleTranslation": "The children have really set their hearts on a trip to Tivoli this weekend.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  },
+  {
+    "id": "da-tage-sorgerne-pa-forskud-19",
+    "language": "da",
+    "expression": "Tage sorgerne på forskud",
+    "literalTranslation": "To take the worries in advance",
+    "meaning": "To worry about problems before they have actually happened.",
+    "usageNote": "Use it when someone is borrowing trouble instead of waiting for real evidence.",
+    "exampleSentence": "Du tager sorgerne på forskud, vi har ikke engang fået svaret endnu.",
+    "exampleTranslation": "You are worrying too early, we have not even received the answer yet.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "ES2022"],
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "rootDir": ".",
+    "outDir": "extension/dist"
+  },
+  "include": [
+    "extension/src/**/*.ts",
+    "lib/types.ts",
+    "lib/languages.ts",
+    "lib/topic-tags.ts",
+    "lib/expression-content.ts",
+    "lib/generated-imported-content.ts",
+    "lib/content.ts",
+    "lib/expressions.ts"
+  ],
+  "exclude": ["node_modules", ".next"]
+}
