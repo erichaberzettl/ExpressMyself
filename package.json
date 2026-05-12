@@ -14,13 +14,10 @@
     "tags:report": "node --import tsx ./scripts/tag-report.ts",
     "import:wiktapi": "node ./scripts/import-wiktapi.mjs",
     "scrape:idioms": "node ./scripts/scrape-wiktionary-idioms.mjs",
-    "build:imported-content": "node ./scripts/build-imported-content.mjs",
-    "db:push": "node ./scripts/db-push.mjs",
-    "db:seed": "node ./scripts/db-seed.mjs"
+    "build:imported-content": "node ./scripts/build-imported-content.mjs"
   },
   "dependencies": {
     "next": "^16.2.4",
-    "pg": "^8.20.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -29,7 +26,6 @@
     "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^14.5.2",
     "@types/node": "^22.10.2",
-    "@types/pg": "^8.20.0",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "@vitejs/plugin-react": "^4.3.4",

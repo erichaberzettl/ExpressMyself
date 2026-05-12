@@ -48,24 +48,11 @@ The app is now set up to scale to 10 Latin-script languages with imported expres
 - `npm run build:extension-assets` generates extension icons and store screenshots
 - `npm run package:extension` creates the Chrome Web Store upload ZIP in `artifacts`
 - `npm start` serves the production build
-- `npm run db:push` applies the SQL schema to PostgreSQL
-- `npm run db:seed` seeds PostgreSQL from the current expression content
 - `npm run import:wiktapi -- --language=es` fetches candidate entries from Wiktapi into local cache files
 - `npm run scrape:idioms -- --count=100` scrapes idioms and common expressions from Wiktionary for the supported languages
 - `npm run build:imported-content` compiles cached imported JSON into app-readable TypeScript
 
-## PostgreSQL setup
-
-This project now includes a direct PostgreSQL layer using plain SQL.
-
-1. Copy [`.env.example`](/Users/eric/Desktop/ExpressMyself/.env.example) to `.env`
-2. Set `DATABASE_URL` to your Postgres connection string
-3. Push the schema:
-   `npm run db:push`
-4. Seed the database:
-   `npm run db:seed`
-
-The app keeps a safe fallback to local content if `DATABASE_URL` is missing or the database is unavailable, so setup can happen incrementally.
+Expressions are served directly from the local typed content files and generated import bundle.
 
 ## Content model
 

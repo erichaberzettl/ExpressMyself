@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { ExpressionCard } from "@/components/expression-card";
 import { PersistentAppHeader } from "@/components/persistent-app-header";
-import { getExpressionByIdDb, getRelatedExpressionsDb } from "@/lib/expression-repository";
+import { getExpressionById, getRelatedExpressions } from "@/lib/expressions";
 import { languagesByCode } from "@/lib/languages";
 import styles from "./page.module.css";
 
@@ -13,13 +13,13 @@ type ExpressionPageProps = {
 
 export default async function ExpressionPage({ params }: ExpressionPageProps) {
   const { id } = await params;
-  const expression = await getExpressionByIdDb(id);
+  const expression = getExpressionById(id);
 
   if (!expression) {
     notFound();
   }
 
-  const related = await getRelatedExpressionsDb(expression, 3);
+  const related = getRelatedExpressions(expression, 3);
   const language = languagesByCode[expression.language];
 
   return (

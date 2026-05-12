@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getExpressionsByIdsDb, getExpressionsForLanguageDb } from "@/lib/expression-repository";
+import { getExpressionsByIds, getExpressionsForLanguage } from "@/lib/expressions";
 import { ExpressionEntry, LanguageCode, supportedLanguages } from "@/lib/types";
 
 function isLanguageCode(value: string): value is LanguageCode {
@@ -17,9 +17,9 @@ export async function GET(request: NextRequest) {
       .split(",")
       .map((id) => id.trim())
       .filter(Boolean);
-    expressions = await getExpressionsByIdsDb(allIds);
+    expressions = getExpressionsByIds(allIds);
   } else if (language && isLanguageCode(language)) {
-    expressions = await getExpressionsForLanguageDb(language);
+    expressions = getExpressionsForLanguage(language);
   }
 
   return NextResponse.json({ expressions });

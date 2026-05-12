@@ -1,8 +1,8 @@
-import { getExpressionsForLanguageDb } from "@/lib/expression-repository";
+import { getExpressionsForLanguage } from "@/lib/expressions";
 import { HomeExperience } from "@/components/home-experience";
 
 export default async function HomePage() {
-  const initialExpressions = await getExpressionsForLanguageDb("en");
+  const initialExpressions = getExpressionsForLanguage("en");
 
   return <HomeExperience initialExpressions={initialExpressions} />;
 }
