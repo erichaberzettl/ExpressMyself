@@ -3,7 +3,16 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "ExpressMyself",
-  description: "Learn useful expressions, idioms, and everyday phrases across languages."
+  description: "Learn useful expressions and everyday phrases across languages.",
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/icon.svg", type: "image/svg+xml" }
+    ],
+    apple: "/icon.png",
+    shortcut: "/favicon.png"
+  }
 };
 
 export default function RootLayout({
@@ -17,4 +26,3 @@ export default function RootLayout({
     </html>
   );
 }
-
