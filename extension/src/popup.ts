@@ -28,6 +28,8 @@ type PopupOverrides = {
   savedIds?: string[];
 };
 
+const WEB_APP_BASE_URL = "http://localhost:3000";
+
 function getRequiredElement(id: string): HTMLElement {
   const element = document.getElementById(id);
 
@@ -88,10 +90,12 @@ function readPopupOverrides(): PopupOverrides {
   };
 }
 
-function createAppLink(label: string, params: URLSearchParams, className: string) {
+function createWebAppLink(label: string, pathname: string, params: URLSearchParams, className: string) {
   const link = document.createElement("a");
   link.className = className;
-  link.href = `./app.html?${params.toString()}`;
+  const url = new URL(pathname, WEB_APP_BASE_URL);
+  url.search = params.toString();
+  link.href = url.toString();
   link.target = "_blank";
   link.rel = "noreferrer";
   link.textContent = label;
@@ -156,16 +160,18 @@ const rerender = () => {
   });
   languageField.append(languageSelect);
 
-  const libraryParams = new URLSearchParams({
-    route: "/library",
-    language: state.language
-  });
-  const savedParams = new URLSearchParams({
-    route: "/saved",
-    language: state.language
-  });
-  const libraryLink = createAppLink("Library", libraryParams, "link-button link-button-primary");
-  const savedLink = createAppLink("Saved", savedParams, "link-button link-button-secondary");
+  const libraryLink = createWebAppLink(
+    "Library",
+    "/library",
+    new URLSearchParams({ language: state.language }),
+    "link-button link-button-primary"
+  );
+  const savedLink = createWebAppLink(
+    "Saved",
+    "/saved",
+    new URLSearchParams(),
+    "link-button link-button-secondary"
+  );
 
   const actions = document.createElement("div");
   actions.className = "popup-topbar-actions";

@@ -3,6 +3,19 @@ import { languagesByCode } from "../../lib/languages";
 
 let voicesReadyPromise: Promise<SpeechSynthesisVoice[]> | null = null;
 
+const preferredEnglishVoiceNames = [
+  "Alex",
+  "Google US English",
+  "Google UK English Male",
+  "Google UK English Female",
+  "Daniel",
+  "Microsoft Mark - English (United States)",
+  "Microsoft David - English (United States)",
+  "Microsoft Zira - English (United States)",
+  "Ava",
+  "Samantha"
+];
+
 function getLanguageVoiceCandidates(language: LanguageCode): string[] {
   const exact = languagesByCode[language].speechLang.toLowerCase();
   const base = language.toLowerCase();
@@ -14,11 +27,15 @@ function resolveMatchingVoice(
   voices: SpeechSynthesisVoice[],
   language: LanguageCode
 ): SpeechSynthesisVoice | null {
-  if (language === "en") {
-    return null;
-  }
-
   const candidates = getLanguageVoiceCandidates(language);
+
+  if (language === "en") {
+    return (
+      preferredEnglishVoiceNames
+        .map((name) => voices.find((voice) => voice.name === name))
+        .find(Boolean) ?? null
+    );
+  }
 
   for (const candidate of candidates) {
     const exactMatch = voices.find((voice) => voice.lang.toLowerCase() === candidate);
@@ -89,7 +106,7 @@ export async function speakExpression(expression: string, language: LanguageCode
   utterance.pitch = 1;
 
   const synth = window.speechSynthesis;
-  const matchingVoice = language === "en" ? null : resolveMatchingVoice(await getVoices(), language);
+  const matchingVoice = resolveMatchingVoice(await getVoices(), language);
 
   if (matchingVoice) {
     utterance.voice = matchingVoice;

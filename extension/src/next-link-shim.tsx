@@ -4,21 +4,28 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string;
 };
 
+const WEB_APP_BASE_URL = "http://localhost:3000";
+
 function mapHref(href: string): string {
+  const url = new URL(WEB_APP_BASE_URL);
+
   if (href === "/") {
-    return "./app.html?route=/";
+    return url.toString();
   }
 
   if (href === "/library") {
-    return "./app.html?route=%2Flibrary";
+    url.pathname = "/library";
+    return url.toString();
   }
 
   if (href === "/saved") {
-    return "./app.html?route=%2Fsaved";
+    url.pathname = "/saved";
+    return url.toString();
   }
 
   if (href.startsWith("/expression/")) {
-    return `./app.html?route=${encodeURIComponent(href)}`;
+    url.pathname = href;
+    return url.toString();
   }
 
   return href;
