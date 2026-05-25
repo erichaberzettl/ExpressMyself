@@ -52,7 +52,7 @@ await takeScreenshot({
   width: 1440,
   height: 1200,
   search:
-    "?view=library&language=es&query=pan+comido&contentTypes=idiom,colloquialism,word&saved=es-pan-comido,es-meter-la-pata"
+    "?view=library&language=es&query=pan+comido&saved=es-pan-comido,es-meter-la-pata"
 });
 
 await takeScreenshot({

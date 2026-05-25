@@ -3,10 +3,6 @@
 import Link from "next/link";
 import { languagesByCode } from "@/lib/languages";
 import { ExpressionEntry, LanguageCode } from "@/lib/types";
-import {
-  getExpressionContentType,
-  getExpressionContentTypeLabel
-} from "@/lib/expression-content";
 import { getTopicTagLabel, normalizeEntryTags } from "@/lib/topic-tags";
 import { SaveExpressionButton } from "@/components/save-expression-button";
 import styles from "./expression-card.module.css";
@@ -31,13 +27,16 @@ const voiceConfigByLanguage: Record<
     lang: "en-US",
     families: ["en"],
     preferredVoiceNames: [
-      "Samantha",
+      "Alex",
+      "Google US English",
+      "Google UK English Male",
+      "Google UK English Female",
+      "Daniel",
+      "Microsoft Mark - English (United States)",
+      "Microsoft David - English (United States)",
+      "Microsoft Zira - English (United States)",
       "Ava",
-      "Allison",
-      "Karen",
-      "Moira",
-      "Serena",
-      "Google US English"
+      "Samantha"
     ]
   },
   es: {
@@ -91,10 +90,6 @@ function selectVoiceForLanguage(
   voices: SpeechSynthesisVoice[],
   language: LanguageCode
 ): SpeechSynthesisVoice | null {
-  if (language === "en") {
-    return null;
-  }
-
   const config = voiceConfigByLanguage[language];
   const matchingVoices = voices.filter((voice) => {
     const voiceLang = voice.lang.toLowerCase();
@@ -113,6 +108,10 @@ function selectVoiceForLanguage(
     return preferredVoice;
   }
 
+  if (language === "en") {
+    return null;
+  }
+
   return (
     matchingVoices.find((voice) => voice.default) ??
     matchingVoices.find((voice) => voice.localService) ??
@@ -128,7 +127,6 @@ export function ExpressionCard({
   onNextExpression
 }: ExpressionCardProps) {
   const language = languagesByCode[expression.language];
-  const contentType = getExpressionContentType(expression);
   const visibleTags = normalizeEntryTags(expression);
   const hasExample = expression.exampleSentence.trim().length > 0;
   const hasExampleTranslation = expression.exampleTranslation.trim().length > 0;
@@ -151,6 +149,7 @@ export function ExpressionCard({
 
       if (selectedVoice) {
         utterance.voice = selectedVoice;
+        utterance.lang = selectedVoice.lang;
       }
 
       const synth = window.speechSynthesis;
@@ -180,7 +179,6 @@ export function ExpressionCard({
       <article className={`${styles.card} ${styles.listPreview}`}>
         <div className={styles.previewMeta}>
           <span className={styles.previewLanguage}>{language.label}</span>
-          <span className={styles.previewType}>{getExpressionContentTypeLabel(contentType)}</span>
         </div>
         <h2>{expression.expression}</h2>
         <p className={styles.previewTranslation}>

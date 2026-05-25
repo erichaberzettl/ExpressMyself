@@ -5,9 +5,9 @@ import { AppHeader } from "@/components/app-header";
 import { ExpressionCard } from "@/components/expression-card";
 import { fetchExpressionsForLanguage } from "@/lib/client-expression-api";
 import { filterExpressionsInEntries, getAvailableTagsFromEntries } from "@/lib/expressions";
+import { getLibraryExportFormats } from "@/lib/library-export";
 import { getTopicTagLabel } from "@/lib/topic-tags";
 import { ExpressionEntry, LanguageCode } from "@/lib/types";
-import { usePersistedContentTypes } from "@/lib/use-persisted-content-types";
 import { usePersistedLanguage } from "@/lib/use-persisted-language";
 import styles from "./library-experience.module.css";
 
@@ -21,11 +21,39 @@ export function LibraryExperience({
   loadExpressions = fetchExpressionsForLanguage
 }: LibraryExperienceProps) {
   const [language, setLanguage] = usePersistedLanguage("en");
-  const [selectedContentTypes, toggleContentType] = usePersistedContentTypes();
   const [query, setQuery] = useState("");
   const [tag, setTag] = useState<string>("all");
   const [entries, setEntries] = useState(initialExpressions);
+  const [isDownloadMenuOpen, setIsDownloadMenuOpen] = useState(false);
   const hasSkippedInitialLoad = useRef(false);
+  const downloadMenuRef = useRef<HTMLDivElement>(null);
+  const paymentLinkUrl = process.env.NEXT_PUBLIC_LIBRARY_DOWNLOAD_PURCHASE_URL ?? "";
+
+  useEffect(() => {
+    if (!isDownloadMenuOpen) {
+      return;
+    }
+
+    const handlePointerDown = (event: PointerEvent) => {
+      if (!downloadMenuRef.current?.contains(event.target as Node)) {
+        setIsDownloadMenuOpen(false);
+      }
+    };
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setIsDownloadMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("pointerdown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isDownloadMenuOpen]);
 
   useEffect(() => {
     if (!hasSkippedInitialLoad.current && language === "en") {
@@ -58,10 +86,9 @@ export function LibraryExperience({
       filterExpressionsInEntries(entries, {
         language,
         query,
-        tag: tag === "all" ? undefined : tag,
-        contentTypes: selectedContentTypes
+        tag: tag === "all" ? undefined : tag
       }),
-    [entries, language, query, selectedContentTypes, tag]
+    [entries, language, query, tag]
   );
 
   return (
@@ -72,8 +99,6 @@ export function LibraryExperience({
           setLanguage(nextLanguage);
           setTag("all");
         }}
-        selectedContentTypes={selectedContentTypes}
-        onToggleContentType={toggleContentType}
         phraseCount={filtered.length}
       />
 
@@ -81,9 +106,7 @@ export function LibraryExperience({
         <div>
           <p className={styles.eyebrow}>Library</p>
           <h1>Browse practical expressions.</h1>
-          <p>
-            Search the curated phrase set by language, topic, or expression text.
-          </p>
+          <p>Search the curated phrase set by language, topic, or expression text.</p>
         </div>
       </header>
 
@@ -108,6 +131,54 @@ export function LibraryExperience({
             ))}
           </select>
         </label>
+
+        <div className={styles.downloadField} ref={downloadMenuRef}>
+          <span>Download</span>
+          <button
+            aria-expanded={isDownloadMenuOpen}
+            aria-haspopup="menu"
+            className={styles.downloadButton}
+            onClick={() => setIsDownloadMenuOpen((current) => !current)}
+            type="button"
+          >
+            Full library download
+            <span className={styles.lockBadge} aria-hidden="true">
+              Locked
+            </span>
+          </button>
+
+          {isDownloadMenuOpen ? (
+            <div className={styles.downloadMenu} role="menu" aria-label="Locked library download">
+              <p className={styles.downloadMenuNote}>
+                The full database export stays behind the upgrade wall.
+              </p>
+              <div className={styles.downloadFormatList}>
+                {getLibraryExportFormats().map((format) => (
+                  <button key={format} className={styles.downloadMenuItem} disabled type="button">
+                    {format === "markdown" ? "Markdown (.md)" : format.toUpperCase()}
+                    <span>Locked</span>
+                  </button>
+                ))}
+              </div>
+              {paymentLinkUrl ? (
+                <a
+                  className={styles.unlockButton}
+                  href={paymentLinkUrl}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Unlock with Stripe Payment Links
+                </a>
+              ) : (
+                <p className={styles.downloadMenuHint}>
+                  Set <code>NEXT_PUBLIC_LIBRARY_DOWNLOAD_PURCHASE_URL</code> to connect a Stripe
+                  Payment Link.
+                </p>
+              )}
+            </div>
+          ) : null}
+        </div>
+
       </section>
 
       <section className={styles.summary}>
@@ -125,7 +196,7 @@ export function LibraryExperience({
       ) : (
         <section className={styles.emptyState}>
           <h2>No matches yet</h2>
-          <p>Try a different search or switch back to all topics.</p>
+          <p>Try a different search or switch languages.</p>
         </section>
       )}
     </main>

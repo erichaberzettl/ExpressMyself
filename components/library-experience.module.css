@@ -8,6 +8,10 @@
   gap: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  padding: 1.15rem 1.25rem;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow);
 }
 
 .eyebrow {
@@ -32,7 +36,7 @@
 
 .toolbar {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   padding: 1.2rem;
   border-radius: var(--radius-lg);
@@ -59,6 +63,111 @@
   border-radius: 16px;
   padding: 0.85rem 0.95rem;
   background: rgba(255, 255, 255, 0.9);
+}
+
+.downloadField {
+  position: relative;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.downloadField > span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.downloadButton {
+  min-height: 48px;
+  border: 1px solid rgba(214, 97, 60, 0.22);
+  border-radius: 16px;
+  padding: 0.85rem 0.95rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(247, 214, 198, 0.62));
+  color: var(--text);
+  font-weight: 700;
+  text-align: left;
+}
+
+.lockBadge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.6rem;
+  padding: 0.18rem 0.52rem;
+  border-radius: 999px;
+  background: rgba(214, 97, 60, 0.12);
+  color: var(--accent);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.downloadMenu {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  display: grid;
+  gap: 0.75rem;
+  min-width: 16rem;
+  padding: 0.75rem;
+  border: 1px solid rgba(31, 41, 51, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 253, 248, 0.98);
+  box-shadow: var(--shadow);
+}
+
+.downloadMenuNote,
+.downloadMenuHint {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.downloadFormatList {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.downloadMenuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(31, 41, 51, 0.08);
+  border-radius: 14px;
+  padding: 0.75rem 0.85rem;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--text);
+  text-align: left;
+  font-weight: 700;
+}
+
+.downloadMenuItem span {
+  color: var(--accent);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.unlockButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.72rem 1rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+.downloadButton:hover,
+.downloadButton:focus-visible,
+.downloadMenuItem:hover,
+.downloadMenuItem:focus-visible {
+  background: rgba(214, 97, 60, 0.1);
 }
 
 .summary {
@@ -100,5 +209,10 @@
 
   .header {
     margin-top: 0.9rem;
+  }
+
+  .downloadMenu {
+    right: auto;
+    left: 0;
   }
 }

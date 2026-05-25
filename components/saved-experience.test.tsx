@@ -33,4 +33,23 @@ describe("SavedExperience", () => {
       expect(screen.getByText("Break a leg")).toBeInTheDocument();
     });
   });
+
+  it("shows the export menu on the saved page", async () => {
+    const user = userEvent.setup();
+    window.localStorage.setItem("express-myself-saved-ids", JSON.stringify(["en-break-a-leg"]));
+
+    render(<SavedExperience loadExpressionsByIds={async (ids) => getExpressionsByIds(ids)} />);
+
+    await waitFor(() => {
+      expect(screen.getByRole("button", { name: "Export shelf" })).toBeInTheDocument();
+    });
+
+    await user.click(screen.getByRole("button", { name: "Export shelf" }));
+
+    expect(screen.getByRole("menu", { name: "Export saved format" })).toBeInTheDocument();
+    expect(screen.getByRole("menuitem", { name: "CSV" })).toBeInTheDocument();
+    expect(screen.getByRole("menuitem", { name: "TSV" })).toBeInTheDocument();
+    expect(screen.getByRole("menuitem", { name: "Markdown (.md)" })).toBeInTheDocument();
+    expect(screen.getByRole("menuitem", { name: "JSON" })).toBeInTheDocument();
+  });
 });

@@ -8,6 +8,10 @@
   gap: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  padding: 1.15rem 1.25rem;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow);
 }
 
 .eyebrow {
@@ -28,7 +32,44 @@
 .header p {
   margin: 0;
   color: var(--muted);
-  max-width: 58ch;
+  width: 100%;
+}
+
+.exportMenu {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  display: grid;
+  gap: 0.35rem;
+  min-width: 13rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(31, 41, 51, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 253, 248, 0.98);
+  box-shadow: var(--shadow);
+}
+
+.exportMenuNote {
+  margin: 0 0 0.2rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.exportMenuItem {
+  border: 0;
+  border-radius: 14px;
+  padding: 0.72rem 0.85rem;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  font-weight: 700;
+}
+
+.exportMenuItem:hover,
+.exportMenuItem:focus-visible {
+  background: rgba(214, 97, 60, 0.1);
 }
 
 .emptyState a {

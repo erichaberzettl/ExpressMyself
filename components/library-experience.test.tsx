@@ -25,7 +25,7 @@ describe("LibraryExperience", () => {
     ).toBeInTheDocument();
   });
 
-  it("lets users combine category toggles", async () => {
+  it("filters results by topic", async () => {
     const user = userEvent.setup();
     const entries: ExpressionEntry[] = [
       {
@@ -37,8 +37,7 @@ describe("LibraryExperience", () => {
         exampleSentence: "Break a leg tonight.",
         exampleTranslation: "Good luck tonight.",
         difficulty: "basic",
-        tags: ["performance"],
-        contentType: "idiom"
+        tags: ["performance"]
       },
       {
         id: "en-colloquial",
@@ -49,8 +48,7 @@ describe("LibraryExperience", () => {
         exampleSentence: "No worries, I can handle it.",
         exampleTranslation: "It is fine, I can handle it.",
         difficulty: "basic",
-        tags: ["informal"],
-        contentType: "colloquialism"
+        tags: ["humor"]
       },
       {
         id: "en-word",
@@ -61,24 +59,41 @@ describe("LibraryExperience", () => {
         exampleSentence: "That comment sounded airheaded.",
         exampleTranslation: "That comment sounded silly.",
         difficulty: "intermediate",
-        tags: ["personality"],
-        contentType: "word"
+        tags: ["personality"]
       }
     ];
 
     render(<LibraryExperience initialExpressions={entries} loadExpressions={async () => entries} />);
 
-    await user.click(screen.getByRole("button", { name: "Choose categories" }));
-    await user.click(screen.getByRole("checkbox", { name: "Idioms" }));
-
-    expect(screen.queryByText("Break a leg")).not.toBeInTheDocument();
-    expect(screen.getByText("No worries")).toBeInTheDocument();
-    expect(screen.getByText("Airheaded")).toBeInTheDocument();
-
-    await user.click(screen.getByRole("checkbox", { name: "Idioms" }));
+    await user.selectOptions(screen.getByRole("combobox", { name: "Topic" }), "performance");
 
     expect(screen.getByText("Break a leg")).toBeInTheDocument();
-    expect(screen.getByText("No worries")).toBeInTheDocument();
-    expect(screen.getByText("Airheaded")).toBeInTheDocument();
+    expect(screen.queryByText("No worries")).not.toBeInTheDocument();
+    expect(screen.queryByText("Airheaded")).not.toBeInTheDocument();
+  });
+
+  it("shows a locked full-library download menu", async () => {
+    const user = userEvent.setup();
+    const previousPurchaseUrl = process.env.NEXT_PUBLIC_LIBRARY_DOWNLOAD_PURCHASE_URL;
+    process.env.NEXT_PUBLIC_LIBRARY_DOWNLOAD_PURCHASE_URL = "https://buy.stripe.com/test";
+    const englishExpressions = getExpressionsForLanguage("en");
+
+    render(
+      <LibraryExperience
+        initialExpressions={englishExpressions}
+        loadExpressions={async () => englishExpressions}
+      />
+    );
+
+    await user.click(screen.getByRole("button", { name: /full library download/i }));
+
+    expect(screen.getByRole("menu", { name: "Locked library download" })).toBeInTheDocument();
+    expect(screen.getByText("The full database export stays behind the upgrade wall.")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Unlock with Stripe Payment Links" })).toHaveAttribute(
+      "href",
+      "https://buy.stripe.com/test"
+    );
+
+    process.env.NEXT_PUBLIC_LIBRARY_DOWNLOAD_PURCHASE_URL = previousPurchaseUrl;
   });
 });

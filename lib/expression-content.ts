@@ -1,46 +1,4 @@
-import { ExpressionContentType, ExpressionEntry } from "./types";
-
-export const expressionContentTypes: ExpressionContentType[] = [
-  "idiom",
-  "colloquialism",
-  "word"
-];
-
-const contentTypeLabels: Record<ExpressionContentType, string> = {
-  idiom: "Idioms",
-  colloquialism: "Colloquialisms",
-  word: "Words"
-};
-
-export function getExpressionContentType(entry: ExpressionEntry): ExpressionContentType {
-  if (entry.contentType) {
-    return entry.contentType;
-  }
-
-  const normalizedTags = entry.tags.map((tag) => tag.toLowerCase());
-
-  if (
-    normalizedTags.some((tag) =>
-      ["colloquial", "colloquialism", "slang", "informal", "spoken"].includes(tag)
-    )
-  ) {
-    return "colloquialism";
-  }
-
-  if (!entry.expression.trim().includes(" ")) {
-    return "word";
-  }
-
-  return "idiom";
-}
-
-export function getExpressionContentTypeLabel(contentType: ExpressionContentType): string {
-  return contentTypeLabels[contentType];
-}
-
-function isImportedEntry(entry: ExpressionEntry): boolean {
-  return entry.tags.includes("imported");
-}
+import { ExpressionEntry } from "./types";
 
 const blockedPublicExpressionIds = new Set([
   "en-about-to-3",
@@ -60,6 +18,10 @@ const blockedPublicExpressionIds = new Set([
   "en-air-ones-dirty-linen-in-public-97"
 ]);
 
+function isImportedEntry(entry: ExpressionEntry): boolean {
+  return entry.tags.includes("imported");
+}
+
 function hasMissingMeaning(entry: ExpressionEntry): boolean {
   const meaning = entry.meaning.trim();
   return meaning.length === 0 || /^[.,;:!?-]+$/.test(meaning);
@@ -70,17 +32,13 @@ function hasBrokenImportedMeaning(entry: ExpressionEntry): boolean {
 }
 
 function isSingleWordImportedEntry(entry: ExpressionEntry): boolean {
-  return (
-    isImportedEntry(entry) &&
-    !entry.expression.includes(" ") &&
-    !entry.expression.includes("-")
-  );
+  return isImportedEntry(entry) && !entry.expression.includes(" ") && !entry.expression.includes("-");
 }
 
 function hasGenericImportedExample(entry: ExpressionEntry): boolean {
   return (
     isImportedEntry(entry) &&
-    /^People use ["“].+["”] as an?(?: idiomatic)? expression in [A-Za-zÀ-ÿ' .-]+\.?$/i.test(
+    /^People use ["“].+["”] as an? expression in [A-Za-zÀ-ÿ' .-]+\.?$/i.test(
       entry.exampleSentence.trim()
     )
   );
@@ -103,29 +61,18 @@ function hasWeakUsageNote(entry: ExpressionEntry): boolean {
 
   return (
     usageNote.length === 0 ||
-    /^Commonly used as an?(?: idiomatic)? expression in [A-Za-zÀ-ÿ' .-]+\.?$/i.test(usageNote) ||
-    /^Commonly used as an?(?: idiomatic)? colloquialism in [A-Za-zÀ-ÿ' .-]+\.?$/i.test(usageNote) ||
+    /^Commonly used as an? expression in [A-Za-zÀ-ÿ' .-]+\.?$/i.test(usageNote) ||
     normalizeComparableText(usageNote) === normalizeComparableText(entry.meaning)
   );
 }
 
-function hadWeakUsageNote(entry: ExpressionEntry): boolean {
-  return hasWeakUsageNote(entry);
-}
-
 function buildUsageNote(entry: ExpressionEntry): string {
   const meaning = trimSentence(entry.meaning);
-  const contentType = getExpressionContentType(entry);
   const lowerMeaning = meaning.toLowerCase().replace(/[.;:!?]+$/, "");
 
   const infinitiveMatch = meaning.match(/^To\s+(.+?)[.;:!?]?$/i);
   if (infinitiveMatch) {
     const action = infinitiveMatch[1];
-
-    if (contentType === "colloquialism") {
-      return `Use it in informal conversation when someone is about to ${action} or when you want to describe that kind of situation naturally.`;
-    }
-
     return `Use it when someone is about to ${action}, has already done it, or when that is the clearest way to describe what is happening.`;
   }
 
@@ -175,14 +122,6 @@ function buildUsageNote(entry: ExpressionEntry): string {
     return "Use it when talking about your own energy, health, or physical state in an everyday way.";
   }
 
-  if (contentType === "colloquialism") {
-    return `Use it in informal conversation when this mood, reaction, or social situation fits better than a literal description.`;
-  }
-
-  if (contentType === "word") {
-    return "Use it when this short expression captures the idea more naturally than a longer explanation would.";
-  }
-
   return "Use it when the situation fits this idea and you want to sound more natural, vivid, or culturally fluent than with a literal phrase.";
 }
 
@@ -216,7 +155,9 @@ function hasRedundantExampleTranslation(
 
 export function sanitizePublicExpressionEntry(entry: ExpressionEntry): ExpressionEntry {
   const meaning = trimSentence(entry.meaning);
-  const usageNote = hasWeakUsageNote(entry) ? buildUsageNote({ ...entry, meaning }) : trimSentence(entry.usageNote);
+  const usageNote = hasWeakUsageNote(entry)
+    ? buildUsageNote({ ...entry, meaning })
+    : trimSentence(entry.usageNote);
   const exampleSentence = hasUnhelpfulExampleSentence(entry) ? "" : trimSentence(entry.exampleSentence);
   const exampleTranslation = exampleSentence
     ? hasRedundantExampleTranslation(entry, exampleSentence)
@@ -248,10 +189,7 @@ function isLikelyWeakImportedEntry(entry: ExpressionEntry): boolean {
 
   const meaning = trimSentence(entry.meaning);
 
-  return (
-    meaning.length < 8 ||
-    normalizeComparableText(meaning) === getNormalizedExpressionKey(entry)
-  );
+  return meaning.length < 8 || normalizeComparableText(meaning) === getNormalizedExpressionKey(entry);
 }
 
 function getEntryQualityScore(entry: ExpressionEntry): number {
@@ -269,7 +207,7 @@ function getEntryQualityScore(entry: ExpressionEntry): number {
   score += Math.min(sanitized.meaning.length, 120) / 20;
   score += Math.min(sanitized.usageNote.length, 160) / 30;
   score -= isSingleWordImportedEntry(entry) ? 80 : 0;
-  score -= hadWeakUsageNote(entry) ? 25 : 0;
+  score -= hasWeakUsageNote(entry) ? 25 : 0;
   score -= hasGenericImportedExample(entry) ? 40 : 0;
 
   return score;

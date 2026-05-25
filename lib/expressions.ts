@@ -1,6 +1,5 @@
 import { expressions } from "./content";
 import { ExpressionEntry, ExpressionFilter, LanguageCode } from "./types";
-import { getExpressionContentType } from "./expression-content";
 import { CanonicalTopicTag, getVisibleTopicTags, normalizeEntryTags } from "./topic-tags";
 
 export function getExpressionsForLanguage(language: LanguageCode): ExpressionEntry[] {
@@ -203,30 +202,24 @@ export function filterExpressions({
   language,
   query,
   tag,
-  contentTypes
 }: ExpressionFilter): ExpressionEntry[] {
   return filterExpressionsInEntries(getExpressionsForLanguage(language), {
     language,
     query,
-    tag,
-    contentTypes
+    tag
   });
 }
 
 export function filterExpressionsInEntries(
   entries: ExpressionEntry[],
-  { language, query, tag, contentTypes }: ExpressionFilter
+  { language, query, tag }: ExpressionFilter
 ): ExpressionEntry[] {
   const normalizedQuery = query?.trim().toLowerCase();
   const normalizedTag = tag?.trim().toLowerCase();
-  const normalizedContentTypes = contentTypes?.length ? new Set(contentTypes) : null;
 
   return entries.filter((entry) => {
     const visibleTags = normalizeEntryTags(entry);
     const matchesTag = normalizedTag ? visibleTags.some((item) => item === normalizedTag) : true;
-    const matchesContentType = normalizedContentTypes
-      ? normalizedContentTypes.has(getExpressionContentType(entry))
-      : true;
     const matchesQuery = normalizedQuery
       ? [
           entry.expression,
@@ -240,7 +233,7 @@ export function filterExpressionsInEntries(
           .includes(normalizedQuery)
       : true;
 
-    return matchesTag && matchesContentType && matchesQuery;
+    return matchesTag && matchesQuery;
   });
 }
 

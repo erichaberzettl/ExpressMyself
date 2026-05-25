@@ -2,7 +2,6 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { HomeExperience } from "@/components/home-experience";
 import { getExpressionsForLanguage } from "@/lib/expressions";
-import { ExpressionEntry } from "@/lib/types";
 
 const loadExpressions = async () => getExpressionsForLanguage("en");
 
@@ -31,48 +30,13 @@ describe("HomeExperience", () => {
     expect(screen.getByRole("button", { name: /listen to/i })).toBeInTheDocument();
   });
 
-  it("lets users toggle categories from the main controls", async () => {
-    const user = userEvent.setup();
-    const entries: ExpressionEntry[] = [
-      {
-        id: "en-idiom",
-        language: "en",
-        expression: "Break a leg",
-        meaning: "Good luck.",
-        usageNote: "Before a performance.",
-        exampleSentence: "Break a leg tonight.",
-        exampleTranslation: "Good luck tonight.",
-        difficulty: "basic",
-        tags: ["performance"],
-        contentType: "idiom"
-      },
-      {
-        id: "en-word",
-        language: "en",
-        expression: "Airheaded",
-        meaning: "Silly or foolish.",
-        usageNote: "Informal description.",
-        exampleSentence: "That sounded airheaded.",
-        exampleTranslation: "That sounded foolish.",
-        difficulty: "intermediate",
-        tags: ["informal"],
-        contentType: "word"
-      }
-    ];
-
-    render(<HomeExperience initialExpressions={entries} loadExpressions={async () => entries} />);
-
-    expect(screen.getByText("2 phrases")).toBeInTheDocument();
-    await user.click(screen.getByRole("button", { name: "Choose categories" }));
-    await user.click(screen.getByRole("checkbox", { name: "Words" }));
-    expect(screen.getByText("1 phrases")).toBeInTheDocument();
-  });
-
-  it("speaks English with the browser's normal default voice", async () => {
+  it("speaks English with a normal preferred voice when available", async () => {
     const user = userEvent.setup();
     const speak = vi.fn();
     const cancel = vi.fn();
     const getVoices = vi.fn(() => [
+      { name: "Bells", lang: "en-US" },
+      { name: "Alex", lang: "en-US" },
       { name: "Samantha", lang: "en-US" },
       { name: "Google US English", lang: "en-US" }
     ]);
@@ -106,7 +70,7 @@ describe("HomeExperience", () => {
     expect(utterance.text).toBe(expression);
     expect(utterance.lang).toBe("en-US");
     expect(utterance.rate).toBe(1);
-    expect(utterance.voice).toBeUndefined();
+    expect(utterance.voice?.name).toBe("Alex");
   });
 
   it("does not assign an english voice to a spanish expression", async () => {

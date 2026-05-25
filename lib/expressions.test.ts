@@ -17,7 +17,7 @@ describe("expression helpers", () => {
     const result = filterExpressions({
       language: "en",
       tag: "work",
-      query: "meeting"
+      query: "alignment"
     });
 
     expect(result).toHaveLength(1);

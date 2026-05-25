@@ -6,7 +6,6 @@ import { ExpressionCard } from "@/components/expression-card";
 import { fetchExpressionsForLanguage } from "@/lib/client-expression-api";
 import { filterExpressionsInEntries, getDailyExpressionAtOffsetFromEntries } from "@/lib/expressions";
 import { ExpressionEntry, LanguageCode } from "@/lib/types";
-import { usePersistedContentTypes } from "@/lib/use-persisted-content-types";
 import { useDailyRotationSeed, usePersistedLanguage } from "@/lib/use-persisted-language";
 import styles from "./home-experience.module.css";
 
@@ -20,7 +19,6 @@ export function HomeExperience({
   loadExpressions = fetchExpressionsForLanguage
 }: HomeExperienceProps) {
   const [language, setLanguage, hasPersistedLanguage] = usePersistedLanguage("en");
-  const [selectedContentTypes, toggleContentType] = usePersistedContentTypes();
   const dailyRotationSeed = useDailyRotationSeed(hasPersistedLanguage);
   const [today] = useState(() => new Date());
   const [offset, setOffset] = useState(0);
@@ -29,7 +27,7 @@ export function HomeExperience({
 
   useEffect(() => {
     setOffset(0);
-  }, [language, selectedContentTypes]);
+  }, [language]);
 
   useEffect(() => {
     if (!hasSkippedInitialLoad.current && language === "en") {
@@ -59,10 +57,9 @@ export function HomeExperience({
   const filteredExpressions = useMemo(
     () =>
       filterExpressionsInEntries(languageExpressions, {
-        language,
-        contentTypes: selectedContentTypes
+        language
       }),
-    [language, languageExpressions, selectedContentTypes]
+    [language, languageExpressions]
   );
 
   const dailyExpression = useMemo(
@@ -84,8 +81,6 @@ export function HomeExperience({
       <AppHeader
         language={language}
         onLanguageChange={setLanguage}
-        selectedContentTypes={selectedContentTypes}
-        onToggleContentType={toggleContentType}
         phraseCount={filteredExpressions.length}
       />
 
@@ -93,8 +88,8 @@ export function HomeExperience({
         <p className={styles.eyebrow}>Daily phrase</p>
         <h1>A clean home for practical language.</h1>
         <p className={styles.lead}>
-          Learn common expressions, idioms, and everyday phrases with quick context you can save
-          and revisit.
+          Learn common expressions and everyday phrases with quick context you can save and
+          revisit.
         </p>
       </section>
 
@@ -108,7 +103,7 @@ export function HomeExperience({
         ) : (
           <article className={styles.emptyCard}>
             <h3>No expressions in this selection</h3>
-            <p>Turn one of the categories back on to keep browsing this language.</p>
+            <p>Try a different search or switch languages to keep browsing.</p>
           </article>
         )}
       </section>
@@ -125,8 +120,7 @@ export function HomeExperience({
         <article className={styles.infoCard}>
           <h3>Curated library</h3>
           <p>
-            Browse idioms, common expressions, and everyday phrases without adding account or app
-            clutter.
+            Browse common expressions and everyday phrases without adding account or app clutter.
           </p>
         </article>
       </section>

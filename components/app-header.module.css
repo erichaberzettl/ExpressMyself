@@ -1,10 +1,17 @@
+.shell {
+  display: grid;
+  grid-template-columns: minmax(0, 45rem) minmax(16rem, 1fr);
+  align-items: stretch;
+  gap: 1rem;
+}
+
 .banner {
   position: relative;
-  z-index: 20;
+  z-index: 30;
   display: grid;
   align-content: end;
   gap: 0.75rem;
-  width: min(100%, 45rem);
+  width: 100%;
   min-height: 8.2rem;
   padding: 1rem 1.1rem;
   overflow: visible;
@@ -16,6 +23,36 @@
   backdrop-filter: blur(14px);
 }
 
+.extensionPromo {
+  position: relative;
+  z-index: 10;
+  display: grid;
+  align-content: center;
+  gap: 0.32rem;
+  min-height: 8.2rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(31, 41, 51, 0.08);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(239, 247, 236, 0.82));
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.extensionPromo strong {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.extensionPromo p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.42;
+  width: 100%;
+}
+
 .brand {
   position: relative;
   z-index: 1;
@@ -25,7 +62,8 @@
   width: fit-content;
 }
 
-.bannerEyebrow {
+.bannerEyebrow,
+.promoEyebrow {
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.16em;
@@ -55,6 +93,22 @@
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
+}
+
+.bannerAction {
+  margin-left: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.bannerActionMenu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.5rem);
+  z-index: 40;
 }
 
 .count {
@@ -89,18 +143,29 @@
 }
 
 @media (max-width: 920px) {
-  .banner {
-    width: 100%;
+  .shell {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 560px) {
-  .banner {
+  .banner,
+  .extensionPromo {
     min-height: 9.2rem;
   }
 
   .nav {
     width: 100%;
+  }
+
+  .bannerAction {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .bannerActionMenu {
+    right: auto;
+    left: 0;
   }
 
   .navLink {

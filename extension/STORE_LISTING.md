@@ -22,7 +22,7 @@ ExpressMyself
 
 ## Short description
 
-Learn practical idioms and expressions from a lightweight popup and searchable phrase library.
+Learn practical expressions from a lightweight popup and searchable phrase library.
 
 ## Detailed description
 
@@ -35,7 +35,7 @@ Current features:
 - daily phrase rotation
 - support for 10 languages
 - searchable phrase library
-- topic and content-type filters
+- topic filters
 - saved phrases stored in the browser
 - speech playback for expressions
 
