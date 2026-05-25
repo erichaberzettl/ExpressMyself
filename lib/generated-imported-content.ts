@@ -643,6 +643,102 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
+    "id": "en-web-cut-somebody-some-slack",
+    "language": "en",
+    "expression": "Cut somebody some slack",
+    "meaning": "To be less critical of someone and give them some understanding or flexibility.",
+    "usageNote": "Use it when someone is under pressure, still learning, or made a minor mistake that does not deserve a harsh reaction. It sounds natural in everyday spoken English.",
+    "exampleSentence": "She is new to the team, so cut her some slack while she gets up to speed.",
+    "exampleTranslation": "She is new to the team, so be a little less hard on her while she learns the ropes.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ],
+  },
+  {
+    "id": "en-web-get-your-act-together",
+    "language": "en",
+    "expression": "Get your act together",
+    "meaning": "To become organized, focused, and in control of your behavior or work.",
+    "usageNote": "Use it when someone needs to stop being chaotic and start handling things more responsibly. It can sound blunt, so it fits best in informal or familiar contexts.",
+    "exampleSentence": "If we want to ship on Friday, we need to get our act together today.",
+    "exampleTranslation": "If we want to ship on Friday, we need to become organized and focused today.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ],
+  },
+  {
+    "id": "en-web-wrap-your-head-around-something",
+    "language": "en",
+    "expression": "Wrap your head around something",
+    "meaning": "To understand something complicated or mentally adjust to a difficult idea.",
+    "usageNote": "Use it for concepts that take real mental effort to grasp, not just simple facts. It often suggests the idea is intellectually or emotionally hard to process.",
+    "exampleSentence": "I am still trying to wrap my head around how much the architecture changed.",
+    "exampleTranslation": "I am still trying to fully understand how much the architecture changed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ],
+  },
+  {
+    "id": "en-web-by-the-skin-of-your-teeth",
+    "language": "en",
+    "expression": "By the skin of your teeth",
+    "meaning": "Only just barely, with almost no margin left.",
+    "usageNote": "Use it when someone succeeds, escapes, or arrives at the very last possible moment. It adds a vivid sense of narrowness and relief.",
+    "exampleSentence": "We caught the train by the skin of our teeth after sprinting through the station.",
+    "exampleTranslation": "We caught the train only just in time after sprinting through the station.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ],
+  },
+  {
+    "id": "en-web-take-it-with-a-grain-of-salt",
+    "language": "en",
+    "expression": "Take it with a grain of salt",
+    "meaning": "To treat information with some skepticism rather than accepting it completely.",
+    "usageNote": "Use it for rumors, exaggerations, or claims from sources that may be biased or unreliable. It implies caution, not total disbelief.",
+    "exampleSentence": "He loves dramatic stories, so take that version with a grain of salt.",
+    "exampleTranslation": "He loves dramatic stories, so do not accept that version too literally.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ],
+  },
+  {
+    "id": "en-web-the-elephant-in-the-room",
+    "language": "en",
+    "expression": "The elephant in the room",
+    "meaning": "An obvious major issue that everyone notices but avoids discussing.",
+    "usageNote": "Use it when silence around a big problem feels strained or unrealistic. It is common in meetings, family tensions, and public debates.",
+    "exampleSentence": "We spent an hour on minor details without mentioning the elephant in the room: the budget was gone.",
+    "exampleTranslation": "We spent an hour on minor details without mentioning the obvious major problem: the budget was gone.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ],
+  },
+  {
     "id": "en-above-and-beyond-0",
     "language": "en",
     "expression": "Above and beyond",
@@ -941,6 +1037,153 @@ export const importedExpressions: ExpressionEntry[] = [
       "imported",
       "reviewed"
     ]
+  },
+  {
+    "id": "es-web-de-punta-en-blanco",
+    "language": "es",
+    "expression": "De punta en blanco",
+    "literalTranslation": "From tip to white",
+    "meaning": "Dressed very elegantly or impeccably for a special occasion.",
+    "usageNote": "Use it when someone is especially polished, formal, or strikingly well dressed. It is more vivid than just saying someone is nicely dressed.",
+    "exampleSentence": "Llegó de punta en blanco a la boda y todos voltearon a verla.",
+    "exampleTranslation": "She arrived dressed to the nines at the wedding, and everyone turned to look at her.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ],
+  },
+  {
+    "id": "es-web-tener-la-negra",
+    "language": "es",
+    "expression": "Tener la negra",
+    "literalTranslation": "To have the black one",
+    "meaning": "To be having a streak of bad luck.",
+    "usageNote": "Use it when someone feels jinxed and one annoying setback seems to follow another. It is colloquial and best kept to informal conversation.",
+    "exampleSentence": "Esta semana tengo la negra: se me dañó el carro y también perdí las llaves.",
+    "exampleTranslation": "I have had terrible luck this week: my car broke down and I also lost my keys.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "colloquial",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ],
+  },
+  {
+    "id": "es-web-dar-gato-por-liebre",
+    "language": "es",
+    "expression": "Dar gato por liebre",
+    "literalTranslation": "To give cat instead of hare",
+    "meaning": "To deceive someone by giving them something worse than what was promised.",
+    "usageNote": "Use it when someone is tricked in a purchase, deal, or representation of quality. It often carries the idea of being swindled or shortchanged.",
+    "exampleSentence": "Nos dieron gato por liebre con ese hotel; las fotos no tenían nada que ver.",
+    "exampleTranslation": "They sold us a lemon with that hotel; the photos looked nothing like reality.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ],
+  },
+  {
+    "id": "es-web-no-pegar-un-ojo",
+    "language": "es",
+    "expression": "No pegar un ojo",
+    "literalTranslation": "Not to stick an eye",
+    "meaning": "To be unable to sleep at all.",
+    "usageNote": "Use it after a stressful night, noise, worry, or excitement kept someone awake. It is very common and broadly useful in everyday speech.",
+    "exampleSentence": "Con los nervios del examen no pegué un ojo en toda la noche.",
+    "exampleTranslation": "Because of exam nerves, I did not sleep a wink all night.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ],
+  },
+  {
+    "id": "es-web-andar-con-pies-de-plomo",
+    "language": "es",
+    "expression": "Andar con pies de plomo",
+    "literalTranslation": "To walk with feet of lead",
+    "meaning": "To proceed very carefully and cautiously.",
+    "usageNote": "Use it when a situation is delicate and acting too fast could cause problems. It works for social, professional, and political contexts.",
+    "exampleSentence": "Con ese cliente conviene andar con pies de plomo antes de prometer nada.",
+    "exampleTranslation": "With that client, it is best to proceed very carefully before promising anything.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ],
+  },
+  {
+    "id": "es-web-entre-la-espada-y-la-pared",
+    "language": "es",
+    "expression": "Entre la espada y la pared",
+    "literalTranslation": "Between the sword and the wall",
+    "meaning": "Trapped between two bad options with no easy way out.",
+    "usageNote": "Use it when someone is cornered by pressure, obligation, or conflicting consequences. It is a very practical idiom for work and personal dilemmas.",
+    "exampleSentence": "Estoy entre la espada y la pared: si acepto el recorte, despiden gente; si no, cierran el proyecto.",
+    "exampleTranslation": "I am stuck between a rock and a hard place: if I accept the cut, people get laid off; if I do not, they shut the project down.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ],
+  },
+  {
+    "id": "es-web-cada-uno-sabe-donde-aprieta-el-zapato",
+    "language": "es",
+    "expression": "Cada uno sabe donde aprieta el zapato",
+    "literalTranslation": "Each person knows where the shoe pinches",
+    "meaning": "Each person understands their own problems, limits, and pressures better than outsiders do.",
+    "usageNote": "Use it when reminding others not to judge too quickly from the outside. It fits especially well when someone has private constraints that are not obvious.",
+    "exampleSentence": "No critiques tan fácil su decisión; cada uno sabe donde aprieta el zapato.",
+    "exampleTranslation": "Do not criticize that decision so easily; each person knows where the shoe pinches for them.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-proverbs"
+    ],
+  },
+  {
+    "id": "es-web-haz-el-bien-y-no-mires-a-quien",
+    "language": "es",
+    "expression": "Haz el bien y no mires a quien",
+    "literalTranslation": "Do good and do not look at whom",
+    "meaning": "Do the right thing without being selective about who benefits from it.",
+    "usageNote": "Use it to encourage generosity or decency without keeping score. It has a proverb-like, moral tone rather than a casual one.",
+    "exampleSentence": "Ayúdalo si puedes; haz el bien y no mires a quien.",
+    "exampleTranslation": "Help him if you can; do good without worrying about who receives it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-proverbs"
+    ],
   },
   {
     "id": "es-a-buenas-horas-0",
@@ -4138,6 +4381,186 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
+    "id": "sv-web-bara-doda-fiskar-foljer-strommen",
+    "language": "sv",
+    "expression": "Bara döda fiskar följer strömmen",
+    "literalTranslation": "Only dead fish follow the current",
+    "meaning": "Blindly going along with everyone else shows passivity rather than judgment.",
+    "usageNote": "Use it when praising independent thinking or criticizing people for following the crowd without reflection. It often has a slightly provocative, anti-conformist tone.",
+    "exampleSentence": "Hon tackade nej trots grupptrycket och sa att bara döda fiskar följer strömmen.",
+    "exampleTranslation": "She said no despite the peer pressure and said that only dead fish go with the flow.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen",
+      "larare-at"
+    ]
+  },
+  {
+    "id": "sv-web-hur-man-an-vander-sig-har-man-andan-bak",
+    "language": "sv",
+    "expression": "Hur man än vänder sig har man ändan bak",
+    "literalTranslation": "Whichever way you turn, you still have your backside behind you",
+    "meaning": "There is no perfect way out; every option comes with some unavoidable drawback.",
+    "usageNote": "Use it in no-win situations where every choice has a downside. The tone is earthy and conversational rather than formal.",
+    "exampleSentence": "Vi måste välja mellan dyrt och långsamt, så hur man än vänder sig har man ändan bak.",
+    "exampleTranslation": "We have to choose between expensive and slow, so there is no way around some downside.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
+  },
+  {
+    "id": "sv-web-lagom-ar-bast",
+    "language": "sv",
+    "expression": "Lagom är bäst",
+    "literalTranslation": "Just the right amount is best",
+    "meaning": "Moderation and balance are often better than excess.",
+    "usageNote": "Use it when warning against overdoing something or when a measured, practical middle ground is the smarter choice. It reflects a very recognizable Swedish preference for balance.",
+    "exampleSentence": "Ta inte på dig fem projekt samtidigt, lagom är bäst.",
+    "exampleTranslation": "Do not take on five projects at once; a balanced amount is best.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
+  },
+  {
+    "id": "sv-web-lugn-som-en-filbunke",
+    "language": "sv",
+    "expression": "Lugn som en filbunke",
+    "literalTranslation": "Calm as a bowl of cultured milk",
+    "meaning": "Extremely calm, steady, and unbothered.",
+    "usageNote": "Use it for someone who stays strikingly composed while other people are stressed. It is vivid, informal, and distinctly Swedish in imagery.",
+    "exampleSentence": "Alla andra stressade inför presentationen, men hon var lugn som en filbunke.",
+    "exampleTranslation": "Everyone else was stressed before the presentation, but she was calm as could be.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
+  },
+  {
+    "id": "sv-web-man-ska-inte-lagga-nasan-i-blot",
+    "language": "sv",
+    "expression": "Man ska inte lägga näsan i blöt",
+    "literalTranslation": "You should not put your nose in the wet",
+    "meaning": "You should not meddle in matters that are not your business.",
+    "usageNote": "Use it when someone is interfering in another person's private issue or giving unwanted input. It can sound mildly scolding, so it fits best in informal contexts.",
+    "exampleSentence": "Jag försöker att inte lägga näsan i blöt när två kollegor har en privat konflikt.",
+    "exampleTranslation": "I try not to meddle when two coworkers are having a private conflict.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
+  },
+  {
+    "id": "sv-web-sagt-ord-och-kastad-sten-kan-inte-tas-tillbaka",
+    "language": "sv",
+    "expression": "Sagt ord och kastad sten kan inte tas tillbaka",
+    "literalTranslation": "A spoken word and a thrown stone cannot be taken back",
+    "meaning": "Words and actions can have irreversible consequences once they are out.",
+    "usageNote": "Use it to stress restraint before speaking or acting in anger. It works especially well when the damage from a careless moment may last much longer than the moment itself.",
+    "exampleSentence": "Skicka inte mejlet i ilska, sagt ord och kastad sten kan inte tas tillbaka.",
+    "exampleTranslation": "Do not send the email in anger; once words and actions are out, you cannot take them back.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "larare-at"
+    ]
+  },
+  {
+    "id": "sv-web-upp-som-en-sol-ner-som-en-pannkaka",
+    "language": "sv",
+    "expression": "Upp som en sol, ner som en pannkaka",
+    "literalTranslation": "Up like a sun, down like a pancake",
+    "meaning": "Something begins impressively but ends in disappointment or loss of momentum.",
+    "usageNote": "Use it when enthusiasm, status, or success fades quickly after a strong start. The phrase is often used with a wry, slightly amused tone.",
+    "exampleSentence": "Lanseringen var upp som en sol, ner som en pannkaka efter den första veckan.",
+    "exampleTranslation": "The launch started brilliantly and then fell flat after the first week.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "larare-at"
+    ]
+  },
+  {
+    "id": "sv-web-kommer-tid-kommer-rad",
+    "language": "sv",
+    "expression": "Kommer tid kommer råd",
+    "literalTranslation": "When time comes, advice comes",
+    "meaning": "Given a little time, a solution or workable idea will usually appear.",
+    "usageNote": "Use it to calm people when the answer is not ready yet but rushing would not help. It suggests patience without total passivity.",
+    "exampleSentence": "Vi behöver inte lösa allt i kväll, kommer tid kommer råd.",
+    "exampleTranslation": "We do not need to solve everything tonight; with a little time, a solution will come.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
+  },
+  {
+    "id": "sv-web-man-maste-ratta-munnen-efter-matsacken",
+    "language": "sv",
+    "expression": "Man måste rätta munnen efter matsäcken",
+    "literalTranslation": "You have to adjust your mouth to the food bag",
+    "meaning": "You have to adapt your expectations and spending to the resources you actually have.",
+    "usageNote": "Use it about budgets, practical limits, or situations where ambition needs to match reality. It often carries a pragmatic, unsentimental tone.",
+    "exampleSentence": "Vi hade velat boka något lyxigare, men man måste rätta munnen efter matsäcken.",
+    "exampleTranslation": "We would have liked to book something more luxurious, but you have to live within your means.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
+  },
+  {
+    "id": "sv-web-sjalv-ar-basta-drang",
+    "language": "sv",
+    "expression": "Själv är bästa dräng",
+    "literalTranslation": "Yourself is the best farmhand",
+    "meaning": "If you want something done properly, it is often best to do it yourself.",
+    "usageNote": "Use it when self-reliance feels more efficient than waiting for help. It can sound approving, but also a little stubborn if someone refuses all delegation.",
+    "exampleSentence": "Till slut gjorde han rapporten själv, själv är bästa dräng.",
+    "exampleTranslation": "In the end he wrote the report himself; if you want it done right, do it yourself.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "larare-at"
+    ]
+  },
+  {
     "id": "sv-ana-ugglor-i-mossen-0",
     "language": "sv",
     "expression": "Ana ugglor i mossen",
@@ -4522,4 +4945,3 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   }
 ];
-

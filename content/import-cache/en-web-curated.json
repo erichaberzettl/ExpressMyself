@@ -1,0 +1,74 @@
+[
+  {
+    "id": "en-web-cut-somebody-some-slack",
+    "language": "en",
+    "expression": "Cut somebody some slack",
+    "meaning": "To be less critical of someone and give them some understanding or flexibility.",
+    "usageNote": "Use it when someone is under pressure, still learning, or made a minor mistake that does not deserve a harsh reaction. It sounds natural in everyday spoken English.",
+    "exampleSentence": "She is new to the team, so cut her some slack while she gets up to speed.",
+    "exampleTranslation": "She is new to the team, so be a little less hard on her while she learns the ropes.",
+    "difficulty": "basic",
+    "tags": ["idiom", "imported", "reviewed", "ef"],
+    "contentType": "idiom"
+  },
+  {
+    "id": "en-web-get-your-act-together",
+    "language": "en",
+    "expression": "Get your act together",
+    "meaning": "To become organized, focused, and in control of your behavior or work.",
+    "usageNote": "Use it when someone needs to stop being chaotic and start handling things more responsibly. It can sound blunt, so it fits best in informal or familiar contexts.",
+    "exampleSentence": "If we want to ship on Friday, we need to get our act together today.",
+    "exampleTranslation": "If we want to ship on Friday, we need to become organized and focused today.",
+    "difficulty": "basic",
+    "tags": ["idiom", "imported", "reviewed", "ef"],
+    "contentType": "idiom"
+  },
+  {
+    "id": "en-web-wrap-your-head-around-something",
+    "language": "en",
+    "expression": "Wrap your head around something",
+    "meaning": "To understand something complicated or mentally adjust to a difficult idea.",
+    "usageNote": "Use it for concepts that take real mental effort to grasp, not just simple facts. It often suggests the idea is intellectually or emotionally hard to process.",
+    "exampleSentence": "I am still trying to wrap my head around how much the architecture changed.",
+    "exampleTranslation": "I am still trying to fully understand how much the architecture changed.",
+    "difficulty": "intermediate",
+    "tags": ["idiom", "imported", "reviewed", "ef"],
+    "contentType": "idiom"
+  },
+  {
+    "id": "en-web-by-the-skin-of-your-teeth",
+    "language": "en",
+    "expression": "By the skin of your teeth",
+    "meaning": "Only just barely, with almost no margin left.",
+    "usageNote": "Use it when someone succeeds, escapes, or arrives at the very last possible moment. It adds a vivid sense of narrowness and relief.",
+    "exampleSentence": "We caught the train by the skin of our teeth after sprinting through the station.",
+    "exampleTranslation": "We caught the train only just in time after sprinting through the station.",
+    "difficulty": "intermediate",
+    "tags": ["idiom", "imported", "reviewed", "ef"],
+    "contentType": "idiom"
+  },
+  {
+    "id": "en-web-take-it-with-a-grain-of-salt",
+    "language": "en",
+    "expression": "Take it with a grain of salt",
+    "meaning": "To treat information with some skepticism rather than accepting it completely.",
+    "usageNote": "Use it for rumors, exaggerations, or claims from sources that may be biased or unreliable. It implies caution, not total disbelief.",
+    "exampleSentence": "He loves dramatic stories, so take that version with a grain of salt.",
+    "exampleTranslation": "He loves dramatic stories, so do not accept that version too literally.",
+    "difficulty": "basic",
+    "tags": ["idiom", "imported", "reviewed", "ef"],
+    "contentType": "idiom"
+  },
+  {
+    "id": "en-web-the-elephant-in-the-room",
+    "language": "en",
+    "expression": "The elephant in the room",
+    "meaning": "An obvious major issue that everyone notices but avoids discussing.",
+    "usageNote": "Use it when silence around a big problem feels strained or unrealistic. It is common in meetings, family tensions, and public debates.",
+    "exampleSentence": "We spent an hour on minor details without mentioning the elephant in the room: the budget was gone.",
+    "exampleTranslation": "We spent an hour on minor details without mentioning the obvious major problem: the budget was gone.",
+    "difficulty": "intermediate",
+    "tags": ["idiom", "imported", "reviewed", "ef"],
+    "contentType": "idiom"
+  }
+]
