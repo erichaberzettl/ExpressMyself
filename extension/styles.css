@@ -1,20 +1,20 @@
 :root {
   color-scheme: light;
-  --bg: #f6f1e9;
-  --panel: rgba(255, 252, 247, 0.96);
+  --bg: #f6f0e8;
+  --panel: rgba(255, 255, 255, 0.84);
   --panel-strong: #fffdf8;
-  --line: rgba(101, 73, 32, 0.14);
-  --line-strong: rgba(101, 73, 32, 0.24);
-  --ink: #1f1a14;
-  --muted: #675847;
-  --accent: #b85c38;
-  --accent-strong: #8f3d21;
-  --accent-soft: rgba(184, 92, 56, 0.12);
-  --shadow: 0 18px 45px rgba(89, 63, 28, 0.12);
-  --radius-lg: 24px;
-  --radius-md: 16px;
+  --line: rgba(31, 41, 51, 0.12);
+  --line-strong: rgba(31, 41, 51, 0.22);
+  --ink: #1f2933;
+  --muted: #5e6b77;
+  --accent: #d6613c;
+  --accent-strong: #b95535;
+  --accent-soft: #f7d6c6;
+  --shadow: 0 18px 40px rgba(64, 45, 27, 0.12);
+  --radius-lg: 28px;
+  --radius-md: 18px;
   --radius-sm: 12px;
-  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", serif;
   --font-body: "Avenir Next", "Segoe UI", sans-serif;
 }
 
@@ -22,8 +22,9 @@
   border-radius: 28px;
   overflow: hidden;
   background:
-    radial-gradient(circle at top left, rgba(255, 214, 170, 0.72), transparent 35%),
-    linear-gradient(180deg, #fff8ef 0%, var(--bg) 55%, #efe3d1 100%);
+    radial-gradient(circle at top left, rgba(214, 97, 60, 0.18), transparent 32%),
+    radial-gradient(circle at 90% 20%, rgba(124, 176, 138, 0.2), transparent 28%),
+    linear-gradient(180deg, #fcf8f2 0%, var(--bg) 48%, #efe7dd 100%);
 }
 
 * {
@@ -35,8 +36,9 @@
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at top left, rgba(255, 214, 170, 0.72), transparent 35%),
-    linear-gradient(180deg, #fff8ef 0%, var(--bg) 55%, #efe3d1 100%);
+    radial-gradient(circle at top left, rgba(214, 97, 60, 0.18), transparent 32%),
+    radial-gradient(circle at 90% 20%, rgba(124, 176, 138, 0.2), transparent 28%),
+    linear-gradient(180deg, #fcf8f2 0%, var(--bg) 48%, #efe7dd 100%);
   color: var(--ink);
   font-family: var(--font-body);
   overflow-x: hidden;
@@ -44,6 +46,7 @@
 
 .popup-body {
   border-radius: 28px;
+  min-height: 0;
   overflow: hidden;
 }
 
@@ -70,8 +73,9 @@ a {
 .app-html {
   overflow-y: auto;
   background:
-    radial-gradient(circle at top left, rgba(255, 214, 170, 0.72), transparent 35%),
-    linear-gradient(180deg, #fff8ef 0%, var(--bg) 55%, #efe3d1 100%);
+    radial-gradient(circle at top left, rgba(214, 97, 60, 0.18), transparent 32%),
+    radial-gradient(circle at 90% 20%, rgba(124, 176, 138, 0.2), transparent 28%),
+    linear-gradient(180deg, #fcf8f2 0%, var(--bg) 48%, #efe7dd 100%);
 }
 
 .shell {
@@ -138,7 +142,7 @@ a {
 .app-controls {
   display: grid;
   gap: 0.6rem;
-  background: rgba(255, 255, 255, 0.66);
+  background: var(--panel);
 }
 
 .app-language-dock {
@@ -214,7 +218,7 @@ a {
   border-radius: var(--radius-lg);
   background: var(--panel);
   box-shadow: var(--shadow);
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
 }
 
 .hero {
@@ -306,7 +310,7 @@ a {
   align-items: center;
   border-radius: 999px;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.84);
   padding: 6px 10px;
   font-size: 0.82rem;
 }
@@ -342,7 +346,7 @@ a {
 
 .button-secondary,
 .link-button-secondary {
-  background: white;
+  background: var(--panel-strong);
   color: var(--ink);
   border-color: var(--line);
 }
@@ -355,7 +359,7 @@ a {
 
 .button.active-tab {
   background: var(--accent-soft);
-  border-color: rgba(184, 92, 56, 0.28);
+  border-color: rgba(214, 97, 60, 0.28);
   color: var(--accent-strong);
 }
 
@@ -391,7 +395,7 @@ a {
   padding: 0 12px;
   border-radius: 999px;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.72);
+  background: var(--panel-strong);
   color: var(--accent-strong);
   font-size: 0.85rem;
   text-align: center;
@@ -409,14 +413,14 @@ a {
 .popup-topbar-actions .link-button {
   width: 100%;
   border-color: var(--line);
-  background: rgba(255, 255, 255, 0.72);
+  background: var(--panel-strong);
   color: var(--accent-strong);
   box-shadow: none;
 }
 
 .popup-topbar-actions .button:hover,
 .popup-topbar-actions .link-button:hover {
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .popup-focus-card {
@@ -484,7 +488,7 @@ select {
   min-height: 42px;
   border-radius: 14px;
   border: 1px solid var(--line);
-  background: white;
+  background: var(--panel-strong);
   color: var(--ink);
   padding: 0 12px;
 }
@@ -496,7 +500,7 @@ select {
   border-radius: 999px;
   padding: 7px 12px;
   border: 1px solid var(--line);
-  background: white;
+  background: var(--panel-strong);
   cursor: pointer;
 }
 
