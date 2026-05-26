@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pull Expressions"
+  short_description: "Extract high-quality expression data from websites"
+  default_prompt: "Use $pull-expressions to extract expressions from this website and produce vetted app-ready entries."
