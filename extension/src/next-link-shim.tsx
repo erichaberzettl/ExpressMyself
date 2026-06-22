@@ -4,7 +4,7 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string;
 };
 
-const WEB_APP_BASE_URL = "http://localhost:3000";
+const WEB_APP_BASE_URL = "https://expressmyself.vercel.app";
 
 function mapHref(href: string): string {
   const url = new URL(WEB_APP_BASE_URL);

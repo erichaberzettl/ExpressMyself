@@ -1,20 +1,11 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo">
   <defs>
-    <linearGradient id="bg" x1="24" y1="22" x2="232" y2="232" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF3E8"/>
-      <stop offset="1" stop-color="#E6E9D8"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="58" y1="58" x2="196" y2="196" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#D6613C"/>
-      <stop offset="1" stop-color="#C24F2C"/>
+    <linearGradient id="bg" x1="28" y1="22" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6ED"/>
+      <stop offset="1" stop-color="#EFE7DD"/>
     </linearGradient>
   </defs>
-  <rect x="10" y="10" width="236" height="236" rx="56" fill="url(#bg)"/>
-  <rect x="22" y="22" width="212" height="212" rx="46" fill="white" fill-opacity="0.22" stroke="#D9CFC2" stroke-opacity="0.6"/>
-  <path d="M54 88C54 79.1634 61.1634 72 70 72H186C194.837 72 202 79.1634 202 88V168C202 176.837 194.837 184 186 184H70C61.1634 184 54 176.837 54 168V88Z" fill="url(#accent)" fill-opacity="0.16"/>
-  <path d="M76 93.5C76 89.9101 78.9101 87 82.5 87H173.5C177.09 87 180 89.9101 180 93.5C180 97.0899 177.09 100 173.5 100H82.5C78.9101 100 76 97.0899 76 93.5Z" fill="#D6613C"/>
-  <path d="M73 152C73 144.268 79.268 138 87 138H169C176.732 138 183 144.268 183 152C183 159.732 176.732 166 169 166H87C79.268 166 73 159.732 73 152Z" fill="#26323C" fill-opacity="0.96"/>
-  <path d="M101 121C101 114.373 106.373 109 113 109H143C149.627 109 155 114.373 155 121C155 127.627 149.627 133 143 133H113C106.373 133 101 127.627 101 121Z" fill="#FFF8F1" opacity="0.95"/>
-  <circle cx="115" cy="121" r="6" fill="#D6613C"/>
-  <path d="M140 114L148 121L140 128" stroke="#D6613C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="12" y="12" width="232" height="232" rx="56" fill="url(#bg)"/>
+  <rect x="28" y="28" width="200" height="200" rx="44" fill="#FFFDF9" fill-opacity="0.96" stroke="#D8C8B4" stroke-opacity="0.48"/>
+  <text x="128" y="162" text-anchor="middle" fill="#D6613C" font-family="Georgia, 'Times New Roman', serif" font-size="136" font-weight="700" letter-spacing="-0.08em">E</text>
 </svg>

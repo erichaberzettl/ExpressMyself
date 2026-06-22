@@ -1,6 +1,6 @@
 # ExpressMyself Privacy Policy
 
-Last updated: April 25, 2026
+Last updated: June 22, 2026
 
 ExpressMyself is a lightweight language-learning app and Chrome extension for browsing idioms, expressions, and everyday phrases.
 
@@ -36,4 +36,4 @@ The extension does not require a backend service to function and does not send s
 
 ## Contact
 
-If you publish this extension publicly, replace this section with your support email or website before submitting to the Chrome Web Store.
+For support, updates, and feedback, write to expressmyselflabs@gmail.com.

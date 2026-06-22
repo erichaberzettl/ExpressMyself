@@ -13,14 +13,18 @@ import styles from "./library-experience.module.css";
 
 type LibraryExperienceProps = {
   initialExpressions: ExpressionEntry[];
+  initialLanguage?: LanguageCode;
   loadExpressions?: (language: LanguageCode) => Promise<ExpressionEntry[]>;
 };
 
 export function LibraryExperience({
   initialExpressions,
+  initialLanguage = "en",
   loadExpressions = fetchExpressionsForLanguage
 }: LibraryExperienceProps) {
-  const [language, setLanguage] = usePersistedLanguage("en");
+  const [language, setLanguage] = usePersistedLanguage(initialLanguage, {
+    skipHydrationRead: initialLanguage !== "en"
+  });
   const [query, setQuery] = useState("");
   const [tag, setTag] = useState<string>("all");
   const [entries, setEntries] = useState(initialExpressions);
@@ -149,9 +153,6 @@ export function LibraryExperience({
 
           {isDownloadMenuOpen ? (
             <div className={styles.downloadMenu} role="menu" aria-label="Locked library download">
-              <p className={styles.downloadMenuNote}>
-                The full database export stays behind the upgrade wall.
-              </p>
               <div className={styles.downloadFormatList}>
                 {getLibraryExportFormats().map((format) => (
                   <button key={format} className={styles.downloadMenuItem} disabled type="button">
@@ -169,12 +170,7 @@ export function LibraryExperience({
                 >
                   Unlock with Stripe Payment Links
                 </a>
-              ) : (
-                <p className={styles.downloadMenuHint}>
-                  Set <code>NEXT_PUBLIC_LIBRARY_DOWNLOAD_PURCHASE_URL</code> to connect a Stripe
-                  Payment Link.
-                </p>
-              )}
+              ) : null}
             </div>
           ) : null}
         </div>

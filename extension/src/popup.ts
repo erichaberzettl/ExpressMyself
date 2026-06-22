@@ -28,7 +28,7 @@ type PopupOverrides = {
   savedIds?: string[];
 };
 
-const WEB_APP_BASE_URL = "http://localhost:3000";
+const WEB_APP_BASE_URL = "https://expressmyself.vercel.app";
 
 function getRequiredElement(id: string): HTMLElement {
   const element = document.getElementById(id);
@@ -169,7 +169,7 @@ const rerender = () => {
   const savedLink = createWebAppLink(
     "Saved",
     "/saved",
-    new URLSearchParams(),
+    new URLSearchParams({ language: state.language }),
     "link-button link-button-secondary"
   );
 

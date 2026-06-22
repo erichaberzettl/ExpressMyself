@@ -22,7 +22,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="site-shell">{children}</div>
+        <footer className="site-footer" aria-label="Site footer">
+          <a className="site-footer-contact" href="mailto:expressmyselflabs@gmail.com">
+            Contact
+          </a>
+        </footer>
+      </body>
     </html>
   );
 }

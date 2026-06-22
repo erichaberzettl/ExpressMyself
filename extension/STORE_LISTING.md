@@ -1,6 +1,6 @@
 # Chrome Web Store Submission Pack
 
-Last updated: April 25, 2026
+Last updated: June 22, 2026
 
 ## Package to upload
 

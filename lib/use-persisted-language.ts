@@ -60,12 +60,17 @@ function writeStoredString(key: string, value: string) {
   window.localStorage.setItem(key, value);
 }
 
-export function usePersistedLanguage(initialLanguage: LanguageCode) {
+export function usePersistedLanguage(initialLanguage: LanguageCode, options?: { skipHydrationRead?: boolean }) {
   const [language, setLanguage] = useState<LanguageCode>(initialLanguage);
   const [hasPersistedLanguage, setHasPersistedLanguage] = useState(false);
   const hasHydrated = useRef(false);
 
   useEffect(() => {
+    if (options?.skipHydrationRead) {
+      hasHydrated.current = true;
+      return;
+    }
+
     let cancelled = false;
 
     void readStoredString(PERSISTED_LANGUAGE_STORAGE_KEY).then((stored) => {
@@ -80,7 +85,7 @@ export function usePersistedLanguage(initialLanguage: LanguageCode) {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [options?.skipHydrationRead]);
 
   useEffect(() => {
     if (!hasHydrated.current) {

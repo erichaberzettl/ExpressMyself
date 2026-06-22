@@ -35,9 +35,9 @@ The app is now set up to scale to 10 Latin-script languages with imported expres
    `nvm use`
 2. Install dependencies locally in this repo:
    `npm install`
-3. Start the dev server:
-   `npm run dev`
-4. Open [http://localhost:3000](http://localhost:3000)
+3. Open the live app:
+   [https://expressmyself.vercel.app](https://expressmyself.vercel.app)
+4. For local development, start the dev server with `npm run dev` and open `http://localhost:3000`
 
 ## Useful scripts
 

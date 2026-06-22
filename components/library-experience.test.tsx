@@ -88,7 +88,7 @@ describe("LibraryExperience", () => {
     await user.click(screen.getByRole("button", { name: /full library download/i }));
 
     expect(screen.getByRole("menu", { name: "Locked library download" })).toBeInTheDocument();
-    expect(screen.getByText("The full database export stays behind the upgrade wall.")).toBeInTheDocument();
+    expect(screen.queryByText("The full database export stays behind the upgrade wall.")).toBeNull();
     expect(screen.getByRole("link", { name: "Unlock with Stripe Payment Links" })).toHaveAttribute(
       "href",
       "https://buy.stripe.com/test"

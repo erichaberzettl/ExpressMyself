@@ -47,53 +47,45 @@ def create_icon(size: int) -> None:
     image = draw_gradient(size)
     draw = ImageDraw.Draw(image)
 
-    accent = (184, 92, 56, 255)
-    accent_dark = (143, 61, 33, 255)
-    ink = (31, 26, 20, 255)
+    ink = (214, 97, 60, 255)
 
     shadow = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     shadow_draw = ImageDraw.Draw(shadow)
     shadow_draw.rounded_rectangle(
-        (size * 0.14, size * 0.16, size * 0.86, size * 0.84),
-        radius=size * 0.18,
-        fill=(90, 63, 28, 70)
+        (size * 0.16, size * 0.16, size * 0.84, size * 0.84),
+        radius=size * 0.2,
+        fill=(90, 63, 28, 52)
     )
-    shadow = shadow.filter(ImageFilter.GaussianBlur(size * 0.045))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(size * 0.04))
     image.alpha_composite(shadow)
 
     draw.rounded_rectangle(
-        (size * 0.12, size * 0.14, size * 0.88, size * 0.82),
-        radius=size * 0.18,
-        fill=(255, 252, 247, 245),
-        outline=(161, 123, 72, 55),
-        width=max(1, size // 64)
+        (size * 0.14, size * 0.14, size * 0.86, size * 0.82),
+        radius=size * 0.2,
+        fill=(255, 252, 247, 246),
+        outline=(161, 123, 72, 34),
+        width=max(1, size // 72)
     )
 
-    draw.ellipse(
-        (size * 0.26, size * 0.24, size * 0.74, size * 0.72),
-        fill=accent
-    )
-    draw.ellipse(
-        (size * 0.34, size * 0.31, size * 0.66, size * 0.63),
-        fill=(255, 242, 232, 255)
-    )
-
-    draw.arc(
-        (size * 0.21, size * 0.17, size * 0.79, size * 0.75),
-        start=210,
-        end=340,
-        fill=accent_dark,
-        width=max(1, size // 18)
-    )
-
+    letter_font = font(int(size * 0.56), bold=True)
     letter = "E"
-    letter_font = font(int(size * 0.34), bold=True)
     box = draw.textbbox((0, 0), letter, font=letter_font)
-    text_x = (size - (box[2] - box[0])) / 2
-    text_y = size * 0.26
+    text_width = box[2] - box[0]
+    text_height = box[3] - box[1]
+    text_x = (size - text_width) / 2 - box[0]
+    text_y = (size - text_height) / 2 - box[1] - size * 0.015
     draw.text((text_x, text_y), letter, fill=ink, font=letter_font)
 
     image.save(ASSETS_DIR / f"icon-{size}.png")
+
+
+def create_app_icons() -> None:
+    for size in (16, 32, 48, 128, 256):
+        create_icon(size)
+
+    icon_256 = ASSETS_DIR / "icon-256.png"
+    (ROOT / "app" / "icon.png").write_bytes(icon_256.read_bytes())
+    (ROOT / "app" / "favicon.png").write_bytes(icon_256.read_bytes())
 
 
 def create_store_banner() -> None:
@@ -265,8 +257,7 @@ def create_saved_screenshot() -> None:
 
 if __name__ == "__main__":
     ensure_dirs()
-    for size in (16, 32, 48, 128):
-        create_icon(size)
+    create_app_icons()
     create_store_banner()
     create_popup_screenshot()
     create_library_screenshot()

@@ -12,17 +12,23 @@ import {
   serializeLibraryEntries,
   type LibraryExportFormat
 } from "@/lib/library-export";
-import { ExpressionEntry } from "@/lib/types";
+import { ExpressionEntry, LanguageCode } from "@/lib/types";
 import { usePersistedLanguage } from "@/lib/use-persisted-language";
 import { useSavedExpressions } from "@/lib/use-saved-expressions";
 import styles from "./saved-experience.module.css";
 
 type SavedExperienceProps = {
+  initialLanguage?: LanguageCode;
   loadExpressionsByIds?: (ids: string[]) => Promise<ExpressionEntry[]>;
 };
 
-export function SavedExperience({ loadExpressionsByIds = fetchExpressionsByIds }: SavedExperienceProps) {
-  const [language, setLanguage] = usePersistedLanguage("en");
+export function SavedExperience({
+  initialLanguage = "en",
+  loadExpressionsByIds = fetchExpressionsByIds
+}: SavedExperienceProps) {
+  const [language, setLanguage] = usePersistedLanguage(initialLanguage, {
+    skipHydrationRead: initialLanguage !== "en"
+  });
   const [isExportMenuOpen, setIsExportMenuOpen] = useState(false);
   const { savedIds } = useSavedExpressions();
   const [savedExpressions, setSavedExpressions] = useState<ExpressionEntry[]>([]);
@@ -130,7 +136,6 @@ export function SavedExperience({ loadExpressionsByIds = fetchExpressionsByIds }
         bannerActionMenu={
           isExportMenuOpen ? (
             <div className={styles.exportMenu} role="menu" aria-label="Export saved format">
-              <p className={styles.exportMenuNote}>Keep the basics free and lightweight.</p>
               {getLibraryExportFormats().map((format) => (
                 <button
                   key={format}
