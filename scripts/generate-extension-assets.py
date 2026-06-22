@@ -43,11 +43,34 @@ def draw_gradient(size: int) -> Image.Image:
     return image
 
 
-def create_icon(size: int) -> None:
-    image = draw_gradient(size)
+def create_icon(size: int, padded: bool = False) -> None:
+    image = Image.new("RGBA", (size, size), (0, 0, 0, 0)) if padded else draw_gradient(size)
     draw = ImageDraw.Draw(image)
 
     ink = (214, 97, 60, 255)
+
+    if padded:
+        canvas = size
+        inner = int(size * 0.75)
+        offset = (canvas - inner) / 2
+        draw.rounded_rectangle(
+            (offset, offset, offset + inner, offset + inner),
+            radius=inner * 0.22,
+            fill=(255, 252, 247, 246),
+            outline=(161, 123, 72, 34),
+            width=max(1, size // 72)
+        )
+
+        letter_font = font(int(size * 0.56), bold=True)
+        letter = "E"
+        box = draw.textbbox((0, 0), letter, font=letter_font)
+        text_width = box[2] - box[0]
+        text_height = box[3] - box[1]
+        text_x = (size - text_width) / 2 - box[0]
+        text_y = (size - text_height) / 2 - box[1] - size * 0.015
+        draw.text((text_x, text_y), letter, fill=ink, font=letter_font)
+        image.save(ASSETS_DIR / f"icon-{size}.png")
+        return
 
     shadow = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     shadow_draw = ImageDraw.Draw(shadow)
@@ -80,8 +103,9 @@ def create_icon(size: int) -> None:
 
 
 def create_app_icons() -> None:
-    for size in (16, 32, 48, 128, 256):
+    for size in (16, 32, 48, 256):
         create_icon(size)
+    create_icon(128, padded=True)
 
     icon_256 = ASSETS_DIR / "icon-256.png"
     (ROOT / "app" / "icon.png").write_bytes(icon_256.read_bytes())
@@ -183,6 +207,10 @@ def base_screenshot(title: str, subtitle: str) -> tuple[Image.Image, ImageDraw.I
     return image, draw
 
 
+def save_opaque_screenshot(image: Image.Image, path: Path) -> None:
+    image.convert("RGB").save(path)
+
+
 def create_popup_screenshot() -> None:
     image, draw = base_screenshot("Popup view", "One-click daily review with listening and saved phrases.")
 
@@ -210,7 +238,7 @@ def create_popup_screenshot() -> None:
         draw.text((680, y), item, fill=(87, 73, 60), font=font(24))
         y += 48
 
-    image.save(SCREENSHOT_DIR / "popup-daily.png")
+    save_opaque_screenshot(image, SCREENSHOT_DIR / "popup-daily.png")
 
 
 def draw_library_card(draw: ImageDraw.ImageDraw, x: int, y: int, title: str, body: str, chips: list[str]) -> None:
@@ -238,7 +266,7 @@ def create_library_screenshot() -> None:
     draw_library_card(draw, 448, 354, "Meter la pata", "A casual way to admit you made a mistake or said something awkward.", ["Mistakes", "Saved"])
     draw_library_card(draw, 804, 354, "Tomar el pelo", "A playful phrase for teasing or joking with someone.", ["Humor", "Daily life"])
 
-    image.save(SCREENSHOT_DIR / "library-view.png")
+    save_opaque_screenshot(image, SCREENSHOT_DIR / "library-view.png")
 
 
 def create_saved_screenshot() -> None:
@@ -252,7 +280,7 @@ def create_saved_screenshot() -> None:
     draw_library_card(draw, 448, 334, "On the same page", "Use it when you want to check that people understand something the same way.", ["Communication", "Saved"])
     draw_library_card(draw, 804, 334, "In bocca al lupo", "A common Italian expression used to encourage someone before something important.", ["Italian", "Encouragement"])
 
-    image.save(SCREENSHOT_DIR / "saved-view.png")
+    save_opaque_screenshot(image, SCREENSHOT_DIR / "saved-view.png")
 
 
 if __name__ == "__main__":
