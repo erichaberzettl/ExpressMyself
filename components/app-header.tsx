@@ -93,6 +93,14 @@ export function AppHeader({
         <span className={styles.promoEyebrow}>Chrome extension</span>
         <strong>Practice from your toolbar.</strong>
         <p>Daily phrases, pronunciation, and saved expressions in one quick browser popup.</p>
+        <a
+          className={styles.extensionCta}
+          href="https://chromewebstore.google.com/detail/expressmyself/gieddoeddmehjjhohopfoechkhdpipjo"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Get the extension
+        </a>
       </aside>
     </section>
   );
