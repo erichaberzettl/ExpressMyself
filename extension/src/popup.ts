@@ -2,7 +2,7 @@ import { languages } from "../../lib/languages";
 import { getDailyExpressionAtOffsetFromEntries, getExpressionsForLanguage } from "../../lib/expressions";
 import { ExpressionEntry, LanguageCode } from "../../lib/types";
 import { renderExpressionCard } from "./render";
-import { speakExpression } from "./speech";
+import { speakExpression } from "../../lib/speech";
 import {
   DAILY_ROTATION_SEED_KEY,
   getStoredString,
@@ -28,8 +28,6 @@ type PopupOverrides = {
   savedIds?: string[];
 };
 
-const WEB_APP_BASE_URL = "https://expressmyself.vercel.app";
-
 function getRequiredElement(id: string): HTMLElement {
   const element = document.getElementById(id);
 
@@ -42,7 +40,21 @@ function getRequiredElement(id: string): HTMLElement {
 
 const root = getRequiredElement("popup-root");
 
-const entriesByLanguage = new Map(languages.map((language) => [language.code, getExpressionsForLanguage(language.code)]));
+// Compute (and cache) the ordered expression list only for the language the
+// popup actually shows, instead of eagerly building all languages on open.
+const entriesByLanguageCache = new Map<LanguageCode, ExpressionEntry[]>();
+
+function getEntriesForLanguage(language: LanguageCode): ExpressionEntry[] {
+  const cached = entriesByLanguageCache.get(language);
+
+  if (cached) {
+    return cached;
+  }
+
+  const entries = getExpressionsForLanguage(language);
+  entriesByLanguageCache.set(language, entries);
+  return entries;
+}
 
 const state: PopupState = {
   language: "en",
@@ -53,15 +65,28 @@ const state: PopupState = {
 };
 
 function renderStartupError(message: string) {
-  root.innerHTML = `
-    <section class="panel panel-error">
-      <div class="stack">
-        <span class="eyebrow">Popup error</span>
-        <h2>ExpressMyself could not load</h2>
-        <p class="summary">${message}</p>
-      </div>
-    </section>
-  `;
+  root.innerHTML = "";
+
+  const section = document.createElement("section");
+  section.className = "panel panel-error";
+
+  const stack = document.createElement("div");
+  stack.className = "stack";
+
+  const eyebrow = document.createElement("span");
+  eyebrow.className = "eyebrow";
+  eyebrow.textContent = "Popup error";
+
+  const heading = document.createElement("h2");
+  heading.textContent = "ExpressMyself could not load";
+
+  const summary = document.createElement("p");
+  summary.className = "summary";
+  summary.textContent = message;
+
+  stack.append(eyebrow, heading, summary);
+  section.append(stack);
+  root.append(section);
 }
 
 function createRotationSeed(): string {
@@ -90,12 +115,14 @@ function readPopupOverrides(): PopupOverrides {
   };
 }
 
-function createWebAppLink(label: string, pathname: string, params: URLSearchParams, className: string) {
+// Link to the extension's own bundled page (app.html) rather than the external
+// website, so the saved shelf and language shown here stay in sync with the
+// popup (both read chrome.storage.local; the website uses a separate origin).
+function createExtensionPageLink(label: string, view: string, className: string) {
   const link = document.createElement("a");
   link.className = className;
-  const url = new URL(pathname, WEB_APP_BASE_URL);
-  url.search = params.toString();
-  link.href = url.toString();
+  const params = new URLSearchParams({ view });
+  link.href = `app.html?${params.toString()}`;
   link.target = "_blank";
   link.rel = "noreferrer";
   link.textContent = label;
@@ -103,7 +130,7 @@ function createWebAppLink(label: string, pathname: string, params: URLSearchPara
 }
 
 const rerender = () => {
-  const entries = entriesByLanguage.get(state.language) ?? [];
+  const entries = getEntriesForLanguage(state.language);
   const currentExpression =
     entries.length > 0
       ? getDailyExpressionAtOffsetFromEntries(
@@ -125,10 +152,16 @@ const rerender = () => {
 
   const brand = document.createElement("div");
   brand.className = "popup-brand";
-  brand.innerHTML = `
-    <span class="eyebrow">ExpressMyself</span>
-    <span class="popup-brand-name">Daily</span>
-  `;
+
+  const brandEyebrow = document.createElement("span");
+  brandEyebrow.className = "eyebrow";
+  brandEyebrow.textContent = "ExpressMyself";
+
+  const brandName = document.createElement("span");
+  brandName.className = "popup-brand-name";
+  brandName.textContent = "Daily";
+
+  brand.append(brandEyebrow, brandName);
 
   const languageField = document.createElement("label");
   languageField.className = "language-menu";
@@ -160,18 +193,8 @@ const rerender = () => {
   });
   languageField.append(languageSelect);
 
-  const libraryLink = createWebAppLink(
-    "Library",
-    "/library",
-    new URLSearchParams({ language: state.language }),
-    "link-button link-button-primary"
-  );
-  const savedLink = createWebAppLink(
-    "Saved",
-    "/saved",
-    new URLSearchParams({ language: state.language }),
-    "link-button link-button-secondary"
-  );
+  const libraryLink = createExtensionPageLink("Library", "library", "link-button link-button-primary");
+  const savedLink = createExtensionPageLink("Saved", "saved", "link-button link-button-secondary");
 
   const actions = document.createElement("div");
   actions.className = "popup-topbar-actions";

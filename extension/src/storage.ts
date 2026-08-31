@@ -164,10 +164,16 @@ export function watchStoredKey(key: string, callback: () => void): () => void {
   }
 
   const listener = (event: Event) => {
-    if (
-      event instanceof StorageEvent ||
-      (event instanceof CustomEvent && event.detail?.key === key)
-    ) {
+    if (event instanceof StorageEvent) {
+      // event.key is null when storage is cleared wholesale; otherwise only
+      // react to the key we are watching.
+      if (event.key === null || event.key === key) {
+        callback();
+      }
+      return;
+    }
+
+    if (event instanceof CustomEvent && event.detail?.key === key) {
       callback();
     }
   };

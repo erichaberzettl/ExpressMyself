@@ -39,7 +39,10 @@ export function renderExpressionCard(options: {
 
   const meta = document.createElement("div");
   meta.className = "stack";
-  meta.innerHTML = `<span class="eyebrow">${language.nativeLabel}</span>`;
+  const metaLabel = document.createElement("span");
+  metaLabel.className = "eyebrow";
+  metaLabel.textContent = language.nativeLabel;
+  meta.append(metaLabel);
 
   const actions = document.createElement("div");
   actions.className = "card-actions";

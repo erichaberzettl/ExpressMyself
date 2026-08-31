@@ -1,11 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { AppHeader } from "@/components/app-header";
 import { ExpressionCard } from "@/components/expression-card";
 import { fetchExpressionsByIds } from "@/lib/client-expression-api";
-import { filterExpressionsInEntries } from "@/lib/expressions";
 import {
   getLibraryExportFormats,
   getSavedShelfExportFilename,
@@ -59,14 +58,6 @@ export function SavedExperience({
     };
   }, [savedIds, loadExpressionsByIds]);
 
-  const filteredSavedExpressions = useMemo(
-    () =>
-      filterExpressionsInEntries(savedExpressions, {
-        language
-      }),
-    [language, savedExpressions]
-  );
-
   useEffect(() => {
     if (!isExportMenuOpen) {
       return;
@@ -97,7 +88,7 @@ export function SavedExperience({
 
   const downloadExport = (format: LibraryExportFormat) => {
     const content = serializeLibraryEntries(
-      filteredSavedExpressions.map((entry) => ({
+      savedExpressions.map((entry) => ({
         language: entry.language,
         expression: entry.expression,
         meaning: entry.meaning
@@ -129,7 +120,7 @@ export function SavedExperience({
       <AppHeader
         language={language}
         onLanguageChange={setLanguage}
-        phraseCount={filteredSavedExpressions.length}
+        phraseCount={savedExpressions.length}
         bannerActionId={exportMenuRootId}
         bannerActionLabel={savedExpressions.length > 0 ? "Export shelf" : undefined}
         bannerActionExpanded={isExportMenuOpen}
@@ -161,27 +152,22 @@ export function SavedExperience({
         </div>
       </header>
 
-      {savedExpressions.length > 0 && filteredSavedExpressions.length > 0 ? (
+      {savedExpressions.length > 0 ? (
         <>
           <section className={styles.summary}>
             <p>
-              Showing {filteredSavedExpressions.length} saved{" "}
-              {filteredSavedExpressions.length === 1 ? "expression" : "expressions"} from your{" "}
-              {savedExpressions.length}-item shelf.
+              {savedExpressions.length} saved{" "}
+              {savedExpressions.length === 1 ? "expression" : "expressions"} on your shelf, across
+              every language.
             </p>
           </section>
 
           <section className={styles.grid}>
-            {filteredSavedExpressions.map((expression) => (
+            {savedExpressions.map((expression) => (
               <ExpressionCard key={expression.id} expression={expression} listPreview />
             ))}
           </section>
         </>
-      ) : savedExpressions.length > 0 ? (
-        <section className={styles.emptyState}>
-          <h2>No saved phrases in this view</h2>
-          <p>Try another language to see your saved shelf again.</p>
-        </section>
       ) : (
         <section className={styles.emptyState}>
           <h2>No saved phrases yet</h2>

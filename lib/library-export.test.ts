@@ -20,4 +20,18 @@ describe("saved export helpers", () => {
     expect(getSavedShelfExportFilename("en", "csv")).toBe("express-myself-english-saved.csv");
     expect(getSavedShelfExportFilename("sv", "markdown")).toBe("express-myself-swedish-saved.md");
   });
+
+  it("neutralizes spreadsheet formula injection in CSV and TSV cells", () => {
+    const entries = [
+      { language: "en" as const, expression: "=SUM(A1:A2)", meaning: "+cmd|calc" }
+    ];
+
+    const csv = serializeLibraryEntries(entries, "csv");
+    const tsv = serializeLibraryEntries(entries, "tsv");
+
+    expect(csv).toContain("'=SUM(A1:A2)");
+    expect(csv).toContain("'+cmd|calc");
+    expect(tsv).toContain("'=SUM(A1:A2)");
+    expect(csv).not.toMatch(/,=SUM/);
+  });
 });

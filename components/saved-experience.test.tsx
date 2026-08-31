@@ -23,9 +23,13 @@ describe("SavedExperience", () => {
 
   it("keeps a newly saved phrase visible after navigating to the saved page", async () => {
     const user = userEvent.setup();
-    render(<SaveExpressionButton expressionId="en-break-a-leg" />);
+    const { unmount } = render(<SaveExpressionButton expressionId="en-break-a-leg" />);
 
-    await user.click(screen.getByRole("button", { name: "Save phrase" }));
+    const saveButton = await screen.findByRole("button", { name: "Save phrase" });
+    await user.click(saveButton);
+    // Unmount so the button's storage listeners don't fire late state updates
+    // outside act() once we move on to the saved page.
+    unmount();
 
     render(<SavedExperience loadExpressionsByIds={async (ids) => getExpressionsByIds(ids)} />);
 

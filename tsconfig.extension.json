@@ -21,6 +21,7 @@
     "lib/types.ts",
     "lib/languages.ts",
     "lib/topic-tags.ts",
+    "lib/speech.ts",
     "lib/expression-content.ts",
     "lib/generated-imported-content.ts",
     "lib/content.ts",
