@@ -221,14 +221,10 @@ const rerender = () => {
   brand.className = "popup-brand";
 
   const brandEyebrow = document.createElement("span");
-  brandEyebrow.className = "eyebrow";
+  brandEyebrow.className = "eyebrow popup-wordmark";
   brandEyebrow.textContent = "ExpressMyself";
 
-  const brandName = document.createElement("span");
-  brandName.className = "popup-brand-name";
-  brandName.textContent = "Daily";
-
-  brand.append(brandEyebrow, brandName);
+  brand.append(brandEyebrow);
 
   if (state.streak > 0) {
     const streakBadge = document.createElement("span");
@@ -283,15 +279,11 @@ const rerender = () => {
   settingsLink.title = "Settings";
   settingsLink.setAttribute("aria-label", "Settings");
 
-  const headRow = document.createElement("div");
-  headRow.className = "popup-topbar-head";
-  headRow.append(brand, settingsLink);
-
   const actions = document.createElement("div");
   actions.className = "popup-topbar-actions";
-  actions.append(languageField, libraryLink, savedLink);
+  actions.append(languageField, libraryLink, savedLink, settingsLink);
 
-  topBar.append(headRow, actions);
+  topBar.append(brand, actions);
   page.append(topBar);
 
   state.currentExpression = currentExpression;
