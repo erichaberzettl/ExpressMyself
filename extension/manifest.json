@@ -18,5 +18,12 @@
     }
   },
   "options_page": "app.html",
-  "permissions": ["storage"]
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://expressmyself.vercel.app/*"],
+      "js": ["bridge.js"],
+      "run_at": "document_start"
+    }
+  ]
 }
