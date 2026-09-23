@@ -1,0 +1,751 @@
+[
+  {
+    "id": "de-die-kirche-im-dorf-lassen",
+    "language": "de",
+    "expression": "Die Kirche im Dorf lassen",
+    "literalTranslation": "To leave the church in the village",
+    "meaning": "To keep things in proportion and not overreact or exaggerate.",
+    "usageNote": "Use it, fairly casually, to tell someone to calm down and stop blowing something out of proportion.",
+    "exampleSentence": "Ein Tippfehler ist doch kein Drama, lass mal die Kirche im Dorf.",
+    "exampleTranslation": "A typo really is no disaster, let us keep things in proportion.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "de-da-liegt-der-hund-begraben",
+    "language": "de",
+    "expression": "Da liegt der Hund begraben",
+    "literalTranslation": "That is where the dog is buried",
+    "meaning": "That is the real heart of the problem or the true reason behind it.",
+    "usageNote": "Use it when you finally pinpoint the actual cause of a problem after some searching.",
+    "exampleSentence": "Die Software ist nicht schuld, die Daten sind falsch, da liegt der Hund begraben.",
+    "exampleTranslation": "The software is not to blame, the data is wrong, and that is the real crux of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "id": "de-ein-auge-zudruecken",
+    "language": "de",
+    "expression": "Ein Auge zudrücken",
+    "literalTranslation": "To press one eye shut",
+    "meaning": "To deliberately overlook a mistake or a broken rule.",
+    "usageNote": "Use it when someone chooses to be lenient instead of enforcing a rule strictly.",
+    "exampleSentence": "Der Lehrer drückte ein Auge zu, weil sie zum ersten Mal zu spät kam.",
+    "exampleTranslation": "The teacher turned a blind eye because it was her first time being late.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-jemandem-reinen-wein-einschenken",
+    "language": "de",
+    "expression": "Jemandem reinen Wein einschenken",
+    "literalTranslation": "To pour someone pure wine",
+    "meaning": "To tell someone the honest, unvarnished truth, even when it is unpleasant.",
+    "usageNote": "Use it when someone stops sugarcoating and finally says how things really stand.",
+    "exampleSentence": "Ich schenke dir reinen Wein ein: Das Projekt wird nicht rechtzeitig fertig.",
+    "exampleTranslation": "Let me be completely honest with you: the project will not be finished on time.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "de-die-flinte-ins-korn-werfen",
+    "language": "de",
+    "expression": "Die Flinte ins Korn werfen",
+    "literalTranslation": "To throw the rifle into the grain",
+    "meaning": "To give up too soon when things get difficult.",
+    "usageNote": "Use it, often as encouragement, to tell someone not to abandon an effort prematurely.",
+    "exampleSentence": "Nach dem ersten Rückschlag darfst du nicht gleich die Flinte ins Korn werfen.",
+    "exampleTranslation": "After the first setback you must not just give up right away.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "de-oel-ins-feuer-giessen",
+    "language": "de",
+    "expression": "Öl ins Feuer gießen",
+    "literalTranslation": "To pour oil into the fire",
+    "meaning": "To make a tense or angry situation even worse.",
+    "usageNote": "Use it when a comment or action intensifies a conflict instead of calming it.",
+    "exampleSentence": "Mit dieser Bemerkung hat er nur noch Öl ins Feuer gegossen.",
+    "exampleTranslation": "With that remark he only added fuel to the fire.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "de-das-ist-mir-wurst",
+    "language": "de",
+    "expression": "Das ist mir Wurst",
+    "literalTranslation": "That is sausage to me",
+    "meaning": "I do not care at all; it makes no difference to me.",
+    "usageNote": "A casual, informal way to say you have no preference either way.",
+    "exampleSentence": "Ob wir Pizza oder Pasta essen, das ist mir Wurst.",
+    "exampleTranslation": "Whether we have pizza or pasta, I really do not mind.",
+    "difficulty": "basic",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-alles-in-butter",
+    "language": "de",
+    "expression": "Alles in Butter",
+    "literalTranslation": "Everything in butter",
+    "meaning": "Everything is fine and under control.",
+    "usageNote": "A relaxed, informal way to reassure someone that there are no problems.",
+    "exampleSentence": "Keine Sorge, die Vorbereitung läuft, es ist alles in Butter.",
+    "exampleTranslation": "Do not worry, the preparation is going well, everything is fine.",
+    "difficulty": "basic",
+    "tags": [
+      "daily-life",
+      "confidence"
+    ]
+  },
+  {
+    "id": "de-jemanden-auf-die-palme-bringen",
+    "language": "de",
+    "expression": "Jemanden auf die Palme bringen",
+    "literalTranslation": "To bring someone up the palm tree",
+    "meaning": "To make someone very angry or exasperated.",
+    "usageNote": "Use it informally when a person or behaviour really gets on someone's nerves.",
+    "exampleSentence": "Mit seiner ständigen Nörgelei bringt er mich auf die Palme.",
+    "exampleTranslation": "With his constant nagging he drives me up the wall.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-ueber-den-eigenen-schatten-springen",
+    "language": "de",
+    "expression": "Über den eigenen Schatten springen",
+    "literalTranslation": "To jump over one's own shadow",
+    "meaning": "To overcome your own hesitation and do something that is hard for you.",
+    "usageNote": "Use it when someone pushes past their fear, pride, or habit in order to act.",
+    "exampleSentence": "Sie ist über ihren eigenen Schatten gesprungen und hat sich endlich entschuldigt.",
+    "exampleTranslation": "She pushed past her own reluctance and finally apologized.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "personality"
+    ]
+  },
+  {
+    "id": "de-wie-ein-elefant-im-porzellanladen",
+    "language": "de",
+    "expression": "Wie ein Elefant im Porzellanladen",
+    "literalTranslation": "Like an elephant in a china shop",
+    "meaning": "Behaving clumsily and tactlessly in a delicate situation.",
+    "usageNote": "Use it when someone handles a sensitive matter with no care or subtlety.",
+    "exampleSentence": "In der heiklen Verhandlung benahm er sich wie ein Elefant im Porzellanladen.",
+    "exampleTranslation": "In the delicate negotiation he behaved like a bull in a china shop.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-den-teufel-an-die-wand-malen",
+    "language": "de",
+    "expression": "Den Teufel an die Wand malen",
+    "literalTranslation": "To paint the devil on the wall",
+    "meaning": "To imagine or predict the worst possible outcome.",
+    "usageNote": "Use it to tell someone to stop being so pessimistic and expecting disaster.",
+    "exampleSentence": "Mal nicht den Teufel an die Wand, vielleicht wird alles gut.",
+    "exampleTranslation": "Do not imagine the worst, maybe everything will turn out fine.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "de-auf-grossem-fuss-leben",
+    "language": "de",
+    "expression": "Auf großem Fuß leben",
+    "literalTranslation": "To live on a big foot",
+    "meaning": "To live lavishly and spend a lot of money.",
+    "usageNote": "Use it to describe an expensive lifestyle, sometimes one beyond a person's means.",
+    "exampleSentence": "Seit dem neuen Job lebt er auf großem Fuß.",
+    "exampleTranslation": "Since the new job he has been living large.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-jetzt-gehts-um-die-wurst",
+    "language": "de",
+    "expression": "Jetzt geht's um die Wurst",
+    "literalTranslation": "Now it is about the sausage",
+    "meaning": "This is the decisive moment; now it really counts.",
+    "usageNote": "A lively, informal way to mark a crucial make-or-break moment.",
+    "exampleSentence": "Letzte Runde im Wettbewerb, jetzt geht's um die Wurst.",
+    "exampleTranslation": "Final round of the competition, now it is do or die.",
+    "difficulty": "intermediate",
+    "tags": [
+      "performance",
+      "time"
+    ]
+  },
+  {
+    "id": "de-nicht-das-gelbe-vom-ei",
+    "language": "de",
+    "expression": "Nicht das Gelbe vom Ei",
+    "literalTranslation": "Not the yellow of the egg",
+    "meaning": "Not ideal; acceptable but leaving something to be desired.",
+    "usageNote": "Use it, informally, to say something is okay but not really good.",
+    "exampleSentence": "Die Lösung funktioniert, aber sie ist nicht das Gelbe vom Ei.",
+    "exampleTranslation": "The solution works, but it is not the best.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-was-haenschen-nicht-lernt-lernt-hans-nimmermehr",
+    "language": "de",
+    "expression": "Was Hänschen nicht lernt, lernt Hans nimmermehr",
+    "literalTranslation": "What little Hans does not learn, Hans will never learn",
+    "meaning": "Skills and habits are far easier to learn in youth than later in life.",
+    "usageNote": "Use it, in a slightly traditional tone, about how early learning sticks and old habits are hard to change.",
+    "exampleSentence": "Mit 60 will er noch Klavier lernen, aber was Hänschen nicht lernt, lernt Hans nimmermehr.",
+    "exampleTranslation": "At 60 he still wants to learn piano, but what you don't learn young, you rarely learn later.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "time"
+    ]
+  },
+  {
+    "id": "de-luegen-haben-kurze-beine",
+    "language": "de",
+    "expression": "Lügen haben kurze Beine",
+    "literalTranslation": "Lies have short legs",
+    "meaning": "Lies do not get far before they are found out.",
+    "usageNote": "Use it to warn that dishonesty tends to be exposed sooner or later.",
+    "exampleSentence": "Sag lieber gleich die Wahrheit, Lügen haben kurze Beine.",
+    "exampleTranslation": "Better tell the truth right away, lies don't get far.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-der-kluegere-gibt-nach",
+    "language": "de",
+    "expression": "Der Klügere gibt nach",
+    "literalTranslation": "The wiser one gives in",
+    "meaning": "The smarter person backs down to avoid a pointless fight.",
+    "usageNote": "Use it, sometimes half-ironically, to justify not escalating a petty conflict.",
+    "exampleSentence": "Ich streite mich nicht weiter darüber, der Klügere gibt nach.",
+    "exampleTranslation": "I won't keep arguing about it, the wiser one gives in.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "de-kleider-machen-leute",
+    "language": "de",
+    "expression": "Kleider machen Leute",
+    "literalTranslation": "Clothes make people",
+    "meaning": "The way you dress strongly shapes how others treat you.",
+    "usageNote": "Use it when appearance and presentation clearly affect the impression someone makes.",
+    "exampleSentence": "Zieh dich fürs Vorstellungsgespräch ordentlich an, Kleider machen Leute.",
+    "exampleTranslation": "Dress properly for the interview, clothes make the person.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "work"
+    ]
+  },
+  {
+    "id": "de-wie-man-in-den-wald-hineinruft-so-schallt-es-heraus",
+    "language": "de",
+    "expression": "Wie man in den Wald hineinruft, so schallt es heraus",
+    "literalTranslation": "As one calls into the forest, so it echoes back",
+    "meaning": "You get back the same tone or treatment that you give to others.",
+    "usageNote": "Use it when someone's rude or friendly behaviour is being returned in kind.",
+    "exampleSentence": "Sei freundlich zu ihnen, wie man in den Wald hineinruft, so schallt es heraus.",
+    "exampleTranslation": "Be friendly to them, you get back the tone you give.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "de-man-soll-den-tag-nicht-vor-dem-abend-loben",
+    "language": "de",
+    "expression": "Man soll den Tag nicht vor dem Abend loben",
+    "literalTranslation": "One should not praise the day before the evening",
+    "meaning": "Do not celebrate a success before it is actually secure.",
+    "usageNote": "Use it to caution against declaring victory too early.",
+    "exampleSentence": "Wir führen, aber man soll den Tag nicht vor dem Abend loben.",
+    "exampleTranslation": "We're ahead, but don't celebrate before it's over.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "de-ein-unglueck-kommt-selten-allein",
+    "language": "de",
+    "expression": "Ein Unglück kommt selten allein",
+    "literalTranslation": "A misfortune seldom comes alone",
+    "meaning": "Bad events often happen one right after another.",
+    "usageNote": "Use it, resignedly, when one problem is immediately followed by another.",
+    "exampleSentence": "Erst der platte Reifen, dann der Regen, ein Unglück kommt selten allein.",
+    "exampleTranslation": "First the flat tyre, then the rain, misfortunes never come alone.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-probieren-geht-ueber-studieren",
+    "language": "de",
+    "expression": "Probieren geht über Studieren",
+    "literalTranslation": "Trying beats studying",
+    "meaning": "Hands-on experience teaches more than theory alone.",
+    "usageNote": "Use it to encourage someone to just try something instead of over-planning it.",
+    "exampleSentence": "Lies nicht noch drei Anleitungen, probieren geht über Studieren.",
+    "exampleTranslation": "Don't read three more manuals, trying beats studying.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "motivation"
+    ]
+  },
+  {
+    "id": "de-man-muss-das-eisen-schmieden-solange-es-heiss-ist",
+    "language": "de",
+    "expression": "Man muss das Eisen schmieden, solange es heiß ist",
+    "literalTranslation": "One must forge the iron while it is hot",
+    "meaning": "Act on a good opportunity right away, while conditions are still favourable.",
+    "usageNote": "Use it to urge quick action before a chance slips away.",
+    "exampleSentence": "Der Kunde ist interessiert, wir müssen das Eisen schmieden, solange es heiß ist.",
+    "exampleTranslation": "The client is interested, we have to strike while the iron is hot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "de-steter-tropfen-hoehlt-den-stein",
+    "language": "de",
+    "expression": "Steter Tropfen höhlt den Stein",
+    "literalTranslation": "A steady drop hollows the stone",
+    "meaning": "Persistent small efforts eventually achieve big results.",
+    "usageNote": "Use it to encourage patience and consistency over a long stretch of time.",
+    "exampleSentence": "Lern jeden Tag ein paar Vokabeln, steter Tropfen höhlt den Stein.",
+    "exampleTranslation": "Learn a few words every day, steady effort wears down the stone.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "learning"
+    ]
+  },
+  {
+    "id": "de-hunde-die-bellen-beissen-nicht",
+    "language": "de",
+    "expression": "Hunde, die bellen, beißen nicht",
+    "literalTranslation": "Dogs that bark do not bite",
+    "meaning": "People who threaten loudly are often harmless.",
+    "usageNote": "Use it to reassure someone not to be intimidated by loud threats.",
+    "exampleSentence": "Lass dich vom Chef nicht einschüchtern, Hunde, die bellen, beißen nicht.",
+    "exampleTranslation": "Don't let the boss intimidate you, barking dogs don't bite.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "de-der-krug-geht-so-lange-zum-brunnen-bis-er-bricht",
+    "language": "de",
+    "expression": "Der Krug geht so lange zum Brunnen, bis er bricht",
+    "literalTranslation": "The jug goes to the well until it breaks",
+    "meaning": "If you keep taking the same risk, it will eventually go wrong.",
+    "usageNote": "Use it to warn that repeatedly pushing your luck ends badly.",
+    "exampleSentence": "Er fährt ständig zu schnell, aber der Krug geht so lange zum Brunnen, bis er bricht.",
+    "exampleTranslation": "He constantly speeds, but push your luck long enough and it breaks.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "de-das-blaue-vom-himmel-versprechen",
+    "language": "de",
+    "expression": "Das Blaue vom Himmel versprechen",
+    "literalTranslation": "To promise the blue of the sky",
+    "meaning": "To make grand, unrealistic promises you can't keep.",
+    "usageNote": "Use it about someone who over-promises to win you over.",
+    "exampleSentence": "Vor der Wahl versprechen sie wieder das Blaue vom Himmel.",
+    "exampleTranslation": "Before the election they're promising the moon again.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-wo-gehobelt-wird-da-fallen-spane",
+    "language": "de",
+    "expression": "Wo gehobelt wird, da fallen Späne",
+    "literalTranslation": "Where planing is done, shavings fall",
+    "meaning": "Big undertakings inevitably cause some collateral damage.",
+    "usageNote": "Use it to accept minor downsides as the price of getting something big done.",
+    "exampleSentence": "Bei der Umstrukturierung gibt es Reibung, aber wo gehobelt wird, da fallen Späne.",
+    "exampleTranslation": "The restructuring causes friction, but you can't make an omelet without breaking eggs.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-unkraut-vergeht-nicht",
+    "language": "de",
+    "expression": "Unkraut vergeht nicht",
+    "literalTranslation": "Weeds don't perish",
+    "meaning": "Tough or troublesome things and people survive everything.",
+    "usageNote": "Often said jokingly about oneself or a hardy person after a scare or illness.",
+    "exampleSentence": "Mir geht's nach der Grippe schon wieder gut, Unkraut vergeht nicht.",
+    "exampleTranslation": "I'm already fine after the flu; weeds never die.",
+    "difficulty": "intermediate",
+    "tags": [
+      "humor",
+      "health"
+    ]
+  },
+  {
+    "id": "de-in-den-sauren-apfel-beissen",
+    "language": "de",
+    "expression": "In den sauren Apfel beißen",
+    "literalTranslation": "To bite into the sour apple",
+    "meaning": "To accept an unpleasant but unavoidable task.",
+    "usageNote": "Use it when someone finally does something they'd rather not.",
+    "exampleSentence": "Ich muss in den sauren Apfel beißen und den Zahnarzt anrufen.",
+    "exampleTranslation": "I have to bite the bullet and call the dentist.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-mit-allen-wassern-gewaschen-sein",
+    "language": "de",
+    "expression": "Mit allen Wassern gewaschen sein",
+    "literalTranslation": "To be washed with all waters",
+    "meaning": "To be shrewd, worldly-wise, and very hard to fool.",
+    "usageNote": "Use it about someone very experienced who knows every trick.",
+    "exampleSentence": "Bei Verhandlungen ist sie mit allen Wassern gewaschen.",
+    "exampleTranslation": "In negotiations she's a shrewd old hand.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "confidence"
+    ]
+  },
+  {
+    "id": "de-mit-dem-kopf-durch-die-wand-wollen",
+    "language": "de",
+    "expression": "Mit dem Kopf durch die Wand wollen",
+    "literalTranslation": "To want to go through the wall with one's head",
+    "meaning": "To try to force something stubbornly, ignoring the obstacles.",
+    "usageNote": "Use it, critically, about someone who won't adapt their approach.",
+    "exampleSentence": "Sei flexibler, du kannst nicht immer mit dem Kopf durch die Wand.",
+    "exampleTranslation": "Be more flexible, you can't always force your way through.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "de-aus-dem-nahkastchen-plaudern",
+    "language": "de",
+    "expression": "Aus dem Nähkästchen plaudern",
+    "literalTranslation": "To chat from the sewing box",
+    "meaning": "To share private inside stories or behind-the-scenes gossip.",
+    "usageNote": "Use it when someone reveals insider details they'd usually keep quiet.",
+    "exampleSentence": "Der Regisseur plauderte aus dem Nähkästchen über die Dreharbeiten.",
+    "exampleTranslation": "The director shared inside stories about the filming.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "de-jemandem-einen-strich-durch-die-rechnung-machen",
+    "language": "de",
+    "expression": "Jemandem einen Strich durch die Rechnung machen",
+    "literalTranslation": "To draw a line through someone's bill",
+    "meaning": "To thwart or spoil someone's plans.",
+    "usageNote": "Use it when something unexpected ruins a plan.",
+    "exampleSentence": "Das schlechte Wetter hat uns einen Strich durch die Rechnung gemacht.",
+    "exampleTranslation": "The bad weather threw a wrench in our plans.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "de-jemandem-auf-den-zahn-fuhlen",
+    "language": "de",
+    "expression": "Jemandem auf den Zahn fühlen",
+    "literalTranslation": "To feel someone's tooth",
+    "meaning": "To question someone closely to find out what they really know or intend.",
+    "usageNote": "Use it when probing someone carefully instead of taking them at face value.",
+    "exampleSentence": "Im Interview haben sie ihm ordentlich auf den Zahn gefühlt.",
+    "exampleTranslation": "In the interview they really grilled him.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "id": "de-den-bock-zum-gartner-machen",
+    "language": "de",
+    "expression": "Den Bock zum Gärtner machen",
+    "literalTranslation": "To make the goat the gardener",
+    "meaning": "To put exactly the wrong person in charge of something.",
+    "usageNote": "Use it when responsibility is handed to someone bound to misuse it.",
+    "exampleSentence": "Ihn die Kasse verwalten zu lassen heißt, den Bock zum Gärtner zu machen.",
+    "exampleTranslation": "Letting him manage the cash is putting the fox in charge of the henhouse.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-die-kuh-vom-eis-holen",
+    "language": "de",
+    "expression": "Die Kuh vom Eis holen",
+    "literalTranslation": "To get the cow off the ice",
+    "meaning": "To resolve a difficult or dangerous situation.",
+    "usageNote": "Use it when a tricky problem is finally sorted out.",
+    "exampleSentence": "Mit dem Kompromiss haben wir die Kuh vom Eis geholt.",
+    "exampleTranslation": "With the compromise we got ourselves out of a tight spot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "de-da-steppt-der-bar",
+    "language": "de",
+    "expression": "Da steppt der Bär",
+    "literalTranslation": "The bear tap-dances there",
+    "meaning": "There's a great atmosphere and lots going on; a lively party.",
+    "usageNote": "A casual way to say an event is going to be (or was) really lively.",
+    "exampleSentence": "Komm auch zur Party, da steppt der Bär.",
+    "exampleTranslation": "Come to the party too, it's going to be a blast.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "humor"
+    ]
+  },
+  {
+    "id": "de-jemandem-ein-x-fur-ein-u-vormachen",
+    "language": "de",
+    "expression": "Jemandem ein X für ein U vormachen",
+    "literalTranslation": "To make an X into a U for someone",
+    "meaning": "To deceive or fool someone with a false story.",
+    "usageNote": "Often negated, as in 'you can't fool me'.",
+    "exampleSentence": "Mir machst du kein X für ein U vor, ich kenne die Zahlen.",
+    "exampleTranslation": "You can't pull the wool over my eyes, I know the numbers.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-sich-zum-affen-machen",
+    "language": "de",
+    "expression": "Sich zum Affen machen",
+    "literalTranslation": "To make oneself into a monkey",
+    "meaning": "To make a fool of yourself.",
+    "usageNote": "Use it about embarrassing yourself in front of others.",
+    "exampleSentence": "Mit der Rede hat er sich total zum Affen gemacht.",
+    "exampleTranslation": "He made a complete fool of himself with that speech.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "emotion"
+    ]
+  },
+  {
+    "id": "de-ein-brett-vor-dem-kopf-haben",
+    "language": "de",
+    "expression": "Ein Brett vor dem Kopf haben",
+    "literalTranslation": "To have a board in front of one's head",
+    "meaning": "To be unable to see something obvious.",
+    "usageNote": "Use it, lightly, when someone is mentally blocked on something simple.",
+    "exampleSentence": "Ich hatte total ein Brett vor dem Kopf und übersah die Lösung.",
+    "exampleTranslation": "My mind went blank and I missed the obvious solution.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confusion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-da-haben-wir-den-salat",
+    "language": "de",
+    "expression": "Da haben wir den Salat",
+    "literalTranslation": "There we have the salad",
+    "meaning": "Now we're in a mess, exactly as feared.",
+    "usageNote": "A casual, resigned way to react when a predicted problem actually happens.",
+    "exampleSentence": "Jetzt ist die Datei weg, da haben wir den Salat.",
+    "exampleTranslation": "Now the file's gone, what a mess.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-ich-glaub-mein-schwein-pfeift",
+    "language": "de",
+    "expression": "Ich glaub, mein Schwein pfeift",
+    "literalTranslation": "I think my pig is whistling",
+    "meaning": "An exclamation of total disbelief or astonishment.",
+    "usageNote": "A very casual way to react to something outrageous or unbelievable.",
+    "exampleSentence": "Die haben schon wieder die Preise erhöht? Ich glaub, mein Schwein pfeift!",
+    "exampleTranslation": "They raised the prices again? You've got to be kidding me!",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "humor"
+    ]
+  },
+  {
+    "id": "de-perlen-vor-die-saue-werfen",
+    "language": "de",
+    "expression": "Perlen vor die Säue werfen",
+    "literalTranslation": "To throw pearls before the swine",
+    "meaning": "To waste something valuable on people who don't appreciate it.",
+    "usageNote": "Use it when effort or quality is lost on an unappreciative audience.",
+    "exampleSentence": "Ihm guten Wein zu servieren ist Perlen vor die Säue werfen.",
+    "exampleTranslation": "Serving him good wine is casting pearls before swine.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "de-mit-dem-ist-nicht-gut-kirschen-essen",
+    "language": "de",
+    "expression": "Mit dem ist nicht gut Kirschen essen",
+    "literalTranslation": "It's not good to eat cherries with him",
+    "meaning": "He's difficult and best not crossed.",
+    "usageNote": "Use it to warn that someone is prickly or hard to deal with.",
+    "exampleSentence": "Wenn er schlechte Laune hat, ist mit ihm nicht gut Kirschen essen.",
+    "exampleTranslation": "When he's in a bad mood, he's not someone to mess with.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "de-da-ist-hopfen-und-malz-verloren",
+    "language": "de",
+    "expression": "Da ist Hopfen und Malz verloren",
+    "literalTranslation": "There, hops and malt are lost",
+    "meaning": "It's a completely hopeless case.",
+    "usageNote": "Use it when any further effort would be pointless.",
+    "exampleSentence": "Ich hab's dreimal erklärt, aber da ist Hopfen und Malz verloren.",
+    "exampleTranslation": "I explained it three times, but it's a lost cause.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "de-kein-blatt-vor-den-mund-nehmen",
+    "language": "de",
+    "expression": "Kein Blatt vor den Mund nehmen",
+    "literalTranslation": "To not hold a leaf in front of one's mouth",
+    "meaning": "To speak frankly and not hold back.",
+    "usageNote": "Use it about someone who says exactly what they think.",
+    "exampleSentence": "Sie nimmt kein Blatt vor den Mund, wenn ihr etwas nicht passt.",
+    "exampleTranslation": "She doesn't mince words when something bothers her.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "de-alles-hat-ein-ende-nur-die-wurst-hat-zwei",
+    "language": "de",
+    "expression": "Alles hat ein Ende, nur die Wurst hat zwei",
+    "literalTranslation": "Everything has one end, only the sausage has two",
+    "meaning": "Everything comes to an end eventually (said with humour).",
+    "usageNote": "A jokey, folksy way to note that something is finally over.",
+    "exampleSentence": "Schön war's, aber alles hat ein Ende, nur die Wurst hat zwei.",
+    "exampleTranslation": "It was lovely, but all good things must come to an end.",
+    "difficulty": "intermediate",
+    "tags": [
+      "humor",
+      "time"
+    ]
+  },
+  {
+    "id": "de-die-rechnung-ohne-den-wirt-machen",
+    "language": "de",
+    "expression": "Die Rechnung ohne den Wirt machen",
+    "literalTranslation": "To make the bill without the innkeeper",
+    "meaning": "To make plans without considering a crucial person or factor that can spoil them.",
+    "usageNote": "Use it when someone's plan overlooks somebody whose approval or reaction turns out to be decisive.",
+    "exampleSentence": "Sie wollten ohne die Nachbarn umbauen, aber da haben sie die Rechnung ohne den Wirt gemacht.",
+    "exampleTranslation": "They wanted to renovate without the neighbours, but they reckoned without their host.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "mistakes"
+    ]
+  }
+]

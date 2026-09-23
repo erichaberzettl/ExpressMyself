@@ -2,6 +2,470 @@ import { ExpressionEntry } from "@/lib/types";
 
 export const importedExpressions: ExpressionEntry[] = [
   {
+    "id": "da-ga-agurk",
+    "language": "da",
+    "expression": "Gå agurk",
+    "literalTranslation": "To go cucumber",
+    "meaning": "To go crazy, lose control, or wildly overreact.",
+    "usageNote": "A casual, modern way to say someone freaks out or a scene gets wild.",
+    "exampleSentence": "Publikum gik helt agurk, da bandet kom på scenen.",
+    "exampleTranslation": "The crowd went totally wild when the band came on stage.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-have-rotter-pa-loftet",
+    "language": "da",
+    "expression": "Have rotter på loftet",
+    "literalTranslation": "To have rats in the attic",
+    "meaning": "To be a bit crazy or mentally odd.",
+    "usageNote": "An informal, teasing way to say someone acts strangely.",
+    "exampleSentence": "Han tror han kan flyve, han har vist rotter på loftet.",
+    "exampleTranslation": "He thinks he can fly; he must have a screw loose.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-have-en-skrue-los",
+    "language": "da",
+    "expression": "Have en skrue løs",
+    "literalTranslation": "To have a screw loose",
+    "meaning": "To be slightly crazy or to behave irrationally.",
+    "usageNote": "A casual way to say someone isn't quite right in the head.",
+    "exampleSentence": "Man skal have en skrue løs for at bade i havet om vinteren.",
+    "exampleTranslation": "You've got to have a screw loose to swim in the sea in winter.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-tage-benene-pa-nakken",
+    "language": "da",
+    "expression": "Tage benene på nakken",
+    "literalTranslation": "To take the legs on the neck",
+    "meaning": "To run away as fast as you can.",
+    "usageNote": "Use it, vividly, when someone flees in a hurry.",
+    "exampleSentence": "Da hunden kom løbende, tog vi benene på nakken.",
+    "exampleTranslation": "When the dog came running, we took to our heels.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-have-det-som-blommen-i-et-aeg",
+    "language": "da",
+    "expression": "Have det som blommen i et æg",
+    "literalTranslation": "To have it like the yolk in an egg",
+    "meaning": "To be extremely comfortable and well off.",
+    "usageNote": "Use it about someone whose situation is very cushy and pleasant.",
+    "exampleSentence": "I det nye job har hun det som blommen i et æg.",
+    "exampleTranslation": "In the new job she's sitting pretty.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "confidence"
+    ]
+  },
+  {
+    "id": "da-kaste-handklaedet-i-ringen",
+    "language": "da",
+    "expression": "Kaste håndklædet i ringen",
+    "literalTranslation": "To throw the towel into the ring",
+    "meaning": "To give up.",
+    "usageNote": "Use it when someone decides to stop trying.",
+    "exampleSentence": "Efter tredje afslag kastede han håndklædet i ringen.",
+    "exampleTranslation": "After the third rejection he threw in the towel.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-traede-i-spinaten",
+    "language": "da",
+    "expression": "Træde i spinaten",
+    "literalTranslation": "To step in the spinach",
+    "meaning": "To make an embarrassing blunder.",
+    "usageNote": "A casual way to say someone put their foot in it.",
+    "exampleSentence": "Jeg trådte i spinaten og nævnte festen, hun ikke var inviteret til.",
+    "exampleTranslation": "I put my foot in it and mentioned the party she wasn't invited to.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "da-have-hjertet-pa-rette-sted",
+    "language": "da",
+    "expression": "Have hjertet på rette sted",
+    "literalTranslation": "To have the heart in the right place",
+    "meaning": "To be fundamentally kind and well-meaning.",
+    "usageNote": "Use it to defend someone whose intentions are good even when they slip up.",
+    "exampleSentence": "Han siger nogle gange for meget, men han har hjertet på rette sted.",
+    "exampleTranslation": "He sometimes says too much, but his heart is in the right place.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-skyde-papegojen",
+    "language": "da",
+    "expression": "Skyde papegøjen",
+    "literalTranslation": "To shoot the parrot",
+    "meaning": "To have a great stroke of luck; to hit the jackpot.",
+    "usageNote": "Use it when someone lands something excellent, often unexpectedly.",
+    "exampleSentence": "Med den lejlighed til den pris har du virkelig skudt papegøjen.",
+    "exampleTranslation": "With that flat at that price you've really hit the jackpot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confidence",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-fa-noget-for-en-slik",
+    "language": "da",
+    "expression": "Få noget for en slik",
+    "literalTranslation": "To get something for a candy",
+    "meaning": "To get something very cheaply.",
+    "usageNote": "Use it about a bargain that costs almost nothing.",
+    "exampleSentence": "Vi fik sofaen for en slik på loppemarkedet.",
+    "exampleTranslation": "We got the sofa dirt cheap at the flea market.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-have-en-hone-at-plukke-med-nogen",
+    "language": "da",
+    "expression": "Have en høne at plukke med nogen",
+    "literalTranslation": "To have a hen to pluck with someone",
+    "meaning": "To have a grievance or matter to settle with someone.",
+    "usageNote": "Use it when you need to confront someone about something.",
+    "exampleSentence": "Jeg har en høne at plukke med dig om det i går.",
+    "exampleTranslation": "I have a bone to pick with you about yesterday.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-der-er-ugler-i-mosen",
+    "language": "da",
+    "expression": "Der er ugler i mosen",
+    "literalTranslation": "There are owls in the bog",
+    "meaning": "Something is not right; something suspicious is going on.",
+    "usageNote": "Use it when you sense a hidden problem.",
+    "exampleSentence": "Han svarer så undvigende, der er ugler i mosen.",
+    "exampleTranslation": "He's answering so evasively; something's fishy.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "da-koste-det-hvide-ud-af-ojnene",
+    "language": "da",
+    "expression": "Koste det hvide ud af øjnene",
+    "literalTranslation": "To cost the white out of the eyes",
+    "meaning": "To be extremely expensive.",
+    "usageNote": "Use it when a price is painfully high.",
+    "exampleSentence": "Reservedelene kostede det hvide ud af øjnene.",
+    "exampleTranslation": "The spare parts cost an absolute fortune.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-ovelse-gor-mester",
+    "language": "da",
+    "expression": "Øvelse gør mester",
+    "literalTranslation": "Practice makes master",
+    "meaning": "You only get good at something through practice.",
+    "usageNote": "Use it to encourage someone who is still learning.",
+    "exampleSentence": "Bliv ved med at spille, øvelse gør mester.",
+    "exampleTranslation": "Keep playing, practice makes perfect.",
+    "difficulty": "basic",
+    "tags": [
+      "learning",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "da-bedre-sent-end-aldrig",
+    "language": "da",
+    "expression": "Bedre sent end aldrig",
+    "literalTranslation": "Better late than never",
+    "meaning": "Doing something late is still better than not at all.",
+    "usageNote": "Use it when something finally happens after a delay.",
+    "exampleSentence": "Han kom en time for sent, men bedre sent end aldrig.",
+    "exampleTranslation": "He arrived an hour late, but better late than never.",
+    "difficulty": "basic",
+    "tags": [
+      "time",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "da-man-skal-kravle-for-man-kan-ga",
+    "language": "da",
+    "expression": "Man skal kravle før man kan gå",
+    "literalTranslation": "One must crawl before one can walk",
+    "meaning": "You have to master the basics before the advanced parts.",
+    "usageNote": "Use it to set realistic expectations for a beginner.",
+    "exampleSentence": "Start med det simple, man skal kravle før man kan gå.",
+    "exampleTranslation": "Start with the simple stuff; you must crawl before you can walk.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "motivation"
+    ]
+  },
+  {
+    "id": "da-som-man-reder-ligger-man",
+    "language": "da",
+    "expression": "Som man reder, ligger man",
+    "literalTranslation": "As one makes the bed, one lies",
+    "meaning": "You have to live with the consequences of your own actions.",
+    "usageNote": "Use it when someone faces the results of choices they made.",
+    "exampleSentence": "Han sparede aldrig op, og som man reder, ligger man.",
+    "exampleTranslation": "He never saved, and you make your bed and you lie in it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "da-man-skal-smede-mens-jernet-er-varmt",
+    "language": "da",
+    "expression": "Man skal smede mens jernet er varmt",
+    "literalTranslation": "One must forge while the iron is hot",
+    "meaning": "Act on an opportunity while conditions are still right.",
+    "usageNote": "Use it to urge prompt action before a chance passes.",
+    "exampleSentence": "Kunden er interesseret nu, vi skal smede mens jernet er varmt.",
+    "exampleTranslation": "The client is interested now; we have to strike while the iron is hot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "da-nar-katten-er-ude-spiller-musene-pa-bordet",
+    "language": "da",
+    "expression": "Når katten er ude, spiller musene på bordet",
+    "literalTranslation": "When the cat is out, the mice play on the table",
+    "meaning": "People misbehave when the authority figure is away.",
+    "usageNote": "Use it when supervision disappears and discipline slips.",
+    "exampleSentence": "Da chefen rejste, spillede musene på bordet.",
+    "exampleTranslation": "When the boss went away, the mice came out to play.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-aeblet-falder-ikke-langt-fra-stammen",
+    "language": "da",
+    "expression": "Æblet falder ikke langt fra stammen",
+    "literalTranslation": "The apple doesn't fall far from the trunk",
+    "meaning": "Children tend to resemble their parents.",
+    "usageNote": "Use it when a family resemblance shows in behaviour or talent.",
+    "exampleSentence": "Hun er lige så stædig som sin far; æblet falder ikke langt fra stammen.",
+    "exampleTranslation": "She's just as stubborn as her father; the apple doesn't fall far from the tree.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-en-fugl-i-handen-er-bedre-end-ti-pa-taget",
+    "language": "da",
+    "expression": "En fugl i hånden er bedre end ti på taget",
+    "literalTranslation": "A bird in the hand is better than ten on the roof",
+    "meaning": "A sure small gain is worth more than a bigger uncertain one.",
+    "usageNote": "Use it to advise taking the certain option.",
+    "exampleSentence": "Tag det faste tilbud; en fugl i hånden er bedre end ti på taget.",
+    "exampleTranslation": "Take the firm offer; a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "da-morgenstund-har-guld-i-mund",
+    "language": "da",
+    "expression": "Morgenstund har guld i mund",
+    "literalTranslation": "The morning hour has gold in its mouth",
+    "meaning": "Starting early is valuable and productive.",
+    "usageNote": "Use it to praise early starts.",
+    "exampleSentence": "Vi tager afsted klokken seks, morgenstund har guld i mund.",
+    "exampleTranslation": "We're leaving at six; the early hours are the most valuable.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "motivation"
+    ]
+  },
+  {
+    "id": "da-ga-i-fisk",
+    "language": "da",
+    "expression": "Gå i fisk",
+    "literalTranslation": "To go to fish",
+    "meaning": "To fall apart or go completely wrong.",
+    "usageNote": "A casual way to say a plan collapsed or a situation fell to pieces.",
+    "exampleSentence": "Hele planen gik i fisk, da leverandøren aflyste.",
+    "exampleTranslation": "The whole plan fell apart when the supplier cancelled.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "da-ikke-have-rent-mel-i-posen",
+    "language": "da",
+    "expression": "Ikke have rent mel i posen",
+    "literalTranslation": "To not have clean flour in the bag",
+    "meaning": "To have something to hide; to be up to no good.",
+    "usageNote": "Use it when you suspect someone is being dishonest.",
+    "exampleSentence": "Han undviger alle spørgsmål, han har ikke rent mel i posen.",
+    "exampleTranslation": "He dodges every question; he's got something to hide.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "da-saelge-som-varmt-brod",
+    "language": "da",
+    "expression": "Sælge som varmt brød",
+    "literalTranslation": "To sell like warm bread",
+    "meaning": "To sell very quickly and in great numbers.",
+    "usageNote": "Use it about a product that flies off the shelves.",
+    "exampleSentence": "Billetterne solgte som varmt brød.",
+    "exampleTranslation": "The tickets sold like hotcakes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
+    ]
+  },
+  {
+    "id": "da-springe-over-hvor-gaerdet-er-lavest",
+    "language": "da",
+    "expression": "Springe over hvor gærdet er lavest",
+    "literalTranslation": "To jump over where the fence is lowest",
+    "meaning": "To take the easy way out and avoid the hard part.",
+    "usageNote": "Use it, often critically, when someone cuts corners.",
+    "exampleSentence": "Han læser kun resuméer og springer over hvor gærdet er lavest.",
+    "exampleTranslation": "He only reads summaries and takes the easy way out.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "da-kaste-perler-for-svin",
+    "language": "da",
+    "expression": "Kaste perler for svin",
+    "literalTranslation": "To throw pearls before swine",
+    "meaning": "To waste something valuable on those who won't appreciate it.",
+    "usageNote": "Use it when effort or quality is lost on an unappreciative audience.",
+    "exampleSentence": "At servere den fine vin for dem er at kaste perler for svin.",
+    "exampleTranslation": "Serving them the fine wine is casting pearls before swine.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-have-det-pa-fornemmelsen",
+    "language": "da",
+    "expression": "Have det på fornemmelsen",
+    "literalTranslation": "To have it on the feeling",
+    "meaning": "To have a hunch that something is the case.",
+    "usageNote": "Use it when intuition, not proof, tells you something.",
+    "exampleSentence": "Jeg havde det på fornemmelsen, at han ville sige nej.",
+    "exampleTranslation": "I had a feeling he would say no.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-sla-til-soren",
+    "language": "da",
+    "expression": "Slå til Søren",
+    "literalTranslation": "To strike at Søren",
+    "meaning": "To let loose and really go for it.",
+    "usageNote": "Very casual; use it about throwing yourself into having a good time.",
+    "exampleSentence": "Det er fredag, lad os slå til Søren.",
+    "exampleTranslation": "It's Friday, let's let our hair down.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-sa-er-den-ged-barberet",
+    "language": "da",
+    "expression": "Så er den ged barberet",
+    "literalTranslation": "Then that goat is shaved",
+    "meaning": "That's that sorted; problem solved.",
+    "usageNote": "A casual, satisfied way to mark that a task is finally done.",
+    "exampleSentence": "Kontrakten er underskrevet, så er den ged barberet.",
+    "exampleTranslation": "The contract is signed, so that's that sorted.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-sta-med-haret-i-postkassen",
+    "language": "da",
+    "expression": "Stå med håret i postkassen",
+    "literalTranslation": "To stand with your hair in the mailbox",
+    "meaning": "To be left in an awkward, helpless spot.",
+    "usageNote": "Use it when someone is caught out and left dealing with a mess.",
+    "exampleSentence": "Da de andre trak sig, stod jeg med håret i postkassen.",
+    "exampleTranslation": "When the others backed out, I was left in the lurch.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "emotion"
+    ]
+  },
+  {
     "id": "da-alle-gode-gange-tre-0",
     "language": "da",
     "expression": "Alle gode gange tre",
@@ -138,22 +602,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "usageNote": "Use it to comfort someone when things feel heavy but you want to stress that the situation can improve.",
     "exampleSentence": "Det ser mørkt ud nu, men bag skyerne er himlen altid blå.",
     "exampleTranslation": "It looks dark right now, but there is still hope beyond it.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "da-blind-passager-9",
-    "language": "da",
-    "expression": "Blind passager",
-    "literalTranslation": "Blind passenger",
-    "meaning": "Someone who comes along without paying or without being properly included.",
-    "usageNote": "Use it literally for stowaways or figuratively for people getting a free ride on others' efforts.",
-    "exampleSentence": "Han gled med som blind passager på projektet uden selv at bidrage.",
-    "exampleTranslation": "He slipped into the project like a stowaway without contributing himself.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",
@@ -322,6 +770,755 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
+    "id": "de-die-kirche-im-dorf-lassen",
+    "language": "de",
+    "expression": "Die Kirche im Dorf lassen",
+    "literalTranslation": "To leave the church in the village",
+    "meaning": "To keep things in proportion and not overreact or exaggerate.",
+    "usageNote": "Use it, fairly casually, to tell someone to calm down and stop blowing something out of proportion.",
+    "exampleSentence": "Ein Tippfehler ist doch kein Drama, lass mal die Kirche im Dorf.",
+    "exampleTranslation": "A typo really is no disaster, let us keep things in proportion.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "de-da-liegt-der-hund-begraben",
+    "language": "de",
+    "expression": "Da liegt der Hund begraben",
+    "literalTranslation": "That is where the dog is buried",
+    "meaning": "That is the real heart of the problem or the true reason behind it.",
+    "usageNote": "Use it when you finally pinpoint the actual cause of a problem after some searching.",
+    "exampleSentence": "Die Software ist nicht schuld, die Daten sind falsch, da liegt der Hund begraben.",
+    "exampleTranslation": "The software is not to blame, the data is wrong, and that is the real crux of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "id": "de-ein-auge-zudruecken",
+    "language": "de",
+    "expression": "Ein Auge zudrücken",
+    "literalTranslation": "To press one eye shut",
+    "meaning": "To deliberately overlook a mistake or a broken rule.",
+    "usageNote": "Use it when someone chooses to be lenient instead of enforcing a rule strictly.",
+    "exampleSentence": "Der Lehrer drückte ein Auge zu, weil sie zum ersten Mal zu spät kam.",
+    "exampleTranslation": "The teacher turned a blind eye because it was her first time being late.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-jemandem-reinen-wein-einschenken",
+    "language": "de",
+    "expression": "Jemandem reinen Wein einschenken",
+    "literalTranslation": "To pour someone pure wine",
+    "meaning": "To tell someone the honest, unvarnished truth, even when it is unpleasant.",
+    "usageNote": "Use it when someone stops sugarcoating and finally says how things really stand.",
+    "exampleSentence": "Ich schenke dir reinen Wein ein: Das Projekt wird nicht rechtzeitig fertig.",
+    "exampleTranslation": "Let me be completely honest with you: the project will not be finished on time.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "de-die-flinte-ins-korn-werfen",
+    "language": "de",
+    "expression": "Die Flinte ins Korn werfen",
+    "literalTranslation": "To throw the rifle into the grain",
+    "meaning": "To give up too soon when things get difficult.",
+    "usageNote": "Use it, often as encouragement, to tell someone not to abandon an effort prematurely.",
+    "exampleSentence": "Nach dem ersten Rückschlag darfst du nicht gleich die Flinte ins Korn werfen.",
+    "exampleTranslation": "After the first setback you must not just give up right away.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "de-oel-ins-feuer-giessen",
+    "language": "de",
+    "expression": "Öl ins Feuer gießen",
+    "literalTranslation": "To pour oil into the fire",
+    "meaning": "To make a tense or angry situation even worse.",
+    "usageNote": "Use it when a comment or action intensifies a conflict instead of calming it.",
+    "exampleSentence": "Mit dieser Bemerkung hat er nur noch Öl ins Feuer gegossen.",
+    "exampleTranslation": "With that remark he only added fuel to the fire.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "de-das-ist-mir-wurst",
+    "language": "de",
+    "expression": "Das ist mir Wurst",
+    "literalTranslation": "That is sausage to me",
+    "meaning": "I do not care at all; it makes no difference to me.",
+    "usageNote": "A casual, informal way to say you have no preference either way.",
+    "exampleSentence": "Ob wir Pizza oder Pasta essen, das ist mir Wurst.",
+    "exampleTranslation": "Whether we have pizza or pasta, I really do not mind.",
+    "difficulty": "basic",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-alles-in-butter",
+    "language": "de",
+    "expression": "Alles in Butter",
+    "literalTranslation": "Everything in butter",
+    "meaning": "Everything is fine and under control.",
+    "usageNote": "A relaxed, informal way to reassure someone that there are no problems.",
+    "exampleSentence": "Keine Sorge, die Vorbereitung läuft, es ist alles in Butter.",
+    "exampleTranslation": "Do not worry, the preparation is going well, everything is fine.",
+    "difficulty": "basic",
+    "tags": [
+      "daily-life",
+      "confidence"
+    ]
+  },
+  {
+    "id": "de-jemanden-auf-die-palme-bringen",
+    "language": "de",
+    "expression": "Jemanden auf die Palme bringen",
+    "literalTranslation": "To bring someone up the palm tree",
+    "meaning": "To make someone very angry or exasperated.",
+    "usageNote": "Use it informally when a person or behaviour really gets on someone's nerves.",
+    "exampleSentence": "Mit seiner ständigen Nörgelei bringt er mich auf die Palme.",
+    "exampleTranslation": "With his constant nagging he drives me up the wall.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-ueber-den-eigenen-schatten-springen",
+    "language": "de",
+    "expression": "Über den eigenen Schatten springen",
+    "literalTranslation": "To jump over one's own shadow",
+    "meaning": "To overcome your own hesitation and do something that is hard for you.",
+    "usageNote": "Use it when someone pushes past their fear, pride, or habit in order to act.",
+    "exampleSentence": "Sie ist über ihren eigenen Schatten gesprungen und hat sich endlich entschuldigt.",
+    "exampleTranslation": "She pushed past her own reluctance and finally apologized.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "personality"
+    ]
+  },
+  {
+    "id": "de-wie-ein-elefant-im-porzellanladen",
+    "language": "de",
+    "expression": "Wie ein Elefant im Porzellanladen",
+    "literalTranslation": "Like an elephant in a china shop",
+    "meaning": "Behaving clumsily and tactlessly in a delicate situation.",
+    "usageNote": "Use it when someone handles a sensitive matter with no care or subtlety.",
+    "exampleSentence": "In der heiklen Verhandlung benahm er sich wie ein Elefant im Porzellanladen.",
+    "exampleTranslation": "In the delicate negotiation he behaved like a bull in a china shop.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-den-teufel-an-die-wand-malen",
+    "language": "de",
+    "expression": "Den Teufel an die Wand malen",
+    "literalTranslation": "To paint the devil on the wall",
+    "meaning": "To imagine or predict the worst possible outcome.",
+    "usageNote": "Use it to tell someone to stop being so pessimistic and expecting disaster.",
+    "exampleSentence": "Mal nicht den Teufel an die Wand, vielleicht wird alles gut.",
+    "exampleTranslation": "Do not imagine the worst, maybe everything will turn out fine.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "de-auf-grossem-fuss-leben",
+    "language": "de",
+    "expression": "Auf großem Fuß leben",
+    "literalTranslation": "To live on a big foot",
+    "meaning": "To live lavishly and spend a lot of money.",
+    "usageNote": "Use it to describe an expensive lifestyle, sometimes one beyond a person's means.",
+    "exampleSentence": "Seit dem neuen Job lebt er auf großem Fuß.",
+    "exampleTranslation": "Since the new job he has been living large.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-jetzt-gehts-um-die-wurst",
+    "language": "de",
+    "expression": "Jetzt geht's um die Wurst",
+    "literalTranslation": "Now it is about the sausage",
+    "meaning": "This is the decisive moment; now it really counts.",
+    "usageNote": "A lively, informal way to mark a crucial make-or-break moment.",
+    "exampleSentence": "Letzte Runde im Wettbewerb, jetzt geht's um die Wurst.",
+    "exampleTranslation": "Final round of the competition, now it is do or die.",
+    "difficulty": "intermediate",
+    "tags": [
+      "performance",
+      "time"
+    ]
+  },
+  {
+    "id": "de-nicht-das-gelbe-vom-ei",
+    "language": "de",
+    "expression": "Nicht das Gelbe vom Ei",
+    "literalTranslation": "Not the yellow of the egg",
+    "meaning": "Not ideal; acceptable but leaving something to be desired.",
+    "usageNote": "Use it, informally, to say something is okay but not really good.",
+    "exampleSentence": "Die Lösung funktioniert, aber sie ist nicht das Gelbe vom Ei.",
+    "exampleTranslation": "The solution works, but it is not the best.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-was-haenschen-nicht-lernt-lernt-hans-nimmermehr",
+    "language": "de",
+    "expression": "Was Hänschen nicht lernt, lernt Hans nimmermehr",
+    "literalTranslation": "What little Hans does not learn, Hans will never learn",
+    "meaning": "Skills and habits are far easier to learn in youth than later in life.",
+    "usageNote": "Use it, in a slightly traditional tone, about how early learning sticks and old habits are hard to change.",
+    "exampleSentence": "Mit 60 will er noch Klavier lernen, aber was Hänschen nicht lernt, lernt Hans nimmermehr.",
+    "exampleTranslation": "At 60 he still wants to learn piano, but what you don't learn young, you rarely learn later.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "time"
+    ]
+  },
+  {
+    "id": "de-luegen-haben-kurze-beine",
+    "language": "de",
+    "expression": "Lügen haben kurze Beine",
+    "literalTranslation": "Lies have short legs",
+    "meaning": "Lies do not get far before they are found out.",
+    "usageNote": "Use it to warn that dishonesty tends to be exposed sooner or later.",
+    "exampleSentence": "Sag lieber gleich die Wahrheit, Lügen haben kurze Beine.",
+    "exampleTranslation": "Better tell the truth right away, lies don't get far.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-der-kluegere-gibt-nach",
+    "language": "de",
+    "expression": "Der Klügere gibt nach",
+    "literalTranslation": "The wiser one gives in",
+    "meaning": "The smarter person backs down to avoid a pointless fight.",
+    "usageNote": "Use it, sometimes half-ironically, to justify not escalating a petty conflict.",
+    "exampleSentence": "Ich streite mich nicht weiter darüber, der Klügere gibt nach.",
+    "exampleTranslation": "I won't keep arguing about it, the wiser one gives in.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "de-kleider-machen-leute",
+    "language": "de",
+    "expression": "Kleider machen Leute",
+    "literalTranslation": "Clothes make people",
+    "meaning": "The way you dress strongly shapes how others treat you.",
+    "usageNote": "Use it when appearance and presentation clearly affect the impression someone makes.",
+    "exampleSentence": "Zieh dich fürs Vorstellungsgespräch ordentlich an, Kleider machen Leute.",
+    "exampleTranslation": "Dress properly for the interview, clothes make the person.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "work"
+    ]
+  },
+  {
+    "id": "de-wie-man-in-den-wald-hineinruft-so-schallt-es-heraus",
+    "language": "de",
+    "expression": "Wie man in den Wald hineinruft, so schallt es heraus",
+    "literalTranslation": "As one calls into the forest, so it echoes back",
+    "meaning": "You get back the same tone or treatment that you give to others.",
+    "usageNote": "Use it when someone's rude or friendly behaviour is being returned in kind.",
+    "exampleSentence": "Sei freundlich zu ihnen, wie man in den Wald hineinruft, so schallt es heraus.",
+    "exampleTranslation": "Be friendly to them, you get back the tone you give.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "de-man-soll-den-tag-nicht-vor-dem-abend-loben",
+    "language": "de",
+    "expression": "Man soll den Tag nicht vor dem Abend loben",
+    "literalTranslation": "One should not praise the day before the evening",
+    "meaning": "Do not celebrate a success before it is actually secure.",
+    "usageNote": "Use it to caution against declaring victory too early.",
+    "exampleSentence": "Wir führen, aber man soll den Tag nicht vor dem Abend loben.",
+    "exampleTranslation": "We're ahead, but don't celebrate before it's over.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "de-ein-unglueck-kommt-selten-allein",
+    "language": "de",
+    "expression": "Ein Unglück kommt selten allein",
+    "literalTranslation": "A misfortune seldom comes alone",
+    "meaning": "Bad events often happen one right after another.",
+    "usageNote": "Use it, resignedly, when one problem is immediately followed by another.",
+    "exampleSentence": "Erst der platte Reifen, dann der Regen, ein Unglück kommt selten allein.",
+    "exampleTranslation": "First the flat tyre, then the rain, misfortunes never come alone.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-probieren-geht-ueber-studieren",
+    "language": "de",
+    "expression": "Probieren geht über Studieren",
+    "literalTranslation": "Trying beats studying",
+    "meaning": "Hands-on experience teaches more than theory alone.",
+    "usageNote": "Use it to encourage someone to just try something instead of over-planning it.",
+    "exampleSentence": "Lies nicht noch drei Anleitungen, probieren geht über Studieren.",
+    "exampleTranslation": "Don't read three more manuals, trying beats studying.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "motivation"
+    ]
+  },
+  {
+    "id": "de-man-muss-das-eisen-schmieden-solange-es-heiss-ist",
+    "language": "de",
+    "expression": "Man muss das Eisen schmieden, solange es heiß ist",
+    "literalTranslation": "One must forge the iron while it is hot",
+    "meaning": "Act on a good opportunity right away, while conditions are still favourable.",
+    "usageNote": "Use it to urge quick action before a chance slips away.",
+    "exampleSentence": "Der Kunde ist interessiert, wir müssen das Eisen schmieden, solange es heiß ist.",
+    "exampleTranslation": "The client is interested, we have to strike while the iron is hot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "de-steter-tropfen-hoehlt-den-stein",
+    "language": "de",
+    "expression": "Steter Tropfen höhlt den Stein",
+    "literalTranslation": "A steady drop hollows the stone",
+    "meaning": "Persistent small efforts eventually achieve big results.",
+    "usageNote": "Use it to encourage patience and consistency over a long stretch of time.",
+    "exampleSentence": "Lern jeden Tag ein paar Vokabeln, steter Tropfen höhlt den Stein.",
+    "exampleTranslation": "Learn a few words every day, steady effort wears down the stone.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "learning"
+    ]
+  },
+  {
+    "id": "de-hunde-die-bellen-beissen-nicht",
+    "language": "de",
+    "expression": "Hunde, die bellen, beißen nicht",
+    "literalTranslation": "Dogs that bark do not bite",
+    "meaning": "People who threaten loudly are often harmless.",
+    "usageNote": "Use it to reassure someone not to be intimidated by loud threats.",
+    "exampleSentence": "Lass dich vom Chef nicht einschüchtern, Hunde, die bellen, beißen nicht.",
+    "exampleTranslation": "Don't let the boss intimidate you, barking dogs don't bite.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "de-der-krug-geht-so-lange-zum-brunnen-bis-er-bricht",
+    "language": "de",
+    "expression": "Der Krug geht so lange zum Brunnen, bis er bricht",
+    "literalTranslation": "The jug goes to the well until it breaks",
+    "meaning": "If you keep taking the same risk, it will eventually go wrong.",
+    "usageNote": "Use it to warn that repeatedly pushing your luck ends badly.",
+    "exampleSentence": "Er fährt ständig zu schnell, aber der Krug geht so lange zum Brunnen, bis er bricht.",
+    "exampleTranslation": "He constantly speeds, but push your luck long enough and it breaks.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "de-das-blaue-vom-himmel-versprechen",
+    "language": "de",
+    "expression": "Das Blaue vom Himmel versprechen",
+    "literalTranslation": "To promise the blue of the sky",
+    "meaning": "To make grand, unrealistic promises you can't keep.",
+    "usageNote": "Use it about someone who over-promises to win you over.",
+    "exampleSentence": "Vor der Wahl versprechen sie wieder das Blaue vom Himmel.",
+    "exampleTranslation": "Before the election they're promising the moon again.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-wo-gehobelt-wird-da-fallen-spane",
+    "language": "de",
+    "expression": "Wo gehobelt wird, da fallen Späne",
+    "literalTranslation": "Where planing is done, shavings fall",
+    "meaning": "Big undertakings inevitably cause some collateral damage.",
+    "usageNote": "Use it to accept minor downsides as the price of getting something big done.",
+    "exampleSentence": "Bei der Umstrukturierung gibt es Reibung, aber wo gehobelt wird, da fallen Späne.",
+    "exampleTranslation": "The restructuring causes friction, but you can't make an omelet without breaking eggs.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-unkraut-vergeht-nicht",
+    "language": "de",
+    "expression": "Unkraut vergeht nicht",
+    "literalTranslation": "Weeds don't perish",
+    "meaning": "Tough or troublesome things and people survive everything.",
+    "usageNote": "Often said jokingly about oneself or a hardy person after a scare or illness.",
+    "exampleSentence": "Mir geht's nach der Grippe schon wieder gut, Unkraut vergeht nicht.",
+    "exampleTranslation": "I'm already fine after the flu; weeds never die.",
+    "difficulty": "intermediate",
+    "tags": [
+      "humor",
+      "health"
+    ]
+  },
+  {
+    "id": "de-in-den-sauren-apfel-beissen",
+    "language": "de",
+    "expression": "In den sauren Apfel beißen",
+    "literalTranslation": "To bite into the sour apple",
+    "meaning": "To accept an unpleasant but unavoidable task.",
+    "usageNote": "Use it when someone finally does something they'd rather not.",
+    "exampleSentence": "Ich muss in den sauren Apfel beißen und den Zahnarzt anrufen.",
+    "exampleTranslation": "I have to bite the bullet and call the dentist.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-mit-allen-wassern-gewaschen-sein",
+    "language": "de",
+    "expression": "Mit allen Wassern gewaschen sein",
+    "literalTranslation": "To be washed with all waters",
+    "meaning": "To be shrewd, worldly-wise, and very hard to fool.",
+    "usageNote": "Use it about someone very experienced who knows every trick.",
+    "exampleSentence": "Bei Verhandlungen ist sie mit allen Wassern gewaschen.",
+    "exampleTranslation": "In negotiations she's a shrewd old hand.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "confidence"
+    ]
+  },
+  {
+    "id": "de-mit-dem-kopf-durch-die-wand-wollen",
+    "language": "de",
+    "expression": "Mit dem Kopf durch die Wand wollen",
+    "literalTranslation": "To want to go through the wall with one's head",
+    "meaning": "To try to force something stubbornly, ignoring the obstacles.",
+    "usageNote": "Use it, critically, about someone who won't adapt their approach.",
+    "exampleSentence": "Sei flexibler, du kannst nicht immer mit dem Kopf durch die Wand.",
+    "exampleTranslation": "Be more flexible, you can't always force your way through.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "de-aus-dem-nahkastchen-plaudern",
+    "language": "de",
+    "expression": "Aus dem Nähkästchen plaudern",
+    "literalTranslation": "To chat from the sewing box",
+    "meaning": "To share private inside stories or behind-the-scenes gossip.",
+    "usageNote": "Use it when someone reveals insider details they'd usually keep quiet.",
+    "exampleSentence": "Der Regisseur plauderte aus dem Nähkästchen über die Dreharbeiten.",
+    "exampleTranslation": "The director shared inside stories about the filming.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "de-jemandem-einen-strich-durch-die-rechnung-machen",
+    "language": "de",
+    "expression": "Jemandem einen Strich durch die Rechnung machen",
+    "literalTranslation": "To draw a line through someone's bill",
+    "meaning": "To thwart or spoil someone's plans.",
+    "usageNote": "Use it when something unexpected ruins a plan.",
+    "exampleSentence": "Das schlechte Wetter hat uns einen Strich durch die Rechnung gemacht.",
+    "exampleTranslation": "The bad weather threw a wrench in our plans.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "de-jemandem-auf-den-zahn-fuhlen",
+    "language": "de",
+    "expression": "Jemandem auf den Zahn fühlen",
+    "literalTranslation": "To feel someone's tooth",
+    "meaning": "To question someone closely to find out what they really know or intend.",
+    "usageNote": "Use it when probing someone carefully instead of taking them at face value.",
+    "exampleSentence": "Im Interview haben sie ihm ordentlich auf den Zahn gefühlt.",
+    "exampleTranslation": "In the interview they really grilled him.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "id": "de-den-bock-zum-gartner-machen",
+    "language": "de",
+    "expression": "Den Bock zum Gärtner machen",
+    "literalTranslation": "To make the goat the gardener",
+    "meaning": "To put exactly the wrong person in charge of something.",
+    "usageNote": "Use it when responsibility is handed to someone bound to misuse it.",
+    "exampleSentence": "Ihn die Kasse verwalten zu lassen heißt, den Bock zum Gärtner zu machen.",
+    "exampleTranslation": "Letting him manage the cash is putting the fox in charge of the henhouse.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-die-kuh-vom-eis-holen",
+    "language": "de",
+    "expression": "Die Kuh vom Eis holen",
+    "literalTranslation": "To get the cow off the ice",
+    "meaning": "To resolve a difficult or dangerous situation.",
+    "usageNote": "Use it when a tricky problem is finally sorted out.",
+    "exampleSentence": "Mit dem Kompromiss haben wir die Kuh vom Eis geholt.",
+    "exampleTranslation": "With the compromise we got ourselves out of a tight spot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "de-da-steppt-der-bar",
+    "language": "de",
+    "expression": "Da steppt der Bär",
+    "literalTranslation": "The bear tap-dances there",
+    "meaning": "There's a great atmosphere and lots going on; a lively party.",
+    "usageNote": "A casual way to say an event is going to be (or was) really lively.",
+    "exampleSentence": "Komm auch zur Party, da steppt der Bär.",
+    "exampleTranslation": "Come to the party too, it's going to be a blast.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "humor"
+    ]
+  },
+  {
+    "id": "de-jemandem-ein-x-fur-ein-u-vormachen",
+    "language": "de",
+    "expression": "Jemandem ein X für ein U vormachen",
+    "literalTranslation": "To make an X into a U for someone",
+    "meaning": "To deceive or fool someone with a false story.",
+    "usageNote": "Often negated, as in 'you can't fool me'.",
+    "exampleSentence": "Mir machst du kein X für ein U vor, ich kenne die Zahlen.",
+    "exampleTranslation": "You can't pull the wool over my eyes, I know the numbers.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-sich-zum-affen-machen",
+    "language": "de",
+    "expression": "Sich zum Affen machen",
+    "literalTranslation": "To make oneself into a monkey",
+    "meaning": "To make a fool of yourself.",
+    "usageNote": "Use it about embarrassing yourself in front of others.",
+    "exampleSentence": "Mit der Rede hat er sich total zum Affen gemacht.",
+    "exampleTranslation": "He made a complete fool of himself with that speech.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "emotion"
+    ]
+  },
+  {
+    "id": "de-ein-brett-vor-dem-kopf-haben",
+    "language": "de",
+    "expression": "Ein Brett vor dem Kopf haben",
+    "literalTranslation": "To have a board in front of one's head",
+    "meaning": "To be unable to see something obvious.",
+    "usageNote": "Use it, lightly, when someone is mentally blocked on something simple.",
+    "exampleSentence": "Ich hatte total ein Brett vor dem Kopf und übersah die Lösung.",
+    "exampleTranslation": "My mind went blank and I missed the obvious solution.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confusion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "de-da-haben-wir-den-salat",
+    "language": "de",
+    "expression": "Da haben wir den Salat",
+    "literalTranslation": "There we have the salad",
+    "meaning": "Now we're in a mess, exactly as feared.",
+    "usageNote": "A casual, resigned way to react when a predicted problem actually happens.",
+    "exampleSentence": "Jetzt ist die Datei weg, da haben wir den Salat.",
+    "exampleTranslation": "Now the file's gone, what a mess.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "de-ich-glaub-mein-schwein-pfeift",
+    "language": "de",
+    "expression": "Ich glaub, mein Schwein pfeift",
+    "literalTranslation": "I think my pig is whistling",
+    "meaning": "An exclamation of total disbelief or astonishment.",
+    "usageNote": "A very casual way to react to something outrageous or unbelievable.",
+    "exampleSentence": "Die haben schon wieder die Preise erhöht? Ich glaub, mein Schwein pfeift!",
+    "exampleTranslation": "They raised the prices again? You've got to be kidding me!",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "humor"
+    ]
+  },
+  {
+    "id": "de-perlen-vor-die-saue-werfen",
+    "language": "de",
+    "expression": "Perlen vor die Säue werfen",
+    "literalTranslation": "To throw pearls before the swine",
+    "meaning": "To waste something valuable on people who don't appreciate it.",
+    "usageNote": "Use it when effort or quality is lost on an unappreciative audience.",
+    "exampleSentence": "Ihm guten Wein zu servieren ist Perlen vor die Säue werfen.",
+    "exampleTranslation": "Serving him good wine is casting pearls before swine.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "de-mit-dem-ist-nicht-gut-kirschen-essen",
+    "language": "de",
+    "expression": "Mit dem ist nicht gut Kirschen essen",
+    "literalTranslation": "It's not good to eat cherries with him",
+    "meaning": "He's difficult and best not crossed.",
+    "usageNote": "Use it to warn that someone is prickly or hard to deal with.",
+    "exampleSentence": "Wenn er schlechte Laune hat, ist mit ihm nicht gut Kirschen essen.",
+    "exampleTranslation": "When he's in a bad mood, he's not someone to mess with.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "de-da-ist-hopfen-und-malz-verloren",
+    "language": "de",
+    "expression": "Da ist Hopfen und Malz verloren",
+    "literalTranslation": "There, hops and malt are lost",
+    "meaning": "It's a completely hopeless case.",
+    "usageNote": "Use it when any further effort would be pointless.",
+    "exampleSentence": "Ich hab's dreimal erklärt, aber da ist Hopfen und Malz verloren.",
+    "exampleTranslation": "I explained it three times, but it's a lost cause.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "de-kein-blatt-vor-den-mund-nehmen",
+    "language": "de",
+    "expression": "Kein Blatt vor den Mund nehmen",
+    "literalTranslation": "To not hold a leaf in front of one's mouth",
+    "meaning": "To speak frankly and not hold back.",
+    "usageNote": "Use it about someone who says exactly what they think.",
+    "exampleSentence": "Sie nimmt kein Blatt vor den Mund, wenn ihr etwas nicht passt.",
+    "exampleTranslation": "She doesn't mince words when something bothers her.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "de-alles-hat-ein-ende-nur-die-wurst-hat-zwei",
+    "language": "de",
+    "expression": "Alles hat ein Ende, nur die Wurst hat zwei",
+    "literalTranslation": "Everything has one end, only the sausage has two",
+    "meaning": "Everything comes to an end eventually (said with humour).",
+    "usageNote": "A jokey, folksy way to note that something is finally over.",
+    "exampleSentence": "Schön war's, aber alles hat ein Ende, nur die Wurst hat zwei.",
+    "exampleTranslation": "It was lovely, but all good things must come to an end.",
+    "difficulty": "intermediate",
+    "tags": [
+      "humor",
+      "time"
+    ]
+  },
+  {
+    "id": "de-die-rechnung-ohne-den-wirt-machen",
+    "language": "de",
+    "expression": "Die Rechnung ohne den Wirt machen",
+    "literalTranslation": "To make the bill without the innkeeper",
+    "meaning": "To make plans without considering a crucial person or factor that can spoil them.",
+    "usageNote": "Use it when someone's plan overlooks somebody whose approval or reaction turns out to be decisive.",
+    "exampleSentence": "Sie wollten ohne die Nachbarn umbauen, aber da haben sie die Rechnung ohne den Wirt gemacht.",
+    "exampleTranslation": "They wanted to renovate without the neighbours, but they reckoned without their host.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "mistakes"
+    ]
+  },
+  {
     "id": "de-alter-schutzt-vor-torheit-nicht-0",
     "language": "de",
     "expression": "Alter schützt vor Torheit nicht",
@@ -331,22 +1528,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "exampleSentence": "Er hat den Link wirklich angeklickt, Alter schützt vor Torheit nicht.",
     "exampleTranslation": "He really clicked that link; age does not stop people from doing foolish things.",
     "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "de-aller-guten-dinge-sind-drei-1",
-    "language": "de",
-    "expression": "Aller guten Dinge sind drei",
-    "literalTranslation": "All good things are three",
-    "meaning": "The third attempt often brings success.",
-    "usageNote": "Use it to encourage someone to try once more after two failed attempts.",
-    "exampleSentence": "Versuch es noch einmal, aller guten Dinge sind drei.",
-    "exampleTranslation": "Try it one more time, third time is often the charm.",
-    "difficulty": "basic",
     "tags": [
       "idiom",
       "imported",
@@ -450,22 +1631,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "de-aller-anfang-ist-schwer-8",
-    "language": "de",
-    "expression": "Aller Anfang ist schwer",
-    "literalTranslation": "Every beginning is hard",
-    "meaning": "Starting something new is usually the hardest stage.",
-    "usageNote": "Use it to encourage patience at the beginning of a new habit, job, or skill.",
-    "exampleSentence": "Bleib dran, aller Anfang ist schwer.",
-    "exampleTranslation": "Keep going; the beginning is always the hardest part.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "de-asche-auf-mein-haupt-9",
     "language": "de",
     "expression": "Asche auf mein Haupt",
@@ -499,147 +1664,754 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "de-der-ton-macht-die-musik-11",
-    "language": "de",
-    "expression": "Der Ton macht die Musik",
-    "literalTranslation": "The tone makes the music",
-    "meaning": "How something is said matters as much as the message itself.",
-    "usageNote": "Use it when someone is technically right but communicating in an unnecessarily harsh way.",
-    "exampleSentence": "Du hast vielleicht recht, aber der Ton macht die Musik.",
-    "exampleTranslation": "You may be right, but the way you say it matters.",
+    "id": "en-beat-around-the-bush",
+    "language": "en",
+    "expression": "Beat around the bush",
+    "meaning": "To avoid saying something directly and take too long to get to the point.",
+    "usageNote": "Use it when someone keeps circling a topic instead of stating it plainly.",
+    "exampleSentence": "Stop beating around the bush and tell me what actually went wrong.",
+    "exampleTranslation": "Stop avoiding the subject and tell me what actually went wrong.",
     "difficulty": "basic",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "communication"
     ]
   },
   {
-    "id": "de-ubung-macht-den-meister-12",
-    "language": "de",
-    "expression": "Übung macht den Meister",
-    "literalTranslation": "Practice makes the master",
-    "meaning": "Real skill comes through repeated practice.",
-    "usageNote": "Use it to encourage someone who is still learning and feels frustrated too early.",
-    "exampleSentence": "Noch klappt es nicht perfekt, aber Übung macht den Meister.",
-    "exampleTranslation": "It is not perfect yet, but practice is what builds real skill.",
+    "id": "en-kill-two-birds-with-one-stone",
+    "language": "en",
+    "expression": "Kill two birds with one stone",
+    "meaning": "To achieve two goals with a single action.",
+    "usageNote": "Use it when one efficient move takes care of two things at once.",
+    "exampleSentence": "By cycling to work, I exercise and save money, killing two birds with one stone.",
+    "exampleTranslation": "By cycling to work, I exercise and save money, handling two things at once.",
     "difficulty": "basic",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "efficiency",
+      "daily-life"
     ]
   },
   {
-    "id": "de-wer-rastet-der-rostet-13",
-    "language": "de",
-    "expression": "Wer rastet, der rostet",
-    "literalTranslation": "Who rests, rusts",
-    "meaning": "If you stop staying active, you lose energy and sharpness.",
-    "usageNote": "Use it to encourage movement, practice, or curiosity instead of becoming passive.",
-    "exampleSentence": "Komm mit spazieren, wer rastet, der rostet.",
-    "exampleTranslation": "Come for a walk; if you stop moving, you lose your edge.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "de-wo-ein-wille-ist-ist-auch-ein-weg-14",
-    "language": "de",
-    "expression": "Wo ein Wille ist, ist auch ein Weg",
-    "literalTranslation": "Where there is a will, there is also a way",
-    "meaning": "Strong determination helps people find solutions.",
-    "usageNote": "Use it to motivate someone who feels stuck but still has options if they keep trying.",
-    "exampleSentence": "Es wird schwer, aber wo ein Wille ist, ist auch ein Weg.",
-    "exampleTranslation": "It will be hard, but determination usually opens a path.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "de-was-du-heute-kannst-besorgen-das-verschiebe-nicht-auf-morgen-15",
-    "language": "de",
-    "expression": "Was du heute kannst besorgen, das verschiebe nicht auf morgen",
-    "literalTranslation": "What you can take care of today, do not postpone until tomorrow",
-    "meaning": "Do not put off a task that can already be finished now.",
-    "usageNote": "Use it when someone keeps delaying something small that will only become more annoying later.",
-    "exampleSentence": "Schick die Mail jetzt, was du heute kannst besorgen, das verschiebe nicht auf morgen.",
-    "exampleTranslation": "Send the email now; do not postpone what you can do today.",
+    "id": "en-the-last-straw",
+    "language": "en",
+    "expression": "The last straw",
+    "meaning": "The final small problem that makes a difficult situation unbearable.",
+    "usageNote": "Use it when patience finally runs out because one more thing pushed it too far.",
+    "exampleSentence": "The cancelled flight was the last straw after a week of travel problems.",
+    "exampleTranslation": "The cancelled flight was the final blow after a week of travel problems.",
     "difficulty": "intermediate",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "emotion"
     ]
   },
   {
-    "id": "de-aus-einer-mucke-einen-elefanten-machen-16",
-    "language": "de",
-    "expression": "Aus einer Mücke einen Elefanten machen",
-    "literalTranslation": "To make an elephant out of a mosquito",
-    "meaning": "To turn a small problem into something huge.",
-    "usageNote": "Use it when someone reacts far too dramatically to a minor issue.",
-    "exampleSentence": "Es war nur ein Tippfehler, mach nicht gleich aus einer Mücke einen Elefanten.",
-    "exampleTranslation": "It was only a typo; do not blow it wildly out of proportion.",
+    "id": "en-a-blessing-in-disguise",
+    "language": "en",
+    "expression": "A blessing in disguise",
+    "meaning": "Something that seems bad at first but turns out to be good.",
+    "usageNote": "Use it when a setback ends up leading to a better outcome.",
+    "exampleSentence": "Losing that job was a blessing in disguise, because it pushed her to start her own business.",
+    "exampleTranslation": "Losing that job turned out to be a good thing, because it pushed her to start her own business.",
     "difficulty": "intermediate",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "encouragement",
+      "emotion"
     ]
   },
   {
-    "id": "de-ins-fettnapfchen-treten-17",
-    "language": "de",
-    "expression": "Ins Fettnäpfchen treten",
-    "literalTranslation": "To step into the grease bowl",
-    "meaning": "To say or do something socially awkward or embarrassing.",
-    "usageNote": "Use it when someone accidentally offends another person or raises the wrong topic at the wrong time.",
-    "exampleSentence": "Mit der Frage nach ihrem Gehalt ist er voll ins Fettnäpfchen getreten.",
-    "exampleTranslation": "By asking about her salary, he really put his foot in his mouth.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "de-den-roten-faden-verlieren-18",
-    "language": "de",
-    "expression": "Den roten Faden verlieren",
-    "literalTranslation": "To lose the red thread",
-    "meaning": "To lose the main point or train of thought.",
-    "usageNote": "Use it when speaking, writing, or planning suddenly becomes unfocused.",
-    "exampleSentence": "Warte kurz, ich habe gerade den roten Faden verloren.",
-    "exampleTranslation": "Wait a second, I just lost my train of thought.",
+    "id": "en-speak-of-the-devil",
+    "language": "en",
+    "expression": "Speak of the devil",
+    "meaning": "Said when a person you were just talking about suddenly appears.",
+    "usageNote": "Use it lightly and humorously when someone shows up right after being mentioned.",
+    "exampleSentence": "Speak of the devil, we were just talking about you!",
+    "exampleTranslation": "Here you are, we were just talking about you!",
     "difficulty": "basic",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "daily-life",
+      "humor"
     ]
   },
   {
-    "id": "de-jemandem-einen-baren-aufbinden-19",
-    "language": "de",
-    "expression": "Jemandem einen Bären aufbinden",
-    "literalTranslation": "To tie a bear onto someone",
-    "meaning": "To tell someone an unbelievable story or obvious nonsense.",
-    "usageNote": "Use it when a person is clearly trying to fool someone with a ridiculous explanation.",
-    "exampleSentence": "Er wollte mir einen Bären aufbinden, aber ich habe ihm kein Wort geglaubt.",
-    "exampleTranslation": "He tried to feed me a ridiculous story, but I did not believe a word of it.",
+    "id": "en-bite-off-more-than-you-can-chew",
+    "language": "en",
+    "expression": "Bite off more than you can chew",
+    "meaning": "To take on more than you can realistically handle.",
+    "usageNote": "Use it when someone's commitments outrun their time, skill, or energy.",
+    "exampleSentence": "By running three projects at once, he bit off more than he could chew.",
+    "exampleTranslation": "By running three projects at once, he took on more than he could handle.",
     "difficulty": "intermediate",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "work",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "en-break-the-ice",
+    "language": "en",
+    "expression": "Break the ice",
+    "meaning": "To ease the initial tension in a social situation.",
+    "usageNote": "Use it about a first joke, question, or gesture that helps people relax with each other.",
+    "exampleSentence": "A quick game helped break the ice on the first day of the course.",
+    "exampleTranslation": "A quick game helped ease the tension on the first day of the course.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "en-get-cold-feet",
+    "language": "en",
+    "expression": "Get cold feet",
+    "meaning": "To become nervous and hesitant right before doing something important.",
+    "usageNote": "Use it when someone loses their nerve just before a big commitment or decision.",
+    "exampleSentence": "He got cold feet the night before the presentation and almost cancelled.",
+    "exampleTranslation": "He became too nervous the night before the presentation and almost cancelled.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "en-read-between-the-lines",
+    "language": "en",
+    "expression": "Read between the lines",
+    "meaning": "To understand a hidden or unstated meaning.",
+    "usageNote": "Use it when the real message is implied rather than said openly.",
+    "exampleSentence": "She never said no, but if you read between the lines, she was not interested.",
+    "exampleTranslation": "She never said no, but going by the hidden meaning, she was not interested.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "en-cut-to-the-chase",
+    "language": "en",
+    "expression": "Cut to the chase",
+    "meaning": "To get to the important point without wasting time.",
+    "usageNote": "Use it when you want to skip the preamble and address what actually matters.",
+    "exampleSentence": "We only have five minutes, so let me cut to the chase.",
+    "exampleTranslation": "We only have five minutes, so let me get straight to the point.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "id": "en-the-tip-of-the-iceberg",
+    "language": "en",
+    "expression": "The tip of the iceberg",
+    "meaning": "A small, visible part of a much larger hidden problem.",
+    "usageNote": "Use it when what you can see is only a fraction of a bigger issue underneath.",
+    "exampleSentence": "These complaints are just the tip of the iceberg; the whole process is broken.",
+    "exampleTranslation": "These complaints are just a small visible part; the whole process is broken.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-jump-on-the-bandwagon",
+    "language": "en",
+    "expression": "Jump on the bandwagon",
+    "meaning": "To join an activity or trend only once it has already become popular.",
+    "usageNote": "Use it, often with mild criticism, when people follow a trend late just because others do.",
+    "exampleSentence": "Once the app went viral, every brand jumped on the bandwagon.",
+    "exampleTranslation": "Once the app went viral, every brand followed the trend.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "en-throw-someone-under-the-bus",
+    "language": "en",
+    "expression": "Throw someone under the bus",
+    "meaning": "To betray or blame someone in order to protect yourself.",
+    "usageNote": "Use it when a person sacrifices a colleague or friend to avoid trouble themselves.",
+    "exampleSentence": "Instead of admitting the mistake, she threw her assistant under the bus.",
+    "exampleTranslation": "Instead of admitting the mistake, she blamed her assistant to protect herself.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "en-water-under-the-bridge",
+    "language": "en",
+    "expression": "Water under the bridge",
+    "meaning": "A past conflict that is over and no longer worth worrying about.",
+    "usageNote": "Use it to signal that you have let go of an old disagreement.",
+    "exampleSentence": "We argued years ago, but that is all water under the bridge now.",
+    "exampleTranslation": "We argued years ago, but that is all in the past now.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-when-pigs-fly",
+    "language": "en",
+    "expression": "When pigs fly",
+    "meaning": "Used to say that something will never happen.",
+    "usageNote": "Use it sarcastically to dismiss something as impossible.",
+    "exampleSentence": "He will clean his room when pigs fly.",
+    "exampleTranslation": "He will clean his room, which is to say never.",
+    "difficulty": "basic",
+    "tags": [
+      "humor",
+      "time"
+    ]
+  },
+  {
+    "id": "en-if-you-cant-stand-the-heat-get-out-of-the-kitchen",
+    "language": "en",
+    "expression": "If you can't stand the heat, get out of the kitchen",
+    "meaning": "If you can't cope with the pressure of a situation, you should leave it to others.",
+    "usageNote": "Use it, somewhat bluntly, to tell someone to either handle the stress or step aside.",
+    "exampleSentence": "This role means tight deadlines every week; if you can't stand the heat, get out of the kitchen.",
+    "exampleTranslation": "This role means tight deadlines every week; if you can't handle the pressure, step aside.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-when-in-rome-do-as-the-romans-do",
+    "language": "en",
+    "expression": "When in Rome, do as the Romans do",
+    "meaning": "Adapt to the customs of the place or group you are in.",
+    "usageNote": "Use it to advise fitting in with local habits rather than insisting on your own.",
+    "exampleSentence": "They eat dinner at ten here, so when in Rome, do as the Romans do.",
+    "exampleTranslation": "They eat dinner at ten here, so adapt to the local custom.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-dont-judge-a-book-by-its-cover",
+    "language": "en",
+    "expression": "Don't judge a book by its cover",
+    "meaning": "Do not form an opinion about something based only on its appearance.",
+    "usageNote": "Use it when a first impression is misleading and the reality turns out different.",
+    "exampleSentence": "The café looks shabby, but don't judge a book by its cover, the food is amazing.",
+    "exampleTranslation": "The café looks shabby, but don't judge by appearance, the food is amazing.",
+    "difficulty": "basic",
+    "tags": [
+      "personality",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "en-actions-speak-louder-than-words",
+    "language": "en",
+    "expression": "Actions speak louder than words",
+    "meaning": "What people do matters more than what they say.",
+    "usageNote": "Use it when someone's promises should be measured against their actual behaviour.",
+    "exampleSentence": "He keeps saying he'll help, but actions speak louder than words.",
+    "exampleTranslation": "He keeps saying he'll help, but what he does matters more than what he says.",
+    "difficulty": "basic",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-when-the-going-gets-tough-the-tough-get-going",
+    "language": "en",
+    "expression": "When the going gets tough, the tough get going",
+    "meaning": "Strong, determined people work harder when a situation becomes difficult.",
+    "usageNote": "Use it to encourage determination in the middle of hardship.",
+    "exampleSentence": "We're behind schedule, but when the going gets tough, the tough get going.",
+    "exampleTranslation": "We're behind schedule, but strong teams push harder when things get hard.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "en-the-early-bird-catches-the-worm",
+    "language": "en",
+    "expression": "The early bird catches the worm",
+    "meaning": "People who act first or arrive early get the best opportunities.",
+    "usageNote": "Use it to stress the advantage of being early or acting promptly.",
+    "exampleSentence": "Tickets sell out fast, and the early bird catches the worm.",
+    "exampleTranslation": "Tickets sell out fast, and those who act early get the best ones.",
+    "difficulty": "basic",
+    "tags": [
+      "time",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-two-wrongs-dont-make-a-right",
+    "language": "en",
+    "expression": "Two wrongs don't make a right",
+    "meaning": "Responding to a wrong with another wrong does not fix anything.",
+    "usageNote": "Use it to discourage retaliation or trying to get even.",
+    "exampleSentence": "He ignored you, but don't spread rumours, two wrongs don't make a right.",
+    "exampleTranslation": "He ignored you, but don't spread rumours, retaliation doesn't fix things.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "en-you-cant-have-your-cake-and-eat-it-too",
+    "language": "en",
+    "expression": "You can't have your cake and eat it too",
+    "meaning": "You can't enjoy two desirable but incompatible things at the same time.",
+    "usageNote": "Use it when someone wants two options that logically exclude each other.",
+    "exampleSentence": "You want to save money but also travel every month; you can't have your cake and eat it too.",
+    "exampleTranslation": "You want to save money but also travel every month; you can't have it both ways.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "en-birds-of-a-feather-flock-together",
+    "language": "en",
+    "expression": "Birds of a feather flock together",
+    "meaning": "People with similar characters or interests tend to associate with each other.",
+    "usageNote": "Use it to observe that like-minded people naturally group together.",
+    "exampleSentence": "The new hires all love hiking, birds of a feather flock together.",
+    "exampleTranslation": "The new hires all love hiking, similar people stick together.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-dont-bite-the-hand-that-feeds-you",
+    "language": "en",
+    "expression": "Don't bite the hand that feeds you",
+    "meaning": "Do not harm or offend the person you depend on.",
+    "usageNote": "Use it as a warning against turning on a supporter or benefactor.",
+    "exampleSentence": "Criticising your biggest client in public? Don't bite the hand that feeds you.",
+    "exampleTranslation": "Criticising your biggest client in public? Don't harm the one you depend on.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "en-all-that-glitters-is-not-gold",
+    "language": "en",
+    "expression": "All that glitters is not gold",
+    "meaning": "Something attractive on the surface may not be truly valuable.",
+    "usageNote": "Use it to warn against being fooled by an impressive appearance.",
+    "exampleSentence": "The offer sounds amazing, but all that glitters is not gold.",
+    "exampleTranslation": "The offer sounds amazing, but attractive things aren't always valuable.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "en-too-many-cooks-spoil-the-broth",
+    "language": "en",
+    "expression": "Too many cooks spoil the broth",
+    "meaning": "When too many people are involved, the result suffers.",
+    "usageNote": "Use it when a task turns out worse because too many people are trying to control it.",
+    "exampleSentence": "Five people editing one slide? Too many cooks spoil the broth.",
+    "exampleTranslation": "Five people editing one slide? Too many people ruin the result.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-the-bees-knees",
+    "language": "en",
+    "expression": "The bee's knees",
+    "meaning": "Something or someone excellent and top-notch.",
+    "usageNote": "A playful, slightly old-fashioned way to praise something highly.",
+    "exampleSentence": "She thinks her new phone is the bee's knees.",
+    "exampleTranslation": "She thinks her new phone is absolutely the best.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confidence",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-bobs-your-uncle",
+    "language": "en",
+    "expression": "Bob's your uncle",
+    "meaning": "And there you have it; it's as simple as that.",
+    "usageNote": "Used, chiefly in British English, to finish instructions on an easy result.",
+    "exampleSentence": "Add water, stir, and Bob's your uncle, dinner's ready.",
+    "exampleTranslation": "Add water, stir, and just like that, dinner's ready.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-give-someone-the-cold-shoulder",
+    "language": "en",
+    "expression": "Give someone the cold shoulder",
+    "meaning": "To deliberately ignore someone or be unfriendly to them.",
+    "usageNote": "Use it when someone snubs another on purpose.",
+    "exampleSentence": "Ever since the argument, she's been giving me the cold shoulder.",
+    "exampleTranslation": "Ever since the argument, she's been deliberately ignoring me.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-as-the-crow-flies",
+    "language": "en",
+    "expression": "As the crow flies",
+    "meaning": "In a straight line; the direct distance between two points.",
+    "usageNote": "Use it when giving a distance, ignoring roads or detours.",
+    "exampleSentence": "It's only two miles as the crow flies, but longer by road.",
+    "exampleTranslation": "It's only two miles in a straight line, but longer by road.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-give-someone-the-slip",
+    "language": "en",
+    "expression": "Give someone the slip",
+    "meaning": "To escape or get away from someone following you.",
+    "usageNote": "Use it about evading a pursuer or someone you want to avoid.",
+    "exampleSentence": "The suspect gave the police the slip in the crowd.",
+    "exampleTranslation": "The suspect escaped the police in the crowd.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-a-wild-goose-chase",
+    "language": "en",
+    "expression": "A wild goose chase",
+    "meaning": "A hopeless, pointless search or pursuit.",
+    "usageNote": "Use it when effort is spent chasing something that leads nowhere.",
+    "exampleSentence": "The wrong address sent us on a wild goose chase across town.",
+    "exampleTranslation": "The wrong address sent us on a pointless search across town.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "en-barking-up-the-wrong-tree",
+    "language": "en",
+    "expression": "Barking up the wrong tree",
+    "meaning": "Pursuing a mistaken line of thought or blaming the wrong cause.",
+    "usageNote": "Use it when someone is looking in the wrong place for an answer.",
+    "exampleSentence": "If you think I broke it, you're barking up the wrong tree.",
+    "exampleTranslation": "If you think I broke it, you've got the wrong person.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-a-storm-in-a-teacup",
+    "language": "en",
+    "expression": "A storm in a teacup",
+    "meaning": "A lot of fuss over something trivial.",
+    "usageNote": "Use it, chiefly in British English, when a small issue is blown out of proportion.",
+    "exampleSentence": "The whole argument was a storm in a teacup.",
+    "exampleTranslation": "The whole argument was a big fuss over nothing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-steal-someones-thunder",
+    "language": "en",
+    "expression": "Steal someone's thunder",
+    "meaning": "To take the attention or credit that someone else deserved.",
+    "usageNote": "Use it when someone upstages another or preempts their big moment.",
+    "exampleSentence": "She announced the results early and stole his thunder.",
+    "exampleTranslation": "She announced the results early and took his moment of glory.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-jump-the-gun",
+    "language": "en",
+    "expression": "Jump the gun",
+    "meaning": "To act too soon, before the right moment.",
+    "usageNote": "Use it when someone starts something prematurely.",
+    "exampleSentence": "Don't jump the gun; wait until the deal is signed.",
+    "exampleTranslation": "Don't act too soon; wait until the deal is signed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "en-sit-on-the-fence",
+    "language": "en",
+    "expression": "Sit on the fence",
+    "meaning": "To avoid taking sides in a dispute or decision.",
+    "usageNote": "Use it, often critically, about someone who won't commit either way.",
+    "exampleSentence": "You can't sit on the fence forever; pick a side.",
+    "exampleTranslation": "You can't stay undecided forever; pick a side.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "en-burn-the-midnight-oil",
+    "language": "en",
+    "expression": "Burn the midnight oil",
+    "meaning": "To work or study late into the night.",
+    "usageNote": "Use it about putting in long hours, especially before a deadline.",
+    "exampleSentence": "We burned the midnight oil to finish the report.",
+    "exampleTranslation": "We worked late into the night to finish the report.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "time"
+    ]
+  },
+  {
+    "id": "en-hit-the-ground-running",
+    "language": "en",
+    "expression": "Hit the ground running",
+    "meaning": "To start something new energetically and effectively from the very beginning.",
+    "usageNote": "Use it about someone productive right away, with no slow warm-up.",
+    "exampleSentence": "She hit the ground running in her first week.",
+    "exampleTranslation": "She was fully productive from her very first week.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-throw-caution-to-the-wind",
+    "language": "en",
+    "expression": "Throw caution to the wind",
+    "meaning": "To act boldly without worrying about the risks.",
+    "usageNote": "Use it when someone abandons their usual carefulness.",
+    "exampleSentence": "They threw caution to the wind and booked a one-way ticket.",
+    "exampleTranslation": "They cast aside their caution and booked a one-way ticket.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-off-the-top-of-my-head",
+    "language": "en",
+    "expression": "Off the top of my head",
+    "meaning": "From memory, without checking or careful thought.",
+    "usageNote": "Use it before giving a quick, approximate answer.",
+    "exampleSentence": "Off the top of my head, I'd say about fifty people came.",
+    "exampleTranslation": "Without checking, I'd say about fifty people came.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "en-face-the-music",
+    "language": "en",
+    "expression": "Face the music",
+    "meaning": "To accept the unpleasant consequences of your actions.",
+    "usageNote": "Use it when someone must confront criticism or punishment.",
+    "exampleSentence": "He missed the deadline and now has to face the music.",
+    "exampleTranslation": "He missed the deadline and now has to accept the consequences.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "en-a-drop-in-the-ocean",
+    "language": "en",
+    "expression": "A drop in the ocean",
+    "meaning": "A tiny amount compared with what is actually needed.",
+    "usageNote": "Use it when a contribution is far too small to make a real difference.",
+    "exampleSentence": "My donation felt like a drop in the ocean.",
+    "exampleTranslation": "My donation felt far too small to make a difference.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
+    ]
+  },
+  {
+    "id": "en-dont-cry-over-spilt-milk",
+    "language": "en",
+    "expression": "Don't cry over spilt milk",
+    "meaning": "Don't waste time being upset about something that can't be undone.",
+    "usageNote": "Use it to tell someone to move on from a past mistake.",
+    "exampleSentence": "The deal fell through, but don't cry over spilt milk.",
+    "exampleTranslation": "The deal fell through, but there's no use regretting what's done.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "en-once-bitten-twice-shy",
+    "language": "en",
+    "expression": "Once bitten, twice shy",
+    "meaning": "After a bad experience, you become extra cautious the next time.",
+    "usageNote": "Use it to explain wariness caused by a past hurt.",
+    "exampleSentence": "He won't lend money again; once bitten, twice shy.",
+    "exampleTranslation": "He won't lend money again; a bad experience made him cautious.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "emotion"
+    ]
+  },
+  {
+    "id": "en-in-the-nick-of-time",
+    "language": "en",
+    "expression": "In the nick of time",
+    "meaning": "At the very last possible moment, just before it's too late.",
+    "usageNote": "Use it when something is saved or done just in time.",
+    "exampleSentence": "The rescue team arrived in the nick of time.",
+    "exampleTranslation": "The rescue team arrived at the very last moment.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-ring-a-bell",
+    "language": "en",
+    "expression": "Ring a bell",
+    "meaning": "To sound familiar; to jog a vague memory.",
+    "usageNote": "Use it when a name or fact seems familiar but you can't quite place it.",
+    "exampleSentence": "That name rings a bell, but I can't remember where from.",
+    "exampleTranslation": "That name sounds familiar, but I can't remember where from.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-up-in-the-air",
+    "language": "en",
+    "expression": "Up in the air",
+    "meaning": "Undecided or uncertain.",
+    "usageNote": "Use it about plans or outcomes that haven't been settled yet.",
+    "exampleSentence": "Our holiday plans are still up in the air.",
+    "exampleTranslation": "Our holiday plans are still undecided.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "en-down-to-earth",
+    "language": "en",
+    "expression": "Down to earth",
+    "meaning": "Practical, sensible, and unpretentious.",
+    "usageNote": "Use it to praise someone who stays modest and realistic.",
+    "exampleSentence": "Despite her fame, she's remarkably down to earth.",
+    "exampleTranslation": "Despite her fame, she's remarkably modest and practical.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-get-the-ball-rolling",
+    "language": "en",
+    "expression": "Get the ball rolling",
+    "meaning": "To start something and get it going.",
+    "usageNote": "Use it when it's time to begin a task or process.",
+    "exampleSentence": "Let's get the ball rolling on the new project this week.",
+    "exampleTranslation": "Let's get the new project started this week.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-cross-that-bridge-when-you-come-to-it",
+    "language": "en",
+    "expression": "Cross that bridge when you come to it",
+    "meaning": "Deal with a problem only when it actually arises.",
+    "usageNote": "Use it to tell someone not to worry about a problem prematurely.",
+    "exampleSentence": "We might need more funding later, but we'll cross that bridge when we come to it.",
+    "exampleTranslation": "We might need more funding later, but we'll deal with that when it happens.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "en-pull-out-all-the-stops",
+    "language": "en",
+    "expression": "Pull out all the stops",
+    "meaning": "To make every possible effort to make something a success.",
+    "usageNote": "Use it when someone spares no effort for an important occasion.",
+    "exampleSentence": "They pulled out all the stops for the launch party.",
+    "exampleTranslation": "They spared no effort for the launch party.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "performance"
+    ]
+  },
+  {
+    "id": "en-sell-like-hotcakes",
+    "language": "en",
+    "expression": "Sell like hotcakes",
+    "meaning": "To sell very quickly and in large numbers.",
+    "usageNote": "Use it about a product that is in high demand.",
+    "exampleSentence": "The new sneakers sold like hotcakes.",
+    "exampleTranslation": "The new sneakers sold extremely fast.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
     ]
   },
   {
@@ -656,7 +2428,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "imported",
       "reviewed",
       "ef"
-    ],
+    ]
   },
   {
     "id": "en-web-get-your-act-together",
@@ -672,7 +2444,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "imported",
       "reviewed",
       "ef"
-    ],
+    ]
   },
   {
     "id": "en-web-wrap-your-head-around-something",
@@ -688,7 +2460,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "imported",
       "reviewed",
       "ef"
-    ],
+    ]
   },
   {
     "id": "en-web-by-the-skin-of-your-teeth",
@@ -704,7 +2476,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "imported",
       "reviewed",
       "ef"
-    ],
+    ]
   },
   {
     "id": "en-web-take-it-with-a-grain-of-salt",
@@ -720,7 +2492,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "imported",
       "reviewed",
       "ef"
-    ],
+    ]
   },
   {
     "id": "en-web-the-elephant-in-the-room",
@@ -736,7 +2508,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "imported",
       "reviewed",
       "ef"
-    ],
+    ]
   },
   {
     "id": "en-above-and-beyond-0",
@@ -806,36 +2578,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "usageNote": "Use it when one player in a market or conversation has overwhelming power.",
     "exampleSentence": "That company is the 800-pound gorilla in the industry, so everyone reacts to its pricing.",
     "exampleTranslation": "That company dominates the industry so strongly that everyone reacts to its pricing.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "en-a-boon-and-a-bane-5",
-    "language": "en",
-    "expression": "A boon and a bane",
-    "meaning": "Something that brings both clear benefits and serious drawbacks.",
-    "usageNote": "Use it when a tool or change helps in one way but creates problems in another.",
-    "exampleSentence": "Remote work has been a boon and a bane for the team depending on the project.",
-    "exampleTranslation": "Remote work has been both helpful and difficult for the team depending on the project.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "en-11th-commandment-6",
-    "language": "en",
-    "expression": "11th commandment",
-    "meaning": "An unwritten rule that people in a group treat as if it must never be broken.",
-    "usageNote": "Use it when a norm feels so strong that it functions like a sacred rule.",
-    "exampleSentence": "In that office, replying to the founder immediately is practically the 11th commandment.",
-    "exampleTranslation": "In that office, replying to the founder immediately feels like an untouchable rule.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",
@@ -994,36 +2736,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "en-throw-in-the-towel-17",
-    "language": "en",
-    "expression": "Throw in the towel",
-    "meaning": "To give up and stop trying.",
-    "usageNote": "Use it when someone decides the effort is no longer worth continuing.",
-    "exampleSentence": "We were close to throwing in the towel before the final patch worked.",
-    "exampleTranslation": "We were close to giving up before the final patch worked.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "en-costs-an-arm-and-a-leg-18",
-    "language": "en",
-    "expression": "Costs an arm and a leg",
-    "meaning": "To be extremely expensive.",
-    "usageNote": "Use it when the price of something feels unreasonably high.",
-    "exampleSentence": "That apartment is beautiful, but it costs an arm and a leg.",
-    "exampleTranslation": "That apartment is beautiful, but it is extremely expensive.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "en-hit-the-sack-19",
     "language": "en",
     "expression": "Hit the sack",
@@ -1036,6 +2748,709 @@ export const importedExpressions: ExpressionEntry[] = [
       "idiom",
       "imported",
       "reviewed"
+    ]
+  },
+  {
+    "id": "es-tirar-la-casa-por-la-ventana",
+    "language": "es",
+    "expression": "Tirar la casa por la ventana",
+    "literalTranslation": "To throw the house out the window",
+    "meaning": "To spare no expense and spend lavishly on a special occasion.",
+    "usageNote": "Use it when someone goes all out spending money, often for a celebration.",
+    "exampleSentence": "Para la boda tiraron la casa por la ventana.",
+    "exampleTranslation": "For the wedding they spared no expense.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-ser-una-y-carne",
+    "language": "es",
+    "expression": "Ser uña y carne",
+    "literalTranslation": "To be fingernail and flesh",
+    "meaning": "To be extremely close and inseparable.",
+    "usageNote": "Use it to describe two people who are always together and very close.",
+    "exampleSentence": "Desde niños son uña y carne.",
+    "exampleTranslation": "They have been inseparable since childhood.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-hablar-por-los-codos",
+    "language": "es",
+    "expression": "Hablar por los codos",
+    "literalTranslation": "To talk through the elbows",
+    "meaning": "To talk far too much, without stopping.",
+    "usageNote": "Use it, often with mild humour, about someone who never stops chattering.",
+    "exampleSentence": "En cuanto se pone nerviosa, habla por los codos.",
+    "exampleTranslation": "As soon as she gets nervous, she talks nonstop.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "es-tener-la-sarten-por-el-mango",
+    "language": "es",
+    "expression": "Tener la sartén por el mango",
+    "literalTranslation": "To hold the frying pan by the handle",
+    "meaning": "To be in control of a situation and have the advantage.",
+    "usageNote": "Use it when one side clearly holds the power in a negotiation or conflict.",
+    "exampleSentence": "Con esa información, ahora tienes tú la sartén por el mango.",
+    "exampleTranslation": "With that information, now you have the upper hand.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "confidence"
+    ]
+  },
+  {
+    "id": "es-estar-como-pez-en-el-agua",
+    "language": "es",
+    "expression": "Estar como pez en el agua",
+    "literalTranslation": "To be like a fish in water",
+    "meaning": "To feel completely comfortable and in one's element.",
+    "usageNote": "Use it when someone thrives in a setting that suits them perfectly.",
+    "exampleSentence": "En las reuniones grandes está como pez en el agua.",
+    "exampleTranslation": "In big meetings she is completely in her element.",
+    "difficulty": "basic",
+    "tags": [
+      "confidence",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-hacer-la-vista-gorda",
+    "language": "es",
+    "expression": "Hacer la vista gorda",
+    "literalTranslation": "To make the fat sight",
+    "meaning": "To deliberately ignore something that is wrong.",
+    "usageNote": "Use it when someone chooses not to notice a rule being broken.",
+    "exampleSentence": "El portero hizo la vista gorda y nos dejó pasar.",
+    "exampleTranslation": "The doorman turned a blind eye and let us in.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "es-matar-dos-pajaros-de-un-tiro",
+    "language": "es",
+    "expression": "Matar dos pájaros de un tiro",
+    "literalTranslation": "To kill two birds with one shot",
+    "meaning": "To achieve two goals with a single action.",
+    "usageNote": "Use it when one move takes care of two things at once.",
+    "exampleSentence": "Si vamos en tren, visitamos a Ana y ahorramos aparcamiento: matamos dos pájaros de un tiro.",
+    "exampleTranslation": "If we take the train, we visit Ana and save on parking: two birds with one stone.",
+    "difficulty": "basic",
+    "tags": [
+      "efficiency",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-ponerse-las-botas",
+    "language": "es",
+    "expression": "Ponerse las botas",
+    "literalTranslation": "To put on one's boots",
+    "meaning": "To eat a great deal and enjoy it, or to profit handsomely from something.",
+    "usageNote": "Use it casually about feasting on food or making a big gain.",
+    "exampleSentence": "Con ese bufé nos pusimos las botas.",
+    "exampleTranslation": "With that buffet we stuffed ourselves.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "money"
+    ]
+  },
+  {
+    "id": "es-dar-la-lata",
+    "language": "es",
+    "expression": "Dar la lata",
+    "literalTranslation": "To give the tin can",
+    "meaning": "To annoy or pester someone, especially by insisting.",
+    "usageNote": "A casual way to describe someone being a nuisance or nagging.",
+    "exampleSentence": "Los niños me dieron la lata todo el día para ir al parque.",
+    "exampleTranslation": "The kids pestered me all day to go to the park.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-estar-hasta-las-narices",
+    "language": "es",
+    "expression": "Estar hasta las narices",
+    "literalTranslation": "To be up to the nostrils",
+    "meaning": "To be completely fed up with something.",
+    "usageNote": "An informal way to express strong frustration.",
+    "exampleSentence": "Estoy hasta las narices de tantas excusas.",
+    "exampleTranslation": "I am completely fed up with so many excuses.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "id": "es-poner-el-grito-en-el-cielo",
+    "language": "es",
+    "expression": "Poner el grito en el cielo",
+    "literalTranslation": "To put the shout in the sky",
+    "meaning": "To protest loudly and react with outrage.",
+    "usageNote": "Use it when someone reacts to something with loud indignation.",
+    "exampleSentence": "Cuando subieron los precios, los vecinos pusieron el grito en el cielo.",
+    "exampleTranslation": "When prices went up, the neighbours hit the roof.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-dormirse-en-los-laureles",
+    "language": "es",
+    "expression": "Dormirse en los laureles",
+    "literalTranslation": "To fall asleep on the laurels",
+    "meaning": "To become complacent after a success and stop making an effort.",
+    "usageNote": "Use it to warn someone not to coast on past achievements.",
+    "exampleSentence": "Ganamos el primer premio, pero no podemos dormirnos en los laureles.",
+    "exampleTranslation": "We won first prize, but we can't rest on our laurels.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "work"
+    ]
+  },
+  {
+    "id": "es-importar-un-comino",
+    "language": "es",
+    "expression": "Importar un comino",
+    "literalTranslation": "To matter a cumin seed",
+    "meaning": "To matter not at all; to be of no importance to someone.",
+    "usageNote": "A casual, dismissive way to say you don't care, usually as 'me importa un comino'.",
+    "exampleSentence": "Lo que piensen los demás me importa un comino.",
+    "exampleTranslation": "What other people think doesn't matter to me one bit.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-mas-vale-pajaro-en-mano-que-ciento-volando",
+    "language": "es",
+    "expression": "Más vale pájaro en mano que ciento volando",
+    "literalTranslation": "A bird in the hand is worth more than a hundred flying",
+    "meaning": "It is better to keep a sure thing than to risk it for more.",
+    "usageNote": "Use it to advise settling for a smaller certain gain over a risky bigger one.",
+    "exampleSentence": "No dejes el trabajo por una simple promesa; más vale pájaro en mano que ciento volando.",
+    "exampleTranslation": "Don't quit your job over a mere promise; a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "es-a-caballo-regalado-no-le-mires-el-diente",
+    "language": "es",
+    "expression": "A caballo regalado no le mires el diente",
+    "literalTranslation": "Don't look at the tooth of a gifted horse",
+    "meaning": "Don't be critical of something you were given for free.",
+    "usageNote": "Use it when someone complains about a gift or favour instead of appreciating it.",
+    "exampleSentence": "La bici es vieja pero funciona; a caballo regalado no le mires el diente.",
+    "exampleTranslation": "The bike is old but it works; don't look a gift horse in the mouth.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "emotion"
+    ]
+  },
+  {
+    "id": "es-en-boca-cerrada-no-entran-moscas",
+    "language": "es",
+    "expression": "En boca cerrada no entran moscas",
+    "literalTranslation": "Flies do not enter a closed mouth",
+    "meaning": "Keeping quiet keeps you out of trouble.",
+    "usageNote": "Use it to advise saying less to avoid saying the wrong thing.",
+    "exampleSentence": "Mejor no opines en esa discusión; en boca cerrada no entran moscas.",
+    "exampleTranslation": "Better not weigh in on that argument; silence keeps you out of trouble.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "secrets"
+    ]
+  },
+  {
+    "id": "es-cria-cuervos-y-te-sacaran-los-ojos",
+    "language": "es",
+    "expression": "Cría cuervos y te sacarán los ojos",
+    "literalTranslation": "Raise crows and they will peck out your eyes",
+    "meaning": "People you help may later turn against you.",
+    "usageNote": "Use it, bitterly, when kindness or care is repaid with betrayal.",
+    "exampleSentence": "Lo ayudó durante años y él lo traicionó: cría cuervos y te sacarán los ojos.",
+    "exampleTranslation": "She helped him for years and he betrayed her: raise crows and they'll peck out your eyes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "es-ojos-que-no-ven-corazon-que-no-siente",
+    "language": "es",
+    "expression": "Ojos que no ven, corazón que no siente",
+    "literalTranslation": "Eyes that do not see, heart that does not feel",
+    "meaning": "What you are unaware of cannot hurt you emotionally.",
+    "usageNote": "Use it about staying unaware of something painful, or about distance easing feelings.",
+    "exampleSentence": "Prefiero no mirar las redes de mi ex: ojos que no ven, corazón que no siente.",
+    "exampleTranslation": "I'd rather not look at my ex's social media: what you don't see, you don't feel.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-dime-con-quien-andas-y-te-dire-quien-eres",
+    "language": "es",
+    "expression": "Dime con quién andas y te diré quién eres",
+    "literalTranslation": "Tell me who you walk with and I'll tell you who you are",
+    "meaning": "You can judge a person by the company they keep.",
+    "usageNote": "Use it to comment on how someone's friends reflect their character.",
+    "exampleSentence": "Sus amigos son gente seria; dime con quién andas y te diré quién eres.",
+    "exampleTranslation": "His friends are serious people; you're known by the company you keep.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-a-quien-madruga-dios-le-ayuda",
+    "language": "es",
+    "expression": "A quien madruga, Dios le ayuda",
+    "literalTranslation": "God helps the one who rises early",
+    "meaning": "People who start early and show initiative get ahead.",
+    "usageNote": "Use it to praise early effort and initiative.",
+    "exampleSentence": "Llegó primero y consiguió el mejor sitio; a quien madruga, Dios le ayuda.",
+    "exampleTranslation": "He arrived first and got the best spot; the early bird catches the worm.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "motivation"
+    ]
+  },
+  {
+    "id": "es-no-por-mucho-madrugar-amanece-mas-temprano",
+    "language": "es",
+    "expression": "No por mucho madrugar amanece más temprano",
+    "literalTranslation": "No matter how early you rise, dawn does not come sooner",
+    "meaning": "Rushing or forcing something does not make it happen faster.",
+    "usageNote": "Use it to tell someone that hurrying won't speed up an outcome.",
+    "exampleSentence": "Relájate, el resultado llega cuando llega; no por mucho madrugar amanece más temprano.",
+    "exampleTranslation": "Relax, the result comes when it comes; rushing won't make it faster.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-camaron-que-se-duerme-se-lo-lleva-la-corriente",
+    "language": "es",
+    "expression": "Camarón que se duerme se lo lleva la corriente",
+    "literalTranslation": "The shrimp that falls asleep gets carried off by the current",
+    "meaning": "If you are not alert, you will miss out or get left behind.",
+    "usageNote": "Common in Latin America to warn against being passive or distracted.",
+    "exampleSentence": "Aplica ya a la beca; camarón que se duerme se lo lleva la corriente.",
+    "exampleTranslation": "Apply for the scholarship now; you snooze, you lose.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-tener-mala-leche",
+    "language": "es",
+    "expression": "Tener mala leche",
+    "literalTranslation": "To have bad milk",
+    "meaning": "To have a bad temper or bad intentions.",
+    "usageNote": "Informal; it can mean someone is short-tempered or that they did something with malice.",
+    "exampleSentence": "No le hables por la mañana, tiene muy mala leche.",
+    "exampleTranslation": "Don't talk to him in the morning, he's in a foul temper.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "personality"
+    ]
+  },
+  {
+    "id": "es-ser-la-oveja-negra",
+    "language": "es",
+    "expression": "Ser la oveja negra",
+    "literalTranslation": "To be the black sheep",
+    "meaning": "To be the odd one out or the disgrace of a group or family.",
+    "usageNote": "Use it about someone seen as different from or a disappointment to the rest.",
+    "exampleSentence": "Por dedicarse al arte, lo ven como la oveja negra de la familia.",
+    "exampleTranslation": "Because he went into art, they see him as the black sheep of the family.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-estar-en-el-ajo",
+    "language": "es",
+    "expression": "Estar en el ajo",
+    "literalTranslation": "To be in the garlic",
+    "meaning": "To be in on something; to know the inside details.",
+    "usageNote": "Use it about someone who is aware of or involved in a scheme or plan.",
+    "exampleSentence": "Ella ya lo sabía todo; estaba en el ajo desde el principio.",
+    "exampleTranslation": "She already knew everything; she was in on it from the start.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-ir-viento-en-popa",
+    "language": "es",
+    "expression": "Ir viento en popa",
+    "literalTranslation": "To go with wind at the stern",
+    "meaning": "To go very smoothly and successfully.",
+    "usageNote": "Use it when a project or situation is progressing without any trouble.",
+    "exampleSentence": "Desde el nuevo plan, el negocio va viento en popa.",
+    "exampleTranslation": "Since the new plan, the business is going full steam ahead.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "confidence"
+    ]
+  },
+  {
+    "id": "es-estar-sin-blanca",
+    "language": "es",
+    "expression": "Estar sin blanca",
+    "literalTranslation": "To be without a 'blanca' (an old coin)",
+    "meaning": "To be completely broke.",
+    "usageNote": "An informal way to say you have no money at all right now.",
+    "exampleSentence": "Este mes no salgo, estoy sin blanca.",
+    "exampleTranslation": "I'm not going out this month, I'm flat broke.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-ponerse-rojo-como-un-tomate",
+    "language": "es",
+    "expression": "Ponerse rojo como un tomate",
+    "literalTranslation": "To turn red like a tomato",
+    "meaning": "To blush deeply, usually from embarrassment.",
+    "usageNote": "Use it when someone goes visibly red with embarrassment.",
+    "exampleSentence": "Cuando lo felicitaron, se puso rojo como un tomate.",
+    "exampleTranslation": "When they congratulated him, he went bright red.",
+    "difficulty": "basic",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-irsele-la-olla",
+    "language": "es",
+    "expression": "Írsele la olla",
+    "literalTranslation": "For the pot to go away from someone",
+    "meaning": "To lose one's mind or go off the rails for a moment.",
+    "usageNote": "Very informal; use it when someone acts irrationally or forgets themselves.",
+    "exampleSentence": "Se le fue la olla y compró tres entradas por error.",
+    "exampleTranslation": "He lost the plot and bought three tickets by mistake.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confusion",
+      "emotion"
+    ]
+  },
+  {
+    "id": "es-meterse-en-un-jardin",
+    "language": "es",
+    "expression": "Meterse en un jardín",
+    "literalTranslation": "To get into a garden",
+    "meaning": "To get yourself into a needless mess or complication.",
+    "usageNote": "Use it when someone overcomplicates things and ends up tangled up.",
+    "exampleSentence": "Con esa mentira se metió en un jardín del que no podía salir.",
+    "exampleTranslation": "With that lie he got himself into a mess he couldn't get out of.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-hacer-su-agosto",
+    "language": "es",
+    "expression": "Hacer su agosto",
+    "literalTranslation": "To make one's August",
+    "meaning": "To make a lot of money from a good opportunity.",
+    "usageNote": "Use it when someone profits handsomely, often from favourable timing.",
+    "exampleSentence": "Con el festival en el pueblo, los bares hicieron su agosto.",
+    "exampleTranslation": "With the festival in town, the bars made a killing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
+    ]
+  },
+  {
+    "id": "es-estar-en-las-ultimas",
+    "language": "es",
+    "expression": "Estar en las últimas",
+    "literalTranslation": "To be in the last ones",
+    "meaning": "To be about to run out of something, or on one's last legs.",
+    "usageNote": "Use it about supplies, energy, or resources that are nearly gone.",
+    "exampleSentence": "La batería está en las últimas, préstame el cargador.",
+    "exampleTranslation": "The battery is almost dead, lend me the charger.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "health"
+    ]
+  },
+  {
+    "id": "es-tener-enchufe",
+    "language": "es",
+    "expression": "Tener enchufe",
+    "literalTranslation": "To have a plug",
+    "meaning": "To have connections that give you an unfair advantage, especially for a job.",
+    "usageNote": "Use it, often critically, when someone gets ahead thanks to who they know.",
+    "exampleSentence": "Consiguió el puesto porque tiene enchufe, no por méritos.",
+    "exampleTranslation": "He got the position because he has connections, not on merit.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "money"
+    ]
+  },
+  {
+    "id": "es-irse-por-las-ramas",
+    "language": "es",
+    "expression": "Irse por las ramas",
+    "literalTranslation": "To go off along the branches",
+    "meaning": "To digress and avoid getting to the point.",
+    "usageNote": "Use it when someone talks around a subject instead of addressing it.",
+    "exampleSentence": "No te vayas por las ramas y dime qué pasó.",
+    "exampleTranslation": "Don't beat around the bush and tell me what happened.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "es-no-dar-su-brazo-a-torcer",
+    "language": "es",
+    "expression": "No dar su brazo a torcer",
+    "literalTranslation": "To not let one's arm be twisted",
+    "meaning": "To refuse to give in or admit defeat.",
+    "usageNote": "Use it about a stubborn person who won't back down.",
+    "exampleSentence": "Aunque estaba equivocado, no dio su brazo a torcer.",
+    "exampleTranslation": "Even though he was wrong, he wouldn't give in.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-tener-la-mosca-detras-de-la-oreja",
+    "language": "es",
+    "expression": "Tener la mosca detrás de la oreja",
+    "literalTranslation": "To have the fly behind the ear",
+    "meaning": "To be suspicious or uneasy that something isn't right.",
+    "usageNote": "Use it when a nagging doubt makes you wary.",
+    "exampleSentence": "Sus excusas no cuadran y tengo la mosca detrás de la oreja.",
+    "exampleTranslation": "His excuses don't add up and I've got a nagging suspicion.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-mandar-a-alguien-a-freir-esparragos",
+    "language": "es",
+    "expression": "Mandar a alguien a freír espárragos",
+    "literalTranslation": "To send someone to fry asparagus",
+    "meaning": "To tell someone to get lost, out of annoyance.",
+    "usageNote": "Informal and dismissive, but not vulgar; used when you've had enough of someone.",
+    "exampleSentence": "Se puso tan pesado que lo mandé a freír espárragos.",
+    "exampleTranslation": "He got so annoying that I told him to get lost.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "es-comerse-el-coco",
+    "language": "es",
+    "expression": "Comerse el coco",
+    "literalTranslation": "To eat one's coconut (head)",
+    "meaning": "To overthink something and worry obsessively.",
+    "usageNote": "Very informal; use it when someone dwells on a thought too much.",
+    "exampleSentence": "No te comas el coco, mañana lo vemos con calma.",
+    "exampleTranslation": "Don't overthink it, we'll look at it calmly tomorrow.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-mas-vale-prevenir-que-curar",
+    "language": "es",
+    "expression": "Más vale prevenir que curar",
+    "literalTranslation": "Better to prevent than to cure",
+    "meaning": "It is wiser to avoid a problem than to fix it afterwards.",
+    "usageNote": "Use it to recommend caution or preparation before something goes wrong.",
+    "exampleSentence": "Haz una copia de seguridad; más vale prevenir que curar.",
+    "exampleTranslation": "Make a backup; better safe than sorry.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "health"
+    ]
+  },
+  {
+    "id": "es-a-falta-de-pan-buenas-son-tortas",
+    "language": "es",
+    "expression": "A falta de pan, buenas son tortas",
+    "literalTranslation": "For lack of bread, cakes will do",
+    "meaning": "When you can't have the ideal, you make do with what's available.",
+    "usageNote": "Use it to accept a decent substitute for something better.",
+    "exampleSentence": "No había hotel, dormimos en el coche; a falta de pan, buenas son tortas.",
+    "exampleTranslation": "There was no hotel, so we slept in the car; beggars can't be choosers.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-el-que-la-sigue-la-consigue",
+    "language": "es",
+    "expression": "El que la sigue, la consigue",
+    "literalTranslation": "The one who keeps after it gets it",
+    "meaning": "Persistence eventually leads to success.",
+    "usageNote": "Use it to encourage someone to keep trying.",
+    "exampleSentence": "Le costó tres intentos, pero el que la sigue, la consigue.",
+    "exampleTranslation": "It took him three tries, but persistence pays off.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "es-no-hay-dos-sin-tres",
+    "language": "es",
+    "expression": "No hay dos sin tres",
+    "literalTranslation": "There are no two without three",
+    "meaning": "When something happens twice, a third time tends to follow.",
+    "usageNote": "Use it half-jokingly when two similar events make a third seem likely.",
+    "exampleSentence": "Ya van dos averías esta semana; no hay dos sin tres.",
+    "exampleTranslation": "That's two breakdowns this week; things always come in threes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-cada-oveja-con-su-pareja",
+    "language": "es",
+    "expression": "Cada oveja con su pareja",
+    "literalTranslation": "Each sheep with its mate",
+    "meaning": "People naturally pair up with those who are like them.",
+    "usageNote": "Use it to observe that like tends to go with like.",
+    "exampleSentence": "En la fiesta cada oveja con su pareja: los músicos por un lado, los actores por otro.",
+    "exampleTranslation": "At the party it was birds of a feather: musicians on one side, actors on the other.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-al-mal-tiempo-buena-cara",
+    "language": "es",
+    "expression": "Al mal tiempo, buena cara",
+    "literalTranslation": "To bad weather, a good face",
+    "meaning": "Face difficult times with a positive attitude.",
+    "usageNote": "Use it to encourage someone to stay upbeat despite trouble.",
+    "exampleSentence": "Perdimos el vuelo, pero al mal tiempo, buena cara.",
+    "exampleTranslation": "We missed the flight, but you have to make the best of a bad situation.",
+    "difficulty": "intermediate",
+    "tags": [
+      "encouragement",
+      "emotion"
+    ]
+  },
+  {
+    "id": "es-mas-vale-mana-que-fuerza",
+    "language": "es",
+    "expression": "Más vale maña que fuerza",
+    "literalTranslation": "Skill is worth more than strength",
+    "meaning": "Cleverness and technique beat brute force.",
+    "usageNote": "Use it when a smart approach works better than sheer effort.",
+    "exampleSentence": "No empujes tan fuerte; más vale maña que fuerza.",
+    "exampleTranslation": "Don't push so hard; skill beats strength.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "learning"
+    ]
+  },
+  {
+    "id": "es-cuando-el-rio-suena-agua-lleva",
+    "language": "es",
+    "expression": "Cuando el río suena, agua lleva",
+    "literalTranslation": "When the river sounds, it carries water",
+    "meaning": "Persistent rumors usually have some basis in truth.",
+    "usageNote": "Use it when repeated talk suggests there's something real behind it.",
+    "exampleSentence": "Todos comentan lo mismo sobre la empresa; cuando el río suena, agua lleva.",
+    "exampleTranslation": "Everyone is saying the same thing about the company; where there's smoke, there's fire.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "secrets"
+    ]
+  },
+  {
+    "id": "es-quien-siembra-vientos-recoge-tempestades",
+    "language": "es",
+    "expression": "Quien siembra vientos recoge tempestades",
+    "literalTranslation": "Who sows winds reaps storms",
+    "meaning": "Harmful actions bring far worse consequences back on you.",
+    "usageNote": "Use it as a warning that provoking trouble leads to bigger trouble.",
+    "exampleSentence": "Trató mal a todos y ahora nadie lo apoya; quien siembra vientos recoge tempestades.",
+    "exampleTranslation": "He treated everyone badly and now no one backs him; you reap what you sow.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "personality"
     ]
   },
   {
@@ -1054,7 +3469,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "reviewed",
       "baselang",
       "spanish-idioms"
-    ],
+    ]
   },
   {
     "id": "es-web-tener-la-negra",
@@ -1073,7 +3488,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "reviewed",
       "baselang",
       "spanish-idioms"
-    ],
+    ]
   },
   {
     "id": "es-web-dar-gato-por-liebre",
@@ -1091,7 +3506,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "reviewed",
       "baselang",
       "spanish-idioms"
-    ],
+    ]
   },
   {
     "id": "es-web-no-pegar-un-ojo",
@@ -1109,7 +3524,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "reviewed",
       "baselang",
       "spanish-idioms"
-    ],
+    ]
   },
   {
     "id": "es-web-andar-con-pies-de-plomo",
@@ -1127,25 +3542,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "reviewed",
       "baselang",
       "spanish-idioms"
-    ],
-  },
-  {
-    "id": "es-web-entre-la-espada-y-la-pared",
-    "language": "es",
-    "expression": "Entre la espada y la pared",
-    "literalTranslation": "Between the sword and the wall",
-    "meaning": "Trapped between two bad options with no easy way out.",
-    "usageNote": "Use it when someone is cornered by pressure, obligation, or conflicting consequences. It is a very practical idiom for work and personal dilemmas.",
-    "exampleSentence": "Estoy entre la espada y la pared: si acepto el recorte, despiden gente; si no, cierran el proyecto.",
-    "exampleTranslation": "I am stuck between a rock and a hard place: if I accept the cut, people get laid off; if I do not, they shut the project down.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed",
-      "baselang",
-      "spanish-idioms"
-    ],
+    ]
   },
   {
     "id": "es-web-cada-uno-sabe-donde-aprieta-el-zapato",
@@ -1164,7 +3561,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "reviewed",
       "baselang",
       "spanish-proverbs"
-    ],
+    ]
   },
   {
     "id": "es-web-haz-el-bien-y-no-mires-a-quien",
@@ -1183,7 +3580,7 @@ export const importedExpressions: ExpressionEntry[] = [
       "reviewed",
       "baselang",
       "spanish-proverbs"
-    ],
+    ]
   },
   {
     "id": "es-a-buenas-horas-0",
@@ -1218,22 +3615,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "es-a-cada-rato-2",
-    "language": "es",
-    "expression": "A cada rato",
-    "literalTranslation": "At every little while",
-    "meaning": "Constantly or again and again.",
-    "usageNote": "Use it when something keeps happening so often that it becomes noticeable or annoying.",
-    "exampleSentence": "Me escribe a cada rato para preguntarme si ya salí.",
-    "exampleTranslation": "He keeps texting me all the time to ask if I have left yet.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "es-a-buenas-horas-mangas-verdes-3",
     "language": "es",
     "expression": "A buenas horas mangas verdes",
@@ -1250,38 +3631,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "es-a-bulto-4",
-    "language": "es",
-    "expression": "A bulto",
-    "literalTranslation": "In bulk",
-    "meaning": "Roughly, approximately, or without much precision.",
-    "usageNote": "Use it when someone is estimating by eye instead of measuring carefully.",
-    "exampleSentence": "Calculamos el costo a bulto y luego afinamos los números.",
-    "exampleTranslation": "We estimated the cost roughly and then refined the numbers later.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-a-buen-seguro-5",
-    "language": "es",
-    "expression": "A buen seguro",
-    "literalTranslation": "To good certainty",
-    "meaning": "Almost certainly or without much doubt.",
-    "usageNote": "Use it when you want to sound confident about a conclusion without claiming absolute proof.",
-    "exampleSentence": "A buen seguro que Marta ya sabe lo que pasó.",
-    "exampleTranslation": "Marta almost certainly already knows what happened.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "es-a-buen-recaudo-6",
     "language": "es",
     "expression": "A buen recaudo",
@@ -1290,22 +3639,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "usageNote": "Use it when something valuable has been stored carefully or someone is finally out of danger.",
     "exampleSentence": "Guardé los documentos a buen recaudo antes de la mudanza.",
     "exampleTranslation": "I put the documents somewhere safe before the move.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-a-base-de-bien-7",
-    "language": "es",
-    "expression": "A base de bien",
-    "literalTranslation": "On a solid basis of good",
-    "meaning": "In a very large amount or with great intensity.",
-    "usageNote": "Use it informally when there is much more of something than usual.",
-    "exampleSentence": "En esa fiesta hubo comida a base de bien.",
-    "exampleTranslation": "There was plenty of food at that party.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",
@@ -1410,54 +3743,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "es-a-campo-abierto-14",
-    "language": "es",
-    "expression": "A campo abierto",
-    "literalTranslation": "In open field",
-    "meaning": "Out in the open, without protection or concealment.",
-    "usageNote": "Use it literally for open spaces or figuratively for situations with no cover.",
-    "exampleSentence": "No conviene discutir eso a campo abierto delante de todos.",
-    "exampleTranslation": "It is not wise to discuss that out in the open in front of everyone.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-a-campo-raso-15",
-    "language": "es",
-    "expression": "A campo raso",
-    "literalTranslation": "On flat open land",
-    "meaning": "In an exposed place with no shelter around.",
-    "usageNote": "Use it when someone or something is left fully exposed to weather, danger, or scrutiny.",
-    "exampleSentence": "Nos pilló la tormenta a campo raso y no había dónde esconderse.",
-    "exampleTranslation": "The storm caught us in the open and there was nowhere to hide.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-a-buenas-16",
-    "language": "es",
-    "expression": "A buenas",
-    "literalTranslation": "By the good way",
-    "meaning": "Calmly, willingly, or without force.",
-    "usageNote": "Use it when persuasion works and conflict is avoided.",
-    "exampleSentence": "Si lo pides a buenas, seguro que te ayudan.",
-    "exampleTranslation": "If you ask nicely, they will probably help you.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "es-a-borbotones-17",
     "language": "es",
     "expression": "A borbotones",
@@ -1474,51 +3759,362 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "es-dar-en-el-clavo-18",
-    "language": "es",
-    "expression": "Dar en el clavo",
-    "literalTranslation": "To hit the nail",
-    "meaning": "To get something exactly right.",
-    "usageNote": "Use it when someone identifies the real issue or makes the perfect remark.",
-    "exampleSentence": "Con ese comentario diste en el clavo.",
-    "exampleTranslation": "With that comment, you hit the nail on the head.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-estar-entre-la-espada-y-la-pared-19",
-    "language": "es",
-    "expression": "Estar entre la espada y la pared",
-    "literalTranslation": "To be between the sword and the wall",
-    "meaning": "To be trapped between two difficult options.",
-    "usageNote": "Use it when a person has to choose between bad outcomes and cannot avoid the decision.",
-    "exampleSentence": "Con ese plazo estamos entre la espada y la pared.",
-    "exampleTranslation": "With that deadline, we are trapped between two difficult options.",
+    "id": "fr-avoir-le-coup-de-foudre",
+    "language": "fr",
+    "expression": "Avoir le coup de foudre",
+    "literalTranslation": "To have the lightning strike",
+    "meaning": "To fall in love instantly.",
+    "usageNote": "Use it about love at first sight, or figuratively about instantly loving something.",
+    "exampleSentence": "Ils ont eu le coup de foudre dès le premier regard.",
+    "exampleTranslation": "They fell in love at first sight.",
     "difficulty": "intermediate",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "emotion",
+      "daily-life"
     ]
   },
   {
-    "id": "fr-a-plus-tard-0",
+    "id": "fr-avoir-un-chat-dans-la-gorge",
     "language": "fr",
-    "expression": "À plus tard",
-    "literalTranslation": "Until later",
-    "meaning": "A casual way to say you will see someone later.",
-    "usageNote": "Use it when leaving without making the goodbye feel too formal.",
-    "exampleSentence": "Je file à la gare, à plus tard.",
-    "exampleTranslation": "I am heading to the station, see you later.",
+    "expression": "Avoir un chat dans la gorge",
+    "literalTranslation": "To have a cat in the throat",
+    "meaning": "To have a hoarse, scratchy throat that makes it hard to speak.",
+    "usageNote": "Use it when your voice is temporarily rough and you need to clear your throat.",
+    "exampleSentence": "Excusez-moi, j'ai un chat dans la gorge ce matin.",
+    "exampleTranslation": "Excuse me, I have a frog in my throat this morning.",
     "difficulty": "basic",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "health",
+      "communication"
+    ]
+  },
+  {
+    "id": "fr-casser-les-pieds-a-quelquun",
+    "language": "fr",
+    "expression": "Casser les pieds à quelqu'un",
+    "literalTranslation": "To break someone's feet",
+    "meaning": "To annoy or bother someone.",
+    "usageNote": "An informal way to say someone is being irritating.",
+    "exampleSentence": "Arrête de me casser les pieds avec tes questions.",
+    "exampleTranslation": "Stop bothering me with your questions.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "fr-en-faire-tout-un-fromage",
+    "language": "fr",
+    "expression": "En faire tout un fromage",
+    "literalTranslation": "To make a whole cheese out of it",
+    "meaning": "To make a big fuss about something trivial.",
+    "usageNote": "Use it, casually, when someone overreacts to a small matter.",
+    "exampleSentence": "Ce n'est qu'un petit retard, n'en fais pas tout un fromage.",
+    "exampleTranslation": "It's only a small delay, don't make a big deal out of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "fr-avoir-la-gueule-de-bois",
+    "language": "fr",
+    "expression": "Avoir la gueule de bois",
+    "literalTranslation": "To have the wooden mouth",
+    "meaning": "To have a hangover.",
+    "usageNote": "A casual, everyday way to say you feel awful after drinking too much.",
+    "exampleSentence": "Après la fête, j'avais une belle gueule de bois.",
+    "exampleTranslation": "After the party, I had a nasty hangover.",
+    "difficulty": "basic",
+    "tags": [
+      "health",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "fr-se-creuser-la-tete",
+    "language": "fr",
+    "expression": "Se creuser la tête",
+    "literalTranslation": "To dig into one's head",
+    "meaning": "To think very hard about a problem.",
+    "usageNote": "Use it when someone is racking their brains for a solution or idea.",
+    "exampleSentence": "Je me creuse la tête depuis une heure pour trouver le mot juste.",
+    "exampleTranslation": "I've been racking my brain for an hour to find the right word.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "work"
+    ]
+  },
+  {
+    "id": "fr-mettre-son-grain-de-sel",
+    "language": "fr",
+    "expression": "Mettre son grain de sel",
+    "literalTranslation": "To put in one's grain of salt",
+    "meaning": "To give an unwanted opinion; to butt in.",
+    "usageNote": "Use it, often with mild annoyance, about someone who comments where they weren't asked.",
+    "exampleSentence": "Il faut toujours qu'il mette son grain de sel dans nos décisions.",
+    "exampleTranslation": "He always has to put in his two cents on our decisions.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "fr-avoir-dautres-chats-a-fouetter",
+    "language": "fr",
+    "expression": "Avoir d'autres chats à fouetter",
+    "literalTranslation": "To have other cats to whip",
+    "meaning": "To have more important things to deal with.",
+    "usageNote": "Use it to say a matter is not a priority right now.",
+    "exampleSentence": "Je ne vais pas m'occuper de ça, j'ai d'autres chats à fouetter.",
+    "exampleTranslation": "I'm not going to deal with that, I have other fish to fry.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "fr-etre-dans-le-petrin",
+    "language": "fr",
+    "expression": "Être dans le pétrin",
+    "literalTranslation": "To be in the kneading trough",
+    "meaning": "To be in a difficult, messy situation.",
+    "usageNote": "Use it when someone is stuck in real trouble.",
+    "exampleSentence": "Sans sauvegarde, on est vraiment dans le pétrin.",
+    "exampleTranslation": "Without a backup, we're really in a jam.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "fr-prendre-ses-jambes-a-son-cou",
+    "language": "fr",
+    "expression": "Prendre ses jambes à son cou",
+    "literalTranslation": "To take one's legs to one's neck",
+    "meaning": "To run away as fast as possible.",
+    "usageNote": "Use it, vividly, when someone flees in a hurry.",
+    "exampleSentence": "Quand l'alarme a sonné, ils ont pris leurs jambes à leur cou.",
+    "exampleTranslation": "When the alarm went off, they took to their heels.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "fr-faire-la-grasse-matinee",
+    "language": "fr",
+    "expression": "Faire la grasse matinée",
+    "literalTranslation": "To do the fat morning",
+    "meaning": "To sleep in late.",
+    "usageNote": "Use it casually about a long lie-in, usually on a day off.",
+    "exampleSentence": "Le dimanche, j'aime faire la grasse matinée.",
+    "exampleTranslation": "On Sundays, I like to sleep in.",
+    "difficulty": "basic",
+    "tags": [
+      "daily-life",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-il-y-a-anguille-sous-roche",
+    "language": "fr",
+    "expression": "Il y a anguille sous roche",
+    "literalTranslation": "There is an eel under the rock",
+    "meaning": "Something suspicious is going on beneath the surface.",
+    "usageNote": "Use it when you sense a hidden problem or secret.",
+    "exampleSentence": "Il est bien trop gentil depuis hier, il y a anguille sous roche.",
+    "exampleTranslation": "He's been far too nice since yesterday; something fishy is going on.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "fr-se-mettre-sur-son-trente-et-un",
+    "language": "fr",
+    "expression": "Se mettre sur son trente et un",
+    "literalTranslation": "To put oneself on one's thirty-one",
+    "meaning": "To dress up very smartly.",
+    "usageNote": "Use it when someone dresses their best for a special occasion.",
+    "exampleSentence": "Elle s'est mise sur son trente et un pour le dîner.",
+    "exampleTranslation": "She got all dressed up for the dinner.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "performance"
+    ]
+  },
+  {
+    "id": "fr-avoir-un-poil-dans-la-main",
+    "language": "fr",
+    "expression": "Avoir un poil dans la main",
+    "literalTranslation": "To have a hair in one's hand",
+    "meaning": "To be extremely lazy.",
+    "usageNote": "Use it, mockingly, about someone who avoids doing any work.",
+    "exampleSentence": "Il ne fait jamais rien, il a un poil dans la main.",
+    "exampleTranslation": "He never does anything; he's bone idle.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "work"
+    ]
+  },
+  {
+    "id": "fr-lappetit-vient-en-mangeant",
+    "language": "fr",
+    "expression": "L'appétit vient en mangeant",
+    "literalTranslation": "Appetite comes while eating",
+    "meaning": "Desire or enthusiasm grows once you start doing something.",
+    "usageNote": "Use it when getting started creates the motivation to continue or want more.",
+    "exampleSentence": "Commence par un chapitre, l'appétit vient en mangeant.",
+    "exampleTranslation": "Start with one chapter; appetite comes with eating.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "learning"
+    ]
+  },
+  {
+    "id": "fr-il-ne-faut-pas-vendre-la-peau-de-lours-avant-de-lavoir-tue",
+    "language": "fr",
+    "expression": "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué",
+    "literalTranslation": "One must not sell the bear's skin before having killed it",
+    "meaning": "Don't count on something before it has actually happened.",
+    "usageNote": "Use it to warn against planning around an outcome that is not yet secure.",
+    "exampleSentence": "Attends la signature du contrat, il ne faut pas vendre la peau de l'ours avant de l'avoir tué.",
+    "exampleTranslation": "Wait for the contract to be signed; don't count your chickens before they hatch.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-chat-echaude-craint-leau-froide",
+    "language": "fr",
+    "expression": "Chat échaudé craint l'eau froide",
+    "literalTranslation": "A scalded cat fears cold water",
+    "meaning": "A bad experience makes you overly cautious afterwards.",
+    "usageNote": "Use it when someone is wary because they were hurt or fooled before.",
+    "exampleSentence": "Depuis l'arnaque, il vérifie tout: chat échaudé craint l'eau froide.",
+    "exampleTranslation": "Since the scam, he checks everything: once bitten, twice shy.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "fr-qui-vivra-verra",
+    "language": "fr",
+    "expression": "Qui vivra verra",
+    "literalTranslation": "Who will live will see",
+    "meaning": "The future is uncertain and only time will tell.",
+    "usageNote": "Use it to close off speculation when the outcome simply can't be known yet.",
+    "exampleSentence": "Peut-être que ça marchera, peut-être pas, qui vivra verra.",
+    "exampleTranslation": "Maybe it'll work, maybe not; time will tell.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "fr-les-cordonniers-sont-les-plus-mal-chausses",
+    "language": "fr",
+    "expression": "Les cordonniers sont les plus mal chaussés",
+    "literalTranslation": "Cobblers are the worst shod",
+    "meaning": "People often neglect for themselves the very thing they do well for others.",
+    "usageNote": "Use it about an expert who fails to apply their own skill to their own life.",
+    "exampleSentence": "Le plombier a une fuite chez lui: les cordonniers sont les plus mal chaussés.",
+    "exampleTranslation": "The plumber has a leak at home: the cobbler's children go barefoot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "personality"
+    ]
+  },
+  {
+    "id": "fr-la-nuit-porte-conseil",
+    "language": "fr",
+    "expression": "La nuit porte conseil",
+    "literalTranslation": "The night brings advice",
+    "meaning": "It is wiser to sleep on a decision than to rush it.",
+    "usageNote": "Use it to suggest waiting until tomorrow before deciding.",
+    "exampleSentence": "Ne réponds pas ce soir, la nuit porte conseil.",
+    "exampleTranslation": "Don't answer tonight, sleep on it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-vouloir-cest-pouvoir",
+    "language": "fr",
+    "expression": "Vouloir, c'est pouvoir",
+    "literalTranslation": "To want is to be able",
+    "meaning": "With enough determination, you can achieve what you set out to do.",
+    "usageNote": "Use it to encourage someone who doubts they can manage something.",
+    "exampleSentence": "Tu peux apprendre à nager à tout âge, vouloir c'est pouvoir.",
+    "exampleTranslation": "You can learn to swim at any age; where there's a will, there's a way.",
+    "difficulty": "basic",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "fr-mieux-vaut-tard-que-jamais",
+    "language": "fr",
+    "expression": "Mieux vaut tard que jamais",
+    "literalTranslation": "Better late than never",
+    "meaning": "Doing something late is still better than not doing it at all.",
+    "usageNote": "Use it when someone finally does something after a delay.",
+    "exampleSentence": "Il a rendu le rapport avec deux jours de retard, mais mieux vaut tard que jamais.",
+    "exampleTranslation": "He handed in the report two days late, but better late than never.",
+    "difficulty": "basic",
+    "tags": [
+      "time",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "fr-aide-toi-le-ciel-taidera",
+    "language": "fr",
+    "expression": "Aide-toi, le ciel t'aidera",
+    "literalTranslation": "Help yourself, and heaven will help you",
+    "meaning": "You must make your own effort before expecting help or luck.",
+    "usageNote": "Use it to stress personal initiative over waiting passively for fortune.",
+    "exampleSentence": "Envoie des candidatures au lieu d'attendre; aide-toi, le ciel t'aidera.",
+    "exampleTranslation": "Send out applications instead of waiting; heaven helps those who help themselves.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "work"
+    ]
+  },
+  {
+    "id": "fr-un-tiens-vaut-mieux-que-deux-tu-lauras",
+    "language": "fr",
+    "expression": "Un tiens vaut mieux que deux tu l'auras",
+    "literalTranslation": "One 'here you go' is worth more than two 'you'll have it'",
+    "meaning": "Something certain now is worth more than a bigger but uncertain promise.",
+    "usageNote": "Use it to advise taking the sure thing over a risky bigger one.",
+    "exampleSentence": "Prends l'offre ferme; un tiens vaut mieux que deux tu l'auras.",
+    "exampleTranslation": "Take the firm offer; a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
     ]
   },
   {
@@ -1547,38 +4143,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "exampleSentence": "À votre santé, et merci d'être venus ce soir.",
     "exampleTranslation": "Cheers, and thank you for coming tonight.",
     "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "fr-a-la-votre-3",
-    "language": "fr",
-    "expression": "À la vôtre",
-    "literalTranslation": "To yours",
-    "meaning": "An informal way to say 'cheers' in a toast.",
-    "usageNote": "Use it with friends or in relaxed social settings when clinking glasses.",
-    "exampleSentence": "On a enfin fini le projet, à la vôtre.",
-    "exampleTranslation": "We finally finished the project, cheers everyone.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "fr-absent-le-chat-les-souris-dansent-4",
-    "language": "fr",
-    "expression": "Absent le chat, les souris dansent",
-    "literalTranslation": "When the cat is away, the mice dance",
-    "meaning": "People behave more freely when the authority figure is gone.",
-    "usageNote": "Use it when a boss, parent, or teacher leaves and discipline disappears immediately.",
-    "exampleSentence": "Dès que le manager est parti, absent le chat, les souris dansent.",
-    "exampleTranslation": "As soon as the manager left, everyone started acting freely.",
-    "difficulty": "intermediate",
     "tags": [
       "idiom",
       "imported",
@@ -1682,54 +4246,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "fr-poser-un-lapin-11",
-    "language": "fr",
-    "expression": "Poser un lapin",
-    "literalTranslation": "To place a rabbit",
-    "meaning": "To stand someone up and not show up as agreed.",
-    "usageNote": "Use it when a person fails to appear for a meeting without warning.",
-    "exampleSentence": "Il m'a posé un lapin hier soir sans même envoyer un message.",
-    "exampleTranslation": "He stood me up last night without even sending a message.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "fr-avoir-le-cafard-12",
-    "language": "fr",
-    "expression": "Avoir le cafard",
-    "literalTranslation": "To have the cockroach",
-    "meaning": "To feel low, gloomy, or depressed.",
-    "usageNote": "Use it in casual conversation when someone is down and lacks their usual energy.",
-    "exampleSentence": "Depuis son départ, elle a le cafard.",
-    "exampleTranslation": "Since he left, she has been feeling really down.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "fr-couter-les-yeux-de-la-tete-13",
-    "language": "fr",
-    "expression": "Coûter les yeux de la tête",
-    "literalTranslation": "To cost the eyes from the head",
-    "meaning": "To be extremely expensive.",
-    "usageNote": "Use it when something costs far more than feels reasonable.",
-    "exampleSentence": "Ce quartier est pratique, mais les loyers y coûtent les yeux de la tête.",
-    "exampleTranslation": "That neighborhood is convenient, but the rents there cost a fortune.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "fr-donner-sa-langue-au-chat-14",
     "language": "fr",
     "expression": "Donner sa langue au chat",
@@ -1826,19 +4342,362 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "it-a-capo-0",
+    "id": "it-in-bocca-al-lupo",
     "language": "it",
-    "expression": "A capo",
-    "literalTranslation": "At the head",
-    "meaning": "Back at the beginning or starting over from the top.",
-    "usageNote": "Use it when a process resets and you have to begin again instead of continuing.",
-    "exampleSentence": "Con quell'errore siamo tornati a capo.",
-    "exampleTranslation": "With that mistake, we ended up back at the beginning.",
+    "expression": "In bocca al lupo",
+    "literalTranslation": "Into the wolf's mouth",
+    "meaning": "Good luck; a way to wish someone well before a challenge.",
+    "usageNote": "The standard Italian way to wish good luck, especially before exams or performances; the usual reply is 'crepi'.",
+    "exampleSentence": "Domani hai l'esame? In bocca al lupo!",
+    "exampleTranslation": "You have the exam tomorrow? Good luck!",
+    "difficulty": "basic",
+    "tags": [
+      "encouragement",
+      "performance"
+    ]
+  },
+  {
+    "id": "it-non-vedo-lora",
+    "language": "it",
+    "expression": "Non vedo l'ora",
+    "literalTranslation": "I don't see the hour",
+    "meaning": "I can't wait; I'm really looking forward to it.",
+    "usageNote": "A very common way to express eager anticipation, usually followed by 'di' plus a verb.",
+    "exampleSentence": "Non vedo l'ora di rivederti.",
+    "exampleTranslation": "I can't wait to see you again.",
+    "difficulty": "basic",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-costare-un-occhio-della-testa",
+    "language": "it",
+    "expression": "Costare un occhio della testa",
+    "literalTranslation": "To cost an eye from the head",
+    "meaning": "To be extremely expensive.",
+    "usageNote": "Use it when the price of something feels outrageously high.",
+    "exampleSentence": "Questa macchina è bellissima ma costa un occhio della testa.",
+    "exampleTranslation": "This car is gorgeous but it costs a fortune.",
     "difficulty": "intermediate",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-avere-un-diavolo-per-capello",
+    "language": "it",
+    "expression": "Avere un diavolo per capello",
+    "literalTranslation": "To have a devil per hair",
+    "meaning": "To be furious and in a terrible mood.",
+    "usageNote": "Use it when someone is so angry they are best left alone.",
+    "exampleSentence": "Non parlargli adesso, ha un diavolo per capello.",
+    "exampleTranslation": "Don't talk to him right now, he's absolutely furious.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "id": "it-cadere-dalle-nuvole",
+    "language": "it",
+    "expression": "Cadere dalle nuvole",
+    "literalTranslation": "To fall from the clouds",
+    "meaning": "To be completely taken by surprise, as if you knew nothing about it.",
+    "usageNote": "Use it when someone reacts to news as though they had no idea, sometimes feigning ignorance.",
+    "exampleSentence": "Quando gliel'ho detto, è caduto dalle nuvole.",
+    "exampleTranslation": "When I told him, he was completely taken aback.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "it-non-avere-peli-sulla-lingua",
+    "language": "it",
+    "expression": "Non avere peli sulla lingua",
+    "literalTranslation": "To not have hairs on the tongue",
+    "meaning": "To speak frankly, without holding anything back.",
+    "usageNote": "Use it about someone who says exactly what they think.",
+    "exampleSentence": "La nonna non ha peli sulla lingua e dice tutto in faccia.",
+    "exampleTranslation": "Grandma doesn't mince words and says everything to your face.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "it-toccare-ferro",
+    "language": "it",
+    "expression": "Toccare ferro",
+    "literalTranslation": "To touch iron",
+    "meaning": "To ward off bad luck; the Italian equivalent of touching wood.",
+    "usageNote": "Use it when hoping not to jinx something; Italians touch iron rather than wood.",
+    "exampleSentence": "Finora è andato tutto bene, tocchiamo ferro.",
+    "exampleTranslation": "So far everything has gone well, touch wood.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "confidence"
+    ]
+  },
+  {
+    "id": "it-piove-sul-bagnato",
+    "language": "it",
+    "expression": "Piove sul bagnato",
+    "literalTranslation": "It rains on the wet",
+    "meaning": "Good or bad luck tends to pile onto those who already have it.",
+    "usageNote": "Use it when the fortunate get even more, or when troubles keep hitting the same person.",
+    "exampleSentence": "Ha vinto di nuovo alla lotteria: piove sul bagnato.",
+    "exampleTranslation": "He won the lottery again: it never rains but it pours.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-essere-in-gamba",
+    "language": "it",
+    "expression": "Essere in gamba",
+    "literalTranslation": "To be in leg",
+    "meaning": "To be capable, sharp, and reliable.",
+    "usageNote": "Use it to praise someone who is competent and on the ball.",
+    "exampleSentence": "La nuova collega è davvero in gamba.",
+    "exampleTranslation": "The new colleague is really sharp.",
+    "difficulty": "basic",
+    "tags": [
+      "confidence",
+      "work"
+    ]
+  },
+  {
+    "id": "it-mangiare-la-foglia",
+    "language": "it",
+    "expression": "Mangiare la foglia",
+    "literalTranslation": "To eat the leaf",
+    "meaning": "To catch on to what is really happening.",
+    "usageNote": "Use it when someone figures out a hidden truth or a trick.",
+    "exampleSentence": "Voleva farmi una sorpresa, ma ho mangiato la foglia.",
+    "exampleTranslation": "He wanted to surprise me, but I caught on.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "secrets"
+    ]
+  },
+  {
+    "id": "it-fare-orecchie-da-mercante",
+    "language": "it",
+    "expression": "Fare orecchie da mercante",
+    "literalTranslation": "To make merchant's ears",
+    "meaning": "To pretend not to hear something you don't want to.",
+    "usageNote": "Use it when someone deliberately ignores a request or criticism.",
+    "exampleSentence": "Gli ho chiesto aiuto ma ha fatto orecchie da mercante.",
+    "exampleTranslation": "I asked him for help but he turned a deaf ear.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "it-avere-grilli-per-la-testa",
+    "language": "it",
+    "expression": "Avere grilli per la testa",
+    "literalTranslation": "To have crickets in one's head",
+    "meaning": "To have restless, odd, or unrealistic ideas.",
+    "usageNote": "Use it about someone full of whims or fanciful notions.",
+    "exampleSentence": "A vent'anni aveva mille grilli per la testa.",
+    "exampleTranslation": "At twenty he had all sorts of wild ideas.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-attaccare-bottone",
+    "language": "it",
+    "expression": "Attaccare bottone",
+    "literalTranslation": "To attach a button",
+    "meaning": "To strike up a conversation, often a long, unprompted one.",
+    "usageNote": "Use it about someone who starts chatting, sometimes to a stranger and at length.",
+    "exampleSentence": "Mi ha attaccato bottone alla fermata e non la finiva più.",
+    "exampleTranslation": "He struck up a conversation at the bus stop and wouldn't stop.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-dare-buca-a-qualcuno",
+    "language": "it",
+    "expression": "Dare buca a qualcuno",
+    "literalTranslation": "To give someone a hole",
+    "meaning": "To stand someone up; to fail to show up as agreed.",
+    "usageNote": "A casual way to say someone didn't turn up to a planned meeting.",
+    "exampleSentence": "Dovevamo vederci ieri ma mi ha dato buca.",
+    "exampleTranslation": "We were supposed to meet yesterday but he stood me up.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "it-chi-dorme-non-piglia-pesci",
+    "language": "it",
+    "expression": "Chi dorme non piglia pesci",
+    "literalTranslation": "Who sleeps catches no fish",
+    "meaning": "If you are lazy or slow to act, you miss out.",
+    "usageNote": "Use it to urge someone to act promptly rather than waiting.",
+    "exampleSentence": "Alzati presto e candidati, chi dorme non piglia pesci.",
+    "exampleTranslation": "Get up early and apply; the early bird catches the worm.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "time"
+    ]
+  },
+  {
+    "id": "it-meglio-soli-che-male-accompagnati",
+    "language": "it",
+    "expression": "Meglio soli che male accompagnati",
+    "literalTranslation": "Better alone than in bad company",
+    "meaning": "It is better to be on your own than with the wrong people.",
+    "usageNote": "Use it about relationships or company that do more harm than good.",
+    "exampleSentence": "Ho lasciato quel gruppo, meglio soli che male accompagnati.",
+    "exampleTranslation": "I left that group; better alone than in bad company.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "emotion"
+    ]
+  },
+  {
+    "id": "it-chi-fa-da-se-fa-per-tre",
+    "language": "it",
+    "expression": "Chi fa da sé fa per tre",
+    "literalTranslation": "Who does it themselves does the work of three",
+    "meaning": "You often get more and better done by doing it yourself.",
+    "usageNote": "Use it to justify self-reliance when relying on others might slow you down.",
+    "exampleSentence": "Alla fine ho preparato tutto io, chi fa da sé fa per tre.",
+    "exampleTranslation": "In the end I did everything myself; if you want it done right, do it yourself.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "it-can-che-abbaia-non-morde",
+    "language": "it",
+    "expression": "Can che abbaia non morde",
+    "literalTranslation": "A dog that barks doesn't bite",
+    "meaning": "People who threaten loudly rarely act on it.",
+    "usageNote": "Use it to reassure someone not to fear loud but harmless threats.",
+    "exampleSentence": "Il capo urla molto ma can che abbaia non morde.",
+    "exampleTranslation": "The boss shouts a lot but his bark is worse than his bite.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "it-chi-la-dura-la-vince",
+    "language": "it",
+    "expression": "Chi la dura la vince",
+    "literalTranslation": "Who endures it wins it",
+    "meaning": "Persistence eventually leads to success.",
+    "usageNote": "Use it to encourage someone to keep going despite difficulty.",
+    "exampleSentence": "Non mollare adesso, chi la dura la vince.",
+    "exampleTranslation": "Don't give up now; he who perseveres wins.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "it-il-lupo-perde-il-pelo-ma-non-il-vizio",
+    "language": "it",
+    "expression": "Il lupo perde il pelo ma non il vizio",
+    "literalTranslation": "The wolf loses its fur but not its vice",
+    "meaning": "People may change on the surface but keep their bad habits.",
+    "usageNote": "Use it, sceptically, when someone's old flaws resurface despite apparent change.",
+    "exampleSentence": "Ha promesso di non arrivare più in ritardo, ma il lupo perde il pelo ma non il vizio.",
+    "exampleTranslation": "He promised not to be late again, but a leopard can't change its spots.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "it-a-mali-estremi-estremi-rimedi",
+    "language": "it",
+    "expression": "A mali estremi, estremi rimedi",
+    "literalTranslation": "To extreme evils, extreme remedies",
+    "meaning": "Desperate situations call for drastic measures.",
+    "usageNote": "Use it to justify a strong response to a serious problem.",
+    "exampleSentence": "Abbiamo dovuto rifare tutto da capo: a mali estremi, estremi rimedi.",
+    "exampleTranslation": "We had to redo everything from scratch: desperate times, desperate measures.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "it-tra-moglie-e-marito-non-mettere-il-dito",
+    "language": "it",
+    "expression": "Tra moglie e marito non mettere il dito",
+    "literalTranslation": "Between wife and husband, don't put your finger",
+    "meaning": "Don't interfere in a couple's private disputes.",
+    "usageNote": "Use it to advise staying out of other people's relationship quarrels.",
+    "exampleSentence": "Non voglio schierarmi nella loro lite: tra moglie e marito non mettere il dito.",
+    "exampleTranslation": "I don't want to take sides in their quarrel: don't meddle between husband and wife.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "communication"
+    ]
+  },
+  {
+    "id": "it-rosso-di-sera-bel-tempo-si-spera",
+    "language": "it",
+    "expression": "Rosso di sera, bel tempo si spera",
+    "literalTranslation": "Red at evening, good weather is hoped for",
+    "meaning": "A red sunset suggests fair weather is coming.",
+    "usageNote": "A traditional weather saying, used lightly when admiring a red evening sky.",
+    "exampleSentence": "Guarda che tramonto: rosso di sera, bel tempo si spera.",
+    "exampleTranslation": "Look at that sunset: red sky at night, fine weather in sight.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "time"
+    ]
+  },
+  {
+    "id": "it-meglio-un-uovo-oggi-che-una-gallina-domani",
+    "language": "it",
+    "expression": "Meglio un uovo oggi che una gallina domani",
+    "literalTranslation": "Better an egg today than a hen tomorrow",
+    "meaning": "A small certain gain now beats a bigger uncertain one later.",
+    "usageNote": "Use it to advise taking the sure thing rather than gambling on more.",
+    "exampleSentence": "Accetta l'offerta sicura: meglio un uovo oggi che una gallina domani.",
+    "exampleTranslation": "Take the sure offer: a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
     ]
   },
   {
@@ -1938,22 +4797,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "it-a-cascata-7",
-    "language": "it",
-    "expression": "A cascata",
-    "literalTranslation": "Like a waterfall",
-    "meaning": "In a chain or cascading sequence, one thing triggering the next.",
-    "usageNote": "Use it when effects, decisions, or actions spread one after another.",
-    "exampleSentence": "Un piccolo ritardo ha creato problemi a cascata per tutta la giornata.",
-    "exampleTranslation": "One small delay created a cascade of problems for the whole day.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "it-a-bocca-asciutta-8",
     "language": "it",
     "expression": "A bocca asciutta",
@@ -1962,38 +4805,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "usageNote": "Use it when someone hoped for a reward or result and got nothing.",
     "exampleSentence": "Aveva fatto la fila per ore ed è rimasto a bocca asciutta.",
     "exampleTranslation": "He waited in line for hours and still went home empty-handed.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "it-a-dispetto-di-9",
-    "language": "it",
-    "expression": "A dispetto di",
-    "literalTranslation": "In spite of",
-    "meaning": "Despite something that could have prevented the result.",
-    "usageNote": "Use it to highlight that an outcome happened anyway, even though the circumstances were difficult.",
-    "exampleSentence": "A dispetto della stanchezza, ha finito il lavoro in tempo.",
-    "exampleTranslation": "Despite being tired, she finished the work on time.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "it-a-colpi-di-10",
-    "language": "it",
-    "expression": "A colpi di",
-    "literalTranslation": "By blows of",
-    "meaning": "By relying heavily on one repeated means or tool.",
-    "usageNote": "Use it when progress happens through sheer repetition, pressure, or one dominant method.",
-    "exampleSentence": "Ha imparato il software a colpi di tentativi ed errori.",
-    "exampleTranslation": "He learned the software through repeated trial and error.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",
@@ -2027,22 +4838,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "exampleSentence": "A freddo, mi rendo conto che aveva ragione lui.",
     "exampleTranslation": "Looking at it calmly now, I realize he was right.",
     "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "it-a-cielo-aperto-13",
-    "language": "it",
-    "expression": "A cielo aperto",
-    "literalTranslation": "Under open sky",
-    "meaning": "Outdoors and not enclosed.",
-    "usageNote": "Use it for events, work, or places that happen entirely in the open air.",
-    "exampleSentence": "Quest'estate faranno un cinema a cielo aperto nel parco.",
-    "exampleTranslation": "This summer they are putting on an open-air cinema in the park.",
-    "difficulty": "basic",
     "tags": [
       "idiom",
       "imported",
@@ -2146,19 +4941,465 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "nl-af-en-toe-0",
+    "id": "nl-met-de-deur-in-huis-vallen",
     "language": "nl",
-    "expression": "Af en toe",
-    "literalTranslation": "Off and then",
-    "meaning": "Now and then or occasionally.",
-    "usageNote": "Use it for something that happens from time to time but not very often.",
-    "exampleSentence": "Ik werk graag thuis, maar af en toe ga ik ook bewust naar kantoor.",
-    "exampleTranslation": "I like working from home, but now and then I deliberately go to the office.",
+    "expression": "Met de deur in huis vallen",
+    "literalTranslation": "To fall into the house with the door",
+    "meaning": "To get straight to the point without any preamble.",
+    "usageNote": "Use it when someone brings up the main matter immediately, sometimes too abruptly.",
+    "exampleSentence": "Sorry dat ik met de deur in huis val, maar we hebben een probleem.",
+    "exampleTranslation": "Sorry to get straight to the point, but we have a problem.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-nu-komt-de-aap-uit-de-mouw",
+    "language": "nl",
+    "expression": "Nu komt de aap uit de mouw",
+    "literalTranslation": "Now the monkey comes out of the sleeve",
+    "meaning": "Now the hidden truth or real intention finally comes out.",
+    "usageNote": "Use it when a concealed motive or fact is suddenly revealed.",
+    "exampleSentence": "Hij wilde alleen maar geld lenen; nu komt de aap uit de mouw.",
+    "exampleTranslation": "He only wanted to borrow money; now the truth comes out.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-een-appeltje-voor-de-dorst",
+    "language": "nl",
+    "expression": "Een appeltje voor de dorst",
+    "literalTranslation": "A little apple for the thirst",
+    "meaning": "Something, usually money, kept in reserve for when it is needed later.",
+    "usageNote": "Use it about savings or a reserve set aside for a rainy day.",
+    "exampleSentence": "Ze houden altijd een appeltje voor de dorst op een spaarrekening.",
+    "exampleTranslation": "They always keep something aside for a rainy day in a savings account.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "nl-de-koe-bij-de-horens-vatten",
+    "language": "nl",
+    "expression": "De koe bij de horens vatten",
+    "literalTranslation": "To grab the cow by the horns",
+    "meaning": "To tackle a difficult problem head-on and decisively.",
+    "usageNote": "Use it when someone stops hesitating and deals with a hard issue directly.",
+    "exampleSentence": "We moeten de koe bij de horens vatten en het gesprek aangaan.",
+    "exampleTranslation": "We have to take the bull by the horns and have the conversation.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "motivation"
+    ]
+  },
+  {
+    "id": "nl-ergens-geen-kaas-van-gegeten-hebben",
+    "language": "nl",
+    "expression": "Ergens geen kaas van gegeten hebben",
+    "literalTranslation": "To not have eaten any cheese of something",
+    "meaning": "To know nothing about a subject.",
+    "usageNote": "Use it, casually, to admit or point out a lack of knowledge about something.",
+    "exampleSentence": "Vraag mij niets over auto's, daar heb ik geen kaas van gegeten.",
+    "exampleTranslation": "Don't ask me anything about cars, I know nothing about them.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "confusion"
+    ]
+  },
+  {
+    "id": "nl-met-de-mond-vol-tanden-staan",
+    "language": "nl",
+    "expression": "Met de mond vol tanden staan",
+    "literalTranslation": "To stand with the mouth full of teeth",
+    "meaning": "To be at a loss for words.",
+    "usageNote": "Use it when someone is suddenly speechless and doesn't know what to say.",
+    "exampleSentence": "Toen ze dat vroeg, stond hij met de mond vol tanden.",
+    "exampleTranslation": "When she asked that, he was completely lost for words.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "nl-de-dans-ontspringen",
+    "language": "nl",
+    "expression": "De dans ontspringen",
+    "literalTranslation": "To jump out of the dance",
+    "meaning": "To narrowly escape trouble or punishment.",
+    "usageNote": "Use it when someone just avoids a bad outcome that others didn't.",
+    "exampleSentence": "Iedereen kreeg een boete, maar wij ontsprongen de dans.",
+    "exampleTranslation": "Everyone got a fine, but we narrowly escaped it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-iets-onder-de-knie-hebben",
+    "language": "nl",
+    "expression": "Iets onder de knie hebben",
+    "literalTranslation": "To have something under the knee",
+    "meaning": "To have mastered a skill.",
+    "usageNote": "Use it when someone has learned to do something well after practice.",
+    "exampleSentence": "Na maanden oefenen heb ik het eindelijk onder de knie.",
+    "exampleTranslation": "After months of practice I've finally got the hang of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "confidence"
+    ]
+  },
+  {
+    "id": "nl-op-de-kleintjes-letten",
+    "language": "nl",
+    "expression": "Op de kleintjes letten",
+    "literalTranslation": "To watch the little ones",
+    "meaning": "To be careful with money and small expenses.",
+    "usageNote": "Use it about being thrifty and mindful of costs.",
+    "exampleSentence": "Deze maand moeten we even op de kleintjes letten.",
+    "exampleTranslation": "This month we have to watch the pennies for a bit.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-de-plank-misslaan",
+    "language": "nl",
+    "expression": "De plank misslaan",
+    "literalTranslation": "To miss the plank",
+    "meaning": "To be completely wrong or wide of the mark.",
+    "usageNote": "Use it when someone's guess, judgement, or attempt is entirely off.",
+    "exampleSentence": "Met die inschatting sloeg hij de plank volledig mis.",
+    "exampleTranslation": "With that estimate he was completely wide of the mark.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-roeien-met-de-riemen-die-je-hebt",
+    "language": "nl",
+    "expression": "Roeien met de riemen die je hebt",
+    "literalTranslation": "To row with the oars you have",
+    "meaning": "To make the best of the limited means available to you.",
+    "usageNote": "Use it about coping resourcefully with whatever resources you've got.",
+    "exampleSentence": "Het budget is klein, maar we roeien met de riemen die we hebben.",
+    "exampleTranslation": "The budget is small, but we make do with what we have.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "nl-het-hoofd-koel-houden",
+    "language": "nl",
+    "expression": "Het hoofd koel houden",
+    "literalTranslation": "To keep the head cool",
+    "meaning": "To stay calm under pressure.",
+    "usageNote": "Use it when composure matters in a stressful situation.",
+    "exampleSentence": "Tijdens de storing moesten we het hoofd koel houden.",
+    "exampleTranslation": "During the outage we had to keep a cool head.",
     "difficulty": "basic",
     "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
+      "emotion",
+      "confidence"
+    ]
+  },
+  {
+    "id": "nl-de-knoop-doorhakken",
+    "language": "nl",
+    "expression": "De knoop doorhakken",
+    "literalTranslation": "To cut through the knot",
+    "meaning": "To make a firm decision after hesitation.",
+    "usageNote": "Use it when someone finally settles a matter that was dragging on.",
+    "exampleSentence": "Na weken twijfelen hakten we eindelijk de knoop door.",
+    "exampleTranslation": "After weeks of doubt we finally made the decision.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "work"
+    ]
+  },
+  {
+    "id": "nl-de-kat-op-het-spek-binden",
+    "language": "nl",
+    "expression": "De kat op het spek binden",
+    "literalTranslation": "To tie the cat to the bacon",
+    "meaning": "To put irresistible temptation in someone's way.",
+    "usageNote": "Use it when someone is exposed to a temptation they're bound to give in to.",
+    "exampleSentence": "Hem alleen laten met de snoeppot is de kat op het spek binden.",
+    "exampleTranslation": "Leaving him alone with the sweet jar is just asking for trouble.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "nl-de-aanhouder-wint",
+    "language": "nl",
+    "expression": "De aanhouder wint",
+    "literalTranslation": "The persistent one wins",
+    "meaning": "Persistence eventually pays off.",
+    "usageNote": "Use it to encourage someone to keep trying.",
+    "exampleSentence": "Blijf gewoon solliciteren, de aanhouder wint.",
+    "exampleTranslation": "Just keep applying, persistence pays off.",
+    "difficulty": "basic",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "nl-wie-goed-doet-goed-ontmoet",
+    "language": "nl",
+    "expression": "Wie goed doet, goed ontmoet",
+    "literalTranslation": "Who does good, meets good",
+    "meaning": "If you treat others well, good will come back to you.",
+    "usageNote": "Use it to encourage kindness, suggesting it is repaid.",
+    "exampleSentence": "Help haar gerust, wie goed doet, goed ontmoet.",
+    "exampleTranslation": "Go ahead and help her; do good and good comes back.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "nl-onbekend-maakt-onbemind",
+    "language": "nl",
+    "expression": "Onbekend maakt onbemind",
+    "literalTranslation": "Unknown makes unloved",
+    "meaning": "People tend to dislike or distrust what they don't know.",
+    "usageNote": "Use it to explain why something unfamiliar is unfairly rejected.",
+    "exampleSentence": "Niemand koos het nieuwe gerecht; onbekend maakt onbemind.",
+    "exampleTranslation": "Nobody chose the new dish; we shun what we don't know.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-oost-west-thuis-best",
+    "language": "nl",
+    "expression": "Oost west, thuis best",
+    "literalTranslation": "East west, home best",
+    "meaning": "However nice it is elsewhere, home is the best place to be.",
+    "usageNote": "Use it, warmly, after travelling or being away for a while.",
+    "exampleSentence": "De vakantie was heerlijk, maar oost west, thuis best.",
+    "exampleTranslation": "The holiday was lovely, but there's no place like home.",
+    "difficulty": "basic",
+    "tags": [
+      "daily-life",
+      "emotion"
+    ]
+  },
+  {
+    "id": "nl-beter-laat-dan-nooit",
+    "language": "nl",
+    "expression": "Beter laat dan nooit",
+    "literalTranslation": "Better late than never",
+    "meaning": "Doing something late is still better than not doing it at all.",
+    "usageNote": "Use it when something finally happens after a delay.",
+    "exampleSentence": "Hij bedankte me pas een jaar later, maar beter laat dan nooit.",
+    "exampleTranslation": "He only thanked me a year later, but better late than never.",
+    "difficulty": "basic",
+    "tags": [
+      "time",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "nl-nieuwe-bezems-vegen-schoon",
+    "language": "nl",
+    "expression": "Nieuwe bezems vegen schoon",
+    "literalTranslation": "New brooms sweep clean",
+    "meaning": "Someone new often brings fresh energy and change at first.",
+    "usageNote": "Use it when a newcomer makes visible changes early on.",
+    "exampleSentence": "De nieuwe manager veranderde meteen van alles; nieuwe bezems vegen schoon.",
+    "exampleTranslation": "The new manager changed everything right away; new brooms sweep clean.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-wie-het-onderste-uit-de-kan-wil-hebben-krijgt-het-deksel-op-de-neus",
+    "language": "nl",
+    "expression": "Wie het onderste uit de kan wil hebben, krijgt het deksel op de neus",
+    "literalTranslation": "Who wants the last bit out of the jug gets the lid on the nose",
+    "meaning": "Being too greedy for the last bit ends up backfiring on you.",
+    "usageNote": "Use it to warn that pushing for too much can cost you what you already have.",
+    "exampleSentence": "Vraag niet nog meer korting; wie het onderste uit de kan wil hebben, krijgt het deksel op de neus.",
+    "exampleTranslation": "Don't ask for even more discount; grab for too much and it backfires.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "nl-al-is-de-leugen-nog-zo-snel-de-waarheid-achterhaalt-haar-wel",
+    "language": "nl",
+    "expression": "Al is de leugen nog zo snel, de waarheid achterhaalt haar wel",
+    "literalTranslation": "However fast the lie may be, the truth will catch up with it",
+    "meaning": "Lies are eventually caught out by the truth.",
+    "usageNote": "Use it to warn that dishonesty gets exposed in the end.",
+    "exampleSentence": "Verzin maar geen smoes; al is de leugen nog zo snel, de waarheid achterhaalt haar wel.",
+    "exampleTranslation": "Don't bother making up an excuse; however fast the lie, the truth catches up.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "nl-de-kat-in-de-zak-kopen",
+    "language": "nl",
+    "expression": "De kat in de zak kopen",
+    "literalTranslation": "To buy the cat in the bag",
+    "meaning": "To buy something without checking it and get a bad deal.",
+    "usageNote": "Use it when someone ends up cheated because they didn't inspect first.",
+    "exampleSentence": "Koop de auto nooit ongezien, straks koop je de kat in de zak.",
+    "exampleTranslation": "Never buy the car unseen, or you'll buy a pig in a poke.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "nl-het-regent-pijpenstelen",
+    "language": "nl",
+    "expression": "Het regent pijpenstelen",
+    "literalTranslation": "It's raining pipe stems",
+    "meaning": "It is raining very heavily.",
+    "usageNote": "A vivid, everyday way to describe a downpour.",
+    "exampleSentence": "We blijven binnen, het regent pijpenstelen.",
+    "exampleTranslation": "We're staying in, it's raining cats and dogs.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-boter-bij-de-vis",
+    "language": "nl",
+    "expression": "Boter bij de vis",
+    "literalTranslation": "Butter with the fish",
+    "meaning": "Pay or deliver immediately, on the spot.",
+    "usageNote": "Use it to insist on payment or action right away, no delays.",
+    "exampleSentence": "Geen beloftes meer, boter bij de vis.",
+    "exampleTranslation": "No more promises, cash on the nail.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
+    ]
+  },
+  {
+    "id": "nl-met-de-gebakken-peren-zitten",
+    "language": "nl",
+    "expression": "Met de gebakken peren zitten",
+    "literalTranslation": "To sit with the baked pears",
+    "meaning": "To be left dealing with the mess someone else caused.",
+    "usageNote": "Use it when you're stuck with the unpleasant consequences.",
+    "exampleSentence": "Hij vertrok en ik zat met de gebakken peren.",
+    "exampleTranslation": "He left and I was left to clean up the mess.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "nl-als-haringen-in-een-ton",
+    "language": "nl",
+    "expression": "Als haringen in een ton",
+    "literalTranslation": "Like herrings in a barrel",
+    "meaning": "Packed extremely tightly together.",
+    "usageNote": "Use it about a crowded, cramped space.",
+    "exampleSentence": "In de spits staan we als haringen in een ton in de tram.",
+    "exampleTranslation": "At rush hour we're packed like sardines on the tram.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-de-draak-steken-met-iemand",
+    "language": "nl",
+    "expression": "De draak steken met iemand",
+    "literalTranslation": "To stab the dragon with someone",
+    "meaning": "To mock or make fun of someone or something.",
+    "usageNote": "Use it when someone is being ridiculed, often light-heartedly.",
+    "exampleSentence": "Ze staken de draak met zijn ouderwetse kleren.",
+    "exampleTranslation": "They poked fun at his old-fashioned clothes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "humor",
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-spijkers-met-koppen-slaan",
+    "language": "nl",
+    "expression": "Spijkers met koppen slaan",
+    "literalTranslation": "To hit nails with heads",
+    "meaning": "To make firm, concrete decisions and get things done.",
+    "usageNote": "Use it when it's time to stop talking and settle matters.",
+    "exampleSentence": "Genoeg vergaderd, laten we spijkers met koppen slaan.",
+    "exampleTranslation": "Enough meetings, let's get down to business and decide.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "work"
+    ]
+  },
+  {
+    "id": "nl-in-de-wolken-zijn",
+    "language": "nl",
+    "expression": "In de wolken zijn",
+    "literalTranslation": "To be in the clouds",
+    "meaning": "To be overjoyed and delighted.",
+    "usageNote": "Use it when someone is thrilled about good news.",
+    "exampleSentence": "Ze was in de wolken met haar nieuwe baan.",
+    "exampleTranslation": "She was over the moon about her new job.",
+    "difficulty": "basic",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-iets-voor-een-appel-en-een-ei-kopen",
+    "language": "nl",
+    "expression": "Iets voor een appel en een ei kopen",
+    "literalTranslation": "To buy something for an apple and an egg",
+    "meaning": "To buy something very cheaply.",
+    "usageNote": "Use it about a real bargain that cost almost nothing.",
+    "exampleSentence": "Deze kast kocht ik voor een appel en een ei.",
+    "exampleTranslation": "I bought this cabinet for next to nothing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
     ]
   },
   {
@@ -2463,6 +5704,455 @@ export const importedExpressions: ExpressionEntry[] = [
       "idiom",
       "imported",
       "reviewed"
+    ]
+  },
+  {
+    "id": "pl-owijac-w-bawelne",
+    "language": "pl",
+    "expression": "Owijać w bawełnę",
+    "literalTranslation": "To wrap in cotton",
+    "meaning": "To beat around the bush; to avoid saying something directly.",
+    "usageNote": "Use it when someone softens or delays a clear message.",
+    "exampleSentence": "Nie owijaj w bawełnę i powiedz, o co chodzi.",
+    "exampleTranslation": "Don't beat around the bush and tell me what's going on.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-musztarda-po-obiedzie",
+    "language": "pl",
+    "expression": "Musztarda po obiedzie",
+    "literalTranslation": "Mustard after dinner",
+    "meaning": "Something useful that comes too late to help.",
+    "usageNote": "Use it when help or a solution arrives after it was needed.",
+    "exampleSentence": "Teraz mi to mówisz? Musztarda po obiedzie.",
+    "exampleTranslation": "You're telling me now? That's too little, too late.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pl-miec-weza-w-kieszeni",
+    "language": "pl",
+    "expression": "Mieć węża w kieszeni",
+    "literalTranslation": "To have a snake in one's pocket",
+    "meaning": "To be stingy and reluctant to spend money.",
+    "usageNote": "Use it, teasingly, about someone who hates parting with money.",
+    "exampleSentence": "Nigdy nie stawia kawy, ma węża w kieszeni.",
+    "exampleTranslation": "He never buys the coffee; he's a real tightwad.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "personality"
+    ]
+  },
+  {
+    "id": "pl-piate-kolo-u-wozu",
+    "language": "pl",
+    "expression": "Piąte koło u wozu",
+    "literalTranslation": "The fifth wheel on the wagon",
+    "meaning": "Someone or something useless and unneeded.",
+    "usageNote": "Use it when a person feels superfluous in a group.",
+    "exampleSentence": "Na tym projekcie czuję się jak piąte koło u wozu.",
+    "exampleTranslation": "On this project I feel like a fifth wheel.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "id": "pl-rzucac-slowa-na-wiatr",
+    "language": "pl",
+    "expression": "Rzucać słowa na wiatr",
+    "literalTranslation": "To throw words to the wind",
+    "meaning": "To make promises or statements you don't keep.",
+    "usageNote": "Use it about someone whose words can't be relied on.",
+    "exampleSentence": "On dotrzymuje obietnic, nie rzuca słów na wiatr.",
+    "exampleTranslation": "He keeps his promises; he doesn't just talk for the sake of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "pl-wpasc-jak-sliwka-w-kompot",
+    "language": "pl",
+    "expression": "Wpaść jak śliwka w kompot",
+    "literalTranslation": "To fall like a plum into compote",
+    "meaning": "To get into an awkward mess, often unexpectedly.",
+    "usageNote": "A casual way to say someone landed in a tricky situation.",
+    "exampleSentence": "Zgodziłem się pomóc i wpadłem jak śliwka w kompot.",
+    "exampleTranslation": "I agreed to help and landed myself in a right mess.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pl-zlapac-byka-za-rogi",
+    "language": "pl",
+    "expression": "Złapać byka za rogi",
+    "literalTranslation": "To grab the bull by the horns",
+    "meaning": "To tackle a difficult problem decisively.",
+    "usageNote": "Use it when someone confronts a hard issue head-on.",
+    "exampleSentence": "Przestań zwlekać i złap byka za rogi.",
+    "exampleTranslation": "Stop stalling and take the bull by the horns.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "motivation"
+    ]
+  },
+  {
+    "id": "pl-dmuchac-na-zimne",
+    "language": "pl",
+    "expression": "Dmuchać na zimne",
+    "literalTranslation": "To blow on cold things",
+    "meaning": "To be overly cautious after a past bad experience.",
+    "usageNote": "Use it about someone who takes excessive precautions to avoid a repeat.",
+    "exampleSentence": "Po tamtej awarii robi kopie trzy razy, dmucha na zimne.",
+    "exampleTranslation": "After that crash he backs up three times; once bitten, twice shy.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pl-robic-dobra-mine-do-zlej-gry",
+    "language": "pl",
+    "expression": "Robić dobrą minę do złej gry",
+    "literalTranslation": "To put on a good face to a bad game",
+    "meaning": "To hide disappointment and pretend everything is fine.",
+    "usageNote": "Use it when someone stays composed despite a bad situation.",
+    "exampleSentence": "Przegrała konkurs, ale robiła dobrą minę do złej gry.",
+    "exampleTranslation": "She lost the contest but put on a brave face.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "personality"
+    ]
+  },
+  {
+    "id": "pl-wiercic-komus-dziure-w-brzuchu",
+    "language": "pl",
+    "expression": "Wiercić komuś dziurę w brzuchu",
+    "literalTranslation": "To drill a hole in someone's belly",
+    "meaning": "To pester someone relentlessly about something.",
+    "usageNote": "Use it when someone keeps nagging until they get their way.",
+    "exampleSentence": "Dzieci wiercą mi dziurę w brzuchu, żeby kupić psa.",
+    "exampleTranslation": "The kids keep nagging me to get a dog.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pl-wisiec-na-wlosku",
+    "language": "pl",
+    "expression": "Wisieć na włosku",
+    "literalTranslation": "To hang by a hair",
+    "meaning": "To be in a very precarious, uncertain situation.",
+    "usageNote": "Use it when an outcome could fail at any moment.",
+    "exampleSentence": "Cały projekt wisiał na włosku do ostatniej chwili.",
+    "exampleTranslation": "The whole project hung by a thread until the last moment.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pl-trafic-w-dziesiatke",
+    "language": "pl",
+    "expression": "Trafić w dziesiątkę",
+    "literalTranslation": "To hit the ten (the bullseye)",
+    "meaning": "To get something exactly right.",
+    "usageNote": "Use it when a choice, guess, or gift is spot on.",
+    "exampleSentence": "Z tym prezentem naprawdę trafiłeś w dziesiątkę.",
+    "exampleTranslation": "With that gift you really hit the bullseye.",
+    "difficulty": "basic",
+    "tags": [
+      "confidence",
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-rzucac-klody-pod-nogi",
+    "language": "pl",
+    "expression": "Rzucać kłody pod nogi",
+    "literalTranslation": "To throw logs under someone's feet",
+    "meaning": "To deliberately create obstacles for someone.",
+    "usageNote": "Use it when someone keeps hindering another's progress.",
+    "exampleSentence": "Zamiast pomóc, ciągle rzuca nam kłody pod nogi.",
+    "exampleTranslation": "Instead of helping, he keeps putting obstacles in our way.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "pl-kto-rano-wstaje-temu-pan-bog-daje",
+    "language": "pl",
+    "expression": "Kto rano wstaje, temu Pan Bóg daje",
+    "literalTranslation": "God provides for the one who rises early",
+    "meaning": "People who start early and take initiative get ahead.",
+    "usageNote": "Use it to praise early rising and initiative.",
+    "exampleSentence": "Wstał o piątej i zdążył ze wszystkim, kto rano wstaje, temu Pan Bóg daje.",
+    "exampleTranslation": "He got up at five and got everything done; the early bird catches the worm.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "motivation"
+    ]
+  },
+  {
+    "id": "pl-nie-ma-tego-zlego-co-by-na-dobre-nie-wyszlo",
+    "language": "pl",
+    "expression": "Nie ma tego złego, co by na dobre nie wyszło",
+    "literalTranslation": "There is no bad thing that wouldn't turn out for good",
+    "meaning": "Even a bad situation can lead to something good.",
+    "usageNote": "Use it to comfort someone after a setback.",
+    "exampleSentence": "Stracił tę pracę, ale nie ma tego złego, co by na dobre nie wyszło.",
+    "exampleTranslation": "He lost that job, but every cloud has a silver lining.",
+    "difficulty": "intermediate",
+    "tags": [
+      "encouragement",
+      "emotion"
+    ]
+  },
+  {
+    "id": "pl-co-dwie-glowy-to-nie-jedna",
+    "language": "pl",
+    "expression": "Co dwie głowy, to nie jedna",
+    "literalTranslation": "Two heads are not one",
+    "meaning": "Two people thinking together solve things better than one.",
+    "usageNote": "Use it to justify asking for help or working together.",
+    "exampleSentence": "Poradźmy się razem, co dwie głowy, to nie jedna.",
+    "exampleTranslation": "Let's figure it out together; two heads are better than one.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "id": "pl-kto-pod-kim-dolki-kopie-sam-w-nie-wpada",
+    "language": "pl",
+    "expression": "Kto pod kim dołki kopie, sam w nie wpada",
+    "literalTranslation": "Who digs pits under others falls into them himself",
+    "meaning": "Those who scheme against others often get caught in their own trap.",
+    "usageNote": "Use it when someone's plotting backfires on them.",
+    "exampleSentence": "Próbował ją oczernić i sam stracił pracę, kto pod kim dołki kopie, sam w nie wpada.",
+    "exampleTranslation": "He tried to smear her and lost his own job; he who digs a pit falls into it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "personality"
+    ]
+  },
+  {
+    "id": "pl-prawdziwych-przyjaciol-poznaje-sie-w-biedzie",
+    "language": "pl",
+    "expression": "Prawdziwych przyjaciół poznaje się w biedzie",
+    "literalTranslation": "True friends are recognized in hardship",
+    "meaning": "You learn who your real friends are in hard times.",
+    "usageNote": "Use it when someone stands by you during trouble.",
+    "exampleSentence": "Została ze mną w szpitalu, prawdziwych przyjaciół poznaje się w biedzie.",
+    "exampleTranslation": "She stayed with me at the hospital; a friend in need is a friend indeed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "pl-lepszy-wrobel-w-garsci-niz-golab-na-dachu",
+    "language": "pl",
+    "expression": "Lepszy wróbel w garści niż gołąb na dachu",
+    "literalTranslation": "A sparrow in the hand is better than a pigeon on the roof",
+    "meaning": "A small certain gain beats a bigger uncertain one.",
+    "usageNote": "Use it to advise taking the sure thing.",
+    "exampleSentence": "Weź tę pewną ofertę, lepszy wróbel w garści niż gołąb na dachu.",
+    "exampleTranslation": "Take that sure offer; a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "pl-fortuna-kolem-sie-toczy",
+    "language": "pl",
+    "expression": "Fortuna kołem się toczy",
+    "literalTranslation": "Fortune turns like a wheel",
+    "meaning": "Luck and circumstances constantly change.",
+    "usageNote": "Use it to remind someone that good or bad times don't last forever.",
+    "exampleSentence": "Dziś przegrywają, ale fortuna kołem się toczy.",
+    "exampleTranslation": "They're losing today, but fortune's wheel keeps turning.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "emotion"
+    ]
+  },
+  {
+    "id": "pl-kto-pyta-nie-bladzi",
+    "language": "pl",
+    "expression": "Kto pyta, nie błądzi",
+    "literalTranslation": "Who asks does not go astray",
+    "meaning": "There is no shame in asking; it keeps you from mistakes.",
+    "usageNote": "Use it to encourage someone to ask rather than guess.",
+    "exampleSentence": "Nie wiesz, gdzie to jest? Zapytaj, kto pyta, nie błądzi.",
+    "exampleTranslation": "Don't know where it is? Just ask; asking keeps you from going wrong.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-cicha-woda-brzegi-rwie",
+    "language": "pl",
+    "expression": "Cicha woda brzegi rwie",
+    "literalTranslation": "Still water tears the banks",
+    "meaning": "Quiet people are often surprisingly capable or intense underneath.",
+    "usageNote": "Use it about a reserved person who turns out bolder than they seem.",
+    "exampleSentence": "Wygląda nieśmiało, ale cicha woda brzegi rwie.",
+    "exampleTranslation": "She seems shy, but still waters run deep.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "emotion"
+    ]
+  },
+  {
+    "id": "pl-obiecywac-gruszki-na-wierzbie",
+    "language": "pl",
+    "expression": "Obiecywać gruszki na wierzbie",
+    "literalTranslation": "To promise pears on a willow",
+    "meaning": "To make impossible, extravagant promises.",
+    "usageNote": "Use it about someone who promises things that can never happen.",
+    "exampleSentence": "Politycy obiecują gruszki na wierzbie przed wyborami.",
+    "exampleTranslation": "Politicians promise the moon before elections.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pl-puscic-farbe",
+    "language": "pl",
+    "expression": "Puścić farbę",
+    "literalTranslation": "To release the dye",
+    "meaning": "To let a secret slip; to spill the beans.",
+    "usageNote": "Use it when someone reveals something that was supposed to stay hidden.",
+    "exampleSentence": "Miała milczeć, ale w końcu puściła farbę.",
+    "exampleTranslation": "She was supposed to stay quiet, but she finally spilled the beans.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-byc-nie-w-sosie",
+    "language": "pl",
+    "expression": "Być nie w sosie",
+    "literalTranslation": "To not be in the sauce",
+    "meaning": "To be out of sorts or in a bad mood.",
+    "usageNote": "A casual way to say someone is grumpy or off today.",
+    "exampleSentence": "Nie zaczepiaj go, jest dziś nie w sosie.",
+    "exampleTranslation": "Don't bother him, he's out of sorts today.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pl-zbic-kogos-z-pantalyku",
+    "language": "pl",
+    "expression": "Zbić kogoś z pantałyku",
+    "literalTranslation": "To knock someone off their pantałyk",
+    "meaning": "To throw someone off, confusing them so they lose their train of thought.",
+    "usageNote": "Use it when an interruption or tricky question flusters someone.",
+    "exampleSentence": "Nagłe pytanie zbiło go z pantałyku i zapomniał tekstu.",
+    "exampleTranslation": "The sudden question threw him off and he forgot his lines.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confusion",
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-wyjsc-na-prosta",
+    "language": "pl",
+    "expression": "Wyjść na prostą",
+    "literalTranslation": "To come out onto the straight",
+    "meaning": "To get back on track after a hard period.",
+    "usageNote": "Use it when someone finally gets past their difficulties.",
+    "exampleSentence": "Po trudnym roku firma wreszcie wyszła na prostą.",
+    "exampleTranslation": "After a hard year the company is finally back on track.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "pl-nie-ma-co-plakac-nad-rozlanym-mlekiem",
+    "language": "pl",
+    "expression": "Nie ma co płakać nad rozlanym mlekiem",
+    "literalTranslation": "There's no use crying over spilt milk",
+    "meaning": "Don't waste time regretting what can't be undone.",
+    "usageNote": "Use it to tell someone to move on from a past mistake.",
+    "exampleSentence": "Umowa przepadła, ale nie ma co płakać nad rozlanym mlekiem.",
+    "exampleTranslation": "The deal fell through, but there's no use crying over spilt milk.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pl-gdzie-dwoch-sie-bije-tam-trzeci-korzysta",
+    "language": "pl",
+    "expression": "Gdzie dwóch się bije, tam trzeci korzysta",
+    "literalTranslation": "Where two fight, the third profits",
+    "meaning": "A third party often benefits from a conflict between two others.",
+    "usageNote": "Use it when someone quietly gains while others are busy quarrelling.",
+    "exampleSentence": "Dwie firmy walczyły o klienta, a trzecia go przejęła; gdzie dwóch się bije, tam trzeci korzysta.",
+    "exampleTranslation": "Two firms fought over the client and a third took him; when two fight, the third profits.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pl-jak-sie-nie-ma-co-sie-lubi-to-sie-lubi-co-sie-ma",
+    "language": "pl",
+    "expression": "Jak się nie ma, co się lubi, to się lubi, co się ma",
+    "literalTranslation": "If you can't have what you like, you like what you have",
+    "meaning": "When the ideal isn't available, learn to appreciate what you've got.",
+    "usageNote": "Use it to make peace with a second-best option.",
+    "exampleSentence": "Nie było kina, więc obejrzeliśmy film w domu; jak się nie ma, co się lubi, to się lubi, co się ma.",
+    "exampleTranslation": "There was no cinema, so we watched a film at home; if you can't have what you like, like what you have.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "daily-life"
     ]
   },
   {
@@ -2786,6 +6476,456 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
+    "id": "pt-ficar-a-ver-navios",
+    "language": "pt",
+    "expression": "Ficar a ver navios",
+    "literalTranslation": "To be left watching ships",
+    "meaning": "To be left disappointed and empty-handed after expecting something.",
+    "usageNote": "Use it when someone misses out and ends up with nothing.",
+    "exampleSentence": "Cheguei atrasado à promoção e fiquei a ver navios.",
+    "exampleTranslation": "I got to the sale late and was left empty-handed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pt-tirar-o-cavalinho-da-chuva",
+    "language": "pt",
+    "expression": "Tirar o cavalinho da chuva",
+    "literalTranslation": "To take the little horse out of the rain",
+    "meaning": "To give up on an idea because it simply won't happen.",
+    "usageNote": "Use it, often bluntly, to tell someone not to get their hopes up.",
+    "exampleSentence": "Se achas que te empresto o carro, podes tirar o cavalinho da chuva.",
+    "exampleTranslation": "If you think I'll lend you the car, you can forget about it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pt-engolir-sapos",
+    "language": "pt",
+    "expression": "Engolir sapos",
+    "literalTranslation": "To swallow frogs",
+    "meaning": "To put up with unpleasant things without complaining.",
+    "usageNote": "Use it when someone has to bite their tongue and tolerate annoyances.",
+    "exampleSentence": "No trabalho tive de engolir muitos sapos para manter a paz.",
+    "exampleTranslation": "At work I had to put up with a lot to keep the peace.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-dar-o-braco-a-torcer",
+    "language": "pt",
+    "expression": "Dar o braço a torcer",
+    "literalTranslation": "To give the arm to be twisted",
+    "meaning": "To admit you were wrong or finally give in.",
+    "usageNote": "Use it when a stubborn person at last concedes.",
+    "exampleSentence": "Custou-lhe, mas acabou por dar o braço a torcer.",
+    "exampleTranslation": "It was hard for him, but he finally gave in and admitted it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "pt-estar-com-os-azeites",
+    "language": "pt",
+    "expression": "Estar com os azeites",
+    "literalTranslation": "To be with the olive oils",
+    "meaning": "To be in a bad mood; to be irritated.",
+    "usageNote": "A casual, European Portuguese way to say someone is grumpy.",
+    "exampleSentence": "Não fales com ela agora, está com os azeites.",
+    "exampleTranslation": "Don't talk to her now, she's in a foul mood.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-ter-a-pulga-atras-da-orelha",
+    "language": "pt",
+    "expression": "Ter a pulga atrás da orelha",
+    "literalTranslation": "To have the flea behind the ear",
+    "meaning": "To be suspicious or to have a nagging doubt.",
+    "usageNote": "Use it when something feels off and you can't quite trust it.",
+    "exampleSentence": "As contas não batem certo e fiquei com a pulga atrás da orelha.",
+    "exampleTranslation": "The numbers don't add up and it left me suspicious.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pt-ficar-em-aguas-de-bacalhau",
+    "language": "pt",
+    "expression": "Ficar em águas de bacalhau",
+    "literalTranslation": "To end up in codfish waters",
+    "meaning": "To come to nothing; to fizzle out.",
+    "usageNote": "Use it when a plan or promise ends without any result.",
+    "exampleSentence": "O projeto prometia muito, mas ficou em águas de bacalhau.",
+    "exampleTranslation": "The project promised a lot, but it came to nothing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pt-fazer-das-tripas-coracao",
+    "language": "pt",
+    "expression": "Fazer das tripas coração",
+    "literalTranslation": "To make heart out of the guts",
+    "meaning": "To make a huge effort or sacrifice to manage something.",
+    "usageNote": "Use it when someone pushes through against the odds.",
+    "exampleSentence": "Fiz das tripas coração para acabar o trabalho a tempo.",
+    "exampleTranslation": "I gave it everything I had to finish the work on time.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-meter-o-bedelho",
+    "language": "pt",
+    "expression": "Meter o bedelho",
+    "literalTranslation": "To stick in the latch",
+    "meaning": "To butt in or meddle in something that isn't your business.",
+    "usageNote": "Use it, disapprovingly, about someone who interferes uninvited.",
+    "exampleSentence": "Ninguém te pediu opinião, não metas o bedelho.",
+    "exampleTranslation": "Nobody asked for your opinion, don't butt in.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "communication"
+    ]
+  },
+  {
+    "id": "pt-fazer-ouvidos-de-mercador",
+    "language": "pt",
+    "expression": "Fazer ouvidos de mercador",
+    "literalTranslation": "To make merchant's ears",
+    "meaning": "To pretend not to hear; to ignore deliberately.",
+    "usageNote": "Use it when someone turns a deaf ear to a request or criticism.",
+    "exampleSentence": "Pedi ajuda várias vezes, mas ele fez ouvidos de mercador.",
+    "exampleTranslation": "I asked for help several times, but he turned a deaf ear.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "pt-bicho-de-sete-cabecas",
+    "language": "pt",
+    "expression": "Bicho de sete cabeças",
+    "literalTranslation": "A seven-headed beast",
+    "meaning": "Something made out to be far harder or scarier than it really is.",
+    "usageNote": "Usually with 'não é' to reassure that something is not that hard.",
+    "exampleSentence": "Calma, montar o móvel não é nenhum bicho de sete cabeças.",
+    "exampleTranslation": "Relax, assembling the furniture isn't rocket science.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confusion",
+      "confidence"
+    ]
+  },
+  {
+    "id": "pt-farinha-do-mesmo-saco",
+    "language": "pt",
+    "expression": "Farinha do mesmo saco",
+    "literalTranslation": "Flour from the same sack",
+    "meaning": "People who share the same, usually bad, faults.",
+    "usageNote": "Use it, critically, about people who are equally guilty of something.",
+    "exampleSentence": "Os dois políticos são farinha do mesmo saco.",
+    "exampleTranslation": "The two politicians are cut from the same cloth.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "pt-ter-memoria-de-elefante",
+    "language": "pt",
+    "expression": "Ter memória de elefante",
+    "literalTranslation": "To have an elephant's memory",
+    "meaning": "To have an excellent memory, especially for slights.",
+    "usageNote": "Use it about someone who never forgets, for better or worse.",
+    "exampleSentence": "Cuidado com o que dizes, ela tem memória de elefante.",
+    "exampleTranslation": "Careful what you say, she has a memory like an elephant.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-por-paninhos-quentes",
+    "language": "pt",
+    "expression": "Pôr paninhos quentes",
+    "literalTranslation": "To put on warm little cloths",
+    "meaning": "To smooth a problem over instead of really fixing it.",
+    "usageNote": "Use it when someone downplays an issue rather than tackling it head-on.",
+    "exampleSentence": "Não adianta pôr paninhos quentes, temos de resolver isto a sério.",
+    "exampleTranslation": "There's no point papering over it, we have to deal with this properly.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pt-aguas-passadas-nao-movem-moinhos",
+    "language": "pt",
+    "expression": "Águas passadas não movem moinhos",
+    "literalTranslation": "Past waters don't move mills",
+    "meaning": "What's done is done; there's no use dwelling on the past.",
+    "usageNote": "Use it to let go of an old grievance or mistake.",
+    "exampleSentence": "Já pedimos desculpa um ao outro; águas passadas não movem moinhos.",
+    "exampleTranslation": "We've apologized to each other; that's all water under the bridge.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "time"
+    ]
+  },
+  {
+    "id": "pt-o-seguro-morreu-de-velho",
+    "language": "pt",
+    "expression": "O seguro morreu de velho",
+    "literalTranslation": "The careful one died of old age",
+    "meaning": "Being cautious keeps you safe in the long run.",
+    "usageNote": "Use it to justify taking a safe, careful approach.",
+    "exampleSentence": "Vou confirmar a reserva outra vez; o seguro morreu de velho.",
+    "exampleTranslation": "I'll double-check the booking; better safe than sorry.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "pt-a-esperanca-e-a-ultima-a-morrer",
+    "language": "pt",
+    "expression": "A esperança é a última a morrer",
+    "literalTranslation": "Hope is the last to die",
+    "meaning": "You keep hoping even when things look bleak.",
+    "usageNote": "Use it to stay hopeful in a difficult situation.",
+    "exampleSentence": "Ainda podemos ganhar; a esperança é a última a morrer.",
+    "exampleTranslation": "We can still win; hope is the last thing to die.",
+    "difficulty": "intermediate",
+    "tags": [
+      "encouragement",
+      "emotion"
+    ]
+  },
+  {
+    "id": "pt-em-casa-de-ferreiro-espeto-de-pau",
+    "language": "pt",
+    "expression": "Em casa de ferreiro, espeto de pau",
+    "literalTranslation": "In the blacksmith's house, a wooden spit",
+    "meaning": "People often lack for themselves the very thing they provide to others.",
+    "usageNote": "Use it about an expert who neglects their own skill at home.",
+    "exampleSentence": "O web designer não tem site próprio: em casa de ferreiro, espeto de pau.",
+    "exampleTranslation": "The web designer has no site of his own: the cobbler's children go barefoot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "personality"
+    ]
+  },
+  {
+    "id": "pt-cao-que-ladra-nao-morde",
+    "language": "pt",
+    "expression": "Cão que ladra não morde",
+    "literalTranslation": "A dog that barks doesn't bite",
+    "meaning": "People who threaten loudly rarely act on it.",
+    "usageNote": "Use it to reassure someone not to fear loud threats.",
+    "exampleSentence": "O chefe grita muito, mas cão que ladra não morde.",
+    "exampleTranslation": "The boss shouts a lot, but his bark is worse than his bite.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "pt-quem-nao-tem-cao-caca-com-gato",
+    "language": "pt",
+    "expression": "Quem não tem cão, caça com gato",
+    "literalTranslation": "Who has no dog hunts with a cat",
+    "meaning": "You make do with whatever means you happen to have.",
+    "usageNote": "Use it about improvising with limited resources.",
+    "exampleSentence": "Não tinha batedeira, usei um garfo; quem não tem cão, caça com gato.",
+    "exampleTranslation": "I had no mixer, so I used a fork; you make do with what you have.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-a-pressa-e-inimiga-da-perfeicao",
+    "language": "pt",
+    "expression": "A pressa é inimiga da perfeição",
+    "literalTranslation": "Haste is the enemy of perfection",
+    "meaning": "Rushing leads to mistakes and poor quality.",
+    "usageNote": "Use it to argue for taking your time to do something well.",
+    "exampleSentence": "Não despaches isso à pressa; a pressa é inimiga da perfeição.",
+    "exampleTranslation": "Don't rush that; haste is the enemy of good work.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "time"
+    ]
+  },
+  {
+    "id": "pt-agua-mole-em-pedra-dura-tanto-bate-ate-que-fura",
+    "language": "pt",
+    "expression": "Água mole em pedra dura, tanto bate até que fura",
+    "literalTranslation": "Soft water on hard stone strikes until it pierces",
+    "meaning": "Persistent effort eventually overcomes any obstacle.",
+    "usageNote": "Use it to encourage patient, steady persistence.",
+    "exampleSentence": "Continua a insistir com calma; água mole em pedra dura, tanto bate até que fura.",
+    "exampleTranslation": "Keep at it calmly; steady persistence wears down any stone.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "time"
+    ]
+  },
+  {
+    "id": "pt-por-as-barbas-de-molho",
+    "language": "pt",
+    "expression": "Pôr as barbas de molho",
+    "literalTranslation": "To put one's beard to soak",
+    "meaning": "To be on your guard after a warning sign.",
+    "usageNote": "Use it when someone else's trouble is a warning to be careful yourself.",
+    "exampleSentence": "Se eles foram despedidos, é melhor pormos as barbas de molho.",
+    "exampleTranslation": "If they got laid off, we'd better be on our guard.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "pt-estar-feito-ao-bife",
+    "language": "pt",
+    "expression": "Estar feito ao bife",
+    "literalTranslation": "To be done like a steak",
+    "meaning": "To be in serious trouble.",
+    "usageNote": "A casual way to say someone is in a hopeless fix.",
+    "exampleSentence": "Se o chefe descobre isto, estamos feitos ao bife.",
+    "exampleTranslation": "If the boss finds out about this, we're toast.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-dar-uma-no-cravo-e-outra-na-ferradura",
+    "language": "pt",
+    "expression": "Dar uma no cravo e outra na ferradura",
+    "literalTranslation": "To hit one on the nail and another on the horseshoe",
+    "meaning": "To be inconsistent, or to try to please both sides at once.",
+    "usageNote": "Use it about someone who keeps hedging or blowing hot and cold.",
+    "exampleSentence": "O político dá uma no cravo e outra na ferradura para não perder votos.",
+    "exampleTranslation": "The politician plays both sides so as not to lose votes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "pt-ter-macaquinhos-no-sotao",
+    "language": "pt",
+    "expression": "Ter macaquinhos no sótão",
+    "literalTranslation": "To have little monkeys in the attic",
+    "meaning": "To be a bit crazy or to imagine strange things.",
+    "usageNote": "An informal, teasing way to say someone isn't quite right in the head.",
+    "exampleSentence": "Ele acha que o vizinho o espia; tem macaquinhos no sótão.",
+    "exampleTranslation": "He thinks the neighbour spies on him; he's got a screw loose.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "humor"
+    ]
+  },
+  {
+    "id": "pt-estar-nas-suas-sete-quintas",
+    "language": "pt",
+    "expression": "Estar nas suas sete quintas",
+    "literalTranslation": "To be in one's seven farms",
+    "meaning": "To be delighted and perfectly content.",
+    "usageNote": "Use it when someone is thoroughly happy in their element.",
+    "exampleSentence": "Com um livro e um café, ela está nas suas sete quintas.",
+    "exampleTranslation": "With a book and a coffee, she's in seventh heaven.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-andar-como-cao-e-gato",
+    "language": "pt",
+    "expression": "Andar como cão e gato",
+    "literalTranslation": "To get along like dog and cat",
+    "meaning": "To argue and clash constantly.",
+    "usageNote": "Use it about two people who can't stop bickering.",
+    "exampleSentence": "Os irmãos adoram-se, mas andam como cão e gato.",
+    "exampleTranslation": "The siblings love each other, but they fight like cats and dogs.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-de-pequenino-se-torce-o-pepino",
+    "language": "pt",
+    "expression": "De pequenino se torce o pepino",
+    "literalTranslation": "The cucumber is bent while it's small",
+    "meaning": "Good habits and values are best instilled early in life.",
+    "usageNote": "Use it about the importance of teaching children while they are young.",
+    "exampleSentence": "Ensina-lhe a arrumar agora; de pequenino se torce o pepino.",
+    "exampleTranslation": "Teach him to tidy up now; you shape habits while they're young.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "personality"
+    ]
+  },
+  {
+    "id": "pt-depressa-e-bem-ha-pouco-quem",
+    "language": "pt",
+    "expression": "Depressa e bem, há pouco quem",
+    "literalTranslation": "Fast and well, few can do",
+    "meaning": "Doing something both quickly and well is rare.",
+    "usageNote": "Use it to argue against rushing when quality matters.",
+    "exampleSentence": "Não te apresses tanto; depressa e bem, há pouco quem.",
+    "exampleTranslation": "Don't rush so much; hardly anyone does things fast and well.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "time"
+    ]
+  },
+  {
     "id": "pt-a-fila-anda-0",
     "language": "pt",
     "expression": "A fila anda",
@@ -2802,22 +6942,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "pt-a-caminho-1",
-    "language": "pt",
-    "expression": "A caminho",
-    "literalTranslation": "On the way",
-    "meaning": "Already on the route or getting closer to happening.",
-    "usageNote": "Use it for people, deliveries, or results that are not here yet but are coming.",
-    "exampleSentence": "Calma, o relatório já está a caminho.",
-    "exampleTranslation": "Relax, the report is already on its way.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "pt-a-cereja-do-bolo-2",
     "language": "pt",
     "expression": "A cereja do bolo",
@@ -2826,22 +6950,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "usageNote": "Use it when one last addition completes an already positive situation.",
     "exampleSentence": "O bônus no fim do mês foi a cereja do bolo.",
     "exampleTranslation": "The bonus at the end of the month was the perfect finishing touch.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "pt-a-contragosto-3",
-    "language": "pt",
-    "expression": "A contragosto",
-    "literalTranslation": "Against one's taste",
-    "meaning": "Reluctantly and without real willingness.",
-    "usageNote": "Use it when someone agrees to something only because they feel they have to.",
-    "exampleSentence": "Ele aceitou a mudança a contragosto.",
-    "exampleTranslation": "He accepted the change reluctantly.",
     "difficulty": "basic",
     "tags": [
       "idiom",
@@ -2891,22 +6999,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "exampleSentence": "A reunião decisiva aconteceu a portas fechadas.",
     "exampleTranslation": "The decisive meeting happened behind closed doors.",
     "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "pt-a-luz-de-7",
-    "language": "pt",
-    "expression": "À luz de",
-    "literalTranslation": "In the light of",
-    "meaning": "Considering a fact or perspective that changes how something should be judged.",
-    "usageNote": "Use it to introduce relevant context before drawing a conclusion.",
-    "exampleSentence": "À luz dos novos dados, precisamos rever o plano.",
-    "exampleTranslation": "In light of the new data, we need to review the plan.",
-    "difficulty": "intermediate",
     "tags": [
       "idiom",
       "imported",
@@ -2971,22 +7063,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "exampleSentence": "Quando descobriram a fraude, a casa caiu de vez.",
     "exampleTranslation": "When they discovered the fraud, everything fell apart for good.",
     "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "pt-a-fio-12",
-    "language": "pt",
-    "expression": "A fio",
-    "literalTranslation": "In a row",
-    "meaning": "Continuously and without interruption.",
-    "usageNote": "Use it when something keeps happening for a long stretch of time.",
-    "exampleSentence": "Ele trabalhou dez horas a fio para terminar a entrega.",
-    "exampleTranslation": "He worked ten straight hours to finish the delivery.",
-    "difficulty": "basic",
     "tags": [
       "idiom",
       "imported",
@@ -3074,22 +7150,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "pt-dar-com-a-lingua-nos-dentes-18",
-    "language": "pt",
-    "expression": "Dar com a língua nos dentes",
-    "literalTranslation": "To hit the teeth with the tongue",
-    "meaning": "To let a secret slip.",
-    "usageNote": "Use it when someone reveals confidential information by accident or carelessness.",
-    "exampleSentence": "Eu ia fazer surpresa, mas o Pedro deu com a língua nos dentes.",
-    "exampleTranslation": "I was planning a surprise, but Pedro let the secret slip.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "pt-ficar-de-maos-abanando-19",
     "language": "pt",
     "expression": "Ficar de mãos abanando",
@@ -3103,6 +7163,185 @@ export const importedExpressions: ExpressionEntry[] = [
       "idiom",
       "imported",
       "reviewed"
+    ]
+  },
+  {
+    "id": "sv-ga-som-katten-kring-het-grot",
+    "language": "sv",
+    "expression": "Gå som katten kring het gröt",
+    "literalTranslation": "To walk like the cat around hot porridge",
+    "meaning": "To avoid getting to the point.",
+    "usageNote": "Use it when someone circles a topic instead of addressing it directly.",
+    "exampleSentence": "Sluta gå som katten kring het gröt och säg vad du menar.",
+    "exampleTranslation": "Stop beating around the bush and say what you mean.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "sv-ha-en-rav-bakom-orat",
+    "language": "sv",
+    "expression": "Ha en räv bakom örat",
+    "literalTranslation": "To have a fox behind the ear",
+    "meaning": "To be cunning and have hidden intentions.",
+    "usageNote": "Use it about someone sly who is craftier than they let on.",
+    "exampleSentence": "Lita inte blint på honom, han har en räv bakom örat.",
+    "exampleTranslation": "Don't trust him blindly, he's a sly one.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "secrets"
+    ]
+  },
+  {
+    "id": "sv-sla-huvudet-pa-spiken",
+    "language": "sv",
+    "expression": "Slå huvudet på spiken",
+    "literalTranslation": "To hit the head on the nail",
+    "meaning": "To be exactly right about something.",
+    "usageNote": "Use it when someone identifies the real point precisely.",
+    "exampleSentence": "Där slog du huvudet på spiken.",
+    "exampleTranslation": "There you hit the nail on the head.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "sv-ta-det-med-en-nypa-salt",
+    "language": "sv",
+    "expression": "Ta det med en nypa salt",
+    "literalTranslation": "To take it with a pinch of salt",
+    "meaning": "To treat information with some skepticism.",
+    "usageNote": "Use it about claims or rumours that may not be fully reliable.",
+    "exampleSentence": "Han överdriver ofta, så ta det med en nypa salt.",
+    "exampleTranslation": "He often exaggerates, so take it with a pinch of salt.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "sv-gilla-laget",
+    "language": "sv",
+    "expression": "Gilla läget",
+    "literalTranslation": "To like the situation",
+    "meaning": "To accept a situation you can't change and make the best of it.",
+    "usageNote": "A casual way to tell someone to come to terms with how things are.",
+    "exampleSentence": "Tåget är inställt, nu får vi gilla läget.",
+    "exampleTranslation": "The train is cancelled, so now we just have to make the best of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "sv-inte-for-allt-smor-i-smaland",
+    "language": "sv",
+    "expression": "Inte för allt smör i Småland",
+    "literalTranslation": "Not for all the butter in Småland",
+    "meaning": "Not for anything in the world; absolutely not.",
+    "usageNote": "A vivid, distinctly Swedish way to refuse something outright.",
+    "exampleSentence": "Jag hoppar inte fallskärm, inte för allt smör i Småland.",
+    "exampleTranslation": "I'm not going skydiving, not for anything in the world.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "confidence"
+    ]
+  },
+  {
+    "id": "sv-bita-i-det-sura-applet",
+    "language": "sv",
+    "expression": "Bita i det sura äpplet",
+    "literalTranslation": "To bite the sour apple",
+    "meaning": "To accept an unpleasant but necessary task.",
+    "usageNote": "Use it when someone stops avoiding something hard and just does it.",
+    "exampleSentence": "Jag fick bita i det sura äpplet och be om ursäkt.",
+    "exampleTranslation": "I had to bite the bullet and apologize.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "sv-brant-barn-skyr-elden",
+    "language": "sv",
+    "expression": "Bränt barn skyr elden",
+    "literalTranslation": "A burnt child avoids the fire",
+    "meaning": "A painful experience makes you cautious afterwards.",
+    "usageNote": "Use it when someone stays wary because they were hurt or fooled before.",
+    "exampleSentence": "Efter bluffen läser hon alltid det finstilta, bränt barn skyr elden.",
+    "exampleTranslation": "After the scam she always reads the fine print; once bitten, twice shy.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "emotion"
+    ]
+  },
+  {
+    "id": "sv-lika-barn-leka-bast",
+    "language": "sv",
+    "expression": "Lika barn leka bäst",
+    "literalTranslation": "Similar children play best",
+    "meaning": "People who are alike get along most easily.",
+    "usageNote": "Use it to observe that like-minded people naturally pair up.",
+    "exampleSentence": "De blev vänner direkt, lika barn leka bäst.",
+    "exampleTranslation": "They became friends instantly; birds of a feather flock together.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "sv-man-saknar-inte-kon-forran-baset-ar-tomt",
+    "language": "sv",
+    "expression": "Man saknar inte kon förrän båset är tomt",
+    "literalTranslation": "You don't miss the cow until the stall is empty",
+    "meaning": "You only appreciate something once it is gone.",
+    "usageNote": "Use it about valuing people or things too late.",
+    "exampleSentence": "Nu när hon slutat märks hur mycket hon gjorde, man saknar inte kon förrän båset är tomt.",
+    "exampleTranslation": "Now that she's left, you see how much she did; you don't miss the water till the well runs dry.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "id": "sv-battre-fly-an-illa-fakta",
+    "language": "sv",
+    "expression": "Bättre fly än illa fäkta",
+    "literalTranslation": "Better to flee than to fight badly",
+    "meaning": "Sometimes retreating is wiser than fighting a losing battle.",
+    "usageNote": "Use it to justify backing out of a hopeless confrontation.",
+    "exampleSentence": "Vi drog oss ur affären i tid, bättre fly än illa fäkta.",
+    "exampleTranslation": "We pulled out of the deal in time; discretion is the better part of valour.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "sv-den-som-vantar-pa-nagot-gott-vantar-aldrig-for-lange",
+    "language": "sv",
+    "expression": "Den som väntar på något gott väntar aldrig för länge",
+    "literalTranslation": "Whoever waits for something good never waits too long",
+    "meaning": "Good things are worth being patient for.",
+    "usageNote": "Use it to reassure someone that a worthwhile result justifies the wait.",
+    "exampleSentence": "Leveransen dröjer, men den som väntar på något gott väntar aldrig för länge.",
+    "exampleTranslation": "The delivery is delayed, but good things come to those who wait.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "encouragement"
     ]
   },
   {
@@ -3412,23 +7651,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "sv-proverb-det-hushall-ar-ej-utan-kval-dar-hanen-kacklar-och-honan-gal",
-    "language": "sv",
-    "expression": "Det hushåll är ej utan kval, där hanen kacklar och hönan gal",
-    "literalTranslation": "That household is not without trouble where the rooster clucks and the hen crows",
-    "meaning": "The saying claims that disorder follows when expected roles are reversed.",
-    "usageNote": "Use it cautiously, if at all: the wording is old-fashioned and sexist, so today it is mainly quoted ironically or as a historical proverb.",
-    "exampleSentence": "Hon använde ordspråket ironiskt, just för att visa hur daterat det låter: det hushåll är ej utan kval, där hanen kacklar och hönan gal.",
-    "exampleTranslation": "She used the proverb ironically to show how dated it sounds: that household is not without trouble where the rooster clucks and the hen crows.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed",
-      "proverb"
-    ]
-  },
-  {
     "id": "sv-proverb-det-ar-en-ond-fagel-som-orent-gor-i-sitt-rede",
     "language": "sv",
     "expression": "Det är en ond fågel, som orent gör i sitt rede",
@@ -3438,23 +7660,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "exampleSentence": "Att medvetet sabotera sitt eget lag är verkligen att göra orent i sitt rede.",
     "exampleTranslation": "Deliberately sabotaging your own team is truly fouling your own nest.",
     "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed",
-      "proverb"
-    ]
-  },
-  {
-    "id": "sv-proverb-det-ar-ingen-ko-pa-isen",
-    "language": "sv",
-    "expression": "Det är ingen ko på isen",
-    "literalTranslation": "There is no cow on the ice",
-    "meaning": "There is no real emergency yet, so there is no need to panic.",
-    "usageNote": "Use it to calm someone down when a situation is still manageable and there is time to act.",
-    "exampleSentence": "Vi ligger efter, men det är ingen ko på isen än.",
-    "exampleTranslation": "We are behind schedule, but it is not a real crisis yet.",
-    "difficulty": "basic",
     "tags": [
       "idiom",
       "imported",
@@ -3506,23 +7711,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "exampleSentence": "Han har bokfört på samma sätt i trettio år, det är svårt lära gammal hund sitta.",
     "exampleTranslation": "He has done the bookkeeping the same way for thirty years; it is hard to teach an old dog new tricks.",
     "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed",
-      "proverb"
-    ]
-  },
-  {
-    "id": "sv-proverb-envar-sin-egen-lyckas-smed",
-    "language": "sv",
-    "expression": "Envar sin egen lyckas smed",
-    "literalTranslation": "Each person is the smith of their own fortune",
-    "meaning": "People shape much of their own future through their choices and effort.",
-    "usageNote": "Use it when stressing personal responsibility, initiative, and the role of action in changing one's life.",
-    "exampleSentence": "Ingen annan kommer bygga hennes karriär åt henne, envar sin egen lyckas smed.",
-    "exampleTranslation": "No one else is going to build her career for her; each person is the smith of their own fortune.",
-    "difficulty": "intermediate",
     "tags": [
       "idiom",
       "imported",
@@ -3624,23 +7812,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "usageNote": "Use it when charm or appearance looks impressive but lacks the deeper qualities that make it truly valuable.",
     "exampleSentence": "Varumärket är snyggt, men utan innehåll blir det bara fägring utan tukt.",
     "exampleTranslation": "The brand looks beautiful, but without substance it is just beauty without depth.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed",
-      "proverb"
-    ]
-  },
-  {
-    "id": "sv-proverb-finns-det-hjarterum-finns-det-stjarterum",
-    "language": "sv",
-    "expression": "Finns det hjärterum finns det stjärterum",
-    "literalTranslation": "If there is room in the heart, there is room for the rear end",
-    "meaning": "If people really care, they will make room for one more person.",
-    "usageNote": "Use it warmly when including someone despite tight space, limited resources, or imperfect logistics.",
-    "exampleSentence": "Kom och sitt med oss, finns det hjärterum finns det stjärterum.",
-    "exampleTranslation": "Come sit with us; if there is room in the heart, there is room for one more.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",
@@ -3812,23 +7983,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "exampleSentence": "Vi har inte provat den sista vägen än, kasta inte yxan i sjön.",
     "exampleTranslation": "We have not tried the last option yet; do not throw the axe into the lake.",
     "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed",
-      "proverb"
-    ]
-  },
-  {
-    "id": "sv-proverb-kasta-inte-parlor-at-svinen",
-    "language": "sv",
-    "expression": "Kasta inte pärlor åt svinen",
-    "literalTranslation": "Do not throw pearls to swine",
-    "meaning": "Do not waste something valuable on people who will not understand or appreciate it.",
-    "usageNote": "Use it when time, beauty, care, or effort is being spent on an audience that has no use for it.",
-    "exampleSentence": "Spara den presentationen till kunder som faktiskt bryr sig, kasta inte pärlor åt svinen.",
-    "exampleTranslation": "Save that presentation for clients who actually care; do not throw pearls to swine.",
-    "difficulty": "intermediate",
     "tags": [
       "idiom",
       "imported",
@@ -4041,23 +8195,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "sv-proverb-sila-mygg-och-svalja-kameler",
-    "language": "sv",
-    "expression": "Sila mygg och svälja kameler",
-    "literalTranslation": "To strain gnats and swallow camels",
-    "meaning": "To be strict about tiny faults while ignoring much bigger ones.",
-    "usageNote": "Use it when attention to trivia is crowding out judgment about what actually matters.",
-    "exampleSentence": "De fastnade i färgen på rubriken men missade dataläckan, de silar mygg och sväljer kameler.",
-    "exampleTranslation": "They got stuck on the heading color but missed the data leak; they strain gnats and swallow camels.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed",
-      "proverb"
-    ]
-  },
-  {
     "id": "sv-proverb-som-man-sar-far-man-skorda",
     "language": "sv",
     "expression": "Som man sår får man skörda",
@@ -4169,23 +8306,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "exampleSentence": "Vi måste skriva om guiden för nya användare, tala med bönder på bönders vis och med de lärde på latin.",
     "exampleTranslation": "We need to rewrite the guide for new users; speak to people in the language they can actually use.",
     "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed",
-      "proverb"
-    ]
-  },
-  {
-    "id": "sv-proverb-tala-ar-silver-tiga-ar-guld",
-    "language": "sv",
-    "expression": "Tala är silver, tiga är guld",
-    "literalTranslation": "Speech is silver, silence is gold",
-    "meaning": "Silence can be wiser and more valuable than speaking.",
-    "usageNote": "Use it when restraint, listening, or discretion matters more than filling the space with words.",
-    "exampleSentence": "Alla känslor behöver inte sägas direkt, tala är silver, tiga är guld.",
-    "exampleTranslation": "Not every feeling has to be spoken immediately; speech is silver, silence is gold.",
-    "difficulty": "basic",
     "tags": [
       "idiom",
       "imported",
@@ -4355,23 +8475,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "usageNote": "Use it when describing strict retaliation or a payback mindset, usually more as observation than advice.",
     "exampleSentence": "Debatten blev snabbt ett öga för öga, tand för tand mellan de två lägren.",
     "exampleTranslation": "The debate quickly turned into an eye-for-an-eye struggle between the two camps.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed",
-      "proverb"
-    ]
-  },
-  {
-    "id": "sv-proverb-ostanvader-och-kvinnotrata-borjar-med-storm-och-slutar-med-vata",
-    "language": "sv",
-    "expression": "Östanväder och kvinnoträta börjar med storm och slutar med väta",
-    "literalTranslation": "East wind and women's quarrels begin with storm and end with wetness",
-    "meaning": "The proverb compares quarrels to bad weather that starts violently and ends in tears.",
-    "usageNote": "Use it cautiously, if at all: the saying is strongly dated and sexist, so today it is mostly cited historically or with clear irony.",
-    "exampleSentence": "Han nämnde ordspråket bara för att kritisera det som ett gammalt synsätt: östanväder och kvinnoträta börjar med storm och slutar med väta.",
-    "exampleTranslation": "He mentioned the proverb only to criticize it as an old attitude: east wind and women's quarrels begin with storm and end with tears.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",
@@ -4561,22 +8664,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "sv-ana-ugglor-i-mossen-0",
-    "language": "sv",
-    "expression": "Ana ugglor i mossen",
-    "literalTranslation": "To sense owls in the marsh",
-    "meaning": "To suspect that something is not right.",
-    "usageNote": "Use it when details do not add up and you feel there is a hidden problem.",
-    "exampleSentence": "När han ändrade sin historia började jag ana ugglor i mossen.",
-    "exampleTranslation": "When he changed his story, I started to suspect that something was wrong.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "sv-aldrig-i-livet-1",
     "language": "sv",
     "expression": "Aldrig i livet",
@@ -4641,22 +8728,6 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
-    "id": "sv-be-tusen-ganger-om-ursakt-5",
-    "language": "sv",
-    "expression": "Be tusen gånger om ursäkt",
-    "literalTranslation": "To apologize a thousand times",
-    "meaning": "To apologize very deeply and repeatedly.",
-    "usageNote": "Use it when someone feels strongly at fault and wants to show sincere regret.",
-    "exampleSentence": "Han fick be tusen gånger om ursäkt efter sitt klumpiga skämt.",
-    "exampleTranslation": "He had to apologize profusely after his clumsy joke.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "sv-bara-barnet-6",
     "language": "sv",
     "expression": "Bara barnet",
@@ -4713,22 +8784,6 @@ export const importedExpressions: ExpressionEntry[] = [
     "usageNote": "Use it when someone needs to avoid panicking and wait for the right moment.",
     "exampleSentence": "Vi måste ha is i magen tills kunden svarar.",
     "exampleTranslation": "We need to stay calm and patient until the client responds.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "sv-ingen-ko-pa-isen-10",
-    "language": "sv",
-    "expression": "Ingen ko på isen",
-    "literalTranslation": "No cow on the ice",
-    "meaning": "There is no real danger yet, so there is no need to panic.",
-    "usageNote": "Use it to calm someone who is worrying before the situation has actually turned serious.",
-    "exampleSentence": "Det är förseningar, men det är ingen ko på isen än.",
-    "exampleTranslation": "There are delays, but it is not a real crisis yet.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",
@@ -4945,3 +9000,4 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   }
 ];
+

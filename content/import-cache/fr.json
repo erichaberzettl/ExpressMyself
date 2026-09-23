@@ -1,21 +1,5 @@
 [
   {
-    "id": "fr-a-plus-tard-0",
-    "language": "fr",
-    "expression": "À plus tard",
-    "literalTranslation": "Until later",
-    "meaning": "A casual way to say you will see someone later.",
-    "usageNote": "Use it when leaving without making the goodbye feel too formal.",
-    "exampleSentence": "Je file à la gare, à plus tard.",
-    "exampleTranslation": "I am heading to the station, see you later.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "fr-acheter-chat-en-poche-1",
     "language": "fr",
     "expression": "Acheter chat en poche",
@@ -41,38 +25,6 @@
     "exampleSentence": "À votre santé, et merci d'être venus ce soir.",
     "exampleTranslation": "Cheers, and thank you for coming tonight.",
     "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "fr-a-la-votre-3",
-    "language": "fr",
-    "expression": "À la vôtre",
-    "literalTranslation": "To yours",
-    "meaning": "An informal way to say 'cheers' in a toast.",
-    "usageNote": "Use it with friends or in relaxed social settings when clinking glasses.",
-    "exampleSentence": "On a enfin fini le projet, à la vôtre.",
-    "exampleTranslation": "We finally finished the project, cheers everyone.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "fr-absent-le-chat-les-souris-dansent-4",
-    "language": "fr",
-    "expression": "Absent le chat, les souris dansent",
-    "literalTranslation": "When the cat is away, the mice dance",
-    "meaning": "People behave more freely when the authority figure is gone.",
-    "usageNote": "Use it when a boss, parent, or teacher leaves and discipline disappears immediately.",
-    "exampleSentence": "Dès que le manager est parti, absent le chat, les souris dansent.",
-    "exampleTranslation": "As soon as the manager left, everyone started acting freely.",
-    "difficulty": "intermediate",
     "tags": [
       "idiom",
       "imported",
@@ -169,54 +121,6 @@
     "exampleSentence": "Passe ce soir, on mangera à la fortune du pot.",
     "exampleTranslation": "Come by tonight and we will eat whatever simple meal is on hand.",
     "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "fr-poser-un-lapin-11",
-    "language": "fr",
-    "expression": "Poser un lapin",
-    "literalTranslation": "To place a rabbit",
-    "meaning": "To stand someone up and not show up as agreed.",
-    "usageNote": "Use it when a person fails to appear for a meeting without warning.",
-    "exampleSentence": "Il m'a posé un lapin hier soir sans même envoyer un message.",
-    "exampleTranslation": "He stood me up last night without even sending a message.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "fr-avoir-le-cafard-12",
-    "language": "fr",
-    "expression": "Avoir le cafard",
-    "literalTranslation": "To have the cockroach",
-    "meaning": "To feel low, gloomy, or depressed.",
-    "usageNote": "Use it in casual conversation when someone is down and lacks their usual energy.",
-    "exampleSentence": "Depuis son départ, elle a le cafard.",
-    "exampleTranslation": "Since he left, she has been feeling really down.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "fr-couter-les-yeux-de-la-tete-13",
-    "language": "fr",
-    "expression": "Coûter les yeux de la tête",
-    "literalTranslation": "To cost the eyes from the head",
-    "meaning": "To be extremely expensive.",
-    "usageNote": "Use it when something costs far more than feels reasonable.",
-    "exampleSentence": "Ce quartier est pratique, mais les loyers y coûtent les yeux de la tête.",
-    "exampleTranslation": "That neighborhood is convenient, but the rents there cost a fortune.",
-    "difficulty": "basic",
     "tags": [
       "idiom",
       "imported",

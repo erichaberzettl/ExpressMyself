@@ -8,8 +8,12 @@
     "exampleSentence": "She is new to the team, so cut her some slack while she gets up to speed.",
     "exampleTranslation": "She is new to the team, so be a little less hard on her while she learns the ropes.",
     "difficulty": "basic",
-    "tags": ["idiom", "imported", "reviewed", "ef"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ]
   },
   {
     "id": "en-web-get-your-act-together",
@@ -20,8 +24,12 @@
     "exampleSentence": "If we want to ship on Friday, we need to get our act together today.",
     "exampleTranslation": "If we want to ship on Friday, we need to become organized and focused today.",
     "difficulty": "basic",
-    "tags": ["idiom", "imported", "reviewed", "ef"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ]
   },
   {
     "id": "en-web-wrap-your-head-around-something",
@@ -32,8 +40,12 @@
     "exampleSentence": "I am still trying to wrap my head around how much the architecture changed.",
     "exampleTranslation": "I am still trying to fully understand how much the architecture changed.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "imported", "reviewed", "ef"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ]
   },
   {
     "id": "en-web-by-the-skin-of-your-teeth",
@@ -44,8 +56,12 @@
     "exampleSentence": "We caught the train by the skin of our teeth after sprinting through the station.",
     "exampleTranslation": "We caught the train only just in time after sprinting through the station.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "imported", "reviewed", "ef"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ]
   },
   {
     "id": "en-web-take-it-with-a-grain-of-salt",
@@ -56,8 +72,12 @@
     "exampleSentence": "He loves dramatic stories, so take that version with a grain of salt.",
     "exampleTranslation": "He loves dramatic stories, so do not accept that version too literally.",
     "difficulty": "basic",
-    "tags": ["idiom", "imported", "reviewed", "ef"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ]
   },
   {
     "id": "en-web-the-elephant-in-the-room",
@@ -68,7 +88,11 @@
     "exampleSentence": "We spent an hour on minor details without mentioning the elephant in the room: the budget was gone.",
     "exampleTranslation": "We spent an hour on minor details without mentioning the obvious major problem: the budget was gone.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "imported", "reviewed", "ef"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ef"
+    ]
   }
 ]

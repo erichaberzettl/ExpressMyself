@@ -1,21 +1,5 @@
 [
   {
-    "id": "nl-af-en-toe-0",
-    "language": "nl",
-    "expression": "Af en toe",
-    "literalTranslation": "Off and then",
-    "meaning": "Now and then or occasionally.",
-    "usageNote": "Use it for something that happens from time to time but not very often.",
-    "exampleSentence": "Ik werk graag thuis, maar af en toe ga ik ook bewust naar kantoor.",
-    "exampleTranslation": "I like working from home, but now and then I deliberately go to the office.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "nl-achter-het-net-vissen-1",
     "language": "nl",
     "expression": "Achter het net vissen",

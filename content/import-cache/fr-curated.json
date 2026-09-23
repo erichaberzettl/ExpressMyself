@@ -1,0 +1,361 @@
+[
+  {
+    "id": "fr-avoir-le-coup-de-foudre",
+    "language": "fr",
+    "expression": "Avoir le coup de foudre",
+    "literalTranslation": "To have the lightning strike",
+    "meaning": "To fall in love instantly.",
+    "usageNote": "Use it about love at first sight, or figuratively about instantly loving something.",
+    "exampleSentence": "Ils ont eu le coup de foudre dès le premier regard.",
+    "exampleTranslation": "They fell in love at first sight.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "fr-avoir-un-chat-dans-la-gorge",
+    "language": "fr",
+    "expression": "Avoir un chat dans la gorge",
+    "literalTranslation": "To have a cat in the throat",
+    "meaning": "To have a hoarse, scratchy throat that makes it hard to speak.",
+    "usageNote": "Use it when your voice is temporarily rough and you need to clear your throat.",
+    "exampleSentence": "Excusez-moi, j'ai un chat dans la gorge ce matin.",
+    "exampleTranslation": "Excuse me, I have a frog in my throat this morning.",
+    "difficulty": "basic",
+    "tags": [
+      "health",
+      "communication"
+    ]
+  },
+  {
+    "id": "fr-casser-les-pieds-a-quelquun",
+    "language": "fr",
+    "expression": "Casser les pieds à quelqu'un",
+    "literalTranslation": "To break someone's feet",
+    "meaning": "To annoy or bother someone.",
+    "usageNote": "An informal way to say someone is being irritating.",
+    "exampleSentence": "Arrête de me casser les pieds avec tes questions.",
+    "exampleTranslation": "Stop bothering me with your questions.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "fr-en-faire-tout-un-fromage",
+    "language": "fr",
+    "expression": "En faire tout un fromage",
+    "literalTranslation": "To make a whole cheese out of it",
+    "meaning": "To make a big fuss about something trivial.",
+    "usageNote": "Use it, casually, when someone overreacts to a small matter.",
+    "exampleSentence": "Ce n'est qu'un petit retard, n'en fais pas tout un fromage.",
+    "exampleTranslation": "It's only a small delay, don't make a big deal out of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "fr-avoir-la-gueule-de-bois",
+    "language": "fr",
+    "expression": "Avoir la gueule de bois",
+    "literalTranslation": "To have the wooden mouth",
+    "meaning": "To have a hangover.",
+    "usageNote": "A casual, everyday way to say you feel awful after drinking too much.",
+    "exampleSentence": "Après la fête, j'avais une belle gueule de bois.",
+    "exampleTranslation": "After the party, I had a nasty hangover.",
+    "difficulty": "basic",
+    "tags": [
+      "health",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "fr-se-creuser-la-tete",
+    "language": "fr",
+    "expression": "Se creuser la tête",
+    "literalTranslation": "To dig into one's head",
+    "meaning": "To think very hard about a problem.",
+    "usageNote": "Use it when someone is racking their brains for a solution or idea.",
+    "exampleSentence": "Je me creuse la tête depuis une heure pour trouver le mot juste.",
+    "exampleTranslation": "I've been racking my brain for an hour to find the right word.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "work"
+    ]
+  },
+  {
+    "id": "fr-mettre-son-grain-de-sel",
+    "language": "fr",
+    "expression": "Mettre son grain de sel",
+    "literalTranslation": "To put in one's grain of salt",
+    "meaning": "To give an unwanted opinion; to butt in.",
+    "usageNote": "Use it, often with mild annoyance, about someone who comments where they weren't asked.",
+    "exampleSentence": "Il faut toujours qu'il mette son grain de sel dans nos décisions.",
+    "exampleTranslation": "He always has to put in his two cents on our decisions.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "fr-avoir-dautres-chats-a-fouetter",
+    "language": "fr",
+    "expression": "Avoir d'autres chats à fouetter",
+    "literalTranslation": "To have other cats to whip",
+    "meaning": "To have more important things to deal with.",
+    "usageNote": "Use it to say a matter is not a priority right now.",
+    "exampleSentence": "Je ne vais pas m'occuper de ça, j'ai d'autres chats à fouetter.",
+    "exampleTranslation": "I'm not going to deal with that, I have other fish to fry.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "fr-etre-dans-le-petrin",
+    "language": "fr",
+    "expression": "Être dans le pétrin",
+    "literalTranslation": "To be in the kneading trough",
+    "meaning": "To be in a difficult, messy situation.",
+    "usageNote": "Use it when someone is stuck in real trouble.",
+    "exampleSentence": "Sans sauvegarde, on est vraiment dans le pétrin.",
+    "exampleTranslation": "Without a backup, we're really in a jam.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "fr-prendre-ses-jambes-a-son-cou",
+    "language": "fr",
+    "expression": "Prendre ses jambes à son cou",
+    "literalTranslation": "To take one's legs to one's neck",
+    "meaning": "To run away as fast as possible.",
+    "usageNote": "Use it, vividly, when someone flees in a hurry.",
+    "exampleSentence": "Quand l'alarme a sonné, ils ont pris leurs jambes à leur cou.",
+    "exampleTranslation": "When the alarm went off, they took to their heels.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "fr-faire-la-grasse-matinee",
+    "language": "fr",
+    "expression": "Faire la grasse matinée",
+    "literalTranslation": "To do the fat morning",
+    "meaning": "To sleep in late.",
+    "usageNote": "Use it casually about a long lie-in, usually on a day off.",
+    "exampleSentence": "Le dimanche, j'aime faire la grasse matinée.",
+    "exampleTranslation": "On Sundays, I like to sleep in.",
+    "difficulty": "basic",
+    "tags": [
+      "daily-life",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-il-y-a-anguille-sous-roche",
+    "language": "fr",
+    "expression": "Il y a anguille sous roche",
+    "literalTranslation": "There is an eel under the rock",
+    "meaning": "Something suspicious is going on beneath the surface.",
+    "usageNote": "Use it when you sense a hidden problem or secret.",
+    "exampleSentence": "Il est bien trop gentil depuis hier, il y a anguille sous roche.",
+    "exampleTranslation": "He's been far too nice since yesterday; something fishy is going on.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "fr-se-mettre-sur-son-trente-et-un",
+    "language": "fr",
+    "expression": "Se mettre sur son trente et un",
+    "literalTranslation": "To put oneself on one's thirty-one",
+    "meaning": "To dress up very smartly.",
+    "usageNote": "Use it when someone dresses their best for a special occasion.",
+    "exampleSentence": "Elle s'est mise sur son trente et un pour le dîner.",
+    "exampleTranslation": "She got all dressed up for the dinner.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "performance"
+    ]
+  },
+  {
+    "id": "fr-avoir-un-poil-dans-la-main",
+    "language": "fr",
+    "expression": "Avoir un poil dans la main",
+    "literalTranslation": "To have a hair in one's hand",
+    "meaning": "To be extremely lazy.",
+    "usageNote": "Use it, mockingly, about someone who avoids doing any work.",
+    "exampleSentence": "Il ne fait jamais rien, il a un poil dans la main.",
+    "exampleTranslation": "He never does anything; he's bone idle.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "work"
+    ]
+  },
+  {
+    "id": "fr-lappetit-vient-en-mangeant",
+    "language": "fr",
+    "expression": "L'appétit vient en mangeant",
+    "literalTranslation": "Appetite comes while eating",
+    "meaning": "Desire or enthusiasm grows once you start doing something.",
+    "usageNote": "Use it when getting started creates the motivation to continue or want more.",
+    "exampleSentence": "Commence par un chapitre, l'appétit vient en mangeant.",
+    "exampleTranslation": "Start with one chapter; appetite comes with eating.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "learning"
+    ]
+  },
+  {
+    "id": "fr-il-ne-faut-pas-vendre-la-peau-de-lours-avant-de-lavoir-tue",
+    "language": "fr",
+    "expression": "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué",
+    "literalTranslation": "One must not sell the bear's skin before having killed it",
+    "meaning": "Don't count on something before it has actually happened.",
+    "usageNote": "Use it to warn against planning around an outcome that is not yet secure.",
+    "exampleSentence": "Attends la signature du contrat, il ne faut pas vendre la peau de l'ours avant de l'avoir tué.",
+    "exampleTranslation": "Wait for the contract to be signed; don't count your chickens before they hatch.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-chat-echaude-craint-leau-froide",
+    "language": "fr",
+    "expression": "Chat échaudé craint l'eau froide",
+    "literalTranslation": "A scalded cat fears cold water",
+    "meaning": "A bad experience makes you overly cautious afterwards.",
+    "usageNote": "Use it when someone is wary because they were hurt or fooled before.",
+    "exampleSentence": "Depuis l'arnaque, il vérifie tout: chat échaudé craint l'eau froide.",
+    "exampleTranslation": "Since the scam, he checks everything: once bitten, twice shy.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "fr-qui-vivra-verra",
+    "language": "fr",
+    "expression": "Qui vivra verra",
+    "literalTranslation": "Who will live will see",
+    "meaning": "The future is uncertain and only time will tell.",
+    "usageNote": "Use it to close off speculation when the outcome simply can't be known yet.",
+    "exampleSentence": "Peut-être que ça marchera, peut-être pas, qui vivra verra.",
+    "exampleTranslation": "Maybe it'll work, maybe not; time will tell.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "fr-les-cordonniers-sont-les-plus-mal-chausses",
+    "language": "fr",
+    "expression": "Les cordonniers sont les plus mal chaussés",
+    "literalTranslation": "Cobblers are the worst shod",
+    "meaning": "People often neglect for themselves the very thing they do well for others.",
+    "usageNote": "Use it about an expert who fails to apply their own skill to their own life.",
+    "exampleSentence": "Le plombier a une fuite chez lui: les cordonniers sont les plus mal chaussés.",
+    "exampleTranslation": "The plumber has a leak at home: the cobbler's children go barefoot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "personality"
+    ]
+  },
+  {
+    "id": "fr-la-nuit-porte-conseil",
+    "language": "fr",
+    "expression": "La nuit porte conseil",
+    "literalTranslation": "The night brings advice",
+    "meaning": "It is wiser to sleep on a decision than to rush it.",
+    "usageNote": "Use it to suggest waiting until tomorrow before deciding.",
+    "exampleSentence": "Ne réponds pas ce soir, la nuit porte conseil.",
+    "exampleTranslation": "Don't answer tonight, sleep on it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-vouloir-cest-pouvoir",
+    "language": "fr",
+    "expression": "Vouloir, c'est pouvoir",
+    "literalTranslation": "To want is to be able",
+    "meaning": "With enough determination, you can achieve what you set out to do.",
+    "usageNote": "Use it to encourage someone who doubts they can manage something.",
+    "exampleSentence": "Tu peux apprendre à nager à tout âge, vouloir c'est pouvoir.",
+    "exampleTranslation": "You can learn to swim at any age; where there's a will, there's a way.",
+    "difficulty": "basic",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "fr-mieux-vaut-tard-que-jamais",
+    "language": "fr",
+    "expression": "Mieux vaut tard que jamais",
+    "literalTranslation": "Better late than never",
+    "meaning": "Doing something late is still better than not doing it at all.",
+    "usageNote": "Use it when someone finally does something after a delay.",
+    "exampleSentence": "Il a rendu le rapport avec deux jours de retard, mais mieux vaut tard que jamais.",
+    "exampleTranslation": "He handed in the report two days late, but better late than never.",
+    "difficulty": "basic",
+    "tags": [
+      "time",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "fr-aide-toi-le-ciel-taidera",
+    "language": "fr",
+    "expression": "Aide-toi, le ciel t'aidera",
+    "literalTranslation": "Help yourself, and heaven will help you",
+    "meaning": "You must make your own effort before expecting help or luck.",
+    "usageNote": "Use it to stress personal initiative over waiting passively for fortune.",
+    "exampleSentence": "Envoie des candidatures au lieu d'attendre; aide-toi, le ciel t'aidera.",
+    "exampleTranslation": "Send out applications instead of waiting; heaven helps those who help themselves.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "work"
+    ]
+  },
+  {
+    "id": "fr-un-tiens-vaut-mieux-que-deux-tu-lauras",
+    "language": "fr",
+    "expression": "Un tiens vaut mieux que deux tu l'auras",
+    "literalTranslation": "One 'here you go' is worth more than two 'you'll have it'",
+    "meaning": "Something certain now is worth more than a bigger but uncertain promise.",
+    "usageNote": "Use it to advise taking the sure thing over a risky bigger one.",
+    "exampleSentence": "Prends l'offre ferme; un tiens vaut mieux que deux tu l'auras.",
+    "exampleTranslation": "Take the firm offer; a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  }
+]

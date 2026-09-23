@@ -1,0 +1,181 @@
+[
+  {
+    "id": "sv-ga-som-katten-kring-het-grot",
+    "language": "sv",
+    "expression": "Gå som katten kring het gröt",
+    "literalTranslation": "To walk like the cat around hot porridge",
+    "meaning": "To avoid getting to the point.",
+    "usageNote": "Use it when someone circles a topic instead of addressing it directly.",
+    "exampleSentence": "Sluta gå som katten kring het gröt och säg vad du menar.",
+    "exampleTranslation": "Stop beating around the bush and say what you mean.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "sv-ha-en-rav-bakom-orat",
+    "language": "sv",
+    "expression": "Ha en räv bakom örat",
+    "literalTranslation": "To have a fox behind the ear",
+    "meaning": "To be cunning and have hidden intentions.",
+    "usageNote": "Use it about someone sly who is craftier than they let on.",
+    "exampleSentence": "Lita inte blint på honom, han har en räv bakom örat.",
+    "exampleTranslation": "Don't trust him blindly, he's a sly one.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "secrets"
+    ]
+  },
+  {
+    "id": "sv-sla-huvudet-pa-spiken",
+    "language": "sv",
+    "expression": "Slå huvudet på spiken",
+    "literalTranslation": "To hit the head on the nail",
+    "meaning": "To be exactly right about something.",
+    "usageNote": "Use it when someone identifies the real point precisely.",
+    "exampleSentence": "Där slog du huvudet på spiken.",
+    "exampleTranslation": "There you hit the nail on the head.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "sv-ta-det-med-en-nypa-salt",
+    "language": "sv",
+    "expression": "Ta det med en nypa salt",
+    "literalTranslation": "To take it with a pinch of salt",
+    "meaning": "To treat information with some skepticism.",
+    "usageNote": "Use it about claims or rumours that may not be fully reliable.",
+    "exampleSentence": "Han överdriver ofta, så ta det med en nypa salt.",
+    "exampleTranslation": "He often exaggerates, so take it with a pinch of salt.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "sv-gilla-laget",
+    "language": "sv",
+    "expression": "Gilla läget",
+    "literalTranslation": "To like the situation",
+    "meaning": "To accept a situation you can't change and make the best of it.",
+    "usageNote": "A casual way to tell someone to come to terms with how things are.",
+    "exampleSentence": "Tåget är inställt, nu får vi gilla läget.",
+    "exampleTranslation": "The train is cancelled, so now we just have to make the best of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "sv-inte-for-allt-smor-i-smaland",
+    "language": "sv",
+    "expression": "Inte för allt smör i Småland",
+    "literalTranslation": "Not for all the butter in Småland",
+    "meaning": "Not for anything in the world; absolutely not.",
+    "usageNote": "A vivid, distinctly Swedish way to refuse something outright.",
+    "exampleSentence": "Jag hoppar inte fallskärm, inte för allt smör i Småland.",
+    "exampleTranslation": "I'm not going skydiving, not for anything in the world.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "confidence"
+    ]
+  },
+  {
+    "id": "sv-bita-i-det-sura-applet",
+    "language": "sv",
+    "expression": "Bita i det sura äpplet",
+    "literalTranslation": "To bite the sour apple",
+    "meaning": "To accept an unpleasant but necessary task.",
+    "usageNote": "Use it when someone stops avoiding something hard and just does it.",
+    "exampleSentence": "Jag fick bita i det sura äpplet och be om ursäkt.",
+    "exampleTranslation": "I had to bite the bullet and apologize.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "sv-brant-barn-skyr-elden",
+    "language": "sv",
+    "expression": "Bränt barn skyr elden",
+    "literalTranslation": "A burnt child avoids the fire",
+    "meaning": "A painful experience makes you cautious afterwards.",
+    "usageNote": "Use it when someone stays wary because they were hurt or fooled before.",
+    "exampleSentence": "Efter bluffen läser hon alltid det finstilta, bränt barn skyr elden.",
+    "exampleTranslation": "After the scam she always reads the fine print; once bitten, twice shy.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "emotion"
+    ]
+  },
+  {
+    "id": "sv-lika-barn-leka-bast",
+    "language": "sv",
+    "expression": "Lika barn leka bäst",
+    "literalTranslation": "Similar children play best",
+    "meaning": "People who are alike get along most easily.",
+    "usageNote": "Use it to observe that like-minded people naturally pair up.",
+    "exampleSentence": "De blev vänner direkt, lika barn leka bäst.",
+    "exampleTranslation": "They became friends instantly; birds of a feather flock together.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "sv-man-saknar-inte-kon-forran-baset-ar-tomt",
+    "language": "sv",
+    "expression": "Man saknar inte kon förrän båset är tomt",
+    "literalTranslation": "You don't miss the cow until the stall is empty",
+    "meaning": "You only appreciate something once it is gone.",
+    "usageNote": "Use it about valuing people or things too late.",
+    "exampleSentence": "Nu när hon slutat märks hur mycket hon gjorde, man saknar inte kon förrän båset är tomt.",
+    "exampleTranslation": "Now that she's left, you see how much she did; you don't miss the water till the well runs dry.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "id": "sv-battre-fly-an-illa-fakta",
+    "language": "sv",
+    "expression": "Bättre fly än illa fäkta",
+    "literalTranslation": "Better to flee than to fight badly",
+    "meaning": "Sometimes retreating is wiser than fighting a losing battle.",
+    "usageNote": "Use it to justify backing out of a hopeless confrontation.",
+    "exampleSentence": "Vi drog oss ur affären i tid, bättre fly än illa fäkta.",
+    "exampleTranslation": "We pulled out of the deal in time; discretion is the better part of valour.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "sv-den-som-vantar-pa-nagot-gott-vantar-aldrig-for-lange",
+    "language": "sv",
+    "expression": "Den som väntar på något gott väntar aldrig för länge",
+    "literalTranslation": "Whoever waits for something good never waits too long",
+    "meaning": "Good things are worth being patient for.",
+    "usageNote": "Use it to reassure someone that a worthwhile result justifies the wait.",
+    "exampleSentence": "Leveransen dröjer, men den som väntar på något gott väntar aldrig för länge.",
+    "exampleTranslation": "The delivery is delayed, but good things come to those who wait.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "encouragement"
+    ]
+  }
+]

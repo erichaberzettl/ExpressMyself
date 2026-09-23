@@ -1,0 +1,555 @@
+[
+  {
+    "id": "de-alter-schutzt-vor-torheit-nicht-0",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "de-aller-guten-dinge-sind-drei-1",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-aller-guten-dinge-sind-drei.",
+    "fix": null
+  },
+  {
+    "id": "de-aus-den-augen-aus-dem-sinn-2",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "de-alle-wege-fuhren-nach-rom-3",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "de-allen-menschen-recht-getan-ist-eine-kunst-die-niemand-kann-4",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "de-alte-liebe-rostet-nicht-5",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "de-auch-ein-blindes-huhn-findet-mal-ein-korn-6",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "de-angriff-ist-die-beste-verteidigung-7",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "de-aller-anfang-ist-schwer-8",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-aller-anfang-ist-schwer.",
+    "fix": null
+  },
+  {
+    "id": "de-asche-auf-mein-haupt-9",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "de-armut-schandet-nicht-10",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "de-der-ton-macht-die-musik-11",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-der-ton-macht-die-musik.",
+    "fix": null
+  },
+  {
+    "id": "de-ubung-macht-den-meister-12",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-uebung-macht-den-meister.",
+    "fix": null
+  },
+  {
+    "id": "de-wer-rastet-der-rostet-13",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-wer-rastet-der-rostet.",
+    "fix": null
+  },
+  {
+    "id": "de-wo-ein-wille-ist-ist-auch-ein-weg-14",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-wo-ein-wille-ist-ist-auch-ein-weg.",
+    "fix": null
+  },
+  {
+    "id": "de-was-du-heute-kannst-besorgen-das-verschiebe-nicht-auf-morgen-15",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-was-du-heute-kannst-besorgen-das-verschiebe-nicht-auf-morgen.",
+    "fix": null
+  },
+  {
+    "id": "de-aus-einer-mucke-einen-elefanten-machen-16",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-aus-einer-muecke-einen-elefanten-machen.",
+    "fix": null
+  },
+  {
+    "id": "de-ins-fettnapfchen-treten-17",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-ins-fettnapfchen-treten.",
+    "fix": null
+  },
+  {
+    "id": "de-den-roten-faden-verlieren-18",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-den-roten-faden-verlieren.",
+    "fix": null
+  },
+  {
+    "id": "de-jemandem-einen-baren-aufbinden-19",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated de-jemandem-einen-baeren-aufbinden.",
+    "fix": null
+  },
+  {
+    "id": "de-ich-verstehe-nur-bahnhof",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-die-daumen-druecken",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-ins-kalte-wasser-springen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-zwei-fliegen-mit-einer-klappe-schlagen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-auf-dem-schlauch-stehen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-das-ist-nicht-mein-bier",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-tomaten-auf-den-augen-haben",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-die-katze-im-sack-kaufen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-den-roten-faden-verlieren",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-alles-im-griff-haben",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-um-den-heissen-brei-reden",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-aller-guten-dinge-sind-drei",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-der-apfel-faellt-nicht-weit-vom-stamm",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-viele-koeche-verderben-den-brei",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-ende-gut-alles-gut",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-wer-rastet-der-rostet",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-uebung-macht-den-meister",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-der-ton-macht-die-musik",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-wo-ein-wille-ist-ist-auch-ein-weg",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-wer-zuerst-kommt-mahlt-zuerst",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-was-lange-waehrt-wird-endlich-gut",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-was-du-heute-kannst-besorgen-das-verschiebe-nicht-auf-morgen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-aus-einer-muecke-einen-elefanten-machen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-die-beine-in-die-hand-nehmen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-jemandem-einen-baeren-aufbinden",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-ins-fettnapfchen-treten",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-den-nagel-auf-den-kopf-treffen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-aller-anfang-ist-schwer",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-morgenstund-hat-gold-im-mund",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-zeit-ist-geld",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-reden-ist-silber-schweigen-ist-gold",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-der-fruehe-vogel-faengt-den-wurm",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-wer-a-sagt-muss-auch-b-sagen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-geteiltes-leid-ist-halbes-leid",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-gelegenheit-macht-diebe",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-in-der-kuerze-liegt-die-wuerze",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-wer-zuletzt-lacht-lacht-am-besten",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-hochmut-kommt-vor-dem-fall",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-wer-nicht-wagt-der-nicht-gewinnt",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-auf-regen-folgt-sonnenschein",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-das-leben-ist-kein-ponyhof",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-schwein-haben",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-auf-dem-holzweg-sein",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-hals-und-beinbruch",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-etwas-durch-die-blume-sagen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-jemandem-einen-korb-geben",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-auf-wolke-sieben-sein",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-die-nase-voll-haben",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-einen-zahn-zulegen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-jemandem-auf-die-nerven-gehen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-etwas-auf-die-lange-bank-schieben",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-sich-den-kopf-zerbrechen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-das-kind-beim-namen-nennen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-den-ueberblick-behalten",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-alles-unter-einen-hut-bringen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-auf-nummer-sicher-gehen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-sich-aus-dem-staub-machen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "de-morgenstund-hat-gold-im-mund#dup",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate curated entry (same id/expression appeared twice in curatedExpressions; kept the first).",
+    "fix": null
+  },
+  {
+    "id": "de-wer-anderen-eine-grube-graebt-faellt-selbst-hinein",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  }
+]

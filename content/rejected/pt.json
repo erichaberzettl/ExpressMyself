@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pt-a-caminho-1",
+    "language": "pt",
+    "expression": "A caminho",
+    "literalTranslation": "On the way",
+    "meaning": "Already on the route or getting closer to happening.",
+    "usageNote": "Use it for people, deliveries, or results that are not here yet but are coming.",
+    "exampleSentence": "Calma, o relatório já está a caminho.",
+    "exampleTranslation": "Relax, the report is already on its way.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Literal phrase (= on the way); fully compositional, not an idiom.",
+    "discardedFrom": "pt.json"
+  },
+  {
+    "id": "pt-a-contragosto-3",
+    "language": "pt",
+    "expression": "A contragosto",
+    "literalTranslation": "Against one's taste",
+    "meaning": "Reluctantly and without real willingness.",
+    "usageNote": "Use it when someone agrees to something only because they feel they have to.",
+    "exampleSentence": "Ele aceitou a mudança a contragosto.",
+    "exampleTranslation": "He accepted the change reluctantly.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Plain adverbial (= reluctantly); transparent, not a figurative idiom.",
+    "discardedFrom": "pt.json"
+  },
+  {
+    "id": "pt-a-luz-de-7",
+    "language": "pt",
+    "expression": "À luz de",
+    "literalTranslation": "In the light of",
+    "meaning": "Considering a fact or perspective that changes how something should be judged.",
+    "usageNote": "Use it to introduce relevant context before drawing a conclusion.",
+    "exampleSentence": "À luz dos novos dados, precisamos rever o plano.",
+    "exampleTranslation": "In light of the new data, we need to review the plan.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Prepositional discourse connector (= in light of); grammatical, not an idiom.",
+    "discardedFrom": "pt.json"
+  },
+  {
+    "id": "pt-a-fio-12",
+    "language": "pt",
+    "expression": "A fio",
+    "literalTranslation": "In a row",
+    "meaning": "Continuously and without interruption.",
+    "usageNote": "Use it when something keeps happening for a long stretch of time.",
+    "exampleSentence": "Ele trabalhou dez horas a fio para terminar a entrega.",
+    "exampleTranslation": "He worked ten straight hours to finish the delivery.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Prepositional fragment (= on end / continuously); only idiomatic within a collocation, listed bare.",
+    "discardedFrom": "pt.json"
+  },
+  {
+    "id": "pt-dar-com-a-lingua-nos-dentes-18",
+    "language": "pt",
+    "expression": "Dar com a língua nos dentes",
+    "literalTranslation": "To hit the teeth with the tongue",
+    "meaning": "To let a secret slip.",
+    "usageNote": "Use it when someone reveals confidential information by accident or carelessness.",
+    "exampleSentence": "Eu ia fazer surpresa, mas o Pedro deu com a língua nos dentes.",
+    "exampleTranslation": "I was planning a surprise, but Pedro let the secret slip.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Exact duplicate of curated pt-dar-com-a-lingua-nos-dentes.",
+    "discardedFrom": "pt.json"
+  }
+]

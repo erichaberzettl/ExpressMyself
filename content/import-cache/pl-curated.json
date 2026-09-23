@@ -1,0 +1,451 @@
+[
+  {
+    "id": "pl-owijac-w-bawelne",
+    "language": "pl",
+    "expression": "Owijać w bawełnę",
+    "literalTranslation": "To wrap in cotton",
+    "meaning": "To beat around the bush; to avoid saying something directly.",
+    "usageNote": "Use it when someone softens or delays a clear message.",
+    "exampleSentence": "Nie owijaj w bawełnę i powiedz, o co chodzi.",
+    "exampleTranslation": "Don't beat around the bush and tell me what's going on.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-musztarda-po-obiedzie",
+    "language": "pl",
+    "expression": "Musztarda po obiedzie",
+    "literalTranslation": "Mustard after dinner",
+    "meaning": "Something useful that comes too late to help.",
+    "usageNote": "Use it when help or a solution arrives after it was needed.",
+    "exampleSentence": "Teraz mi to mówisz? Musztarda po obiedzie.",
+    "exampleTranslation": "You're telling me now? That's too little, too late.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pl-miec-weza-w-kieszeni",
+    "language": "pl",
+    "expression": "Mieć węża w kieszeni",
+    "literalTranslation": "To have a snake in one's pocket",
+    "meaning": "To be stingy and reluctant to spend money.",
+    "usageNote": "Use it, teasingly, about someone who hates parting with money.",
+    "exampleSentence": "Nigdy nie stawia kawy, ma węża w kieszeni.",
+    "exampleTranslation": "He never buys the coffee; he's a real tightwad.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "personality"
+    ]
+  },
+  {
+    "id": "pl-piate-kolo-u-wozu",
+    "language": "pl",
+    "expression": "Piąte koło u wozu",
+    "literalTranslation": "The fifth wheel on the wagon",
+    "meaning": "Someone or something useless and unneeded.",
+    "usageNote": "Use it when a person feels superfluous in a group.",
+    "exampleSentence": "Na tym projekcie czuję się jak piąte koło u wozu.",
+    "exampleTranslation": "On this project I feel like a fifth wheel.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "id": "pl-rzucac-slowa-na-wiatr",
+    "language": "pl",
+    "expression": "Rzucać słowa na wiatr",
+    "literalTranslation": "To throw words to the wind",
+    "meaning": "To make promises or statements you don't keep.",
+    "usageNote": "Use it about someone whose words can't be relied on.",
+    "exampleSentence": "On dotrzymuje obietnic, nie rzuca słów na wiatr.",
+    "exampleTranslation": "He keeps his promises; he doesn't just talk for the sake of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "pl-wpasc-jak-sliwka-w-kompot",
+    "language": "pl",
+    "expression": "Wpaść jak śliwka w kompot",
+    "literalTranslation": "To fall like a plum into compote",
+    "meaning": "To get into an awkward mess, often unexpectedly.",
+    "usageNote": "A casual way to say someone landed in a tricky situation.",
+    "exampleSentence": "Zgodziłem się pomóc i wpadłem jak śliwka w kompot.",
+    "exampleTranslation": "I agreed to help and landed myself in a right mess.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pl-zlapac-byka-za-rogi",
+    "language": "pl",
+    "expression": "Złapać byka za rogi",
+    "literalTranslation": "To grab the bull by the horns",
+    "meaning": "To tackle a difficult problem decisively.",
+    "usageNote": "Use it when someone confronts a hard issue head-on.",
+    "exampleSentence": "Przestań zwlekać i złap byka za rogi.",
+    "exampleTranslation": "Stop stalling and take the bull by the horns.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "motivation"
+    ]
+  },
+  {
+    "id": "pl-dmuchac-na-zimne",
+    "language": "pl",
+    "expression": "Dmuchać na zimne",
+    "literalTranslation": "To blow on cold things",
+    "meaning": "To be overly cautious after a past bad experience.",
+    "usageNote": "Use it about someone who takes excessive precautions to avoid a repeat.",
+    "exampleSentence": "Po tamtej awarii robi kopie trzy razy, dmucha na zimne.",
+    "exampleTranslation": "After that crash he backs up three times; once bitten, twice shy.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pl-robic-dobra-mine-do-zlej-gry",
+    "language": "pl",
+    "expression": "Robić dobrą minę do złej gry",
+    "literalTranslation": "To put on a good face to a bad game",
+    "meaning": "To hide disappointment and pretend everything is fine.",
+    "usageNote": "Use it when someone stays composed despite a bad situation.",
+    "exampleSentence": "Przegrała konkurs, ale robiła dobrą minę do złej gry.",
+    "exampleTranslation": "She lost the contest but put on a brave face.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "personality"
+    ]
+  },
+  {
+    "id": "pl-wiercic-komus-dziure-w-brzuchu",
+    "language": "pl",
+    "expression": "Wiercić komuś dziurę w brzuchu",
+    "literalTranslation": "To drill a hole in someone's belly",
+    "meaning": "To pester someone relentlessly about something.",
+    "usageNote": "Use it when someone keeps nagging until they get their way.",
+    "exampleSentence": "Dzieci wiercą mi dziurę w brzuchu, żeby kupić psa.",
+    "exampleTranslation": "The kids keep nagging me to get a dog.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pl-wisiec-na-wlosku",
+    "language": "pl",
+    "expression": "Wisieć na włosku",
+    "literalTranslation": "To hang by a hair",
+    "meaning": "To be in a very precarious, uncertain situation.",
+    "usageNote": "Use it when an outcome could fail at any moment.",
+    "exampleSentence": "Cały projekt wisiał na włosku do ostatniej chwili.",
+    "exampleTranslation": "The whole project hung by a thread until the last moment.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pl-trafic-w-dziesiatke",
+    "language": "pl",
+    "expression": "Trafić w dziesiątkę",
+    "literalTranslation": "To hit the ten (the bullseye)",
+    "meaning": "To get something exactly right.",
+    "usageNote": "Use it when a choice, guess, or gift is spot on.",
+    "exampleSentence": "Z tym prezentem naprawdę trafiłeś w dziesiątkę.",
+    "exampleTranslation": "With that gift you really hit the bullseye.",
+    "difficulty": "basic",
+    "tags": [
+      "confidence",
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-rzucac-klody-pod-nogi",
+    "language": "pl",
+    "expression": "Rzucać kłody pod nogi",
+    "literalTranslation": "To throw logs under someone's feet",
+    "meaning": "To deliberately create obstacles for someone.",
+    "usageNote": "Use it when someone keeps hindering another's progress.",
+    "exampleSentence": "Zamiast pomóc, ciągle rzuca nam kłody pod nogi.",
+    "exampleTranslation": "Instead of helping, he keeps putting obstacles in our way.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "pl-kto-rano-wstaje-temu-pan-bog-daje",
+    "language": "pl",
+    "expression": "Kto rano wstaje, temu Pan Bóg daje",
+    "literalTranslation": "God provides for the one who rises early",
+    "meaning": "People who start early and take initiative get ahead.",
+    "usageNote": "Use it to praise early rising and initiative.",
+    "exampleSentence": "Wstał o piątej i zdążył ze wszystkim, kto rano wstaje, temu Pan Bóg daje.",
+    "exampleTranslation": "He got up at five and got everything done; the early bird catches the worm.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "motivation"
+    ]
+  },
+  {
+    "id": "pl-nie-ma-tego-zlego-co-by-na-dobre-nie-wyszlo",
+    "language": "pl",
+    "expression": "Nie ma tego złego, co by na dobre nie wyszło",
+    "literalTranslation": "There is no bad thing that wouldn't turn out for good",
+    "meaning": "Even a bad situation can lead to something good.",
+    "usageNote": "Use it to comfort someone after a setback.",
+    "exampleSentence": "Stracił tę pracę, ale nie ma tego złego, co by na dobre nie wyszło.",
+    "exampleTranslation": "He lost that job, but every cloud has a silver lining.",
+    "difficulty": "intermediate",
+    "tags": [
+      "encouragement",
+      "emotion"
+    ]
+  },
+  {
+    "id": "pl-co-dwie-glowy-to-nie-jedna",
+    "language": "pl",
+    "expression": "Co dwie głowy, to nie jedna",
+    "literalTranslation": "Two heads are not one",
+    "meaning": "Two people thinking together solve things better than one.",
+    "usageNote": "Use it to justify asking for help or working together.",
+    "exampleSentence": "Poradźmy się razem, co dwie głowy, to nie jedna.",
+    "exampleTranslation": "Let's figure it out together; two heads are better than one.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "id": "pl-kto-pod-kim-dolki-kopie-sam-w-nie-wpada",
+    "language": "pl",
+    "expression": "Kto pod kim dołki kopie, sam w nie wpada",
+    "literalTranslation": "Who digs pits under others falls into them himself",
+    "meaning": "Those who scheme against others often get caught in their own trap.",
+    "usageNote": "Use it when someone's plotting backfires on them.",
+    "exampleSentence": "Próbował ją oczernić i sam stracił pracę, kto pod kim dołki kopie, sam w nie wpada.",
+    "exampleTranslation": "He tried to smear her and lost his own job; he who digs a pit falls into it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "personality"
+    ]
+  },
+  {
+    "id": "pl-prawdziwych-przyjaciol-poznaje-sie-w-biedzie",
+    "language": "pl",
+    "expression": "Prawdziwych przyjaciół poznaje się w biedzie",
+    "literalTranslation": "True friends are recognized in hardship",
+    "meaning": "You learn who your real friends are in hard times.",
+    "usageNote": "Use it when someone stands by you during trouble.",
+    "exampleSentence": "Została ze mną w szpitalu, prawdziwych przyjaciół poznaje się w biedzie.",
+    "exampleTranslation": "She stayed with me at the hospital; a friend in need is a friend indeed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "pl-lepszy-wrobel-w-garsci-niz-golab-na-dachu",
+    "language": "pl",
+    "expression": "Lepszy wróbel w garści niż gołąb na dachu",
+    "literalTranslation": "A sparrow in the hand is better than a pigeon on the roof",
+    "meaning": "A small certain gain beats a bigger uncertain one.",
+    "usageNote": "Use it to advise taking the sure thing.",
+    "exampleSentence": "Weź tę pewną ofertę, lepszy wróbel w garści niż gołąb na dachu.",
+    "exampleTranslation": "Take that sure offer; a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "pl-fortuna-kolem-sie-toczy",
+    "language": "pl",
+    "expression": "Fortuna kołem się toczy",
+    "literalTranslation": "Fortune turns like a wheel",
+    "meaning": "Luck and circumstances constantly change.",
+    "usageNote": "Use it to remind someone that good or bad times don't last forever.",
+    "exampleSentence": "Dziś przegrywają, ale fortuna kołem się toczy.",
+    "exampleTranslation": "They're losing today, but fortune's wheel keeps turning.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "emotion"
+    ]
+  },
+  {
+    "id": "pl-kto-pyta-nie-bladzi",
+    "language": "pl",
+    "expression": "Kto pyta, nie błądzi",
+    "literalTranslation": "Who asks does not go astray",
+    "meaning": "There is no shame in asking; it keeps you from mistakes.",
+    "usageNote": "Use it to encourage someone to ask rather than guess.",
+    "exampleSentence": "Nie wiesz, gdzie to jest? Zapytaj, kto pyta, nie błądzi.",
+    "exampleTranslation": "Don't know where it is? Just ask; asking keeps you from going wrong.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-cicha-woda-brzegi-rwie",
+    "language": "pl",
+    "expression": "Cicha woda brzegi rwie",
+    "literalTranslation": "Still water tears the banks",
+    "meaning": "Quiet people are often surprisingly capable or intense underneath.",
+    "usageNote": "Use it about a reserved person who turns out bolder than they seem.",
+    "exampleSentence": "Wygląda nieśmiało, ale cicha woda brzegi rwie.",
+    "exampleTranslation": "She seems shy, but still waters run deep.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "emotion"
+    ]
+  },
+  {
+    "id": "pl-obiecywac-gruszki-na-wierzbie",
+    "language": "pl",
+    "expression": "Obiecywać gruszki na wierzbie",
+    "literalTranslation": "To promise pears on a willow",
+    "meaning": "To make impossible, extravagant promises.",
+    "usageNote": "Use it about someone who promises things that can never happen.",
+    "exampleSentence": "Politycy obiecują gruszki na wierzbie przed wyborami.",
+    "exampleTranslation": "Politicians promise the moon before elections.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pl-puscic-farbe",
+    "language": "pl",
+    "expression": "Puścić farbę",
+    "literalTranslation": "To release the dye",
+    "meaning": "To let a secret slip; to spill the beans.",
+    "usageNote": "Use it when someone reveals something that was supposed to stay hidden.",
+    "exampleSentence": "Miała milczeć, ale w końcu puściła farbę.",
+    "exampleTranslation": "She was supposed to stay quiet, but she finally spilled the beans.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-byc-nie-w-sosie",
+    "language": "pl",
+    "expression": "Być nie w sosie",
+    "literalTranslation": "To not be in the sauce",
+    "meaning": "To be out of sorts or in a bad mood.",
+    "usageNote": "A casual way to say someone is grumpy or off today.",
+    "exampleSentence": "Nie zaczepiaj go, jest dziś nie w sosie.",
+    "exampleTranslation": "Don't bother him, he's out of sorts today.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pl-zbic-kogos-z-pantalyku",
+    "language": "pl",
+    "expression": "Zbić kogoś z pantałyku",
+    "literalTranslation": "To knock someone off their pantałyk",
+    "meaning": "To throw someone off, confusing them so they lose their train of thought.",
+    "usageNote": "Use it when an interruption or tricky question flusters someone.",
+    "exampleSentence": "Nagłe pytanie zbiło go z pantałyku i zapomniał tekstu.",
+    "exampleTranslation": "The sudden question threw him off and he forgot his lines.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confusion",
+      "communication"
+    ]
+  },
+  {
+    "id": "pl-wyjsc-na-prosta",
+    "language": "pl",
+    "expression": "Wyjść na prostą",
+    "literalTranslation": "To come out onto the straight",
+    "meaning": "To get back on track after a hard period.",
+    "usageNote": "Use it when someone finally gets past their difficulties.",
+    "exampleSentence": "Po trudnym roku firma wreszcie wyszła na prostą.",
+    "exampleTranslation": "After a hard year the company is finally back on track.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "pl-nie-ma-co-plakac-nad-rozlanym-mlekiem",
+    "language": "pl",
+    "expression": "Nie ma co płakać nad rozlanym mlekiem",
+    "literalTranslation": "There's no use crying over spilt milk",
+    "meaning": "Don't waste time regretting what can't be undone.",
+    "usageNote": "Use it to tell someone to move on from a past mistake.",
+    "exampleSentence": "Umowa przepadła, ale nie ma co płakać nad rozlanym mlekiem.",
+    "exampleTranslation": "The deal fell through, but there's no use crying over spilt milk.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pl-gdzie-dwoch-sie-bije-tam-trzeci-korzysta",
+    "language": "pl",
+    "expression": "Gdzie dwóch się bije, tam trzeci korzysta",
+    "literalTranslation": "Where two fight, the third profits",
+    "meaning": "A third party often benefits from a conflict between two others.",
+    "usageNote": "Use it when someone quietly gains while others are busy quarrelling.",
+    "exampleSentence": "Dwie firmy walczyły o klienta, a trzecia go przejęła; gdzie dwóch się bije, tam trzeci korzysta.",
+    "exampleTranslation": "Two firms fought over the client and a third took him; when two fight, the third profits.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pl-jak-sie-nie-ma-co-sie-lubi-to-sie-lubi-co-sie-ma",
+    "language": "pl",
+    "expression": "Jak się nie ma, co się lubi, to się lubi, co się ma",
+    "literalTranslation": "If you can't have what you like, you like what you have",
+    "meaning": "When the ideal isn't available, learn to appreciate what you've got.",
+    "usageNote": "Use it to make peace with a second-best option.",
+    "exampleSentence": "Nie było kina, więc obejrzeliśmy film w domu; jak się nie ma, co się lubi, to się lubi, co się ma.",
+    "exampleTranslation": "There was no cinema, so we watched a film at home; if you can't have what you like, like what you have.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "daily-life"
+    ]
+  }
+]

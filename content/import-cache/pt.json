@@ -16,22 +16,6 @@
     ]
   },
   {
-    "id": "pt-a-caminho-1",
-    "language": "pt",
-    "expression": "A caminho",
-    "literalTranslation": "On the way",
-    "meaning": "Already on the route or getting closer to happening.",
-    "usageNote": "Use it for people, deliveries, or results that are not here yet but are coming.",
-    "exampleSentence": "Calma, o relatório já está a caminho.",
-    "exampleTranslation": "Relax, the report is already on its way.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "pt-a-cereja-do-bolo-2",
     "language": "pt",
     "expression": "A cereja do bolo",
@@ -40,22 +24,6 @@
     "usageNote": "Use it when one last addition completes an already positive situation.",
     "exampleSentence": "O bônus no fim do mês foi a cereja do bolo.",
     "exampleTranslation": "The bonus at the end of the month was the perfect finishing touch.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "pt-a-contragosto-3",
-    "language": "pt",
-    "expression": "A contragosto",
-    "literalTranslation": "Against one's taste",
-    "meaning": "Reluctantly and without real willingness.",
-    "usageNote": "Use it when someone agrees to something only because they feel they have to.",
-    "exampleSentence": "Ele aceitou a mudança a contragosto.",
-    "exampleTranslation": "He accepted the change reluctantly.",
     "difficulty": "basic",
     "tags": [
       "idiom",
@@ -105,22 +73,6 @@
     "exampleSentence": "A reunião decisiva aconteceu a portas fechadas.",
     "exampleTranslation": "The decisive meeting happened behind closed doors.",
     "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "pt-a-luz-de-7",
-    "language": "pt",
-    "expression": "À luz de",
-    "literalTranslation": "In the light of",
-    "meaning": "Considering a fact or perspective that changes how something should be judged.",
-    "usageNote": "Use it to introduce relevant context before drawing a conclusion.",
-    "exampleSentence": "À luz dos novos dados, precisamos rever o plano.",
-    "exampleTranslation": "In light of the new data, we need to review the plan.",
-    "difficulty": "intermediate",
     "tags": [
       "idiom",
       "imported",
@@ -185,22 +137,6 @@
     "exampleSentence": "Quando descobriram a fraude, a casa caiu de vez.",
     "exampleTranslation": "When they discovered the fraud, everything fell apart for good.",
     "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "pt-a-fio-12",
-    "language": "pt",
-    "expression": "A fio",
-    "literalTranslation": "In a row",
-    "meaning": "Continuously and without interruption.",
-    "usageNote": "Use it when something keeps happening for a long stretch of time.",
-    "exampleSentence": "Ele trabalhou dez horas a fio para terminar a entrega.",
-    "exampleTranslation": "He worked ten straight hours to finish the delivery.",
-    "difficulty": "basic",
     "tags": [
       "idiom",
       "imported",
@@ -280,22 +216,6 @@
     "usageNote": "Use it when someone suddenly stops being careful and decides not to care anymore.",
     "exampleSentence": "Depois de meses de pressão, ele chutou o balde e pediu demissão.",
     "exampleTranslation": "After months of pressure, he snapped and quit.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "pt-dar-com-a-lingua-nos-dentes-18",
-    "language": "pt",
-    "expression": "Dar com a língua nos dentes",
-    "literalTranslation": "To hit the teeth with the tongue",
-    "meaning": "To let a secret slip.",
-    "usageNote": "Use it when someone reveals confidential information by accident or carelessness.",
-    "exampleSentence": "Eu ia fazer surpresa, mas o Pedro deu com a língua nos dentes.",
-    "exampleTranslation": "I was planning a surprise, but Pedro let the secret slip.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",

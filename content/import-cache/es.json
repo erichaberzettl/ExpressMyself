@@ -32,22 +32,6 @@
     ]
   },
   {
-    "id": "es-a-cada-rato-2",
-    "language": "es",
-    "expression": "A cada rato",
-    "literalTranslation": "At every little while",
-    "meaning": "Constantly or again and again.",
-    "usageNote": "Use it when something keeps happening so often that it becomes noticeable or annoying.",
-    "exampleSentence": "Me escribe a cada rato para preguntarme si ya salí.",
-    "exampleTranslation": "He keeps texting me all the time to ask if I have left yet.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "es-a-buenas-horas-mangas-verdes-3",
     "language": "es",
     "expression": "A buenas horas mangas verdes",
@@ -64,38 +48,6 @@
     ]
   },
   {
-    "id": "es-a-bulto-4",
-    "language": "es",
-    "expression": "A bulto",
-    "literalTranslation": "In bulk",
-    "meaning": "Roughly, approximately, or without much precision.",
-    "usageNote": "Use it when someone is estimating by eye instead of measuring carefully.",
-    "exampleSentence": "Calculamos el costo a bulto y luego afinamos los números.",
-    "exampleTranslation": "We estimated the cost roughly and then refined the numbers later.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-a-buen-seguro-5",
-    "language": "es",
-    "expression": "A buen seguro",
-    "literalTranslation": "To good certainty",
-    "meaning": "Almost certainly or without much doubt.",
-    "usageNote": "Use it when you want to sound confident about a conclusion without claiming absolute proof.",
-    "exampleSentence": "A buen seguro que Marta ya sabe lo que pasó.",
-    "exampleTranslation": "Marta almost certainly already knows what happened.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "es-a-buen-recaudo-6",
     "language": "es",
     "expression": "A buen recaudo",
@@ -104,22 +56,6 @@
     "usageNote": "Use it when something valuable has been stored carefully or someone is finally out of danger.",
     "exampleSentence": "Guardé los documentos a buen recaudo antes de la mudanza.",
     "exampleTranslation": "I put the documents somewhere safe before the move.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-a-base-de-bien-7",
-    "language": "es",
-    "expression": "A base de bien",
-    "literalTranslation": "On a solid basis of good",
-    "meaning": "In a very large amount or with great intensity.",
-    "usageNote": "Use it informally when there is much more of something than usual.",
-    "exampleSentence": "En esa fiesta hubo comida a base de bien.",
-    "exampleTranslation": "There was plenty of food at that party.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",
@@ -224,54 +160,6 @@
     ]
   },
   {
-    "id": "es-a-campo-abierto-14",
-    "language": "es",
-    "expression": "A campo abierto",
-    "literalTranslation": "In open field",
-    "meaning": "Out in the open, without protection or concealment.",
-    "usageNote": "Use it literally for open spaces or figuratively for situations with no cover.",
-    "exampleSentence": "No conviene discutir eso a campo abierto delante de todos.",
-    "exampleTranslation": "It is not wise to discuss that out in the open in front of everyone.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-a-campo-raso-15",
-    "language": "es",
-    "expression": "A campo raso",
-    "literalTranslation": "On flat open land",
-    "meaning": "In an exposed place with no shelter around.",
-    "usageNote": "Use it when someone or something is left fully exposed to weather, danger, or scrutiny.",
-    "exampleSentence": "Nos pilló la tormenta a campo raso y no había dónde esconderse.",
-    "exampleTranslation": "The storm caught us in the open and there was nowhere to hide.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-a-buenas-16",
-    "language": "es",
-    "expression": "A buenas",
-    "literalTranslation": "By the good way",
-    "meaning": "Calmly, willingly, or without force.",
-    "usageNote": "Use it when persuasion works and conflict is avoided.",
-    "exampleSentence": "Si lo pides a buenas, seguro que te ayudan.",
-    "exampleTranslation": "If you ask nicely, they will probably help you.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "es-a-borbotones-17",
     "language": "es",
     "expression": "A borbotones",
@@ -280,38 +168,6 @@
     "usageNote": "Use it when words, tears, ideas, or liquids come out rapidly and in large quantities.",
     "exampleSentence": "Después de la noticia, las preguntas salieron a borbotones.",
     "exampleTranslation": "After the news, the questions came out in a rush.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-dar-en-el-clavo-18",
-    "language": "es",
-    "expression": "Dar en el clavo",
-    "literalTranslation": "To hit the nail",
-    "meaning": "To get something exactly right.",
-    "usageNote": "Use it when someone identifies the real issue or makes the perfect remark.",
-    "exampleSentence": "Con ese comentario diste en el clavo.",
-    "exampleTranslation": "With that comment, you hit the nail on the head.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "es-estar-entre-la-espada-y-la-pared-19",
-    "language": "es",
-    "expression": "Estar entre la espada y la pared",
-    "literalTranslation": "To be between the sword and the wall",
-    "meaning": "To be trapped between two difficult options.",
-    "usageNote": "Use it when a person has to choose between bad outcomes and cannot avoid the decision.",
-    "exampleSentence": "Con ese plazo estamos entre la espada y la pared.",
-    "exampleTranslation": "With that deadline, we are trapped between two difficult options.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",

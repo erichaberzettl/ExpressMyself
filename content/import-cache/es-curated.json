@@ -1,0 +1,705 @@
+[
+  {
+    "id": "es-tirar-la-casa-por-la-ventana",
+    "language": "es",
+    "expression": "Tirar la casa por la ventana",
+    "literalTranslation": "To throw the house out the window",
+    "meaning": "To spare no expense and spend lavishly on a special occasion.",
+    "usageNote": "Use it when someone goes all out spending money, often for a celebration.",
+    "exampleSentence": "Para la boda tiraron la casa por la ventana.",
+    "exampleTranslation": "For the wedding they spared no expense.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-ser-una-y-carne",
+    "language": "es",
+    "expression": "Ser uña y carne",
+    "literalTranslation": "To be fingernail and flesh",
+    "meaning": "To be extremely close and inseparable.",
+    "usageNote": "Use it to describe two people who are always together and very close.",
+    "exampleSentence": "Desde niños son uña y carne.",
+    "exampleTranslation": "They have been inseparable since childhood.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-hablar-por-los-codos",
+    "language": "es",
+    "expression": "Hablar por los codos",
+    "literalTranslation": "To talk through the elbows",
+    "meaning": "To talk far too much, without stopping.",
+    "usageNote": "Use it, often with mild humour, about someone who never stops chattering.",
+    "exampleSentence": "En cuanto se pone nerviosa, habla por los codos.",
+    "exampleTranslation": "As soon as she gets nervous, she talks nonstop.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "es-tener-la-sarten-por-el-mango",
+    "language": "es",
+    "expression": "Tener la sartén por el mango",
+    "literalTranslation": "To hold the frying pan by the handle",
+    "meaning": "To be in control of a situation and have the advantage.",
+    "usageNote": "Use it when one side clearly holds the power in a negotiation or conflict.",
+    "exampleSentence": "Con esa información, ahora tienes tú la sartén por el mango.",
+    "exampleTranslation": "With that information, now you have the upper hand.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "confidence"
+    ]
+  },
+  {
+    "id": "es-estar-como-pez-en-el-agua",
+    "language": "es",
+    "expression": "Estar como pez en el agua",
+    "literalTranslation": "To be like a fish in water",
+    "meaning": "To feel completely comfortable and in one's element.",
+    "usageNote": "Use it when someone thrives in a setting that suits them perfectly.",
+    "exampleSentence": "En las reuniones grandes está como pez en el agua.",
+    "exampleTranslation": "In big meetings she is completely in her element.",
+    "difficulty": "basic",
+    "tags": [
+      "confidence",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-hacer-la-vista-gorda",
+    "language": "es",
+    "expression": "Hacer la vista gorda",
+    "literalTranslation": "To make the fat sight",
+    "meaning": "To deliberately ignore something that is wrong.",
+    "usageNote": "Use it when someone chooses not to notice a rule being broken.",
+    "exampleSentence": "El portero hizo la vista gorda y nos dejó pasar.",
+    "exampleTranslation": "The doorman turned a blind eye and let us in.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "es-matar-dos-pajaros-de-un-tiro",
+    "language": "es",
+    "expression": "Matar dos pájaros de un tiro",
+    "literalTranslation": "To kill two birds with one shot",
+    "meaning": "To achieve two goals with a single action.",
+    "usageNote": "Use it when one move takes care of two things at once.",
+    "exampleSentence": "Si vamos en tren, visitamos a Ana y ahorramos aparcamiento: matamos dos pájaros de un tiro.",
+    "exampleTranslation": "If we take the train, we visit Ana and save on parking: two birds with one stone.",
+    "difficulty": "basic",
+    "tags": [
+      "efficiency",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-ponerse-las-botas",
+    "language": "es",
+    "expression": "Ponerse las botas",
+    "literalTranslation": "To put on one's boots",
+    "meaning": "To eat a great deal and enjoy it, or to profit handsomely from something.",
+    "usageNote": "Use it casually about feasting on food or making a big gain.",
+    "exampleSentence": "Con ese bufé nos pusimos las botas.",
+    "exampleTranslation": "With that buffet we stuffed ourselves.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "money"
+    ]
+  },
+  {
+    "id": "es-dar-la-lata",
+    "language": "es",
+    "expression": "Dar la lata",
+    "literalTranslation": "To give the tin can",
+    "meaning": "To annoy or pester someone, especially by insisting.",
+    "usageNote": "A casual way to describe someone being a nuisance or nagging.",
+    "exampleSentence": "Los niños me dieron la lata todo el día para ir al parque.",
+    "exampleTranslation": "The kids pestered me all day to go to the park.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-estar-hasta-las-narices",
+    "language": "es",
+    "expression": "Estar hasta las narices",
+    "literalTranslation": "To be up to the nostrils",
+    "meaning": "To be completely fed up with something.",
+    "usageNote": "An informal way to express strong frustration.",
+    "exampleSentence": "Estoy hasta las narices de tantas excusas.",
+    "exampleTranslation": "I am completely fed up with so many excuses.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "id": "es-poner-el-grito-en-el-cielo",
+    "language": "es",
+    "expression": "Poner el grito en el cielo",
+    "literalTranslation": "To put the shout in the sky",
+    "meaning": "To protest loudly and react with outrage.",
+    "usageNote": "Use it when someone reacts to something with loud indignation.",
+    "exampleSentence": "Cuando subieron los precios, los vecinos pusieron el grito en el cielo.",
+    "exampleTranslation": "When prices went up, the neighbours hit the roof.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-dormirse-en-los-laureles",
+    "language": "es",
+    "expression": "Dormirse en los laureles",
+    "literalTranslation": "To fall asleep on the laurels",
+    "meaning": "To become complacent after a success and stop making an effort.",
+    "usageNote": "Use it to warn someone not to coast on past achievements.",
+    "exampleSentence": "Ganamos el primer premio, pero no podemos dormirnos en los laureles.",
+    "exampleTranslation": "We won first prize, but we can't rest on our laurels.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "work"
+    ]
+  },
+  {
+    "id": "es-importar-un-comino",
+    "language": "es",
+    "expression": "Importar un comino",
+    "literalTranslation": "To matter a cumin seed",
+    "meaning": "To matter not at all; to be of no importance to someone.",
+    "usageNote": "A casual, dismissive way to say you don't care, usually as 'me importa un comino'.",
+    "exampleSentence": "Lo que piensen los demás me importa un comino.",
+    "exampleTranslation": "What other people think doesn't matter to me one bit.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-mas-vale-pajaro-en-mano-que-ciento-volando",
+    "language": "es",
+    "expression": "Más vale pájaro en mano que ciento volando",
+    "literalTranslation": "A bird in the hand is worth more than a hundred flying",
+    "meaning": "It is better to keep a sure thing than to risk it for more.",
+    "usageNote": "Use it to advise settling for a smaller certain gain over a risky bigger one.",
+    "exampleSentence": "No dejes el trabajo por una simple promesa; más vale pájaro en mano que ciento volando.",
+    "exampleTranslation": "Don't quit your job over a mere promise; a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "es-a-caballo-regalado-no-le-mires-el-diente",
+    "language": "es",
+    "expression": "A caballo regalado no le mires el diente",
+    "literalTranslation": "Don't look at the tooth of a gifted horse",
+    "meaning": "Don't be critical of something you were given for free.",
+    "usageNote": "Use it when someone complains about a gift or favour instead of appreciating it.",
+    "exampleSentence": "La bici es vieja pero funciona; a caballo regalado no le mires el diente.",
+    "exampleTranslation": "The bike is old but it works; don't look a gift horse in the mouth.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "emotion"
+    ]
+  },
+  {
+    "id": "es-en-boca-cerrada-no-entran-moscas",
+    "language": "es",
+    "expression": "En boca cerrada no entran moscas",
+    "literalTranslation": "Flies do not enter a closed mouth",
+    "meaning": "Keeping quiet keeps you out of trouble.",
+    "usageNote": "Use it to advise saying less to avoid saying the wrong thing.",
+    "exampleSentence": "Mejor no opines en esa discusión; en boca cerrada no entran moscas.",
+    "exampleTranslation": "Better not weigh in on that argument; silence keeps you out of trouble.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "secrets"
+    ]
+  },
+  {
+    "id": "es-cria-cuervos-y-te-sacaran-los-ojos",
+    "language": "es",
+    "expression": "Cría cuervos y te sacarán los ojos",
+    "literalTranslation": "Raise crows and they will peck out your eyes",
+    "meaning": "People you help may later turn against you.",
+    "usageNote": "Use it, bitterly, when kindness or care is repaid with betrayal.",
+    "exampleSentence": "Lo ayudó durante años y él lo traicionó: cría cuervos y te sacarán los ojos.",
+    "exampleTranslation": "She helped him for years and he betrayed her: raise crows and they'll peck out your eyes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "es-ojos-que-no-ven-corazon-que-no-siente",
+    "language": "es",
+    "expression": "Ojos que no ven, corazón que no siente",
+    "literalTranslation": "Eyes that do not see, heart that does not feel",
+    "meaning": "What you are unaware of cannot hurt you emotionally.",
+    "usageNote": "Use it about staying unaware of something painful, or about distance easing feelings.",
+    "exampleSentence": "Prefiero no mirar las redes de mi ex: ojos que no ven, corazón que no siente.",
+    "exampleTranslation": "I'd rather not look at my ex's social media: what you don't see, you don't feel.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-dime-con-quien-andas-y-te-dire-quien-eres",
+    "language": "es",
+    "expression": "Dime con quién andas y te diré quién eres",
+    "literalTranslation": "Tell me who you walk with and I'll tell you who you are",
+    "meaning": "You can judge a person by the company they keep.",
+    "usageNote": "Use it to comment on how someone's friends reflect their character.",
+    "exampleSentence": "Sus amigos son gente seria; dime con quién andas y te diré quién eres.",
+    "exampleTranslation": "His friends are serious people; you're known by the company you keep.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-a-quien-madruga-dios-le-ayuda",
+    "language": "es",
+    "expression": "A quien madruga, Dios le ayuda",
+    "literalTranslation": "God helps the one who rises early",
+    "meaning": "People who start early and show initiative get ahead.",
+    "usageNote": "Use it to praise early effort and initiative.",
+    "exampleSentence": "Llegó primero y consiguió el mejor sitio; a quien madruga, Dios le ayuda.",
+    "exampleTranslation": "He arrived first and got the best spot; the early bird catches the worm.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "motivation"
+    ]
+  },
+  {
+    "id": "es-no-por-mucho-madrugar-amanece-mas-temprano",
+    "language": "es",
+    "expression": "No por mucho madrugar amanece más temprano",
+    "literalTranslation": "No matter how early you rise, dawn does not come sooner",
+    "meaning": "Rushing or forcing something does not make it happen faster.",
+    "usageNote": "Use it to tell someone that hurrying won't speed up an outcome.",
+    "exampleSentence": "Relájate, el resultado llega cuando llega; no por mucho madrugar amanece más temprano.",
+    "exampleTranslation": "Relax, the result comes when it comes; rushing won't make it faster.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-camaron-que-se-duerme-se-lo-lleva-la-corriente",
+    "language": "es",
+    "expression": "Camarón que se duerme se lo lleva la corriente",
+    "literalTranslation": "The shrimp that falls asleep gets carried off by the current",
+    "meaning": "If you are not alert, you will miss out or get left behind.",
+    "usageNote": "Common in Latin America to warn against being passive or distracted.",
+    "exampleSentence": "Aplica ya a la beca; camarón que se duerme se lo lleva la corriente.",
+    "exampleTranslation": "Apply for the scholarship now; you snooze, you lose.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-tener-mala-leche",
+    "language": "es",
+    "expression": "Tener mala leche",
+    "literalTranslation": "To have bad milk",
+    "meaning": "To have a bad temper or bad intentions.",
+    "usageNote": "Informal; it can mean someone is short-tempered or that they did something with malice.",
+    "exampleSentence": "No le hables por la mañana, tiene muy mala leche.",
+    "exampleTranslation": "Don't talk to him in the morning, he's in a foul temper.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "personality"
+    ]
+  },
+  {
+    "id": "es-ser-la-oveja-negra",
+    "language": "es",
+    "expression": "Ser la oveja negra",
+    "literalTranslation": "To be the black sheep",
+    "meaning": "To be the odd one out or the disgrace of a group or family.",
+    "usageNote": "Use it about someone seen as different from or a disappointment to the rest.",
+    "exampleSentence": "Por dedicarse al arte, lo ven como la oveja negra de la familia.",
+    "exampleTranslation": "Because he went into art, they see him as the black sheep of the family.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-estar-en-el-ajo",
+    "language": "es",
+    "expression": "Estar en el ajo",
+    "literalTranslation": "To be in the garlic",
+    "meaning": "To be in on something; to know the inside details.",
+    "usageNote": "Use it about someone who is aware of or involved in a scheme or plan.",
+    "exampleSentence": "Ella ya lo sabía todo; estaba en el ajo desde el principio.",
+    "exampleTranslation": "She already knew everything; she was in on it from the start.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-ir-viento-en-popa",
+    "language": "es",
+    "expression": "Ir viento en popa",
+    "literalTranslation": "To go with wind at the stern",
+    "meaning": "To go very smoothly and successfully.",
+    "usageNote": "Use it when a project or situation is progressing without any trouble.",
+    "exampleSentence": "Desde el nuevo plan, el negocio va viento en popa.",
+    "exampleTranslation": "Since the new plan, the business is going full steam ahead.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "confidence"
+    ]
+  },
+  {
+    "id": "es-estar-sin-blanca",
+    "language": "es",
+    "expression": "Estar sin blanca",
+    "literalTranslation": "To be without a 'blanca' (an old coin)",
+    "meaning": "To be completely broke.",
+    "usageNote": "An informal way to say you have no money at all right now.",
+    "exampleSentence": "Este mes no salgo, estoy sin blanca.",
+    "exampleTranslation": "I'm not going out this month, I'm flat broke.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-ponerse-rojo-como-un-tomate",
+    "language": "es",
+    "expression": "Ponerse rojo como un tomate",
+    "literalTranslation": "To turn red like a tomato",
+    "meaning": "To blush deeply, usually from embarrassment.",
+    "usageNote": "Use it when someone goes visibly red with embarrassment.",
+    "exampleSentence": "Cuando lo felicitaron, se puso rojo como un tomate.",
+    "exampleTranslation": "When they congratulated him, he went bright red.",
+    "difficulty": "basic",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-irsele-la-olla",
+    "language": "es",
+    "expression": "Írsele la olla",
+    "literalTranslation": "For the pot to go away from someone",
+    "meaning": "To lose one's mind or go off the rails for a moment.",
+    "usageNote": "Very informal; use it when someone acts irrationally or forgets themselves.",
+    "exampleSentence": "Se le fue la olla y compró tres entradas por error.",
+    "exampleTranslation": "He lost the plot and bought three tickets by mistake.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confusion",
+      "emotion"
+    ]
+  },
+  {
+    "id": "es-meterse-en-un-jardin",
+    "language": "es",
+    "expression": "Meterse en un jardín",
+    "literalTranslation": "To get into a garden",
+    "meaning": "To get yourself into a needless mess or complication.",
+    "usageNote": "Use it when someone overcomplicates things and ends up tangled up.",
+    "exampleSentence": "Con esa mentira se metió en un jardín del que no podía salir.",
+    "exampleTranslation": "With that lie he got himself into a mess he couldn't get out of.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "es-hacer-su-agosto",
+    "language": "es",
+    "expression": "Hacer su agosto",
+    "literalTranslation": "To make one's August",
+    "meaning": "To make a lot of money from a good opportunity.",
+    "usageNote": "Use it when someone profits handsomely, often from favourable timing.",
+    "exampleSentence": "Con el festival en el pueblo, los bares hicieron su agosto.",
+    "exampleTranslation": "With the festival in town, the bars made a killing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
+    ]
+  },
+  {
+    "id": "es-estar-en-las-ultimas",
+    "language": "es",
+    "expression": "Estar en las últimas",
+    "literalTranslation": "To be in the last ones",
+    "meaning": "To be about to run out of something, or on one's last legs.",
+    "usageNote": "Use it about supplies, energy, or resources that are nearly gone.",
+    "exampleSentence": "La batería está en las últimas, préstame el cargador.",
+    "exampleTranslation": "The battery is almost dead, lend me the charger.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "health"
+    ]
+  },
+  {
+    "id": "es-tener-enchufe",
+    "language": "es",
+    "expression": "Tener enchufe",
+    "literalTranslation": "To have a plug",
+    "meaning": "To have connections that give you an unfair advantage, especially for a job.",
+    "usageNote": "Use it, often critically, when someone gets ahead thanks to who they know.",
+    "exampleSentence": "Consiguió el puesto porque tiene enchufe, no por méritos.",
+    "exampleTranslation": "He got the position because he has connections, not on merit.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "money"
+    ]
+  },
+  {
+    "id": "es-irse-por-las-ramas",
+    "language": "es",
+    "expression": "Irse por las ramas",
+    "literalTranslation": "To go off along the branches",
+    "meaning": "To digress and avoid getting to the point.",
+    "usageNote": "Use it when someone talks around a subject instead of addressing it.",
+    "exampleSentence": "No te vayas por las ramas y dime qué pasó.",
+    "exampleTranslation": "Don't beat around the bush and tell me what happened.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "es-no-dar-su-brazo-a-torcer",
+    "language": "es",
+    "expression": "No dar su brazo a torcer",
+    "literalTranslation": "To not let one's arm be twisted",
+    "meaning": "To refuse to give in or admit defeat.",
+    "usageNote": "Use it about a stubborn person who won't back down.",
+    "exampleSentence": "Aunque estaba equivocado, no dio su brazo a torcer.",
+    "exampleTranslation": "Even though he was wrong, he wouldn't give in.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-tener-la-mosca-detras-de-la-oreja",
+    "language": "es",
+    "expression": "Tener la mosca detrás de la oreja",
+    "literalTranslation": "To have the fly behind the ear",
+    "meaning": "To be suspicious or uneasy that something isn't right.",
+    "usageNote": "Use it when a nagging doubt makes you wary.",
+    "exampleSentence": "Sus excusas no cuadran y tengo la mosca detrás de la oreja.",
+    "exampleTranslation": "His excuses don't add up and I've got a nagging suspicion.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-mandar-a-alguien-a-freir-esparragos",
+    "language": "es",
+    "expression": "Mandar a alguien a freír espárragos",
+    "literalTranslation": "To send someone to fry asparagus",
+    "meaning": "To tell someone to get lost, out of annoyance.",
+    "usageNote": "Informal and dismissive, but not vulgar; used when you've had enough of someone.",
+    "exampleSentence": "Se puso tan pesado que lo mandé a freír espárragos.",
+    "exampleTranslation": "He got so annoying that I told him to get lost.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "es-comerse-el-coco",
+    "language": "es",
+    "expression": "Comerse el coco",
+    "literalTranslation": "To eat one's coconut (head)",
+    "meaning": "To overthink something and worry obsessively.",
+    "usageNote": "Very informal; use it when someone dwells on a thought too much.",
+    "exampleSentence": "No te comas el coco, mañana lo vemos con calma.",
+    "exampleTranslation": "Don't overthink it, we'll look at it calmly tomorrow.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-mas-vale-prevenir-que-curar",
+    "language": "es",
+    "expression": "Más vale prevenir que curar",
+    "literalTranslation": "Better to prevent than to cure",
+    "meaning": "It is wiser to avoid a problem than to fix it afterwards.",
+    "usageNote": "Use it to recommend caution or preparation before something goes wrong.",
+    "exampleSentence": "Haz una copia de seguridad; más vale prevenir que curar.",
+    "exampleTranslation": "Make a backup; better safe than sorry.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "health"
+    ]
+  },
+  {
+    "id": "es-a-falta-de-pan-buenas-son-tortas",
+    "language": "es",
+    "expression": "A falta de pan, buenas son tortas",
+    "literalTranslation": "For lack of bread, cakes will do",
+    "meaning": "When you can't have the ideal, you make do with what's available.",
+    "usageNote": "Use it to accept a decent substitute for something better.",
+    "exampleSentence": "No había hotel, dormimos en el coche; a falta de pan, buenas son tortas.",
+    "exampleTranslation": "There was no hotel, so we slept in the car; beggars can't be choosers.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "es-el-que-la-sigue-la-consigue",
+    "language": "es",
+    "expression": "El que la sigue, la consigue",
+    "literalTranslation": "The one who keeps after it gets it",
+    "meaning": "Persistence eventually leads to success.",
+    "usageNote": "Use it to encourage someone to keep trying.",
+    "exampleSentence": "Le costó tres intentos, pero el que la sigue, la consigue.",
+    "exampleTranslation": "It took him three tries, but persistence pays off.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "es-no-hay-dos-sin-tres",
+    "language": "es",
+    "expression": "No hay dos sin tres",
+    "literalTranslation": "There are no two without three",
+    "meaning": "When something happens twice, a third time tends to follow.",
+    "usageNote": "Use it half-jokingly when two similar events make a third seem likely.",
+    "exampleSentence": "Ya van dos averías esta semana; no hay dos sin tres.",
+    "exampleTranslation": "That's two breakdowns this week; things always come in threes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-cada-oveja-con-su-pareja",
+    "language": "es",
+    "expression": "Cada oveja con su pareja",
+    "literalTranslation": "Each sheep with its mate",
+    "meaning": "People naturally pair up with those who are like them.",
+    "usageNote": "Use it to observe that like tends to go with like.",
+    "exampleSentence": "En la fiesta cada oveja con su pareja: los músicos por un lado, los actores por otro.",
+    "exampleTranslation": "At the party it was birds of a feather: musicians on one side, actors on the other.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "es-al-mal-tiempo-buena-cara",
+    "language": "es",
+    "expression": "Al mal tiempo, buena cara",
+    "literalTranslation": "To bad weather, a good face",
+    "meaning": "Face difficult times with a positive attitude.",
+    "usageNote": "Use it to encourage someone to stay upbeat despite trouble.",
+    "exampleSentence": "Perdimos el vuelo, pero al mal tiempo, buena cara.",
+    "exampleTranslation": "We missed the flight, but you have to make the best of a bad situation.",
+    "difficulty": "intermediate",
+    "tags": [
+      "encouragement",
+      "emotion"
+    ]
+  },
+  {
+    "id": "es-mas-vale-mana-que-fuerza",
+    "language": "es",
+    "expression": "Más vale maña que fuerza",
+    "literalTranslation": "Skill is worth more than strength",
+    "meaning": "Cleverness and technique beat brute force.",
+    "usageNote": "Use it when a smart approach works better than sheer effort.",
+    "exampleSentence": "No empujes tan fuerte; más vale maña que fuerza.",
+    "exampleTranslation": "Don't push so hard; skill beats strength.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "learning"
+    ]
+  },
+  {
+    "id": "es-cuando-el-rio-suena-agua-lleva",
+    "language": "es",
+    "expression": "Cuando el río suena, agua lleva",
+    "literalTranslation": "When the river sounds, it carries water",
+    "meaning": "Persistent rumors usually have some basis in truth.",
+    "usageNote": "Use it when repeated talk suggests there's something real behind it.",
+    "exampleSentence": "Todos comentan lo mismo sobre la empresa; cuando el río suena, agua lleva.",
+    "exampleTranslation": "Everyone is saying the same thing about the company; where there's smoke, there's fire.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "secrets"
+    ]
+  },
+  {
+    "id": "es-quien-siembra-vientos-recoge-tempestades",
+    "language": "es",
+    "expression": "Quien siembra vientos recoge tempestades",
+    "literalTranslation": "Who sows winds reaps storms",
+    "meaning": "Harmful actions bring far worse consequences back on you.",
+    "usageNote": "Use it as a warning that provoking trouble leads to bigger trouble.",
+    "exampleSentence": "Trató mal a todos y ahora nadie lo apoya; quien siembra vientos recoge tempestades.",
+    "exampleTranslation": "He treated everyone badly and now no one backs him; you reap what you sow.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "personality"
+    ]
+  }
+]

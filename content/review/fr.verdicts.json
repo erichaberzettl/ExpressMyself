@@ -1,0 +1,296 @@
+[
+  {
+    "id": "fr-a-plus-tard-0",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Plain farewell (= see you later); no figurative layer, not an idiom.",
+    "fix": null
+  },
+  {
+    "id": "fr-acheter-chat-en-poche-1",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-votre-sante-2",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-la-votre-3",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Redundant near-duplicate toast (same meaning as fr-a-votre-sante).",
+    "fix": null
+  },
+  {
+    "id": "fr-absent-le-chat-les-souris-dansent-4",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Less-common literary variant of curated fr-quand-le-chat-nest-pas-la-les-souris-dansent.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-contre-courant-5",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-la-une-6",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-la-saint-glinglin-7",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-la-bonne-franquette-8",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-l-anglaise-9",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-la-fortune-du-pot-10",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-poser-un-lapin-11",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated fr-poser-un-lapin.",
+    "fix": null
+  },
+  {
+    "id": "fr-avoir-le-cafard-12",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated fr-avoir-le-cafard.",
+    "fix": null
+  },
+  {
+    "id": "fr-couter-les-yeux-de-la-tete-13",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated fr-couter-les-yeux-de-la-tete.",
+    "fix": null
+  },
+  {
+    "id": "fr-donner-sa-langue-au-chat-14",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-mettre-les-pieds-dans-le-plat-15",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-tomber-dans-les-pommes-16",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-avoir-la-tete-dans-les-nuages-17",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-mettre-de-l-eau-dans-son-vin-18",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-chercher-midi-a-quatorze-heures-19",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "fr-il-ny-a-pas-de-fumee-sans-feu",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-qui-ne-risque-rien-na-rien",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-loin-des-yeux-loin-du-coeur",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-cest-en-forgeant-quon-devient-forgeron",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-limpossible-nul-nest-tenu",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-quand-on-parle-du-loup-on-en-voit-la-queue",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-loccasion-fait-le-larron",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-quand-le-chat-nest-pas-la-les-souris-dansent",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-mauvais-ouvrier-mauvais-outils",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-poser-un-lapin",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-avoir-le-cafard",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-couter-les-yeux-de-la-tete",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-tourner-autour-du-pot",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-metre-la-main-a-la-pate",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-petit-a-petit-loiseau-fait-son-nid",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-apres-la-pluie-le-beau-temps",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-lhabit-ne-fait-pas-le-moine",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-mieux-vaut-prevenir-que-guerir",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-on-ne-fait-pas-domelette-sans-casser-des-oeufs",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-qui-veut-voyager-loin-menage-sa-monture",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-a-cheval-donne-on-ne-regarde-pas-les-dents",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "fr-la-parole-est-dargent-mais-le-silence-est-dor",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  }
+]
