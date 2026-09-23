@@ -504,7 +504,52 @@ a {
 
 .popup-nav {
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
+}
+
+/* Keep the daily card's controls quiet so the phrase and meaning lead. */
+.popup-focus-card .card-actions {
+  gap: 6px;
+}
+
+.popup-focus-card .card-actions .button {
+  min-height: 28px;
+  padding: 0 9px;
+  font-size: 0.78rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--muted);
+  box-shadow: none;
+}
+
+.popup-focus-card .card-actions .button:hover {
+  transform: none;
+  background: var(--panel-strong);
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.popup-focus-card .popup-nav .button {
+  min-height: 30px;
+  padding: 0 13px;
+  font-size: 0.8rem;
+}
+
+.popup-focus-card .popup-nav .button-secondary {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--muted);
+}
+
+.popup-focus-card .popup-nav .button-primary {
+  background: var(--accent-soft);
+  border-color: transparent;
+  color: var(--accent-strong);
+}
+
+.popup-focus-card .popup-nav .button-primary:hover {
+  background: var(--accent);
+  color: white;
 }
 
 .popup-kbd-hint {
