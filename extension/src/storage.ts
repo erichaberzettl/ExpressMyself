@@ -5,6 +5,7 @@ export const DAILY_OFFSET_KEY = "express-myself-daily-offset";
 export const LAST_SEEN_DAILY_KEY = "express-myself-last-seen-daily";
 export const STREAK_KEY = "express-myself-streak";
 export const REMINDER_KEY = "express-myself-reminder";
+export const HIDE_MEANING_KEY = "express-myself-hide-daily-meaning";
 
 type StorageArea = {
   get: (

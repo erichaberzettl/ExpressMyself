@@ -518,54 +518,45 @@ a {
 .popup-streak {
   display: inline-flex;
   align-items: center;
-  align-self: flex-start;
-  margin-top: 4px;
-  padding: 3px 10px;
+  gap: 2px;
+  align-self: center;
+  padding: 2px 8px;
   border-radius: 999px;
   background: var(--accent-soft);
   color: var(--accent-strong);
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1;
 }
 
-.popup-reminder {
+.popup-topbar-head {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 4px;
-  color: var(--muted);
-  font-size: 0.8rem;
 }
 
-.popup-reminder-toggle {
+.popup-settings-link {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  cursor: pointer;
-}
-
-.popup-reminder-toggle input {
-  width: 15px;
-  height: 15px;
-  accent-color: var(--accent);
-  cursor: pointer;
-}
-
-.popup-reminder-time {
-  min-height: 30px;
-  padding: 0 8px;
-  border-radius: var(--radius-sm);
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
   border: 1px solid var(--line);
   background: var(--panel-strong);
-  color: var(--ink);
-  font-size: 0.8rem;
+  color: var(--accent-strong);
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition:
+    transform 120ms ease,
+    background-color 120ms ease;
 }
 
-.popup-reminder-time[hidden] {
-  display: none;
+.popup-settings-link:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .field span,

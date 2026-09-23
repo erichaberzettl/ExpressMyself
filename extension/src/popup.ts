@@ -9,9 +9,9 @@ import {
   DAILY_ROTATION_SEED_KEY,
   getStoredString,
   getStoredStringArray,
+  HIDE_MEANING_KEY,
   LANGUAGE_KEY,
   LAST_SEEN_DAILY_KEY,
-  REMINDER_KEY,
   SAVED_IDS_KEY,
   setStoredString,
   setStoredStringArray,
@@ -19,7 +19,7 @@ import {
   watchStoredKey
 } from "./storage";
 
-type ReminderSettings = { enabled: boolean; time: string };
+const SETTINGS_URL = "app.html?view=settings";
 
 function utcDateKey(date = new Date()): string {
   const year = date.getUTCFullYear();
@@ -37,7 +37,7 @@ type PopupState = {
   revealed: boolean;
   currentExpression: ExpressionEntry | null;
   streak: number;
-  reminder: ReminderSettings;
+  hideMeaning: boolean;
 };
 
 type PopupOverrides = {
@@ -80,10 +80,10 @@ const state: PopupState = {
   offset: 0,
   hasLanguagePreset: false,
   rotationSeed: null,
-  revealed: false,
+  revealed: true,
   currentExpression: null,
   streak: 0,
-  reminder: { enabled: false, time: "09:00" }
+  hideMeaning: false
 };
 
 async function persistOffset() {
@@ -95,22 +95,6 @@ async function copyExpression(entry: ExpressionEntry) {
     await navigator.clipboard?.writeText(entry.expression);
   } catch {
     // Clipboard can be unavailable or blocked; ignore and keep the UI usable.
-  }
-}
-
-function parseReminder(raw: string | null): ReminderSettings {
-  if (!raw) {
-    return { enabled: false, time: "09:00" };
-  }
-
-  try {
-    const parsed = JSON.parse(raw) as Partial<ReminderSettings>;
-    return {
-      enabled: Boolean(parsed.enabled),
-      time: typeof parsed.time === "string" ? parsed.time : "09:00"
-    };
-  } catch {
-    return { enabled: false, time: "09:00" };
   }
 }
 
@@ -247,10 +231,12 @@ const rerender = () => {
   brand.append(brandEyebrow, brandName);
 
   if (state.streak > 0) {
-    const streakPill = document.createElement("span");
-    streakPill.className = "popup-streak";
-    streakPill.textContent = `🔥 ${state.streak}-day streak`;
-    brand.append(streakPill);
+    const streakBadge = document.createElement("span");
+    streakBadge.className = "popup-streak";
+    streakBadge.textContent = `🔥 ${state.streak}`;
+    streakBadge.title = `${state.streak}-day streak`;
+    streakBadge.setAttribute("aria-label", `${state.streak}-day streak`);
+    brand.append(streakBadge);
   }
 
   const languageField = document.createElement("label");
@@ -272,7 +258,7 @@ const rerender = () => {
     state.language = languageSelect.value as LanguageCode;
     state.hasLanguagePreset = true;
     state.offset = 0;
-    state.revealed = false;
+    state.revealed = !state.hideMeaning;
     await setStoredString(LANGUAGE_KEY, state.language);
     await setStoredString(DAILY_OFFSET_KEY, "0");
 
@@ -288,11 +274,24 @@ const rerender = () => {
   const libraryLink = createExtensionPageLink("Library", "library", "link-button link-button-primary");
   const savedLink = createExtensionPageLink("Saved", "saved", "link-button link-button-secondary");
 
+  const settingsLink = document.createElement("a");
+  settingsLink.className = "popup-settings-link";
+  settingsLink.href = SETTINGS_URL;
+  settingsLink.target = "_blank";
+  settingsLink.rel = "noreferrer";
+  settingsLink.textContent = "⚙";
+  settingsLink.title = "Settings";
+  settingsLink.setAttribute("aria-label", "Settings");
+
+  const headRow = document.createElement("div");
+  headRow.className = "popup-topbar-head";
+  headRow.append(brand, settingsLink);
+
   const actions = document.createElement("div");
   actions.className = "popup-topbar-actions";
   actions.append(languageField, libraryLink, savedLink);
 
-  topBar.append(brand, actions);
+  topBar.append(headRow, actions);
   page.append(topBar);
 
   state.currentExpression = currentExpression;
@@ -307,7 +306,7 @@ const rerender = () => {
       onCopy: (entry: ExpressionEntry) => {
         void copyExpression(entry);
       },
-      onReveal: revealCurrent,
+      onReveal: state.hideMeaning ? revealCurrent : undefined,
       onToggleSaved: () => {
         void toggleSaveCurrent();
       },
@@ -323,56 +322,18 @@ const rerender = () => {
 
     const hint = document.createElement("p");
     hint.className = "hint popup-kbd-hint";
-    hint.textContent = "← → browse · R reveal · S save · Space listen";
+    hint.textContent = state.hideMeaning
+      ? "← → browse · R reveal · S save · Space listen"
+      : "← → browse · S save · Space listen";
     page.append(hint);
   }
-
-  page.append(buildReminderControl());
 
   root.append(page);
 };
 
-function buildReminderControl(): HTMLElement {
-  const row = document.createElement("div");
-  row.className = "popup-reminder";
-
-  const toggle = document.createElement("label");
-  toggle.className = "popup-reminder-toggle";
-
-  const checkbox = document.createElement("input");
-  checkbox.type = "checkbox";
-  checkbox.checked = state.reminder.enabled;
-
-  const label = document.createElement("span");
-  label.textContent = "🔔 Daily reminder";
-
-  toggle.append(checkbox, label);
-
-  const timeInput = document.createElement("input");
-  timeInput.type = "time";
-  timeInput.className = "popup-reminder-time";
-  timeInput.value = state.reminder.time;
-  timeInput.hidden = !state.reminder.enabled;
-  timeInput.setAttribute("aria-label", "Reminder time");
-
-  checkbox.addEventListener("change", async () => {
-    state.reminder = { ...state.reminder, enabled: checkbox.checked };
-    timeInput.hidden = !checkbox.checked;
-    await setStoredString(REMINDER_KEY, JSON.stringify(state.reminder));
-  });
-
-  timeInput.addEventListener("change", async () => {
-    state.reminder = { ...state.reminder, time: timeInput.value || "09:00" };
-    await setStoredString(REMINDER_KEY, JSON.stringify(state.reminder));
-  });
-
-  row.append(toggle, timeInput);
-  return row;
-}
-
 async function goToOffset(delta: number) {
   state.offset += delta;
-  state.revealed = false;
+  state.revealed = !state.hideMeaning;
   await persistOffset();
   rerender();
 }
@@ -477,7 +438,8 @@ async function initialize() {
   state.offset = overrides.offset ?? (Number.isFinite(restoredOffset) ? restoredOffset : 0);
   state.savedIds = overrides.savedIds ?? (await getStoredStringArray(SAVED_IDS_KEY));
   state.rotationSeed = storedRotationSeed;
-  state.reminder = parseReminder(await getStoredString(REMINDER_KEY));
+  state.hideMeaning = (await getStoredString(HIDE_MEANING_KEY)) === "true";
+  state.revealed = !state.hideMeaning;
   await registerDailyVisit();
   rerender();
 }
