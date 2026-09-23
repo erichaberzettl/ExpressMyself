@@ -21,6 +21,8 @@ type PopupState = {
   offset: number;
   hasLanguagePreset: boolean;
   rotationSeed: string | null;
+  revealed: boolean;
+  currentExpression: ExpressionEntry | null;
 };
 
 type PopupOverrides = {
@@ -62,8 +64,22 @@ const state: PopupState = {
   savedIds: [],
   offset: 0,
   hasLanguagePreset: false,
-  rotationSeed: null
+  rotationSeed: null,
+  revealed: false,
+  currentExpression: null
 };
+
+async function persistOffset() {
+  await setStoredString(DAILY_OFFSET_KEY, String(state.offset));
+}
+
+async function copyExpression(entry: ExpressionEntry) {
+  try {
+    await navigator.clipboard?.writeText(entry.expression);
+  } catch {
+    // Clipboard can be unavailable or blocked; ignore and keep the UI usable.
+  }
+}
 
 function renderStartupError(message: string) {
   root.innerHTML = "";
@@ -183,6 +199,7 @@ const rerender = () => {
     state.language = languageSelect.value as LanguageCode;
     state.hasLanguagePreset = true;
     state.offset = 0;
+    state.revealed = false;
     await setStoredString(LANGUAGE_KEY, state.language);
     await setStoredString(DAILY_OFFSET_KEY, "0");
 
@@ -205,31 +222,129 @@ const rerender = () => {
   topBar.append(brand, actions);
   page.append(topBar);
 
+  state.currentExpression = currentExpression;
+
   if (currentExpression) {
     const card = renderExpressionCard({
       expression: currentExpression,
       showTags: false,
       saved: state.savedIds.includes(currentExpression.id),
+      revealed: state.revealed,
       onSpeak: (entry: ExpressionEntry) => speakExpression(entry.expression, entry.language),
-      onToggleSaved: async (id: string) => {
-        state.savedIds = state.savedIds.includes(id)
-          ? state.savedIds.filter((item) => item !== id)
-          : [...state.savedIds, id];
-        await setStoredStringArray(SAVED_IDS_KEY, state.savedIds);
-        rerender();
+      onCopy: (entry: ExpressionEntry) => {
+        void copyExpression(entry);
       },
-      onNext: async () => {
-        state.offset += 1;
-        await setStoredString(DAILY_OFFSET_KEY, String(state.offset));
-        rerender();
+      onReveal: revealCurrent,
+      onToggleSaved: () => {
+        void toggleSaveCurrent();
+      },
+      onPrev: () => {
+        void goToOffset(-1);
+      },
+      onNext: () => {
+        void goToOffset(1);
       }
     });
     card.classList.add("popup-focus-card");
     page.append(card);
+
+    const hint = document.createElement("p");
+    hint.className = "hint popup-kbd-hint";
+    hint.textContent = "← → browse · R reveal · S save · Space listen";
+    page.append(hint);
   }
 
   root.append(page);
 };
+
+async function goToOffset(delta: number) {
+  state.offset += delta;
+  state.revealed = false;
+  await persistOffset();
+  rerender();
+}
+
+function revealCurrent() {
+  if (!state.revealed && state.currentExpression) {
+    state.revealed = true;
+    rerender();
+  }
+}
+
+async function toggleSaveCurrent() {
+  const entry = state.currentExpression;
+
+  if (!entry) {
+    return;
+  }
+
+  state.savedIds = state.savedIds.includes(entry.id)
+    ? state.savedIds.filter((item) => item !== entry.id)
+    : [...state.savedIds, entry.id];
+  await setStoredStringArray(SAVED_IDS_KEY, state.savedIds);
+  rerender();
+}
+
+function isTypingTarget(target: EventTarget | null): boolean {
+  return (
+    target instanceof HTMLInputElement ||
+    target instanceof HTMLTextAreaElement ||
+    target instanceof HTMLSelectElement
+  );
+}
+
+window.addEventListener("keydown", (event) => {
+  if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.altKey) {
+    return;
+  }
+
+  if (isTypingTarget(event.target)) {
+    return;
+  }
+
+  const entry = state.currentExpression;
+
+  switch (event.key) {
+    case "ArrowRight":
+      event.preventDefault();
+      void goToOffset(1);
+      break;
+    case "ArrowLeft":
+      event.preventDefault();
+      void goToOffset(-1);
+      break;
+    case "r":
+    case "R":
+    case "Enter":
+      if (!state.revealed) {
+        event.preventDefault();
+        revealCurrent();
+      }
+      break;
+    case "s":
+    case "S":
+      event.preventDefault();
+      void toggleSaveCurrent();
+      break;
+    case " ":
+    case "p":
+    case "P":
+      if (entry) {
+        event.preventDefault();
+        speakExpression(entry.expression, entry.language);
+      }
+      break;
+    case "c":
+    case "C":
+      if (entry) {
+        event.preventDefault();
+        void copyExpression(entry);
+      }
+      break;
+    default:
+      break;
+  }
+});
 
 async function initialize() {
   const overrides = readPopupOverrides();

@@ -473,6 +473,48 @@ a {
   justify-content: center;
 }
 
+.reveal-zone {
+  width: 100%;
+  min-height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.42);
+  color: var(--muted);
+  cursor: pointer;
+  transition:
+    background-color 120ms ease,
+    border-color 120ms ease;
+}
+
+.reveal-zone:hover {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.reveal-prompt {
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.popup-nav {
+  justify-content: center;
+  gap: 12px;
+}
+
+.popup-kbd-hint {
+  text-align: center;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  opacity: 0.7;
+  margin: 2px 0 0;
+}
+
 .field span,
 .toggle-label {
   font-size: 0.78rem;
