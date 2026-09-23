@@ -89,7 +89,7 @@ await execFileAsync(
 // confusing duplicate content script.
 await rm(path.join(distRoot, "extension", "src", "bridge.js"), { force: true });
 
-const staticFiles = ["manifest.json", "popup.html", "styles.css"];
+const staticFiles = ["manifest.json", "popup.html", "styles.css", "service-worker.js"];
 
 for (const fileName of staticFiles) {
   await cp(path.join(extensionRoot, fileName), path.join(distRoot, fileName));

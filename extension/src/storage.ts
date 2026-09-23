@@ -2,6 +2,9 @@ export const SAVED_IDS_KEY = "express-myself-saved-ids";
 export const LANGUAGE_KEY = "express-myself-language";
 export const DAILY_ROTATION_SEED_KEY = "express-myself-daily-rotation-seed";
 export const DAILY_OFFSET_KEY = "express-myself-daily-offset";
+export const LAST_SEEN_DAILY_KEY = "express-myself-last-seen-daily";
+export const STREAK_KEY = "express-myself-streak";
+export const REMINDER_KEY = "express-myself-reminder";
 
 type StorageArea = {
   get: (
@@ -35,6 +38,9 @@ declare global {
         };
       };
       storage?: StorageNamespace;
+      action?: {
+        setBadgeText?: (details: { text: string }) => void;
+      };
     };
   }
 }

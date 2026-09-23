@@ -18,7 +18,10 @@
     }
   },
   "options_page": "app.html",
-  "permissions": ["storage"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": ["storage", "alarms", "notifications"],
   "content_scripts": [
     {
       "matches": ["https://expressmyself.vercel.app/*"],

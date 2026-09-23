@@ -3,17 +3,30 @@ import { getDailyExpressionAtOffsetFromEntries, getExpressionsForLanguage } from
 import { ExpressionEntry, LanguageCode } from "../../lib/types";
 import { renderExpressionCard } from "./render";
 import { speakExpression } from "../../lib/speech";
+import { localDateKey, registerActiveDay, StreakRecord } from "../../lib/streak";
 import {
   DAILY_OFFSET_KEY,
   DAILY_ROTATION_SEED_KEY,
   getStoredString,
   getStoredStringArray,
   LANGUAGE_KEY,
+  LAST_SEEN_DAILY_KEY,
+  REMINDER_KEY,
   SAVED_IDS_KEY,
   setStoredString,
   setStoredStringArray,
+  STREAK_KEY,
   watchStoredKey
 } from "./storage";
+
+type ReminderSettings = { enabled: boolean; time: string };
+
+function utcDateKey(date = new Date()): string {
+  const year = date.getUTCFullYear();
+  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(date.getUTCDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
 
 type PopupState = {
   language: LanguageCode;
@@ -23,6 +36,8 @@ type PopupState = {
   rotationSeed: string | null;
   revealed: boolean;
   currentExpression: ExpressionEntry | null;
+  streak: number;
+  reminder: ReminderSettings;
 };
 
 type PopupOverrides = {
@@ -66,7 +81,9 @@ const state: PopupState = {
   hasLanguagePreset: false,
   rotationSeed: null,
   revealed: false,
-  currentExpression: null
+  currentExpression: null,
+  streak: 0,
+  reminder: { enabled: false, time: "09:00" }
 };
 
 async function persistOffset() {
@@ -79,6 +96,55 @@ async function copyExpression(entry: ExpressionEntry) {
   } catch {
     // Clipboard can be unavailable or blocked; ignore and keep the UI usable.
   }
+}
+
+function parseReminder(raw: string | null): ReminderSettings {
+  if (!raw) {
+    return { enabled: false, time: "09:00" };
+  }
+
+  try {
+    const parsed = JSON.parse(raw) as Partial<ReminderSettings>;
+    return {
+      enabled: Boolean(parsed.enabled),
+      time: typeof parsed.time === "string" ? parsed.time : "09:00"
+    };
+  } catch {
+    return { enabled: false, time: "09:00" };
+  }
+}
+
+function clearToolbarBadge() {
+  try {
+    window.chrome?.action?.setBadgeText?.({ text: "" });
+  } catch {
+    // The badge is a nicety; ignore if the action API is unavailable.
+  }
+}
+
+async function registerDailyVisit() {
+  // Mark today's daily as seen (clears the "fresh phrase" toolbar badge) and
+  // fold today into the practice streak.
+  await setStoredString(LAST_SEEN_DAILY_KEY, utcDateKey());
+  clearToolbarBadge();
+
+  const rawStreak = await getStoredString(STREAK_KEY);
+  let record: StreakRecord | null = null;
+
+  if (rawStreak) {
+    try {
+      record = JSON.parse(rawStreak) as StreakRecord;
+    } catch {
+      record = null;
+    }
+  }
+
+  const next = registerActiveDay(record, localDateKey());
+  if (JSON.stringify(next) !== rawStreak) {
+    await setStoredString(STREAK_KEY, JSON.stringify(next));
+  }
+
+  state.streak = next.count;
 }
 
 function renderStartupError(message: string) {
@@ -180,6 +246,13 @@ const rerender = () => {
 
   brand.append(brandEyebrow, brandName);
 
+  if (state.streak > 0) {
+    const streakPill = document.createElement("span");
+    streakPill.className = "popup-streak";
+    streakPill.textContent = `🔥 ${state.streak}-day streak`;
+    brand.append(streakPill);
+  }
+
   const languageField = document.createElement("label");
   languageField.className = "language-menu";
   languageField.setAttribute("aria-label", "Choose language");
@@ -254,8 +327,48 @@ const rerender = () => {
     page.append(hint);
   }
 
+  page.append(buildReminderControl());
+
   root.append(page);
 };
+
+function buildReminderControl(): HTMLElement {
+  const row = document.createElement("div");
+  row.className = "popup-reminder";
+
+  const toggle = document.createElement("label");
+  toggle.className = "popup-reminder-toggle";
+
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.checked = state.reminder.enabled;
+
+  const label = document.createElement("span");
+  label.textContent = "🔔 Daily reminder";
+
+  toggle.append(checkbox, label);
+
+  const timeInput = document.createElement("input");
+  timeInput.type = "time";
+  timeInput.className = "popup-reminder-time";
+  timeInput.value = state.reminder.time;
+  timeInput.hidden = !state.reminder.enabled;
+  timeInput.setAttribute("aria-label", "Reminder time");
+
+  checkbox.addEventListener("change", async () => {
+    state.reminder = { ...state.reminder, enabled: checkbox.checked };
+    timeInput.hidden = !checkbox.checked;
+    await setStoredString(REMINDER_KEY, JSON.stringify(state.reminder));
+  });
+
+  timeInput.addEventListener("change", async () => {
+    state.reminder = { ...state.reminder, time: timeInput.value || "09:00" };
+    await setStoredString(REMINDER_KEY, JSON.stringify(state.reminder));
+  });
+
+  row.append(toggle, timeInput);
+  return row;
+}
 
 async function goToOffset(delta: number) {
   state.offset += delta;
@@ -364,6 +477,8 @@ async function initialize() {
   state.offset = overrides.offset ?? (Number.isFinite(restoredOffset) ? restoredOffset : 0);
   state.savedIds = overrides.savedIds ?? (await getStoredStringArray(SAVED_IDS_KEY));
   state.rotationSeed = storedRotationSeed;
+  state.reminder = parseReminder(await getStoredString(REMINDER_KEY));
+  await registerDailyVisit();
   rerender();
 }
 
