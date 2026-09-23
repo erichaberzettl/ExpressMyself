@@ -265,7 +265,12 @@ const rerender = () => {
 
     rerender();
   });
-  languageField.append(languageSelect);
+
+  const languageEmoji = document.createElement("span");
+  languageEmoji.className = "language-emoji";
+  languageEmoji.textContent = "🌐";
+  languageEmoji.setAttribute("aria-hidden", "true");
+  languageField.append(languageEmoji, languageSelect);
 
   const libraryLink = createExtensionPageLink("Library", "library", "link-button link-button-primary");
   const savedLink = createExtensionPageLink("Saved", "saved", "link-button link-button-secondary");

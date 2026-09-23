@@ -244,12 +244,6 @@ a {
   flex: 0 1 auto;
 }
 
-.eyebrow.popup-wordmark {
-  font-size: 0.84rem;
-  font-weight: 800;
-  letter-spacing: 0.01em;
-  text-transform: none;
-}
 
 .popup-topbar-actions {
   display: flex;
@@ -390,28 +384,42 @@ a {
 }
 
 .language-menu {
-  width: auto;
-  flex: 0 1 auto;
-  min-width: 0;
-}
-
-.language-select {
-  width: auto;
-  min-height: 28px;
-  padding: 0 8px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: var(--panel-strong);
-  color: var(--accent-strong);
-  font-size: 0.76rem;
-  text-align: center;
-  text-align-last: center;
+}
+
+.language-emoji {
+  font-size: 0.98rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.language-select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: transparent;
+  opacity: 0;
+  cursor: pointer;
   appearance: none;
 }
 
 .popup-topbar-actions .link-button {
-  min-height: 28px;
-  padding: 0 8px;
+  min-height: 30px;
+  padding: 0 10px;
   font-size: 0.78rem;
 }
 
@@ -746,19 +754,6 @@ select {
 
   .popup-body {
     min-width: 0;
-  }
-
-  .popup-topbar {
-    align-items: stretch;
-  }
-
-  .language-menu,
-  .popup-topbar-actions .link-button {
-    width: 100%;
-  }
-
-  .popup-topbar-actions {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .grid {
