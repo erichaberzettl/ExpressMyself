@@ -4,6 +4,7 @@ import { ExpressionEntry, LanguageCode } from "../../lib/types";
 import { renderExpressionCard } from "./render";
 import { speakExpression } from "../../lib/speech";
 import {
+  DAILY_OFFSET_KEY,
   DAILY_ROTATION_SEED_KEY,
   getStoredString,
   getStoredStringArray,
@@ -183,6 +184,7 @@ const rerender = () => {
     state.hasLanguagePreset = true;
     state.offset = 0;
     await setStoredString(LANGUAGE_KEY, state.language);
+    await setStoredString(DAILY_OFFSET_KEY, "0");
 
     if (!state.rotationSeed) {
       state.rotationSeed = createRotationSeed();
@@ -216,8 +218,9 @@ const rerender = () => {
         await setStoredStringArray(SAVED_IDS_KEY, state.savedIds);
         rerender();
       },
-      onNext: () => {
+      onNext: async () => {
         state.offset += 1;
+        await setStoredString(DAILY_OFFSET_KEY, String(state.offset));
         rerender();
       }
     });
@@ -232,6 +235,7 @@ async function initialize() {
   const overrides = readPopupOverrides();
   const storedLanguage = await getStoredString(LANGUAGE_KEY);
   const storedRotationSeed = await getStoredString(DAILY_ROTATION_SEED_KEY);
+  const storedOffset = await getStoredString(DAILY_OFFSET_KEY);
   if (overrides.language) {
     state.language = overrides.language;
   } else if (storedLanguage && languages.some((language) => language.code === storedLanguage)) {
@@ -239,7 +243,10 @@ async function initialize() {
     state.hasLanguagePreset = true;
   }
 
-  state.offset = overrides.offset ?? 0;
+  // Restore where the reader last navigated with "Next" instead of snapping
+  // back to the daily expression each time the popup reopens.
+  const restoredOffset = storedOffset !== null ? Number.parseInt(storedOffset, 10) : 0;
+  state.offset = overrides.offset ?? (Number.isFinite(restoredOffset) ? restoredOffset : 0);
   state.savedIds = overrides.savedIds ?? (await getStoredStringArray(SAVED_IDS_KEY));
   state.rotationSeed = storedRotationSeed;
   rerender();

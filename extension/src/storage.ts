@@ -1,6 +1,7 @@
 export const SAVED_IDS_KEY = "express-myself-saved-ids";
 export const LANGUAGE_KEY = "express-myself-language";
 export const DAILY_ROTATION_SEED_KEY = "express-myself-daily-rotation-seed";
+export const DAILY_OFFSET_KEY = "express-myself-daily-offset";
 
 type StorageArea = {
   get: (
