@@ -5,4 +5,5 @@ dist
 artifacts
 *.log
 *.tsbuildinfo
+.DS_Store
 
