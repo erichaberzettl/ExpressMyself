@@ -1,0 +1,210 @@
+.page {
+  padding: 1.5rem 0 4rem;
+}
+
+.header {
+  margin: 1rem 0;
+  padding: 1.15rem 1.25rem;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.header h1 {
+  margin: 0.3rem 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 4vw, 3rem);
+}
+
+.header p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.status {
+  display: grid;
+  gap: 0.85rem;
+  justify-items: start;
+  padding: 2rem 1.5rem;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.status h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+}
+
+.status p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.link {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.deck {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.progressRow {
+  display: grid;
+  gap: 0.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.progressTrack {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--surface-strong);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--accent);
+  transition: width 200ms ease;
+}
+
+.card {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem 1.75rem;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+.cardLanguage {
+  justify-self: center;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.cardExpression {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1.1;
+}
+
+.prompt {
+  margin: 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.answer {
+  display: grid;
+  gap: 0.85rem;
+  text-align: left;
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+}
+
+.meaning {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.detail {
+  margin: 0;
+  display: grid;
+  gap: 0.15rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.detailLabel {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.example {
+  color: var(--text);
+  opacity: 0.7;
+}
+
+.reveal,
+.gradeButton {
+  min-height: 46px;
+  padding: 0 1.4rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition:
+    transform 120ms ease,
+    background-color 120ms ease,
+    border-color 120ms ease;
+}
+
+.reveal {
+  justify-self: center;
+  background: var(--accent);
+  border-color: transparent;
+  color: white;
+}
+
+.reveal:hover,
+.gradeButton:hover {
+  transform: translateY(-1px);
+}
+
+.grades {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.gradeButton {
+  background: var(--surface-strong);
+  color: var(--text);
+}
+
+.gradeAgain {
+  border-color: rgba(190, 70, 55, 0.4);
+  color: #a23b2f;
+}
+
+.gradeEasy {
+  border-color: rgba(70, 130, 90, 0.4);
+  color: #3f7a55;
+}
+
+@media (max-width: 480px) {
+  .grades {
+    grid-template-columns: 1fr;
+  }
+}

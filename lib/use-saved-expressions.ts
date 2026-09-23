@@ -156,6 +156,7 @@ export function useSavedExpressions() {
 
   return {
     savedIds,
+    hasLoaded,
     isSaved: (expressionId: string) => savedIds.includes(expressionId),
     toggleSaved
   };

@@ -19,6 +19,7 @@ type AppHeaderProps = {
 };
 
 const navigationItems = [
+  { href: "/practice", label: "Practice" },
   { href: "/saved", label: "Saved" },
   { href: "/library", label: "Browse library" }
 ];
@@ -59,9 +60,9 @@ export function AppHeader({
           <nav className={styles.nav} aria-label="Primary">
             {navigationItems.map((item) => {
               const isActive =
-                item.href === "/saved"
-                  ? pathname === "/saved"
-                  : pathname === "/library" || pathname?.startsWith("/library/");
+                item.href === "/library"
+                  ? pathname === "/library" || pathname?.startsWith("/library/")
+                  : pathname === item.href;
 
               return (
                 <Link

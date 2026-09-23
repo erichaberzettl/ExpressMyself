@@ -21,6 +21,10 @@ function mapHref(href: string): string {
     return "app.html?view=saved";
   }
 
+  if (href === "/practice") {
+    return "app.html?view=practice";
+  }
+
   if (href.startsWith("/expression/")) {
     const params = new URLSearchParams({ route: href });
     return `app.html?${params.toString()}`;
