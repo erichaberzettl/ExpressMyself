@@ -6,11 +6,14 @@
 // Outputs:
 //   extension/assets/icon-{16,32,48,128,256}.png   (extension manifest icons)
 //   extension/dist/assets/icon-*.png               (kept in sync if dist exists)
-//   app/icon.png, app/favicon.png                  (website favicons)
+//   app/icon.png, app/favicon.png, app/icon.svg    (website tab favicon)
 //
-// 16/32px use assets-src/icon-small.svg (bubble scaled up for legibility);
-// 48/128/256px use assets-src/icon-master.svg. Rendering prefers the `sharp`
-// package and falls back to a `rsvg-convert` binary on PATH.
+// Extension/store icons: 16/32px use assets-src/icon-small.svg (bubble scaled
+// up for legibility); 48/128/256px use assets-src/icon-master.svg (the tile).
+// Website tab favicon: assets-src/icon-web.svg — the unboxed speech-bubble mark
+// (terracotta bubble, cream quotes) so it stays legible on light + dark tabs.
+// Rendering prefers the `sharp` package and falls back to a `rsvg-convert`
+// binary on PATH.
 
 import { cp, mkdir, readFile, writeFile, access } from "node:fs/promises";
 import { constants } from "node:fs";
@@ -25,6 +28,7 @@ const root = path.resolve(__dirname, "..");
 
 const MASTER = path.join(root, "assets-src", "icon-master.svg");
 const SMALL = path.join(root, "assets-src", "icon-small.svg");
+const WEB = path.join(root, "assets-src", "icon-web.svg");
 const EXT_ASSETS = path.join(root, "extension", "assets");
 const DIST_ASSETS = path.join(root, "extension", "dist", "assets");
 const APP_DIR = path.join(root, "app");
@@ -91,11 +95,13 @@ async function main() {
     console.log(`  extension/assets/icon-${size}.png`);
   }
 
-  // Website favicons use the 256px master.
-  const png256 = path.join(EXT_ASSETS, "icon-256.png");
-  await cp(png256, path.join(APP_DIR, "icon.png"));
-  await cp(png256, path.join(APP_DIR, "favicon.png"));
-  console.log("  app/icon.png, app/favicon.png");
+  // Website tab favicon uses the unboxed speech-bubble mark (icon-web.svg),
+  // rendered fresh so it stays legible on light + dark browser tabs; the
+  // extension/store icons keep the tile master rendered above.
+  await render(WEB, 256, path.join(APP_DIR, "icon.png"));
+  await render(WEB, 256, path.join(APP_DIR, "favicon.png"));
+  await cp(WEB, path.join(APP_DIR, "icon.svg"));
+  console.log("  app/icon.png, app/favicon.png, app/icon.svg");
 
   // Keep a previously-built dist in sync so it reflects the new icons without
   // needing a full extension rebuild.

@@ -20,6 +20,10 @@ import {
 } from "./storage";
 
 const SETTINGS_URL = "app.html?view=settings";
+// Public website base for the fuller Library and Saved views. Must match the
+// content_scripts host in manifest.json (that's where bridge.js keeps saved
+// phrases and language in sync between the extension and the site).
+const WEBSITE_URL = "https://expressmyself.vercel.app";
 
 function utcDateKey(date = new Date()): string {
   const year = date.getUTCFullYear();
@@ -182,14 +186,14 @@ function readPopupOverrides(): PopupOverrides {
   };
 }
 
-// Link to the extension's own bundled page (app.html) rather than the external
-// website, so the saved shelf and language shown here stay in sync with the
-// popup (both read chrome.storage.local; the website uses a separate origin).
-function createExtensionPageLink(label: string, view: string, className: string) {
+// Open the public ExpressMyself website for the fuller Library and Saved views.
+// The saved shelf and language still carry over: the bundled content script
+// (bridge.js) reconciles chrome.storage.local with the site's localStorage as
+// soon as the user lands on expressmyself.vercel.app.
+function createWebsiteLink(label: string, path: string, className: string) {
   const link = document.createElement("a");
   link.className = className;
-  const params = new URLSearchParams({ view });
-  link.href = `app.html?${params.toString()}`;
+  link.href = `${WEBSITE_URL}${path}`;
   link.target = "_blank";
   link.rel = "noreferrer";
   link.textContent = label;
@@ -272,8 +276,9 @@ const rerender = () => {
   languageEmoji.setAttribute("aria-hidden", "true");
   languageField.append(languageEmoji, languageSelect);
 
-  const libraryLink = createExtensionPageLink("Library", "library", "link-button link-button-primary");
-  const savedLink = createExtensionPageLink("Saved", "saved", "link-button link-button-secondary");
+  const libraryLink = createWebsiteLink("Library", "/library", "link-button link-button-primary");
+  const practiceLink = createWebsiteLink("Practice", "/practice", "link-button link-button-secondary");
+  const savedLink = createWebsiteLink("Saved", "/saved", "link-button link-button-secondary");
 
   const settingsLink = document.createElement("a");
   settingsLink.className = "popup-settings-link";
@@ -286,7 +291,7 @@ const rerender = () => {
 
   const actions = document.createElement("div");
   actions.className = "popup-topbar-actions";
-  actions.append(languageField, libraryLink, savedLink, settingsLink);
+  actions.append(languageField, libraryLink, practiceLink, savedLink, settingsLink);
 
   topBar.append(brand, actions);
   page.append(topBar);
