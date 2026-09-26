@@ -15,14 +15,23 @@ Learn everyday idioms and expressions in 10 languages with a daily phrase, speec
 **Detailed Description** [REQUIRED]
 <!-- Max 16,000 characters. Written from the user's perspective, no implementation details.
      CWS strips markdown, so this is plain text with line breaks — paste it verbatim. -->
-ExpressMyself helps you build a more natural feel for everyday language through short, useful phrase cards in 10 languages.
+Speak more like a local. ExpressMyself turns everyday idioms, proverbs, and expressions into short, memorable phrase cards across 10 languages — English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, and Polish.
 
-Get a fresh expression every day, hear how it sounds with built-in speech playback, and save the phrases you want to remember. Browse a larger library, filter by language or topic, and keep a compact saved list for quick review. Your language choice and saved phrases stay in sync with the ExpressMyself website, so you can pick up right where you left off.
+Open the popup and today's expression is waiting. Tap to reveal its meaning, hear exactly how it sounds with built-in speech playback, and flip through more with the arrow keys. Save the phrases you love, keep a daily practice streak going, and dive into a searchable library of 780+ real expressions whenever you want to learn more.
 
-How to use it:
-Open the popup for today's expression and tap to reveal its meaning. Use Prev and Next to flip through more, and copy or save any phrase with a click. Open the full page to search the whole library, apply topic filters, and review everything you've saved. Turn on the optional daily reminder to keep a light practice habit going.
+What you get:
+• A fresh expression every day, right from your toolbar
+• 780+ genuine idioms, proverbs, and colloquialisms across 10 languages
+• Native speech playback so you learn how each phrase actually sounds
+• Meaning, literal translation, and a "use it when" note for every phrase
+• A searchable library with language and topic filters
+• Practice mode with light spaced repetition to help phrases stick
+• Save favorites and review them anytime
+• A practice streak and an optional daily reminder to build the habit
 
-Your privacy comes first. ExpressMyself keeps your language choice and saved phrases in your own browser and never sends them to a server. It does not track your browsing or read the pages you visit.
+No account, no sign-in. Your language choice, saved phrases, and streak stay in sync with the ExpressMyself website, so you can pick up right where you left off.
+
+Privacy first: ExpressMyself keeps your language choice and saved phrases in your own browser and never sends them to a server. It does not track your browsing or read the pages you visit.
 
 Questions or feedback? Email expressmyselflabs@gmail.com — we'd love to hear from you.
 
