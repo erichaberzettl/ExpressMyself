@@ -1,12 +1,13 @@
 {
   "name": "express-myself",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "build:extension": "node ./scripts/build-extension.mjs",
-    "build:extension-assets": "python3 ./scripts/generate-extension-assets.py && node ./scripts/build-extension.mjs",
+    "build:icons": "node ./scripts/generate-icons.mjs",
+    "build:extension-assets": "node ./scripts/generate-icons.mjs && python3 ./scripts/generate-extension-assets.py && node ./scripts/build-extension.mjs",
     "package:extension": "node ./scripts/build-extension.mjs && node ./scripts/package-extension.mjs",
     "start": "next start",
     "test": "vitest run",
@@ -30,6 +31,7 @@
     "@types/react-dom": "^19.0.2",
     "@vitejs/plugin-react": "^4.3.4",
     "jsdom": "^25.0.1",
+    "sharp": "^0.34.5",
     "tsx": "^4.21.0",
     "typescript": "^5.7.2",
     "vitest": "^2.1.8"

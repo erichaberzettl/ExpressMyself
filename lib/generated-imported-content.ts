@@ -4118,6 +4118,20 @@ export const importedExpressions: ExpressionEntry[] = [
     ]
   },
   {
+    "id": "fr-il-pleut-des-cordes",
+    "language": "fr",
+    "expression": "Il pleut des cordes",
+    "literalTranslation": "It's raining ropes",
+    "meaning": "It's raining very hard; it's pouring.",
+    "usageNote": "Use it for a heavy downpour — the French equivalent of \"raining cats and dogs.\"",
+    "exampleSentence": "On ne peut pas sortir, il pleut des cordes.",
+    "exampleTranslation": "We can't go out — it's pouring rain.",
+    "difficulty": "basic",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
     "id": "fr-acheter-chat-en-poche-1",
     "language": "fr",
     "expression": "Acheter chat en poche",
