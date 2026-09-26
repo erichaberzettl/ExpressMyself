@@ -1,0 +1,361 @@
+[
+  {
+    "id": "it-in-bocca-al-lupo",
+    "language": "it",
+    "expression": "In bocca al lupo",
+    "literalTranslation": "Into the wolf's mouth",
+    "meaning": "Good luck; a way to wish someone well before a challenge.",
+    "usageNote": "The standard Italian way to wish good luck, especially before exams or performances; the usual reply is 'crepi'.",
+    "exampleSentence": "Domani hai l'esame? In bocca al lupo!",
+    "exampleTranslation": "You have the exam tomorrow? Good luck!",
+    "difficulty": "basic",
+    "tags": [
+      "encouragement",
+      "performance"
+    ]
+  },
+  {
+    "id": "it-non-vedo-lora",
+    "language": "it",
+    "expression": "Non vedo l'ora",
+    "literalTranslation": "I don't see the hour",
+    "meaning": "I can't wait; I'm really looking forward to it.",
+    "usageNote": "A very common way to express eager anticipation, usually followed by 'di' plus a verb.",
+    "exampleSentence": "Non vedo l'ora di rivederti.",
+    "exampleTranslation": "I can't wait to see you again.",
+    "difficulty": "basic",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-costare-un-occhio-della-testa",
+    "language": "it",
+    "expression": "Costare un occhio della testa",
+    "literalTranslation": "To cost an eye from the head",
+    "meaning": "To be extremely expensive.",
+    "usageNote": "Use it when the price of something feels outrageously high.",
+    "exampleSentence": "Questa macchina è bellissima ma costa un occhio della testa.",
+    "exampleTranslation": "This car is gorgeous but it costs a fortune.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-avere-un-diavolo-per-capello",
+    "language": "it",
+    "expression": "Avere un diavolo per capello",
+    "literalTranslation": "To have a devil per hair",
+    "meaning": "To be furious and in a terrible mood.",
+    "usageNote": "Use it when someone is so angry they are best left alone.",
+    "exampleSentence": "Non parlargli adesso, ha un diavolo per capello.",
+    "exampleTranslation": "Don't talk to him right now, he's absolutely furious.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "id": "it-cadere-dalle-nuvole",
+    "language": "it",
+    "expression": "Cadere dalle nuvole",
+    "literalTranslation": "To fall from the clouds",
+    "meaning": "To be completely taken by surprise, as if you knew nothing about it.",
+    "usageNote": "Use it when someone reacts to news as though they had no idea, sometimes feigning ignorance.",
+    "exampleSentence": "Quando gliel'ho detto, è caduto dalle nuvole.",
+    "exampleTranslation": "When I told him, he was completely taken aback.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "it-non-avere-peli-sulla-lingua",
+    "language": "it",
+    "expression": "Non avere peli sulla lingua",
+    "literalTranslation": "To not have hairs on the tongue",
+    "meaning": "To speak frankly, without holding anything back.",
+    "usageNote": "Use it about someone who says exactly what they think.",
+    "exampleSentence": "La nonna non ha peli sulla lingua e dice tutto in faccia.",
+    "exampleTranslation": "Grandma doesn't mince words and says everything to your face.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "it-toccare-ferro",
+    "language": "it",
+    "expression": "Toccare ferro",
+    "literalTranslation": "To touch iron",
+    "meaning": "To ward off bad luck; the Italian equivalent of touching wood.",
+    "usageNote": "Use it when hoping not to jinx something; Italians touch iron rather than wood.",
+    "exampleSentence": "Finora è andato tutto bene, tocchiamo ferro.",
+    "exampleTranslation": "So far everything has gone well, touch wood.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "confidence"
+    ]
+  },
+  {
+    "id": "it-piove-sul-bagnato",
+    "language": "it",
+    "expression": "Piove sul bagnato",
+    "literalTranslation": "It rains on the wet",
+    "meaning": "Good or bad luck tends to pile onto those who already have it.",
+    "usageNote": "Use it when the fortunate get even more, or when troubles keep hitting the same person.",
+    "exampleSentence": "Ha vinto di nuovo alla lotteria: piove sul bagnato.",
+    "exampleTranslation": "He won the lottery again: it never rains but it pours.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-essere-in-gamba",
+    "language": "it",
+    "expression": "Essere in gamba",
+    "literalTranslation": "To be in leg",
+    "meaning": "To be capable, sharp, and reliable.",
+    "usageNote": "Use it to praise someone who is competent and on the ball.",
+    "exampleSentence": "La nuova collega è davvero in gamba.",
+    "exampleTranslation": "The new colleague is really sharp.",
+    "difficulty": "basic",
+    "tags": [
+      "confidence",
+      "work"
+    ]
+  },
+  {
+    "id": "it-mangiare-la-foglia",
+    "language": "it",
+    "expression": "Mangiare la foglia",
+    "literalTranslation": "To eat the leaf",
+    "meaning": "To catch on to what is really happening.",
+    "usageNote": "Use it when someone figures out a hidden truth or a trick.",
+    "exampleSentence": "Voleva farmi una sorpresa, ma ho mangiato la foglia.",
+    "exampleTranslation": "He wanted to surprise me, but I caught on.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "secrets"
+    ]
+  },
+  {
+    "id": "it-fare-orecchie-da-mercante",
+    "language": "it",
+    "expression": "Fare orecchie da mercante",
+    "literalTranslation": "To make merchant's ears",
+    "meaning": "To pretend not to hear something you don't want to.",
+    "usageNote": "Use it when someone deliberately ignores a request or criticism.",
+    "exampleSentence": "Gli ho chiesto aiuto ma ha fatto orecchie da mercante.",
+    "exampleTranslation": "I asked him for help but he turned a deaf ear.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "it-avere-grilli-per-la-testa",
+    "language": "it",
+    "expression": "Avere grilli per la testa",
+    "literalTranslation": "To have crickets in one's head",
+    "meaning": "To have restless, odd, or unrealistic ideas.",
+    "usageNote": "Use it about someone full of whims or fanciful notions.",
+    "exampleSentence": "A vent'anni aveva mille grilli per la testa.",
+    "exampleTranslation": "At twenty he had all sorts of wild ideas.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-attaccare-bottone",
+    "language": "it",
+    "expression": "Attaccare bottone",
+    "literalTranslation": "To attach a button",
+    "meaning": "To strike up a conversation, often a long, unprompted one.",
+    "usageNote": "Use it about someone who starts chatting, sometimes to a stranger and at length.",
+    "exampleSentence": "Mi ha attaccato bottone alla fermata e non la finiva più.",
+    "exampleTranslation": "He struck up a conversation at the bus stop and wouldn't stop.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "it-dare-buca-a-qualcuno",
+    "language": "it",
+    "expression": "Dare buca a qualcuno",
+    "literalTranslation": "To give someone a hole",
+    "meaning": "To stand someone up; to fail to show up as agreed.",
+    "usageNote": "A casual way to say someone didn't turn up to a planned meeting.",
+    "exampleSentence": "Dovevamo vederci ieri ma mi ha dato buca.",
+    "exampleTranslation": "We were supposed to meet yesterday but he stood me up.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "it-chi-dorme-non-piglia-pesci",
+    "language": "it",
+    "expression": "Chi dorme non piglia pesci",
+    "literalTranslation": "Who sleeps catches no fish",
+    "meaning": "If you are lazy or slow to act, you miss out.",
+    "usageNote": "Use it to urge someone to act promptly rather than waiting.",
+    "exampleSentence": "Alzati presto e candidati, chi dorme non piglia pesci.",
+    "exampleTranslation": "Get up early and apply; the early bird catches the worm.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "time"
+    ]
+  },
+  {
+    "id": "it-meglio-soli-che-male-accompagnati",
+    "language": "it",
+    "expression": "Meglio soli che male accompagnati",
+    "literalTranslation": "Better alone than in bad company",
+    "meaning": "It is better to be on your own than with the wrong people.",
+    "usageNote": "Use it about relationships or company that do more harm than good.",
+    "exampleSentence": "Ho lasciato quel gruppo, meglio soli che male accompagnati.",
+    "exampleTranslation": "I left that group; better alone than in bad company.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "emotion"
+    ]
+  },
+  {
+    "id": "it-chi-fa-da-se-fa-per-tre",
+    "language": "it",
+    "expression": "Chi fa da sé fa per tre",
+    "literalTranslation": "Who does it themselves does the work of three",
+    "meaning": "You often get more and better done by doing it yourself.",
+    "usageNote": "Use it to justify self-reliance when relying on others might slow you down.",
+    "exampleSentence": "Alla fine ho preparato tutto io, chi fa da sé fa per tre.",
+    "exampleTranslation": "In the end I did everything myself; if you want it done right, do it yourself.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "it-can-che-abbaia-non-morde",
+    "language": "it",
+    "expression": "Can che abbaia non morde",
+    "literalTranslation": "A dog that barks doesn't bite",
+    "meaning": "People who threaten loudly rarely act on it.",
+    "usageNote": "Use it to reassure someone not to fear loud but harmless threats.",
+    "exampleSentence": "Il capo urla molto ma can che abbaia non morde.",
+    "exampleTranslation": "The boss shouts a lot but his bark is worse than his bite.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "it-chi-la-dura-la-vince",
+    "language": "it",
+    "expression": "Chi la dura la vince",
+    "literalTranslation": "Who endures it wins it",
+    "meaning": "Persistence eventually leads to success.",
+    "usageNote": "Use it to encourage someone to keep going despite difficulty.",
+    "exampleSentence": "Non mollare adesso, chi la dura la vince.",
+    "exampleTranslation": "Don't give up now; he who perseveres wins.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "it-il-lupo-perde-il-pelo-ma-non-il-vizio",
+    "language": "it",
+    "expression": "Il lupo perde il pelo ma non il vizio",
+    "literalTranslation": "The wolf loses its fur but not its vice",
+    "meaning": "People may change on the surface but keep their bad habits.",
+    "usageNote": "Use it, sceptically, when someone's old flaws resurface despite apparent change.",
+    "exampleSentence": "Ha promesso di non arrivare più in ritardo, ma il lupo perde il pelo ma non il vizio.",
+    "exampleTranslation": "He promised not to be late again, but a leopard can't change its spots.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "it-a-mali-estremi-estremi-rimedi",
+    "language": "it",
+    "expression": "A mali estremi, estremi rimedi",
+    "literalTranslation": "To extreme evils, extreme remedies",
+    "meaning": "Desperate situations call for drastic measures.",
+    "usageNote": "Use it to justify a strong response to a serious problem.",
+    "exampleSentence": "Abbiamo dovuto rifare tutto da capo: a mali estremi, estremi rimedi.",
+    "exampleTranslation": "We had to redo everything from scratch: desperate times, desperate measures.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "it-tra-moglie-e-marito-non-mettere-il-dito",
+    "language": "it",
+    "expression": "Tra moglie e marito non mettere il dito",
+    "literalTranslation": "Between wife and husband, don't put your finger",
+    "meaning": "Don't interfere in a couple's private disputes.",
+    "usageNote": "Use it to advise staying out of other people's relationship quarrels.",
+    "exampleSentence": "Non voglio schierarmi nella loro lite: tra moglie e marito non mettere il dito.",
+    "exampleTranslation": "I don't want to take sides in their quarrel: don't meddle between husband and wife.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "communication"
+    ]
+  },
+  {
+    "id": "it-rosso-di-sera-bel-tempo-si-spera",
+    "language": "it",
+    "expression": "Rosso di sera, bel tempo si spera",
+    "literalTranslation": "Red at evening, good weather is hoped for",
+    "meaning": "A red sunset suggests fair weather is coming.",
+    "usageNote": "A traditional weather saying, used lightly when admiring a red evening sky.",
+    "exampleSentence": "Guarda che tramonto: rosso di sera, bel tempo si spera.",
+    "exampleTranslation": "Look at that sunset: red sky at night, fine weather in sight.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "time"
+    ]
+  },
+  {
+    "id": "it-meglio-un-uovo-oggi-che-una-gallina-domani",
+    "language": "it",
+    "expression": "Meglio un uovo oggi che una gallina domani",
+    "literalTranslation": "Better an egg today than a hen tomorrow",
+    "meaning": "A small certain gain now beats a bigger uncertain one later.",
+    "usageNote": "Use it to advise taking the sure thing rather than gambling on more.",
+    "exampleSentence": "Accetta l'offerta sicura: meglio un uovo oggi che una gallina domani.",
+    "exampleTranslation": "Take the sure offer: a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  }
+]

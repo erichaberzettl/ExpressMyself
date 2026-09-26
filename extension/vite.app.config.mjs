@@ -14,6 +14,7 @@ export default defineConfig({
     alias: {
       "@": projectRoot,
       "next/link": path.resolve(__dirname, "src/next-link-shim.tsx"),
+      "next/navigation": path.resolve(__dirname, "src/next-navigation-shim.tsx"),
       "@/lib/client-expression-api": path.resolve(__dirname, "src/extension-client-api.ts")
     }
   },

@@ -1,0 +1,466 @@
+[
+  {
+    "id": "da-ga-agurk",
+    "language": "da",
+    "expression": "Gå agurk",
+    "literalTranslation": "To go cucumber",
+    "meaning": "To go crazy, lose control, or wildly overreact.",
+    "usageNote": "A casual, modern way to say someone freaks out or a scene gets wild.",
+    "exampleSentence": "Publikum gik helt agurk, da bandet kom på scenen.",
+    "exampleTranslation": "The crowd went totally wild when the band came on stage.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-have-rotter-pa-loftet",
+    "language": "da",
+    "expression": "Have rotter på loftet",
+    "literalTranslation": "To have rats in the attic",
+    "meaning": "To be a bit crazy or mentally odd.",
+    "usageNote": "An informal, teasing way to say someone acts strangely.",
+    "exampleSentence": "Han tror han kan flyve, han har vist rotter på loftet.",
+    "exampleTranslation": "He thinks he can fly; he must have a screw loose.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-have-en-skrue-los",
+    "language": "da",
+    "expression": "Have en skrue løs",
+    "literalTranslation": "To have a screw loose",
+    "meaning": "To be slightly crazy or to behave irrationally.",
+    "usageNote": "A casual way to say someone isn't quite right in the head.",
+    "exampleSentence": "Man skal have en skrue løs for at bade i havet om vinteren.",
+    "exampleTranslation": "You've got to have a screw loose to swim in the sea in winter.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-tage-benene-pa-nakken",
+    "language": "da",
+    "expression": "Tage benene på nakken",
+    "literalTranslation": "To take the legs on the neck",
+    "meaning": "To run away as fast as you can.",
+    "usageNote": "Use it, vividly, when someone flees in a hurry.",
+    "exampleSentence": "Da hunden kom løbende, tog vi benene på nakken.",
+    "exampleTranslation": "When the dog came running, we took to our heels.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-have-det-som-blommen-i-et-aeg",
+    "language": "da",
+    "expression": "Have det som blommen i et æg",
+    "literalTranslation": "To have it like the yolk in an egg",
+    "meaning": "To be extremely comfortable and well off.",
+    "usageNote": "Use it about someone whose situation is very cushy and pleasant.",
+    "exampleSentence": "I det nye job har hun det som blommen i et æg.",
+    "exampleTranslation": "In the new job she's sitting pretty.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "confidence"
+    ]
+  },
+  {
+    "id": "da-kaste-handklaedet-i-ringen",
+    "language": "da",
+    "expression": "Kaste håndklædet i ringen",
+    "literalTranslation": "To throw the towel into the ring",
+    "meaning": "To give up.",
+    "usageNote": "Use it when someone decides to stop trying.",
+    "exampleSentence": "Efter tredje afslag kastede han håndklædet i ringen.",
+    "exampleTranslation": "After the third rejection he threw in the towel.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-traede-i-spinaten",
+    "language": "da",
+    "expression": "Træde i spinaten",
+    "literalTranslation": "To step in the spinach",
+    "meaning": "To make an embarrassing blunder.",
+    "usageNote": "A casual way to say someone put their foot in it.",
+    "exampleSentence": "Jeg trådte i spinaten og nævnte festen, hun ikke var inviteret til.",
+    "exampleTranslation": "I put my foot in it and mentioned the party she wasn't invited to.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "da-have-hjertet-pa-rette-sted",
+    "language": "da",
+    "expression": "Have hjertet på rette sted",
+    "literalTranslation": "To have the heart in the right place",
+    "meaning": "To be fundamentally kind and well-meaning.",
+    "usageNote": "Use it to defend someone whose intentions are good even when they slip up.",
+    "exampleSentence": "Han siger nogle gange for meget, men han har hjertet på rette sted.",
+    "exampleTranslation": "He sometimes says too much, but his heart is in the right place.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-skyde-papegojen",
+    "language": "da",
+    "expression": "Skyde papegøjen",
+    "literalTranslation": "To shoot the parrot",
+    "meaning": "To have a great stroke of luck; to hit the jackpot.",
+    "usageNote": "Use it when someone lands something excellent, often unexpectedly.",
+    "exampleSentence": "Med den lejlighed til den pris har du virkelig skudt papegøjen.",
+    "exampleTranslation": "With that flat at that price you've really hit the jackpot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confidence",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-fa-noget-for-en-slik",
+    "language": "da",
+    "expression": "Få noget for en slik",
+    "literalTranslation": "To get something for a candy",
+    "meaning": "To get something very cheaply.",
+    "usageNote": "Use it about a bargain that costs almost nothing.",
+    "exampleSentence": "Vi fik sofaen for en slik på loppemarkedet.",
+    "exampleTranslation": "We got the sofa dirt cheap at the flea market.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-have-en-hone-at-plukke-med-nogen",
+    "language": "da",
+    "expression": "Have en høne at plukke med nogen",
+    "literalTranslation": "To have a hen to pluck with someone",
+    "meaning": "To have a grievance or matter to settle with someone.",
+    "usageNote": "Use it when you need to confront someone about something.",
+    "exampleSentence": "Jeg har en høne at plukke med dig om det i går.",
+    "exampleTranslation": "I have a bone to pick with you about yesterday.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-der-er-ugler-i-mosen",
+    "language": "da",
+    "expression": "Der er ugler i mosen",
+    "literalTranslation": "There are owls in the bog",
+    "meaning": "Something is not right; something suspicious is going on.",
+    "usageNote": "Use it when you sense a hidden problem.",
+    "exampleSentence": "Han svarer så undvigende, der er ugler i mosen.",
+    "exampleTranslation": "He's answering so evasively; something's fishy.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "da-koste-det-hvide-ud-af-ojnene",
+    "language": "da",
+    "expression": "Koste det hvide ud af øjnene",
+    "literalTranslation": "To cost the white out of the eyes",
+    "meaning": "To be extremely expensive.",
+    "usageNote": "Use it when a price is painfully high.",
+    "exampleSentence": "Reservedelene kostede det hvide ud af øjnene.",
+    "exampleTranslation": "The spare parts cost an absolute fortune.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-ovelse-gor-mester",
+    "language": "da",
+    "expression": "Øvelse gør mester",
+    "literalTranslation": "Practice makes master",
+    "meaning": "You only get good at something through practice.",
+    "usageNote": "Use it to encourage someone who is still learning.",
+    "exampleSentence": "Bliv ved med at spille, øvelse gør mester.",
+    "exampleTranslation": "Keep playing, practice makes perfect.",
+    "difficulty": "basic",
+    "tags": [
+      "learning",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "da-bedre-sent-end-aldrig",
+    "language": "da",
+    "expression": "Bedre sent end aldrig",
+    "literalTranslation": "Better late than never",
+    "meaning": "Doing something late is still better than not at all.",
+    "usageNote": "Use it when something finally happens after a delay.",
+    "exampleSentence": "Han kom en time for sent, men bedre sent end aldrig.",
+    "exampleTranslation": "He arrived an hour late, but better late than never.",
+    "difficulty": "basic",
+    "tags": [
+      "time",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "da-man-skal-kravle-for-man-kan-ga",
+    "language": "da",
+    "expression": "Man skal kravle før man kan gå",
+    "literalTranslation": "One must crawl before one can walk",
+    "meaning": "You have to master the basics before the advanced parts.",
+    "usageNote": "Use it to set realistic expectations for a beginner.",
+    "exampleSentence": "Start med det simple, man skal kravle før man kan gå.",
+    "exampleTranslation": "Start with the simple stuff; you must crawl before you can walk.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "motivation"
+    ]
+  },
+  {
+    "id": "da-som-man-reder-ligger-man",
+    "language": "da",
+    "expression": "Som man reder, ligger man",
+    "literalTranslation": "As one makes the bed, one lies",
+    "meaning": "You have to live with the consequences of your own actions.",
+    "usageNote": "Use it when someone faces the results of choices they made.",
+    "exampleSentence": "Han sparede aldrig op, og som man reder, ligger man.",
+    "exampleTranslation": "He never saved, and you make your bed and you lie in it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "da-man-skal-smede-mens-jernet-er-varmt",
+    "language": "da",
+    "expression": "Man skal smede mens jernet er varmt",
+    "literalTranslation": "One must forge while the iron is hot",
+    "meaning": "Act on an opportunity while conditions are still right.",
+    "usageNote": "Use it to urge prompt action before a chance passes.",
+    "exampleSentence": "Kunden er interesseret nu, vi skal smede mens jernet er varmt.",
+    "exampleTranslation": "The client is interested now; we have to strike while the iron is hot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "da-nar-katten-er-ude-spiller-musene-pa-bordet",
+    "language": "da",
+    "expression": "Når katten er ude, spiller musene på bordet",
+    "literalTranslation": "When the cat is out, the mice play on the table",
+    "meaning": "People misbehave when the authority figure is away.",
+    "usageNote": "Use it when supervision disappears and discipline slips.",
+    "exampleSentence": "Da chefen rejste, spillede musene på bordet.",
+    "exampleTranslation": "When the boss went away, the mice came out to play.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-aeblet-falder-ikke-langt-fra-stammen",
+    "language": "da",
+    "expression": "Æblet falder ikke langt fra stammen",
+    "literalTranslation": "The apple doesn't fall far from the trunk",
+    "meaning": "Children tend to resemble their parents.",
+    "usageNote": "Use it when a family resemblance shows in behaviour or talent.",
+    "exampleSentence": "Hun er lige så stædig som sin far; æblet falder ikke langt fra stammen.",
+    "exampleTranslation": "She's just as stubborn as her father; the apple doesn't fall far from the tree.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "da-en-fugl-i-handen-er-bedre-end-ti-pa-taget",
+    "language": "da",
+    "expression": "En fugl i hånden er bedre end ti på taget",
+    "literalTranslation": "A bird in the hand is better than ten on the roof",
+    "meaning": "A sure small gain is worth more than a bigger uncertain one.",
+    "usageNote": "Use it to advise taking the certain option.",
+    "exampleSentence": "Tag det faste tilbud; en fugl i hånden er bedre end ti på taget.",
+    "exampleTranslation": "Take the firm offer; a bird in the hand is worth two in the bush.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "da-morgenstund-har-guld-i-mund",
+    "language": "da",
+    "expression": "Morgenstund har guld i mund",
+    "literalTranslation": "The morning hour has gold in its mouth",
+    "meaning": "Starting early is valuable and productive.",
+    "usageNote": "Use it to praise early starts.",
+    "exampleSentence": "Vi tager afsted klokken seks, morgenstund har guld i mund.",
+    "exampleTranslation": "We're leaving at six; the early hours are the most valuable.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "motivation"
+    ]
+  },
+  {
+    "id": "da-ga-i-fisk",
+    "language": "da",
+    "expression": "Gå i fisk",
+    "literalTranslation": "To go to fish",
+    "meaning": "To fall apart or go completely wrong.",
+    "usageNote": "A casual way to say a plan collapsed or a situation fell to pieces.",
+    "exampleSentence": "Hele planen gik i fisk, da leverandøren aflyste.",
+    "exampleTranslation": "The whole plan fell apart when the supplier cancelled.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "da-ikke-have-rent-mel-i-posen",
+    "language": "da",
+    "expression": "Ikke have rent mel i posen",
+    "literalTranslation": "To not have clean flour in the bag",
+    "meaning": "To have something to hide; to be up to no good.",
+    "usageNote": "Use it when you suspect someone is being dishonest.",
+    "exampleSentence": "Han undviger alle spørgsmål, han har ikke rent mel i posen.",
+    "exampleTranslation": "He dodges every question; he's got something to hide.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "da-saelge-som-varmt-brod",
+    "language": "da",
+    "expression": "Sælge som varmt brød",
+    "literalTranslation": "To sell like warm bread",
+    "meaning": "To sell very quickly and in great numbers.",
+    "usageNote": "Use it about a product that flies off the shelves.",
+    "exampleSentence": "Billetterne solgte som varmt brød.",
+    "exampleTranslation": "The tickets sold like hotcakes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
+    ]
+  },
+  {
+    "id": "da-springe-over-hvor-gaerdet-er-lavest",
+    "language": "da",
+    "expression": "Springe over hvor gærdet er lavest",
+    "literalTranslation": "To jump over where the fence is lowest",
+    "meaning": "To take the easy way out and avoid the hard part.",
+    "usageNote": "Use it, often critically, when someone cuts corners.",
+    "exampleSentence": "Han læser kun resuméer og springer over hvor gærdet er lavest.",
+    "exampleTranslation": "He only reads summaries and takes the easy way out.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "da-kaste-perler-for-svin",
+    "language": "da",
+    "expression": "Kaste perler for svin",
+    "literalTranslation": "To throw pearls before swine",
+    "meaning": "To waste something valuable on those who won't appreciate it.",
+    "usageNote": "Use it when effort or quality is lost on an unappreciative audience.",
+    "exampleSentence": "At servere den fine vin for dem er at kaste perler for svin.",
+    "exampleTranslation": "Serving them the fine wine is casting pearls before swine.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-have-det-pa-fornemmelsen",
+    "language": "da",
+    "expression": "Have det på fornemmelsen",
+    "literalTranslation": "To have it on the feeling",
+    "meaning": "To have a hunch that something is the case.",
+    "usageNote": "Use it when intuition, not proof, tells you something.",
+    "exampleSentence": "Jeg havde det på fornemmelsen, at han ville sige nej.",
+    "exampleTranslation": "I had a feeling he would say no.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "emotion"
+    ]
+  },
+  {
+    "id": "da-sla-til-soren",
+    "language": "da",
+    "expression": "Slå til Søren",
+    "literalTranslation": "To strike at Søren",
+    "meaning": "To let loose and really go for it.",
+    "usageNote": "Very casual; use it about throwing yourself into having a good time.",
+    "exampleSentence": "Det er fredag, lad os slå til Søren.",
+    "exampleTranslation": "It's Friday, let's let our hair down.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-sa-er-den-ged-barberet",
+    "language": "da",
+    "expression": "Så er den ged barberet",
+    "literalTranslation": "Then that goat is shaved",
+    "meaning": "That's that sorted; problem solved.",
+    "usageNote": "A casual, satisfied way to mark that a task is finally done.",
+    "exampleSentence": "Kontrakten er underskrevet, så er den ged barberet.",
+    "exampleTranslation": "The contract is signed, so that's that sorted.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "humor"
+    ]
+  },
+  {
+    "id": "da-sta-med-haret-i-postkassen",
+    "language": "da",
+    "expression": "Stå med håret i postkassen",
+    "literalTranslation": "To stand with your hair in the mailbox",
+    "meaning": "To be left in an awkward, helpless spot.",
+    "usageNote": "Use it when someone is caught out and left dealing with a mess.",
+    "exampleSentence": "Da de andre trak sig, stod jeg med håret i postkassen.",
+    "exampleTranslation": "When the others backed out, I was left in the lurch.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "emotion"
+    ]
+  }
+]

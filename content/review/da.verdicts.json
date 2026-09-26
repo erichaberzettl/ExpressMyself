@@ -1,0 +1,156 @@
+[
+  {
+    "id": "da-alle-gode-gange-tre-0",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-appelsin-i-turbanen-1",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-aldrig-i-livet-2",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-bide-i-det-sure-ble-3",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-bl-se-en-halv-pelikan-4",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-at-falde-er-ingen-skam-men-at-blive-liggende-er-5",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-blod-er-tykkere-end-vand-6",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-al-begyndelse-er-sv-r-7",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-bag-skyerne-er-himlen-altid-bla-8",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-blind-passager-9",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Standard vocabulary term (= stowaway), not a figurative idiom worth featuring.",
+    "fix": null
+  },
+  {
+    "id": "da-dans-pa-roser-10",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-by-i-rusland-11",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-bl-d-i-bolden-12",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-bordet-fanger-13",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-betale-prisen-14",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-bygge-pa-sand-15",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-have-ben-i-n-sen-16",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-sla-to-fluer-med-et-sm-k-17",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-s-tte-n-sen-op-efter-noget-18",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-tage-sorgerne-pa-forskud-19",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "da-smaa-gryder-har-ogsaa-oerer",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "da-man-skal-ikke-saelge-skindet-foer-bjoernen-er-skudt",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  }
+]

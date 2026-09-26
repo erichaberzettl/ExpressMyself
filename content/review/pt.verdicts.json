@@ -1,0 +1,198 @@
+[
+  {
+    "id": "pt-a-fila-anda-0",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-caminho-1",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Literal phrase (= on the way); fully compositional, not an idiom.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-cereja-do-bolo-2",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-contragosto-3",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Plain adverbial (= reluctantly); transparent, not a figurative idiom.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-gota-que-transbordou-o-copo-4",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-luz-no-fim-do-tunel-5",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-portas-fechadas-6",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-luz-de-7",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Prepositional discourse connector (= in light of); grammatical, not an idiom.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-frente-de-seu-tempo-8",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-preco-de-banana-9",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-mao-de-semear-10",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-casa-caiu-11",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-fio-12",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Prepositional fragment (= on end / continuously); only idiomatic within a collocation, listed bare.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-montanha-parir-um-rato-13",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-deus-dara-14",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-paisana-15",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-a-passo-de-caracol-16",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-chutar-o-balde-17",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-dar-com-a-lingua-nos-dentes-18",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated pt-dar-com-a-lingua-nos-dentes.",
+    "fix": null
+  },
+  {
+    "id": "pt-ficar-de-maos-abanando-19",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pt-por-a-mao-na-massa",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "pt-custar-os-olhos-da-cara",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "pt-chover-a-cantaros",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "pt-ficar-de-boca-aberta",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "pt-dar-com-a-lingua-nos-dentes",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "pt-quem-nao-arrisca-nao-petisca",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "pt-deus-ajuda-quem-cedo-madruga",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "pt-grao-a-grao-enche-a-galinha-o-papo",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  }
+]

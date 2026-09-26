@@ -1,0 +1,25 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo">
+  <!--
+    ExpressMyself logo — master artwork (used for 48/128/256px icons,
+    the website favicon, and app/icon.svg). A speech bubble holding a
+    pair of quotation marks: "a phrase, spoken."
+    Small-size toolbar icons (16/32px) are rendered from icon-small.svg,
+    which uses the same shapes scaled up for legibility.
+    Regenerate PNGs with: npm run build:icons
+  -->
+  <defs>
+    <linearGradient id="tile" x1="44" y1="24" x2="212" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3714B"/>
+      <stop offset="1" stop-color="#C54D2A"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="54" fill="url(#tile)"/>
+  <g>
+    <rect x="48" y="56" width="160" height="106" rx="36" fill="#FFF6EC"/>
+    <path d="M90 152 L124 152 L72 200 Z" fill="#FFF6EC"/>
+  </g>
+  <g fill="#C64E2B" transform="translate(70,70) scale(1.22)">
+    <path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z"/>
+    <path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z" transform="translate(52,0)"/>
+  </g>
+</svg>

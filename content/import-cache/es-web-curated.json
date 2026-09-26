@@ -9,8 +9,13 @@
     "exampleSentence": "Llegó de punta en blanco a la boda y todos voltearon a verla.",
     "exampleTranslation": "She arrived dressed to the nines at the wedding, and everyone turned to look at her.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "imported", "reviewed", "baselang", "spanish-idioms"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ]
   },
   {
     "id": "es-web-tener-la-negra",
@@ -22,8 +27,14 @@
     "exampleSentence": "Esta semana tengo la negra: se me dañó el carro y también perdí las llaves.",
     "exampleTranslation": "I have had terrible luck this week: my car broke down and I also lost my keys.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "colloquial", "imported", "reviewed", "baselang", "spanish-idioms"],
-    "contentType": "colloquialism"
+    "tags": [
+      "idiom",
+      "colloquial",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ]
   },
   {
     "id": "es-web-dar-gato-por-liebre",
@@ -35,8 +46,13 @@
     "exampleSentence": "Nos dieron gato por liebre con ese hotel; las fotos no tenían nada que ver.",
     "exampleTranslation": "They sold us a lemon with that hotel; the photos looked nothing like reality.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "imported", "reviewed", "baselang", "spanish-idioms"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ]
   },
   {
     "id": "es-web-no-pegar-un-ojo",
@@ -48,8 +64,13 @@
     "exampleSentence": "Con los nervios del examen no pegué un ojo en toda la noche.",
     "exampleTranslation": "Because of exam nerves, I did not sleep a wink all night.",
     "difficulty": "basic",
-    "tags": ["idiom", "imported", "reviewed", "baselang", "spanish-idioms"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ]
   },
   {
     "id": "es-web-andar-con-pies-de-plomo",
@@ -61,21 +82,13 @@
     "exampleSentence": "Con ese cliente conviene andar con pies de plomo antes de prometer nada.",
     "exampleTranslation": "With that client, it is best to proceed very carefully before promising anything.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "imported", "reviewed", "baselang", "spanish-idioms"],
-    "contentType": "idiom"
-  },
-  {
-    "id": "es-web-entre-la-espada-y-la-pared",
-    "language": "es",
-    "expression": "Entre la espada y la pared",
-    "literalTranslation": "Between the sword and the wall",
-    "meaning": "Trapped between two bad options with no easy way out.",
-    "usageNote": "Use it when someone is cornered by pressure, obligation, or conflicting consequences. It is a very practical idiom for work and personal dilemmas.",
-    "exampleSentence": "Estoy entre la espada y la pared: si acepto el recorte, despiden gente; si no, cierran el proyecto.",
-    "exampleTranslation": "I am stuck between a rock and a hard place: if I accept the cut, people get laid off; if I do not, they shut the project down.",
-    "difficulty": "intermediate",
-    "tags": ["idiom", "imported", "reviewed", "baselang", "spanish-idioms"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ]
   },
   {
     "id": "es-web-cada-uno-sabe-donde-aprieta-el-zapato",
@@ -87,8 +100,14 @@
     "exampleSentence": "No critiques tan fácil su decisión; cada uno sabe donde aprieta el zapato.",
     "exampleTranslation": "Do not criticize that decision so easily; each person knows where the shoe pinches for them.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "baselang", "spanish-proverbs"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-proverbs"
+    ]
   },
   {
     "id": "es-web-haz-el-bien-y-no-mires-a-quien",
@@ -100,7 +119,13 @@
     "exampleSentence": "Ayúdalo si puedes; haz el bien y no mires a quien.",
     "exampleTranslation": "Help him if you can; do good without worrying about who receives it.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "baselang", "spanish-proverbs"],
-    "contentType": "idiom"
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-proverbs"
+    ]
   }
 ]

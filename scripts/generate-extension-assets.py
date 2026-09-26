@@ -1,5 +1,5 @@
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFont
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -29,87 +29,9 @@ def font(size: int, bold: bool = False):
     return ImageFont.load_default()
 
 
-def draw_gradient(size: int) -> Image.Image:
-    image = Image.new("RGBA", (size, size), "#fff8ef")
-    draw = ImageDraw.Draw(image)
-
-    for y in range(size):
-        ratio = y / max(size - 1, 1)
-        r = int(255 - ratio * 24)
-        g = int(248 - ratio * 32)
-        b = int(239 - ratio * 48)
-        draw.line((0, y, size, y), fill=(r, g, b, 255))
-
-    return image
-
-
-def create_icon(size: int, padded: bool = False) -> None:
-    image = Image.new("RGBA", (size, size), (0, 0, 0, 0)) if padded else draw_gradient(size)
-    draw = ImageDraw.Draw(image)
-
-    ink = (214, 97, 60, 255)
-
-    if padded:
-        canvas = size
-        inner = int(size * 0.75)
-        offset = (canvas - inner) / 2
-        draw.rounded_rectangle(
-            (offset, offset, offset + inner, offset + inner),
-            radius=inner * 0.22,
-            fill=(255, 252, 247, 246),
-            outline=(161, 123, 72, 34),
-            width=max(1, size // 72)
-        )
-
-        letter_font = font(int(size * 0.56), bold=True)
-        letter = "E"
-        box = draw.textbbox((0, 0), letter, font=letter_font)
-        text_width = box[2] - box[0]
-        text_height = box[3] - box[1]
-        text_x = (size - text_width) / 2 - box[0]
-        text_y = (size - text_height) / 2 - box[1] - size * 0.015
-        draw.text((text_x, text_y), letter, fill=ink, font=letter_font)
-        image.save(ASSETS_DIR / f"icon-{size}.png")
-        return
-
-    shadow = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    shadow_draw = ImageDraw.Draw(shadow)
-    shadow_draw.rounded_rectangle(
-        (size * 0.16, size * 0.16, size * 0.84, size * 0.84),
-        radius=size * 0.2,
-        fill=(90, 63, 28, 52)
-    )
-    shadow = shadow.filter(ImageFilter.GaussianBlur(size * 0.04))
-    image.alpha_composite(shadow)
-
-    draw.rounded_rectangle(
-        (size * 0.14, size * 0.14, size * 0.86, size * 0.82),
-        radius=size * 0.2,
-        fill=(255, 252, 247, 246),
-        outline=(161, 123, 72, 34),
-        width=max(1, size // 72)
-    )
-
-    letter_font = font(int(size * 0.56), bold=True)
-    letter = "E"
-    box = draw.textbbox((0, 0), letter, font=letter_font)
-    text_width = box[2] - box[0]
-    text_height = box[3] - box[1]
-    text_x = (size - text_width) / 2 - box[0]
-    text_y = (size - text_height) / 2 - box[1] - size * 0.015
-    draw.text((text_x, text_y), letter, fill=ink, font=letter_font)
-
-    image.save(ASSETS_DIR / f"icon-{size}.png")
-
-
-def create_app_icons() -> None:
-    for size in (16, 32, 48, 256):
-        create_icon(size)
-    create_icon(128, padded=True)
-
-    icon_256 = ASSETS_DIR / "icon-256.png"
-    (ROOT / "app" / "icon.png").write_bytes(icon_256.read_bytes())
-    (ROOT / "app" / "favicon.png").write_bytes(icon_256.read_bytes())
+# App and extension icons are generated from the SVG sources in assets-src/
+# by scripts/generate-icons.mjs (run: npm run build:icons). This script now
+# only produces the store banner and screenshots.
 
 
 def create_store_banner() -> None:
@@ -285,7 +207,6 @@ def create_saved_screenshot() -> None:
 
 if __name__ == "__main__":
     ensure_dirs()
-    create_app_icons()
     create_store_banner()
     create_popup_screenshot()
     create_library_screenshot()

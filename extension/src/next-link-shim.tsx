@@ -4,28 +4,30 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string;
 };
 
-const WEB_APP_BASE_URL = "https://expressmyself.vercel.app";
-
+// Inside the extension, keep navigation on the bundled app.html page so the
+// saved shelf and language preference stay in sync with the popup (both use
+// chrome.storage.local). The external website is a separate origin with its
+// own storage, so linking out there would show a different, unsynced shelf.
 function mapHref(href: string): string {
-  const url = new URL(WEB_APP_BASE_URL);
-
   if (href === "/") {
-    return url.toString();
+    return "app.html?view=daily";
   }
 
   if (href === "/library") {
-    url.pathname = "/library";
-    return url.toString();
+    return "app.html?view=library";
   }
 
   if (href === "/saved") {
-    url.pathname = "/saved";
-    return url.toString();
+    return "app.html?view=saved";
+  }
+
+  if (href === "/practice") {
+    return "app.html?view=practice";
   }
 
   if (href.startsWith("/expression/")) {
-    url.pathname = href;
-    return url.toString();
+    const params = new URLSearchParams({ route: href });
+    return `app.html?${params.toString()}`;
   }
 
   return href;

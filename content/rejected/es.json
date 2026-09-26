@@ -1,0 +1,185 @@
+[
+  {
+    "id": "es-web-entre-la-espada-y-la-pared",
+    "language": "es",
+    "expression": "Entre la espada y la pared",
+    "literalTranslation": "Between the sword and the wall",
+    "meaning": "Trapped between two bad options with no easy way out.",
+    "usageNote": "Use it when someone is cornered by pressure, obligation, or conflicting consequences. It is a very practical idiom for work and personal dilemmas.",
+    "exampleSentence": "Estoy entre la espada y la pared: si acepto el recorte, despiden gente; si no, cierran el proyecto.",
+    "exampleTranslation": "I am stuck between a rock and a hard place: if I accept the cut, people get laid off; if I do not, they shut the project down.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "baselang",
+      "spanish-idioms"
+    ],
+    "contentType": "idiom",
+    "reason": "Duplicate idiom (bare variant of curated es-estar-entre-la-espada-y-la-pared).",
+    "discardedFrom": "es-web-curated.json"
+  },
+  {
+    "id": "es-a-cada-rato-2",
+    "language": "es",
+    "expression": "A cada rato",
+    "literalTranslation": "At every little while",
+    "meaning": "Constantly or again and again.",
+    "usageNote": "Use it when something keeps happening so often that it becomes noticeable or annoying.",
+    "exampleSentence": "Me escribe a cada rato para preguntarme si ya salí.",
+    "exampleTranslation": "He keeps texting me all the time to ask if I have left yet.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Plain frequency adverbial (= constantly / all the time), not a figurative idiom.",
+    "discardedFrom": "es.json"
+  },
+  {
+    "id": "es-a-bulto-4",
+    "language": "es",
+    "expression": "A bulto",
+    "literalTranslation": "In bulk",
+    "meaning": "Roughly, approximately, or without much precision.",
+    "usageNote": "Use it when someone is estimating by eye instead of measuring carefully.",
+    "exampleSentence": "Calculamos el costo a bulto y luego afinamos los números.",
+    "exampleTranslation": "We estimated the cost roughly and then refined the numbers later.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Plain manner adverbial (= roughly / by rough guess); alphabetical-scrape padding.",
+    "discardedFrom": "es.json"
+  },
+  {
+    "id": "es-a-buen-seguro-5",
+    "language": "es",
+    "expression": "A buen seguro",
+    "literalTranslation": "To good certainty",
+    "meaning": "Almost certainly or without much doubt.",
+    "usageNote": "Use it when you want to sound confident about a conclusion without claiming absolute proof.",
+    "exampleSentence": "A buen seguro que Marta ya sabe lo que pasó.",
+    "exampleTranslation": "Marta almost certainly already knows what happened.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Plain modal adverbial (= almost certainly); transparent, low learn-value.",
+    "discardedFrom": "es.json"
+  },
+  {
+    "id": "es-a-base-de-bien-7",
+    "language": "es",
+    "expression": "A base de bien",
+    "literalTranslation": "On a solid basis of good",
+    "meaning": "In a very large amount or with great intensity.",
+    "usageNote": "Use it informally when there is much more of something than usual.",
+    "exampleSentence": "En esa fiesta hubo comida a base de bien.",
+    "exampleTranslation": "There was plenty of food at that party.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Colloquial intensity adverbial (= a lot); transparent scrape padding, not a real idiom.",
+    "discardedFrom": "es.json"
+  },
+  {
+    "id": "es-a-campo-abierto-14",
+    "language": "es",
+    "expression": "A campo abierto",
+    "literalTranslation": "In open field",
+    "meaning": "Out in the open, without protection or concealment.",
+    "usageNote": "Use it literally for open spaces or figuratively for situations with no cover.",
+    "exampleSentence": "No conviene discutir eso a campo abierto delante de todos.",
+    "exampleTranslation": "It is not wise to discuss that out in the open in front of everyone.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Transparent descriptive locative (= out in the open); near-synonym of a-campo-raso.",
+    "discardedFrom": "es.json"
+  },
+  {
+    "id": "es-a-campo-raso-15",
+    "language": "es",
+    "expression": "A campo raso",
+    "literalTranslation": "On flat open land",
+    "meaning": "In an exposed place with no shelter around.",
+    "usageNote": "Use it when someone or something is left fully exposed to weather, danger, or scrutiny.",
+    "exampleSentence": "Nos pilló la tormenta a campo raso y no había dónde esconderse.",
+    "exampleTranslation": "The storm caught us in the open and there was nowhere to hide.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Transparent descriptive locative (= exposed in the open); redundant with a-campo-abierto.",
+    "discardedFrom": "es.json"
+  },
+  {
+    "id": "es-a-buenas-16",
+    "language": "es",
+    "expression": "A buenas",
+    "literalTranslation": "By the good way",
+    "meaning": "Calmly, willingly, or without force.",
+    "usageNote": "Use it when persuasion works and conflict is avoided.",
+    "exampleSentence": "Si lo pides a buenas, seguro que te ayudan.",
+    "exampleTranslation": "If you ask nicely, they will probably help you.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Plain adverbial (= willingly / amicably); transparent scrape padding.",
+    "discardedFrom": "es.json"
+  },
+  {
+    "id": "es-dar-en-el-clavo-18",
+    "language": "es",
+    "expression": "Dar en el clavo",
+    "literalTranslation": "To hit the nail",
+    "meaning": "To get something exactly right.",
+    "usageNote": "Use it when someone identifies the real issue or makes the perfect remark.",
+    "exampleSentence": "Con ese comentario diste en el clavo.",
+    "exampleTranslation": "With that comment, you hit the nail on the head.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Exact duplicate of curated es-dar-en-el-clavo.",
+    "discardedFrom": "es.json"
+  },
+  {
+    "id": "es-estar-entre-la-espada-y-la-pared-19",
+    "language": "es",
+    "expression": "Estar entre la espada y la pared",
+    "literalTranslation": "To be between the sword and the wall",
+    "meaning": "To be trapped between two difficult options.",
+    "usageNote": "Use it when a person has to choose between bad outcomes and cannot avoid the decision.",
+    "exampleSentence": "Con ese plazo estamos entre la espada y la pared.",
+    "exampleTranslation": "With that deadline, we are trapped between two difficult options.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Exact duplicate of curated es-estar-entre-la-espada-y-la-pared.",
+    "discardedFrom": "es.json"
+  }
+]

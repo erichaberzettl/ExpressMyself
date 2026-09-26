@@ -188,13 +188,15 @@ export function getDailyExpressionAtOffsetFromEntries(
     throw new Error(`No expressions configured for language: ${language}`);
   }
 
+  const length = featuredEntries.length;
   const baseIndex =
     hashString(
       rotationSeed
         ? `${language}:${rotationSeed}:${getDateKey(date)}`
         : `${language}:${getDateKey(date)}`
-    ) % featuredEntries.length;
-  const nextIndex = (baseIndex + offset) % featuredEntries.length;
+    ) % length;
+  // Wrap into range for both directions so a negative offset ("Previous") is safe.
+  const nextIndex = (((baseIndex + offset) % length) + length) % length;
   return featuredEntries[nextIndex];
 }
 

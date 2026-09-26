@@ -1,0 +1,753 @@
+[
+  {
+    "id": "en-beat-around-the-bush",
+    "language": "en",
+    "expression": "Beat around the bush",
+    "meaning": "To avoid saying something directly and take too long to get to the point.",
+    "usageNote": "Use it when someone keeps circling a topic instead of stating it plainly.",
+    "exampleSentence": "Stop beating around the bush and tell me what actually went wrong.",
+    "exampleTranslation": "Stop avoiding the subject and tell me what actually went wrong.",
+    "difficulty": "basic",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "en-kill-two-birds-with-one-stone",
+    "language": "en",
+    "expression": "Kill two birds with one stone",
+    "meaning": "To achieve two goals with a single action.",
+    "usageNote": "Use it when one efficient move takes care of two things at once.",
+    "exampleSentence": "By cycling to work, I exercise and save money, killing two birds with one stone.",
+    "exampleTranslation": "By cycling to work, I exercise and save money, handling two things at once.",
+    "difficulty": "basic",
+    "tags": [
+      "efficiency",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-the-last-straw",
+    "language": "en",
+    "expression": "The last straw",
+    "meaning": "The final small problem that makes a difficult situation unbearable.",
+    "usageNote": "Use it when patience finally runs out because one more thing pushed it too far.",
+    "exampleSentence": "The cancelled flight was the last straw after a week of travel problems.",
+    "exampleTranslation": "The cancelled flight was the final blow after a week of travel problems.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "id": "en-a-blessing-in-disguise",
+    "language": "en",
+    "expression": "A blessing in disguise",
+    "meaning": "Something that seems bad at first but turns out to be good.",
+    "usageNote": "Use it when a setback ends up leading to a better outcome.",
+    "exampleSentence": "Losing that job was a blessing in disguise, because it pushed her to start her own business.",
+    "exampleTranslation": "Losing that job turned out to be a good thing, because it pushed her to start her own business.",
+    "difficulty": "intermediate",
+    "tags": [
+      "encouragement",
+      "emotion"
+    ]
+  },
+  {
+    "id": "en-speak-of-the-devil",
+    "language": "en",
+    "expression": "Speak of the devil",
+    "meaning": "Said when a person you were just talking about suddenly appears.",
+    "usageNote": "Use it lightly and humorously when someone shows up right after being mentioned.",
+    "exampleSentence": "Speak of the devil, we were just talking about you!",
+    "exampleTranslation": "Here you are, we were just talking about you!",
+    "difficulty": "basic",
+    "tags": [
+      "daily-life",
+      "humor"
+    ]
+  },
+  {
+    "id": "en-bite-off-more-than-you-can-chew",
+    "language": "en",
+    "expression": "Bite off more than you can chew",
+    "meaning": "To take on more than you can realistically handle.",
+    "usageNote": "Use it when someone's commitments outrun their time, skill, or energy.",
+    "exampleSentence": "By running three projects at once, he bit off more than he could chew.",
+    "exampleTranslation": "By running three projects at once, he took on more than he could handle.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "en-break-the-ice",
+    "language": "en",
+    "expression": "Break the ice",
+    "meaning": "To ease the initial tension in a social situation.",
+    "usageNote": "Use it about a first joke, question, or gesture that helps people relax with each other.",
+    "exampleSentence": "A quick game helped break the ice on the first day of the course.",
+    "exampleTranslation": "A quick game helped ease the tension on the first day of the course.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "en-get-cold-feet",
+    "language": "en",
+    "expression": "Get cold feet",
+    "meaning": "To become nervous and hesitant right before doing something important.",
+    "usageNote": "Use it when someone loses their nerve just before a big commitment or decision.",
+    "exampleSentence": "He got cold feet the night before the presentation and almost cancelled.",
+    "exampleTranslation": "He became too nervous the night before the presentation and almost cancelled.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "en-read-between-the-lines",
+    "language": "en",
+    "expression": "Read between the lines",
+    "meaning": "To understand a hidden or unstated meaning.",
+    "usageNote": "Use it when the real message is implied rather than said openly.",
+    "exampleSentence": "She never said no, but if you read between the lines, she was not interested.",
+    "exampleTranslation": "She never said no, but going by the hidden meaning, she was not interested.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "en-cut-to-the-chase",
+    "language": "en",
+    "expression": "Cut to the chase",
+    "meaning": "To get to the important point without wasting time.",
+    "usageNote": "Use it when you want to skip the preamble and address what actually matters.",
+    "exampleSentence": "We only have five minutes, so let me cut to the chase.",
+    "exampleTranslation": "We only have five minutes, so let me get straight to the point.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "id": "en-the-tip-of-the-iceberg",
+    "language": "en",
+    "expression": "The tip of the iceberg",
+    "meaning": "A small, visible part of a much larger hidden problem.",
+    "usageNote": "Use it when what you can see is only a fraction of a bigger issue underneath.",
+    "exampleSentence": "These complaints are just the tip of the iceberg; the whole process is broken.",
+    "exampleTranslation": "These complaints are just a small visible part; the whole process is broken.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-jump-on-the-bandwagon",
+    "language": "en",
+    "expression": "Jump on the bandwagon",
+    "meaning": "To join an activity or trend only once it has already become popular.",
+    "usageNote": "Use it, often with mild criticism, when people follow a trend late just because others do.",
+    "exampleSentence": "Once the app went viral, every brand jumped on the bandwagon.",
+    "exampleTranslation": "Once the app went viral, every brand followed the trend.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "en-throw-someone-under-the-bus",
+    "language": "en",
+    "expression": "Throw someone under the bus",
+    "meaning": "To betray or blame someone in order to protect yourself.",
+    "usageNote": "Use it when a person sacrifices a colleague or friend to avoid trouble themselves.",
+    "exampleSentence": "Instead of admitting the mistake, she threw her assistant under the bus.",
+    "exampleTranslation": "Instead of admitting the mistake, she blamed her assistant to protect herself.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "en-water-under-the-bridge",
+    "language": "en",
+    "expression": "Water under the bridge",
+    "meaning": "A past conflict that is over and no longer worth worrying about.",
+    "usageNote": "Use it to signal that you have let go of an old disagreement.",
+    "exampleSentence": "We argued years ago, but that is all water under the bridge now.",
+    "exampleTranslation": "We argued years ago, but that is all in the past now.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-when-pigs-fly",
+    "language": "en",
+    "expression": "When pigs fly",
+    "meaning": "Used to say that something will never happen.",
+    "usageNote": "Use it sarcastically to dismiss something as impossible.",
+    "exampleSentence": "He will clean his room when pigs fly.",
+    "exampleTranslation": "He will clean his room, which is to say never.",
+    "difficulty": "basic",
+    "tags": [
+      "humor",
+      "time"
+    ]
+  },
+  {
+    "id": "en-if-you-cant-stand-the-heat-get-out-of-the-kitchen",
+    "language": "en",
+    "expression": "If you can't stand the heat, get out of the kitchen",
+    "meaning": "If you can't cope with the pressure of a situation, you should leave it to others.",
+    "usageNote": "Use it, somewhat bluntly, to tell someone to either handle the stress or step aside.",
+    "exampleSentence": "This role means tight deadlines every week; if you can't stand the heat, get out of the kitchen.",
+    "exampleTranslation": "This role means tight deadlines every week; if you can't handle the pressure, step aside.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-when-in-rome-do-as-the-romans-do",
+    "language": "en",
+    "expression": "When in Rome, do as the Romans do",
+    "meaning": "Adapt to the customs of the place or group you are in.",
+    "usageNote": "Use it to advise fitting in with local habits rather than insisting on your own.",
+    "exampleSentence": "They eat dinner at ten here, so when in Rome, do as the Romans do.",
+    "exampleTranslation": "They eat dinner at ten here, so adapt to the local custom.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-dont-judge-a-book-by-its-cover",
+    "language": "en",
+    "expression": "Don't judge a book by its cover",
+    "meaning": "Do not form an opinion about something based only on its appearance.",
+    "usageNote": "Use it when a first impression is misleading and the reality turns out different.",
+    "exampleSentence": "The café looks shabby, but don't judge a book by its cover, the food is amazing.",
+    "exampleTranslation": "The café looks shabby, but don't judge by appearance, the food is amazing.",
+    "difficulty": "basic",
+    "tags": [
+      "personality",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "en-actions-speak-louder-than-words",
+    "language": "en",
+    "expression": "Actions speak louder than words",
+    "meaning": "What people do matters more than what they say.",
+    "usageNote": "Use it when someone's promises should be measured against their actual behaviour.",
+    "exampleSentence": "He keeps saying he'll help, but actions speak louder than words.",
+    "exampleTranslation": "He keeps saying he'll help, but what he does matters more than what he says.",
+    "difficulty": "basic",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-when-the-going-gets-tough-the-tough-get-going",
+    "language": "en",
+    "expression": "When the going gets tough, the tough get going",
+    "meaning": "Strong, determined people work harder when a situation becomes difficult.",
+    "usageNote": "Use it to encourage determination in the middle of hardship.",
+    "exampleSentence": "We're behind schedule, but when the going gets tough, the tough get going.",
+    "exampleTranslation": "We're behind schedule, but strong teams push harder when things get hard.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "en-the-early-bird-catches-the-worm",
+    "language": "en",
+    "expression": "The early bird catches the worm",
+    "meaning": "People who act first or arrive early get the best opportunities.",
+    "usageNote": "Use it to stress the advantage of being early or acting promptly.",
+    "exampleSentence": "Tickets sell out fast, and the early bird catches the worm.",
+    "exampleTranslation": "Tickets sell out fast, and those who act early get the best ones.",
+    "difficulty": "basic",
+    "tags": [
+      "time",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-two-wrongs-dont-make-a-right",
+    "language": "en",
+    "expression": "Two wrongs don't make a right",
+    "meaning": "Responding to a wrong with another wrong does not fix anything.",
+    "usageNote": "Use it to discourage retaliation or trying to get even.",
+    "exampleSentence": "He ignored you, but don't spread rumours, two wrongs don't make a right.",
+    "exampleTranslation": "He ignored you, but don't spread rumours, retaliation doesn't fix things.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "en-you-cant-have-your-cake-and-eat-it-too",
+    "language": "en",
+    "expression": "You can't have your cake and eat it too",
+    "meaning": "You can't enjoy two desirable but incompatible things at the same time.",
+    "usageNote": "Use it when someone wants two options that logically exclude each other.",
+    "exampleSentence": "You want to save money but also travel every month; you can't have your cake and eat it too.",
+    "exampleTranslation": "You want to save money but also travel every month; you can't have it both ways.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "en-birds-of-a-feather-flock-together",
+    "language": "en",
+    "expression": "Birds of a feather flock together",
+    "meaning": "People with similar characters or interests tend to associate with each other.",
+    "usageNote": "Use it to observe that like-minded people naturally group together.",
+    "exampleSentence": "The new hires all love hiking, birds of a feather flock together.",
+    "exampleTranslation": "The new hires all love hiking, similar people stick together.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-dont-bite-the-hand-that-feeds-you",
+    "language": "en",
+    "expression": "Don't bite the hand that feeds you",
+    "meaning": "Do not harm or offend the person you depend on.",
+    "usageNote": "Use it as a warning against turning on a supporter or benefactor.",
+    "exampleSentence": "Criticising your biggest client in public? Don't bite the hand that feeds you.",
+    "exampleTranslation": "Criticising your biggest client in public? Don't harm the one you depend on.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "en-all-that-glitters-is-not-gold",
+    "language": "en",
+    "expression": "All that glitters is not gold",
+    "meaning": "Something attractive on the surface may not be truly valuable.",
+    "usageNote": "Use it to warn against being fooled by an impressive appearance.",
+    "exampleSentence": "The offer sounds amazing, but all that glitters is not gold.",
+    "exampleTranslation": "The offer sounds amazing, but attractive things aren't always valuable.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "money"
+    ]
+  },
+  {
+    "id": "en-too-many-cooks-spoil-the-broth",
+    "language": "en",
+    "expression": "Too many cooks spoil the broth",
+    "meaning": "When too many people are involved, the result suffers.",
+    "usageNote": "Use it when a task turns out worse because too many people are trying to control it.",
+    "exampleSentence": "Five people editing one slide? Too many cooks spoil the broth.",
+    "exampleTranslation": "Five people editing one slide? Too many people ruin the result.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-the-bees-knees",
+    "language": "en",
+    "expression": "The bee's knees",
+    "meaning": "Something or someone excellent and top-notch.",
+    "usageNote": "A playful, slightly old-fashioned way to praise something highly.",
+    "exampleSentence": "She thinks her new phone is the bee's knees.",
+    "exampleTranslation": "She thinks her new phone is absolutely the best.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confidence",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-bobs-your-uncle",
+    "language": "en",
+    "expression": "Bob's your uncle",
+    "meaning": "And there you have it; it's as simple as that.",
+    "usageNote": "Used, chiefly in British English, to finish instructions on an easy result.",
+    "exampleSentence": "Add water, stir, and Bob's your uncle, dinner's ready.",
+    "exampleTranslation": "Add water, stir, and just like that, dinner's ready.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-give-someone-the-cold-shoulder",
+    "language": "en",
+    "expression": "Give someone the cold shoulder",
+    "meaning": "To deliberately ignore someone or be unfriendly to them.",
+    "usageNote": "Use it when someone snubs another on purpose.",
+    "exampleSentence": "Ever since the argument, she's been giving me the cold shoulder.",
+    "exampleTranslation": "Ever since the argument, she's been deliberately ignoring me.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-as-the-crow-flies",
+    "language": "en",
+    "expression": "As the crow flies",
+    "meaning": "In a straight line; the direct distance between two points.",
+    "usageNote": "Use it when giving a distance, ignoring roads or detours.",
+    "exampleSentence": "It's only two miles as the crow flies, but longer by road.",
+    "exampleTranslation": "It's only two miles in a straight line, but longer by road.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-give-someone-the-slip",
+    "language": "en",
+    "expression": "Give someone the slip",
+    "meaning": "To escape or get away from someone following you.",
+    "usageNote": "Use it about evading a pursuer or someone you want to avoid.",
+    "exampleSentence": "The suspect gave the police the slip in the crowd.",
+    "exampleTranslation": "The suspect escaped the police in the crowd.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-a-wild-goose-chase",
+    "language": "en",
+    "expression": "A wild goose chase",
+    "meaning": "A hopeless, pointless search or pursuit.",
+    "usageNote": "Use it when effort is spent chasing something that leads nowhere.",
+    "exampleSentence": "The wrong address sent us on a wild goose chase across town.",
+    "exampleTranslation": "The wrong address sent us on a pointless search across town.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "en-barking-up-the-wrong-tree",
+    "language": "en",
+    "expression": "Barking up the wrong tree",
+    "meaning": "Pursuing a mistaken line of thought or blaming the wrong cause.",
+    "usageNote": "Use it when someone is looking in the wrong place for an answer.",
+    "exampleSentence": "If you think I broke it, you're barking up the wrong tree.",
+    "exampleTranslation": "If you think I broke it, you've got the wrong person.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-a-storm-in-a-teacup",
+    "language": "en",
+    "expression": "A storm in a teacup",
+    "meaning": "A lot of fuss over something trivial.",
+    "usageNote": "Use it, chiefly in British English, when a small issue is blown out of proportion.",
+    "exampleSentence": "The whole argument was a storm in a teacup.",
+    "exampleTranslation": "The whole argument was a big fuss over nothing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-steal-someones-thunder",
+    "language": "en",
+    "expression": "Steal someone's thunder",
+    "meaning": "To take the attention or credit that someone else deserved.",
+    "usageNote": "Use it when someone upstages another or preempts their big moment.",
+    "exampleSentence": "She announced the results early and stole his thunder.",
+    "exampleTranslation": "She announced the results early and took his moment of glory.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-jump-the-gun",
+    "language": "en",
+    "expression": "Jump the gun",
+    "meaning": "To act too soon, before the right moment.",
+    "usageNote": "Use it when someone starts something prematurely.",
+    "exampleSentence": "Don't jump the gun; wait until the deal is signed.",
+    "exampleTranslation": "Don't act too soon; wait until the deal is signed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "en-sit-on-the-fence",
+    "language": "en",
+    "expression": "Sit on the fence",
+    "meaning": "To avoid taking sides in a dispute or decision.",
+    "usageNote": "Use it, often critically, about someone who won't commit either way.",
+    "exampleSentence": "You can't sit on the fence forever; pick a side.",
+    "exampleTranslation": "You can't stay undecided forever; pick a side.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "en-burn-the-midnight-oil",
+    "language": "en",
+    "expression": "Burn the midnight oil",
+    "meaning": "To work or study late into the night.",
+    "usageNote": "Use it about putting in long hours, especially before a deadline.",
+    "exampleSentence": "We burned the midnight oil to finish the report.",
+    "exampleTranslation": "We worked late into the night to finish the report.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "time"
+    ]
+  },
+  {
+    "id": "en-hit-the-ground-running",
+    "language": "en",
+    "expression": "Hit the ground running",
+    "meaning": "To start something new energetically and effectively from the very beginning.",
+    "usageNote": "Use it about someone productive right away, with no slow warm-up.",
+    "exampleSentence": "She hit the ground running in her first week.",
+    "exampleTranslation": "She was fully productive from her very first week.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-throw-caution-to-the-wind",
+    "language": "en",
+    "expression": "Throw caution to the wind",
+    "meaning": "To act boldly without worrying about the risks.",
+    "usageNote": "Use it when someone abandons their usual carefulness.",
+    "exampleSentence": "They threw caution to the wind and booked a one-way ticket.",
+    "exampleTranslation": "They cast aside their caution and booked a one-way ticket.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-off-the-top-of-my-head",
+    "language": "en",
+    "expression": "Off the top of my head",
+    "meaning": "From memory, without checking or careful thought.",
+    "usageNote": "Use it before giving a quick, approximate answer.",
+    "exampleSentence": "Off the top of my head, I'd say about fifty people came.",
+    "exampleTranslation": "Without checking, I'd say about fifty people came.",
+    "difficulty": "basic",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "en-face-the-music",
+    "language": "en",
+    "expression": "Face the music",
+    "meaning": "To accept the unpleasant consequences of your actions.",
+    "usageNote": "Use it when someone must confront criticism or punishment.",
+    "exampleSentence": "He missed the deadline and now has to face the music.",
+    "exampleTranslation": "He missed the deadline and now has to accept the consequences.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "en-a-drop-in-the-ocean",
+    "language": "en",
+    "expression": "A drop in the ocean",
+    "meaning": "A tiny amount compared with what is actually needed.",
+    "usageNote": "Use it when a contribution is far too small to make a real difference.",
+    "exampleSentence": "My donation felt like a drop in the ocean.",
+    "exampleTranslation": "My donation felt far too small to make a difference.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
+    ]
+  },
+  {
+    "id": "en-dont-cry-over-spilt-milk",
+    "language": "en",
+    "expression": "Don't cry over spilt milk",
+    "meaning": "Don't waste time being upset about something that can't be undone.",
+    "usageNote": "Use it to tell someone to move on from a past mistake.",
+    "exampleSentence": "The deal fell through, but don't cry over spilt milk.",
+    "exampleTranslation": "The deal fell through, but there's no use regretting what's done.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "en-once-bitten-twice-shy",
+    "language": "en",
+    "expression": "Once bitten, twice shy",
+    "meaning": "After a bad experience, you become extra cautious the next time.",
+    "usageNote": "Use it to explain wariness caused by a past hurt.",
+    "exampleSentence": "He won't lend money again; once bitten, twice shy.",
+    "exampleTranslation": "He won't lend money again; a bad experience made him cautious.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "emotion"
+    ]
+  },
+  {
+    "id": "en-in-the-nick-of-time",
+    "language": "en",
+    "expression": "In the nick of time",
+    "meaning": "At the very last possible moment, just before it's too late.",
+    "usageNote": "Use it when something is saved or done just in time.",
+    "exampleSentence": "The rescue team arrived in the nick of time.",
+    "exampleTranslation": "The rescue team arrived at the very last moment.",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-ring-a-bell",
+    "language": "en",
+    "expression": "Ring a bell",
+    "meaning": "To sound familiar; to jog a vague memory.",
+    "usageNote": "Use it when a name or fact seems familiar but you can't quite place it.",
+    "exampleSentence": "That name rings a bell, but I can't remember where from.",
+    "exampleTranslation": "That name sounds familiar, but I can't remember where from.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "en-up-in-the-air",
+    "language": "en",
+    "expression": "Up in the air",
+    "meaning": "Undecided or uncertain.",
+    "usageNote": "Use it about plans or outcomes that haven't been settled yet.",
+    "exampleSentence": "Our holiday plans are still up in the air.",
+    "exampleTranslation": "Our holiday plans are still undecided.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "en-down-to-earth",
+    "language": "en",
+    "expression": "Down to earth",
+    "meaning": "Practical, sensible, and unpretentious.",
+    "usageNote": "Use it to praise someone who stays modest and realistic.",
+    "exampleSentence": "Despite her fame, she's remarkably down to earth.",
+    "exampleTranslation": "Despite her fame, she's remarkably modest and practical.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "en-get-the-ball-rolling",
+    "language": "en",
+    "expression": "Get the ball rolling",
+    "meaning": "To start something and get it going.",
+    "usageNote": "Use it when it's time to begin a task or process.",
+    "exampleSentence": "Let's get the ball rolling on the new project this week.",
+    "exampleTranslation": "Let's get the new project started this week.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "en-cross-that-bridge-when-you-come-to-it",
+    "language": "en",
+    "expression": "Cross that bridge when you come to it",
+    "meaning": "Deal with a problem only when it actually arises.",
+    "usageNote": "Use it to tell someone not to worry about a problem prematurely.",
+    "exampleSentence": "We might need more funding later, but we'll cross that bridge when we come to it.",
+    "exampleTranslation": "We might need more funding later, but we'll deal with that when it happens.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "time"
+    ]
+  },
+  {
+    "id": "en-pull-out-all-the-stops",
+    "language": "en",
+    "expression": "Pull out all the stops",
+    "meaning": "To make every possible effort to make something a success.",
+    "usageNote": "Use it when someone spares no effort for an important occasion.",
+    "exampleSentence": "They pulled out all the stops for the launch party.",
+    "exampleTranslation": "They spared no effort for the launch party.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "performance"
+    ]
+  },
+  {
+    "id": "en-sell-like-hotcakes",
+    "language": "en",
+    "expression": "Sell like hotcakes",
+    "meaning": "To sell very quickly and in large numbers.",
+    "usageNote": "Use it about a product that is in high demand.",
+    "exampleSentence": "The new sneakers sold like hotcakes.",
+    "exampleTranslation": "The new sneakers sold extremely fast.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
+    ]
+  }
+]

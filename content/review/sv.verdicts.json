@@ -1,0 +1,884 @@
+[
+  {
+    "id": "sv-proverb-alla-goda-ting-ar-tre",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-alla-katter-ar-gra-i-morkret",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-alla-kanner-apan-apan-kanner-ingen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-alla-vagar-bar-till-rom",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-alla-ar-vi-barn-i-borjan",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-anfall-ar-basta-forsvar",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-arga-katter-far-rivet-skinn",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-allt-ar-inte-guld-som-glimmar",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-att-skiljas-ar-att-do-en-smula",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-bra-karl-reder-sig-sjalv",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-battre-lyss-till-den-strang-som-brast-an-aldrig-spanna-en-bage",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-battre-skelogd-an-blind",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-den-sig-i-leken-ger-han-maste-leken-tala",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-den-som-graver-en-grop-at-andra-faller-ofta-sjalv-dari",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-den-som-soker-han-finner",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-den-som-lange-sover-pa-sin-badd-han-far-litet-for-sitt-nabb",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-de-synder-man-mest-angrar-pa-gamla-dar-ar-de-man-inte-begatt",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-det-dunkelt-sagda-ar-det-dunkelt-tankta",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-det-hushall-ar-ej-utan-kval-dar-hanen-kacklar-och-honan-gal",
+    "verdict": "DISCARD",
+    "gate": 3,
+    "reason": "Archaic and sexist proverb with negative learn-value; the entry itself advises against using it.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-det-ar-en-ond-fagel-som-orent-gor-i-sitt-rede",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-det-ar-ingen-ko-pa-isen",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Duplicate of curated sv-ingen-ko-pa-isen (fuller phrasing of the same idiom).",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-det-ar-manskligt-att-fela",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-det-ar-saligare-att-giva-an-att-taga",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-det-ar-svart-lara-gammal-hund-sitta",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-envar-sin-egen-lyckas-smed",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Archaic variant duplicate of sv-proverb-var-och-en-ar-sin-egen-lyckas-smed (modern form kept).",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-ett-mjukt-svar-stillar-vreden",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-en-svala-gor-ingen-sommar",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-en-tiggare-fruktar-varken-tjuv-eller-rovare",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-egen-hard-ar-guld-vard",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-eget-ros-ar-elakt-os",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-fagring-utan-tukt-ar-som-ros-utan-lukt",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-finns-det-hjarterum-finns-det-stjarterum",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Duplicate of curated sv-finns-det-hjaerterum-saa-finns-det-stjaerterum.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-gud-tar-och-gud-ger",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-guds-vagar-aro-outgrundliga",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-guldprov-i-glod-vanprov-i-nod",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-har-man-tagit-fan-i-baten-far-man-ro-honom-i-land",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-hogmod-gar-fore-fall",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-har-man-sagt-a-far-man-saga-b",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-ingen-ar-profet-i-sitt-eget-land",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-ingenting-ar-nytt-under-solen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-jorden-ar-alltid-frusen-for-lata-svin",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-kasta-inte-yxan-i-sjon",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-kasta-inte-parlor-at-svinen",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Variant duplicate of curated sv-kasta-parlor-for-svin (same proverb).",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-kasta-inte-sten-i-glashus",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-lat-mans-bon-blir-sallan-hord",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-lardom-ar-mer-vart-an-guld",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-man-skall-ej-kla-dar-som-det-ej-kliar",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-nya-kvastar-sopar-bast",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-nar-det-regnar-manna-har-den-fattige-ingen-sked",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-nar-katten-ar-borta-dansar-rattorna-pa-bordet",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-nar-man-talar-om-trollen-star-de-i-farstun",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-ont-ar-ej-gott-forran-varre-kommer",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-ofta-ligger-ormen-under-rosenbusken",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-ont-ska-med-ont-fordrivas",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-rom-byggdes-inte-pa-en-dag",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-sila-mygg-och-svalja-kameler",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated sv-sila-mygg-och-svaelja-kameler.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-som-man-sar-far-man-skorda",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-stor-i-orden-liten-pa-jorden",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-synden-straffar-sig-sjalv",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-surt-sa-raven-om-ronnbaren",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-sent-skall-syndaren-vakna",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-som-man-baddar-far-man-ligga",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-tala-med-bonder-pa-bonders-vis-och-med-de-larde-pa-latin",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-tala-ar-silver-tiga-ar-guld",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated sv-tala-ar-silver-tiga-ar-guld.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-tron-kan-forsatta-berg",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-var-dag-har-nog-av-sin-egen-plaga",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-var-och-en-far-bli-salig-pa-sin-fason",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-var-och-en-ar-sin-egen-lyckas-smed",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-var-sak-har-sin-tid",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-varav-hjartat-ar-fullt-talar-munnen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-villiga-oxar-skall-man-ej-jakta",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-vand-den-andra-kinden-till",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-aven-daren-anses-vis-om-han-tiger",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-oga-for-oga-tand-for-tand",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-proverb-ostanvader-och-kvinnotrata-borjar-med-storm-och-slutar-med-vata",
+    "verdict": "DISCARD",
+    "gate": 3,
+    "reason": "Archaic and sexist proverb with negative learn-value; the entry itself advises against using it.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-bara-doda-fiskar-foljer-strommen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-hur-man-an-vander-sig-har-man-andan-bak",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-lagom-ar-bast",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-lugn-som-en-filbunke",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-man-ska-inte-lagga-nasan-i-blot",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-sagt-ord-och-kastad-sten-kan-inte-tas-tillbaka",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-upp-som-en-sol-ner-som-en-pannkaka",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-kommer-tid-kommer-rad",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-man-maste-ratta-munnen-efter-matsacken",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-web-sjalv-ar-basta-drang",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-ana-ugglor-i-mossen-0",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Duplicate of curated sv-att-ana-ugglor-i-mossen.",
+    "fix": null
+  },
+  {
+    "id": "sv-aldrig-i-livet-1",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-av-samma-skrot-och-korn-2",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-bakom-las-och-bom-3",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-av-bara-farten-4",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-be-tusen-ganger-om-ursakt-5",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Literal hyperbole (= apologize a thousand times), not a fixed idiomatic expression.",
+    "fix": null
+  },
+  {
+    "id": "sv-bara-barnet-6",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-a-och-o-7",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-alla-hall-och-kanter-8",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-ha-is-i-magen-9",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-ingen-ko-pa-isen-10",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated sv-ingen-ko-pa-isen.",
+    "fix": null
+  },
+  {
+    "id": "sv-sitta-med-skagget-i-brevladan-11",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-kasta-in-handduken-12",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-glida-in-pa-en-rakmacka-13",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-nara-skjuter-ingen-hare-14",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-fa-andan-ur-vagnen-15",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-koka-soppa-pa-en-spik-16",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-vara-ute-pa-hal-is-17",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-gora-en-hona-av-en-fjader-18",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-fa-blodad-tand-19",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-det-gar-ingen-nod-pa-20",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-vara-ute-pa-djupt-vatten-21",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-som-vatten-pa-en-gas-22",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-ga-inte-over-an-efter-vatten-23",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "sv-finns-det-hjaerterum-saa-finns-det-stjaerterum",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-att-ana-ugglor-i-mossen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-delaad-glaedje-aer-dubbel-glaedje",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-tomma-tunnor-skramlar-mest",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-vaeck-inte-den-bjoern-som-sover",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-sila-mygg-och-svaelja-kameler",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-smaa-grytor-har-ocksaa-oeron",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-aepplet-faller-inte-laangt-fraan-traedet",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-borta-bra-men-hemma-bast",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-ingen-ko-pa-isen",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-finns-det-liv-sa-finns-det-hopp",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-oro-ger-sma-saker-en-stor-skugga",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-ingen-rok-utan-eld",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-tala-ar-silver-tiga-ar-guld",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-kasta-parlor-for-svin",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-den-som-spar-han-har",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "sv-den-som-lever-far-se",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  }
+]

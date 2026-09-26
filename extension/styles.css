@@ -86,7 +86,7 @@ a {
 }
 
 .popup-shell {
-  padding: 12px;
+  padding: 10px;
 }
 
 .app-shell {
@@ -96,7 +96,7 @@ a {
 
 .page {
   display: grid;
-  gap: 12px;
+  gap: 10px;
 }
 
 .app-page {
@@ -228,30 +228,29 @@ a {
 }
 
 .popup-topbar {
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 8px;
-  padding: 8px 4px 2px;
+  padding: 6px 1px 0;
 }
 
 .popup-brand {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  align-items: center;
+  gap: 6px;
   min-width: 0;
+  flex: 0 1 auto;
 }
 
-.popup-brand-name {
-  font-family: var(--font-display);
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--ink);
-}
 
 .popup-topbar-actions {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  flex: 0 1 auto;
 }
 
 .hero-top,
@@ -386,32 +385,48 @@ a {
 }
 
 .language-menu {
-  width: 100%;
-}
-
-.language-select {
-  width: 100%;
-  min-height: 34px;
-  padding: 0 12px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: var(--panel-strong);
-  color: var(--accent-strong);
-  font-size: 0.85rem;
-  text-align: center;
-  text-align-last: center;
+}
+
+.language-emoji {
+  font-size: 0.98rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.language-select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: transparent;
+  opacity: 0;
+  cursor: pointer;
   appearance: none;
 }
 
 .popup-topbar-actions .link-button {
-  min-height: 34px;
-  padding: 0 12px;
-  font-size: 0.85rem;
+  min-height: 30px;
+  padding: 0 10px;
+  font-size: 0.78rem;
 }
 
 .popup-topbar-actions .button,
 .popup-topbar-actions .link-button {
-  width: 100%;
+  width: auto;
   border-color: var(--line);
   background: var(--panel-strong);
   color: var(--accent-strong);
@@ -424,8 +439,8 @@ a {
 }
 
 .popup-focus-card {
-  padding: 24px 22px;
-  gap: 18px;
+  padding: 16px 18px;
+  gap: 12px;
 }
 
 .popup-focus-card .card-top {
@@ -444,19 +459,19 @@ a {
 }
 
 .popup-focus-card h3 {
-  font-size: 2.1rem;
-  line-height: 1.08;
+  font-size: 1.85rem;
+  line-height: 1.1;
   text-align: center;
 }
 
 .popup-focus-card .meaning {
-  font-size: 1.08rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.5;
   text-align: left;
 }
 
 .popup-focus-card .detail-grid {
-  gap: 14px;
+  gap: 10px;
 }
 
 .popup-focus-card .detail-label {
@@ -471,6 +486,132 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.reveal-zone {
+  width: 100%;
+  min-height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.42);
+  color: var(--muted);
+  cursor: pointer;
+  transition:
+    background-color 120ms ease,
+    border-color 120ms ease;
+}
+
+.reveal-zone:hover {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.reveal-prompt {
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.popup-nav {
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Keep the daily card's controls quiet so the phrase and meaning lead. */
+.popup-focus-card .card-actions {
+  gap: 6px;
+}
+
+.popup-focus-card .card-actions .button {
+  min-height: 28px;
+  padding: 0 9px;
+  font-size: 0.78rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--muted);
+  box-shadow: none;
+}
+
+.popup-focus-card .card-actions .button:hover {
+  transform: none;
+  background: var(--panel-strong);
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.popup-focus-card .popup-nav .button {
+  min-height: 30px;
+  padding: 0 13px;
+  font-size: 0.8rem;
+}
+
+.popup-focus-card .popup-nav .button-secondary {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--muted);
+}
+
+.popup-focus-card .popup-nav .button-primary {
+  background: var(--accent-soft);
+  border-color: transparent;
+  color: var(--accent-strong);
+}
+
+.popup-focus-card .popup-nav .button-primary:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.popup-kbd-hint {
+  text-align: center;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  opacity: 0.7;
+  margin: 2px 0 0;
+}
+
+.popup-streak {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  align-self: center;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 0.76rem;
+  font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+
+.popup-settings-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel-strong);
+  color: var(--accent-strong);
+  font-size: 0.92rem;
+  text-decoration: none;
+  transition:
+    transform 120ms ease,
+    background-color 120ms ease;
+}
+
+.popup-settings-link:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .field span,
@@ -614,19 +755,6 @@ select {
 
   .popup-body {
     min-width: 0;
-  }
-
-  .popup-topbar {
-    align-items: stretch;
-  }
-
-  .language-menu,
-  .popup-topbar-actions .link-button {
-    width: 100%;
-  }
-
-  .popup-topbar-actions {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .grid {

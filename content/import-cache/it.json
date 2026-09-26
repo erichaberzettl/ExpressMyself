@@ -1,21 +1,5 @@
 [
   {
-    "id": "it-a-capo-0",
-    "language": "it",
-    "expression": "A capo",
-    "literalTranslation": "At the head",
-    "meaning": "Back at the beginning or starting over from the top.",
-    "usageNote": "Use it when a process resets and you have to begin again instead of continuing.",
-    "exampleSentence": "Con quell'errore siamo tornati a capo.",
-    "exampleTranslation": "With that mistake, we ended up back at the beginning.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "it-a-braccio-1",
     "language": "it",
     "expression": "A braccio",
@@ -112,22 +96,6 @@
     ]
   },
   {
-    "id": "it-a-cascata-7",
-    "language": "it",
-    "expression": "A cascata",
-    "literalTranslation": "Like a waterfall",
-    "meaning": "In a chain or cascading sequence, one thing triggering the next.",
-    "usageNote": "Use it when effects, decisions, or actions spread one after another.",
-    "exampleSentence": "Un piccolo ritardo ha creato problemi a cascata per tutta la giornata.",
-    "exampleTranslation": "One small delay created a cascade of problems for the whole day.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "it-a-bocca-asciutta-8",
     "language": "it",
     "expression": "A bocca asciutta",
@@ -136,38 +104,6 @@
     "usageNote": "Use it when someone hoped for a reward or result and got nothing.",
     "exampleSentence": "Aveva fatto la fila per ore ed è rimasto a bocca asciutta.",
     "exampleTranslation": "He waited in line for hours and still went home empty-handed.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "it-a-dispetto-di-9",
-    "language": "it",
-    "expression": "A dispetto di",
-    "literalTranslation": "In spite of",
-    "meaning": "Despite something that could have prevented the result.",
-    "usageNote": "Use it to highlight that an outcome happened anyway, even though the circumstances were difficult.",
-    "exampleSentence": "A dispetto della stanchezza, ha finito il lavoro in tempo.",
-    "exampleTranslation": "Despite being tired, she finished the work on time.",
-    "difficulty": "basic",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "it-a-colpi-di-10",
-    "language": "it",
-    "expression": "A colpi di",
-    "literalTranslation": "By blows of",
-    "meaning": "By relying heavily on one repeated means or tool.",
-    "usageNote": "Use it when progress happens through sheer repetition, pressure, or one dominant method.",
-    "exampleSentence": "Ha imparato il software a colpi di tentativi ed errori.",
-    "exampleTranslation": "He learned the software through repeated trial and error.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",
@@ -201,22 +137,6 @@
     "exampleSentence": "A freddo, mi rendo conto che aveva ragione lui.",
     "exampleTranslation": "Looking at it calmly now, I realize he was right.",
     "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "it-a-cielo-aperto-13",
-    "language": "it",
-    "expression": "A cielo aperto",
-    "literalTranslation": "Under open sky",
-    "meaning": "Outdoors and not enclosed.",
-    "usageNote": "Use it for events, work, or places that happen entirely in the open air.",
-    "exampleSentence": "Quest'estate faranno un cinema a cielo aperto nel parco.",
-    "exampleTranslation": "This summer they are putting on an open-air cinema in the park.",
-    "difficulty": "basic",
     "tags": [
       "idiom",
       "imported",

@@ -1,0 +1,261 @@
+[
+  {
+    "id": "it-a-capo-0",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Functional fragment (= new line / back to start); not a figurative idiom, also conflated with 'da capo'.",
+    "fix": null
+  },
+  {
+    "id": "it-a-braccio-1",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-passo-di-lumaca-2",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-casa-del-diavolo-3",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-bocca-aperta-4",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-chiare-lettere-5",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-gambe-levate-6",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-cascata-7",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Transparent descriptive adverbial (= in a cascade); compositional, scrape padding.",
+    "fix": null
+  },
+  {
+    "id": "it-a-bocca-asciutta-8",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-dispetto-di-9",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Grammatical prepositional connector (= in spite of); needs a complement, not an idiom.",
+    "fix": null
+  },
+  {
+    "id": "it-a-colpi-di-10",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Grammatical prepositional construction (= by dint of); needs a complement, not an idiom.",
+    "fix": null
+  },
+  {
+    "id": "it-a-man-bassa-11",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-freddo-12",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-cielo-aperto-13",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Transparent descriptive locative (= open-air); compositional, scrape padding.",
+    "fix": null
+  },
+  {
+    "id": "it-a-cuore-aperto-14",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-a-crepapelle-15",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-essere-al-verde-16",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-prendere-due-piccioni-con-una-fava-17",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-avere-le-mani-bucate-18",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-fare-il-passo-piu-lungo-della-gamba-19",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "it-ambasciator-non-porta-pena",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-fidarsi-e-bene-ma-non-fidarsi-e-meglio",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-le-bugie-hanno-le-gambe-corte",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-la-notte-porta-consiglio",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-paese-che-vai-usanze-che-trovi",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-chi-trova-un-amico-trova-un-tesoro",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-chi-non-risica-non-rosica",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-chi-troppo-vuole-nulla-stringe",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-chi-va-piano-va-sano-e-va-lontano",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-tra-il-dire-e-il-fare-ce-di-mezzo-il-mare",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-finche-ce-vita-ce-speranza",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-a-caval-donato-non-si-guarda-in-bocca",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-labito-non-fa-il-monaco",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-lospite-e-come-il-pesce-dopo-tre-giorni-puzza",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-chi-ben-comincia-e-a-meta-dellopera",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-il-mattino-ha-loro-in-bocca",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "it-non-tutto-quel-che-luccica-e-oro",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  }
+]

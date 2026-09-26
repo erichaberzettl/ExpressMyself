@@ -11,15 +11,26 @@ type BasicExportEntry = {
   meaning: string;
 };
 
+function neutralizeFormulaInjection(value: string): string {
+  // A cell that begins with =, +, -, @ (or a leading tab/carriage return) can be
+  // executed as a formula when the CSV/TSV is opened in Excel or Google Sheets.
+  // Prefix such values with a single quote so they are treated as text.
+  return /^[=+\-@\t\r]/.test(value) ? `'${value}` : value;
+}
+
 function escapeCell(value: string, delimiter: string): string {
+  const safeValue = neutralizeFormulaInjection(value);
   const needsQuotes =
-    value.includes('"') || value.includes("\n") || value.includes("\r") || value.includes(delimiter);
+    safeValue.includes('"') ||
+    safeValue.includes("\n") ||
+    safeValue.includes("\r") ||
+    safeValue.includes(delimiter);
 
   if (!needsQuotes) {
-    return value;
+    return safeValue;
   }
 
-  return `"${value.replaceAll('"', '""')}"`;
+  return `"${safeValue.replaceAll('"', '""')}"`;
 }
 
 function buildDelimitedExport(entries: BasicExportEntry[], delimiter: string): string {

@@ -19,6 +19,7 @@ type AppHeaderProps = {
 };
 
 const navigationItems = [
+  { href: "/practice", label: "Practice" },
   { href: "/saved", label: "Saved" },
   { href: "/library", label: "Browse library" }
 ];
@@ -34,6 +35,9 @@ export function AppHeader({
   onBannerActionClick
 }: AppHeaderProps) {
   const pathname = usePathname();
+  // Don't advertise "Get the extension" to people already inside it.
+  const isExtensionContext =
+    typeof window !== "undefined" && window.location.protocol === "chrome-extension:";
 
   return (
     <section className={styles.shell}>
@@ -47,16 +51,18 @@ export function AppHeader({
           <div className={styles.controlCluster}>
             <LanguageSwitcher value={language} onChange={onLanguageChange} />
             {typeof phraseCount === "number" ? (
-              <span className={styles.count}>{phraseCount} phrases</span>
+              <span className={styles.count}>
+                {phraseCount} {phraseCount === 1 ? "phrase" : "phrases"}
+              </span>
             ) : null}
           </div>
 
           <nav className={styles.nav} aria-label="Primary">
             {navigationItems.map((item) => {
               const isActive =
-                item.href === "/saved"
-                  ? pathname === "/saved"
-                  : pathname === "/library" || pathname?.startsWith("/library/");
+                item.href === "/library"
+                  ? pathname === "/library" || pathname?.startsWith("/library/")
+                  : pathname === item.href;
 
               return (
                 <Link
@@ -89,19 +95,21 @@ export function AppHeader({
         </div>
       </div>
 
-      <aside className={styles.extensionPromo} aria-label="Chrome extension">
-        <span className={styles.promoEyebrow}>Chrome extension</span>
-        <strong>Practice from your toolbar.</strong>
-        <p>Daily phrases, pronunciation, and saved expressions in one quick browser popup.</p>
-        <a
-          className={styles.extensionCta}
-          href="https://chromewebstore.google.com/detail/expressmyself/gieddoeddmehjjhohopfoechkhdpipjo"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Get the extension
-        </a>
-      </aside>
+      {isExtensionContext ? null : (
+        <aside className={styles.extensionPromo} aria-label="Chrome extension">
+          <span className={styles.promoEyebrow}>Chrome extension</span>
+          <strong>Practice from your toolbar.</strong>
+          <p>Daily phrases, pronunciation, and saved expressions in one quick browser popup.</p>
+          <a
+            className={styles.extensionCta}
+            href="https://chromewebstore.google.com/detail/expressmyself/gieddoeddmehjjhohopfoechkhdpipjo"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Get the extension
+          </a>
+        </aside>
+      )}
     </section>
   );
 }

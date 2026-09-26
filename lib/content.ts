@@ -1778,18 +1778,6 @@ const curatedExpressions: ExpressionEntry[] = [
     tags: ["encouragement", "emotion"]
   },
   {
-    id: "de-morgenstund-hat-gold-im-mund",
-    language: "de",
-    expression: "Morgenstund hat Gold im Mund",
-    literalTranslation: "The morning hour has gold in its mouth",
-    meaning: "Starting early is valuable and often leads to better results.",
-    usageNote: "Use it when talking about the benefits of getting up early or tackling work before the day gets noisy.",
-    exampleSentence: "Lass uns früh anfangen, Morgenstund hat Gold im Mund.",
-    exampleTranslation: "Let us start early, the morning is often the most valuable part of the day.",
-    difficulty: "intermediate",
-    tags: ["time", "work", "motivation"]
-  },
-  {
     id: "de-wer-anderen-eine-grube-graebt-faellt-selbst-hinein",
     language: "de",
     expression: "Wer anderen eine Grube gräbt, fällt selbst hinein",

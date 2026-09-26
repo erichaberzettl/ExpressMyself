@@ -38,12 +38,15 @@ Current features:
 - topic filters
 - saved phrases stored in the browser
 - speech playback for expressions
+- saved phrases and language synced with the ExpressMyself website
 
 ## Privacy disclosure summary
 
 - Single purpose: language-learning phrase reference and review
 - User data collected: none sent off device
 - User data stored locally: selected language and saved phrase IDs
+- Host permission: access to `expressmyself.vercel.app`, used only to sync your
+  saved phrases and language between the extension and the website on your device
 - Data sale: no
 - Data transfer to third parties: no
 

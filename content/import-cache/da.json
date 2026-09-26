@@ -144,22 +144,6 @@
     ]
   },
   {
-    "id": "da-blind-passager-9",
-    "language": "da",
-    "expression": "Blind passager",
-    "literalTranslation": "Blind passenger",
-    "meaning": "Someone who comes along without paying or without being properly included.",
-    "usageNote": "Use it literally for stowaways or figuratively for people getting a free ride on others' efforts.",
-    "exampleSentence": "Han gled med som blind passager på projektet uden selv at bidrage.",
-    "exampleTranslation": "He slipped into the project like a stowaway without contributing himself.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "da-dans-pa-roser-10",
     "language": "da",
     "expression": "Dans på roser",

@@ -9,7 +9,14 @@
     "exampleSentence": "Hon tackade nej trots grupptrycket och sa att bara döda fiskar följer strömmen.",
     "exampleTranslation": "She said no despite the peer pressure and said that only dead fish go with the flow.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "ordkollen", "larare-at"]
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen",
+      "larare-at"
+    ]
   },
   {
     "id": "sv-web-hur-man-an-vander-sig-har-man-andan-bak",
@@ -21,7 +28,13 @@
     "exampleSentence": "Vi måste välja mellan dyrt och långsamt, så hur man än vänder sig har man ändan bak.",
     "exampleTranslation": "We have to choose between expensive and slow, so there is no way around some downside.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "ordkollen"]
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
   },
   {
     "id": "sv-web-lagom-ar-bast",
@@ -33,7 +46,13 @@
     "exampleSentence": "Ta inte på dig fem projekt samtidigt, lagom är bäst.",
     "exampleTranslation": "Do not take on five projects at once; a balanced amount is best.",
     "difficulty": "basic",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "ordkollen"]
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
   },
   {
     "id": "sv-web-lugn-som-en-filbunke",
@@ -45,7 +64,12 @@
     "exampleSentence": "Alla andra stressade inför presentationen, men hon var lugn som en filbunke.",
     "exampleTranslation": "Everyone else was stressed before the presentation, but she was calm as could be.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "imported", "reviewed", "ordkollen"]
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
   },
   {
     "id": "sv-web-man-ska-inte-lagga-nasan-i-blot",
@@ -57,7 +81,13 @@
     "exampleSentence": "Jag försöker att inte lägga näsan i blöt när två kollegor har en privat konflikt.",
     "exampleTranslation": "I try not to meddle when two coworkers are having a private conflict.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "ordkollen"]
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
   },
   {
     "id": "sv-web-sagt-ord-och-kastad-sten-kan-inte-tas-tillbaka",
@@ -69,7 +99,13 @@
     "exampleSentence": "Skicka inte mejlet i ilska, sagt ord och kastad sten kan inte tas tillbaka.",
     "exampleTranslation": "Do not send the email in anger; once words and actions are out, you cannot take them back.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "larare-at"]
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "larare-at"
+    ]
   },
   {
     "id": "sv-web-upp-som-en-sol-ner-som-en-pannkaka",
@@ -81,7 +117,13 @@
     "exampleSentence": "Lanseringen var upp som en sol, ner som en pannkaka efter den första veckan.",
     "exampleTranslation": "The launch started brilliantly and then fell flat after the first week.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "larare-at"]
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "larare-at"
+    ]
   },
   {
     "id": "sv-web-kommer-tid-kommer-rad",
@@ -93,7 +135,13 @@
     "exampleSentence": "Vi behöver inte lösa allt i kväll, kommer tid kommer råd.",
     "exampleTranslation": "We do not need to solve everything tonight; with a little time, a solution will come.",
     "difficulty": "basic",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "ordkollen"]
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
   },
   {
     "id": "sv-web-man-maste-ratta-munnen-efter-matsacken",
@@ -105,7 +153,13 @@
     "exampleSentence": "Vi hade velat boka något lyxigare, men man måste rätta munnen efter matsäcken.",
     "exampleTranslation": "We would have liked to book something more luxurious, but you have to live within your means.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "ordkollen"]
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "ordkollen"
+    ]
   },
   {
     "id": "sv-web-sjalv-ar-basta-drang",
@@ -117,6 +171,12 @@
     "exampleSentence": "Till slut gjorde han rapporten själv, själv är bästa dräng.",
     "exampleTranslation": "In the end he wrote the report himself; if you want it done right, do it yourself.",
     "difficulty": "intermediate",
-    "tags": ["idiom", "proverb", "imported", "reviewed", "larare-at"]
+    "tags": [
+      "idiom",
+      "proverb",
+      "imported",
+      "reviewed",
+      "larare-at"
+    ]
   }
 ]

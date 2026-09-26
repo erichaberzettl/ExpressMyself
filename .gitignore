@@ -2,5 +2,9 @@
 node_modules
 coverage
 dist
+artifacts
 *.log
+*.tsbuildinfo
+.DS_Store
 
+.tmp

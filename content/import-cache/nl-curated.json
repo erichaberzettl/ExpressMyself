@@ -1,0 +1,464 @@
+[
+  {
+    "id": "nl-met-de-deur-in-huis-vallen",
+    "language": "nl",
+    "expression": "Met de deur in huis vallen",
+    "literalTranslation": "To fall into the house with the door",
+    "meaning": "To get straight to the point without any preamble.",
+    "usageNote": "Use it when someone brings up the main matter immediately, sometimes too abruptly.",
+    "exampleSentence": "Sorry dat ik met de deur in huis val, maar we hebben een probleem.",
+    "exampleTranslation": "Sorry to get straight to the point, but we have a problem.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-nu-komt-de-aap-uit-de-mouw",
+    "language": "nl",
+    "expression": "Nu komt de aap uit de mouw",
+    "literalTranslation": "Now the monkey comes out of the sleeve",
+    "meaning": "Now the hidden truth or real intention finally comes out.",
+    "usageNote": "Use it when a concealed motive or fact is suddenly revealed.",
+    "exampleSentence": "Hij wilde alleen maar geld lenen; nu komt de aap uit de mouw.",
+    "exampleTranslation": "He only wanted to borrow money; now the truth comes out.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-een-appeltje-voor-de-dorst",
+    "language": "nl",
+    "expression": "Een appeltje voor de dorst",
+    "literalTranslation": "A little apple for the thirst",
+    "meaning": "Something, usually money, kept in reserve for when it is needed later.",
+    "usageNote": "Use it about savings or a reserve set aside for a rainy day.",
+    "exampleSentence": "Ze houden altijd een appeltje voor de dorst op een spaarrekening.",
+    "exampleTranslation": "They always keep something aside for a rainy day in a savings account.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "nl-de-koe-bij-de-horens-vatten",
+    "language": "nl",
+    "expression": "De koe bij de horens vatten",
+    "literalTranslation": "To grab the cow by the horns",
+    "meaning": "To tackle a difficult problem head-on and decisively.",
+    "usageNote": "Use it when someone stops hesitating and deals with a hard issue directly.",
+    "exampleSentence": "We moeten de koe bij de horens vatten en het gesprek aangaan.",
+    "exampleTranslation": "We have to take the bull by the horns and have the conversation.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "motivation"
+    ]
+  },
+  {
+    "id": "nl-ergens-geen-kaas-van-gegeten-hebben",
+    "language": "nl",
+    "expression": "Ergens geen kaas van gegeten hebben",
+    "literalTranslation": "To not have eaten any cheese of something",
+    "meaning": "To know nothing about a subject.",
+    "usageNote": "Use it, casually, to admit or point out a lack of knowledge about something.",
+    "exampleSentence": "Vraag mij niets over auto's, daar heb ik geen kaas van gegeten.",
+    "exampleTranslation": "Don't ask me anything about cars, I know nothing about them.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "confusion"
+    ]
+  },
+  {
+    "id": "nl-met-de-mond-vol-tanden-staan",
+    "language": "nl",
+    "expression": "Met de mond vol tanden staan",
+    "literalTranslation": "To stand with the mouth full of teeth",
+    "meaning": "To be at a loss for words.",
+    "usageNote": "Use it when someone is suddenly speechless and doesn't know what to say.",
+    "exampleSentence": "Toen ze dat vroeg, stond hij met de mond vol tanden.",
+    "exampleTranslation": "When she asked that, he was completely lost for words.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "emotion"
+    ]
+  },
+  {
+    "id": "nl-de-dans-ontspringen",
+    "language": "nl",
+    "expression": "De dans ontspringen",
+    "literalTranslation": "To jump out of the dance",
+    "meaning": "To narrowly escape trouble or punishment.",
+    "usageNote": "Use it when someone just avoids a bad outcome that others didn't.",
+    "exampleSentence": "Iedereen kreeg een boete, maar wij ontsprongen de dans.",
+    "exampleTranslation": "Everyone got a fine, but we narrowly escaped it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-iets-onder-de-knie-hebben",
+    "language": "nl",
+    "expression": "Iets onder de knie hebben",
+    "literalTranslation": "To have something under the knee",
+    "meaning": "To have mastered a skill.",
+    "usageNote": "Use it when someone has learned to do something well after practice.",
+    "exampleSentence": "Na maanden oefenen heb ik het eindelijk onder de knie.",
+    "exampleTranslation": "After months of practice I've finally got the hang of it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "confidence"
+    ]
+  },
+  {
+    "id": "nl-op-de-kleintjes-letten",
+    "language": "nl",
+    "expression": "Op de kleintjes letten",
+    "literalTranslation": "To watch the little ones",
+    "meaning": "To be careful with money and small expenses.",
+    "usageNote": "Use it about being thrifty and mindful of costs.",
+    "exampleSentence": "Deze maand moeten we even op de kleintjes letten.",
+    "exampleTranslation": "This month we have to watch the pennies for a bit.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-de-plank-misslaan",
+    "language": "nl",
+    "expression": "De plank misslaan",
+    "literalTranslation": "To miss the plank",
+    "meaning": "To be completely wrong or wide of the mark.",
+    "usageNote": "Use it when someone's guess, judgement, or attempt is entirely off.",
+    "exampleSentence": "Met die inschatting sloeg hij de plank volledig mis.",
+    "exampleTranslation": "With that estimate he was completely wide of the mark.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-roeien-met-de-riemen-die-je-hebt",
+    "language": "nl",
+    "expression": "Roeien met de riemen die je hebt",
+    "literalTranslation": "To row with the oars you have",
+    "meaning": "To make the best of the limited means available to you.",
+    "usageNote": "Use it about coping resourcefully with whatever resources you've got.",
+    "exampleSentence": "Het budget is klein, maar we roeien met de riemen die we hebben.",
+    "exampleTranslation": "The budget is small, but we make do with what we have.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "motivation"
+    ]
+  },
+  {
+    "id": "nl-het-hoofd-koel-houden",
+    "language": "nl",
+    "expression": "Het hoofd koel houden",
+    "literalTranslation": "To keep the head cool",
+    "meaning": "To stay calm under pressure.",
+    "usageNote": "Use it when composure matters in a stressful situation.",
+    "exampleSentence": "Tijdens de storing moesten we het hoofd koel houden.",
+    "exampleTranslation": "During the outage we had to keep a cool head.",
+    "difficulty": "basic",
+    "tags": [
+      "emotion",
+      "confidence"
+    ]
+  },
+  {
+    "id": "nl-de-knoop-doorhakken",
+    "language": "nl",
+    "expression": "De knoop doorhakken",
+    "literalTranslation": "To cut through the knot",
+    "meaning": "To make a firm decision after hesitation.",
+    "usageNote": "Use it when someone finally settles a matter that was dragging on.",
+    "exampleSentence": "Na weken twijfelen hakten we eindelijk de knoop door.",
+    "exampleTranslation": "After weeks of doubt we finally made the decision.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "work"
+    ]
+  },
+  {
+    "id": "nl-de-kat-op-het-spek-binden",
+    "language": "nl",
+    "expression": "De kat op het spek binden",
+    "literalTranslation": "To tie the cat to the bacon",
+    "meaning": "To put irresistible temptation in someone's way.",
+    "usageNote": "Use it when someone is exposed to a temptation they're bound to give in to.",
+    "exampleSentence": "Hem alleen laten met de snoeppot is de kat op het spek binden.",
+    "exampleTranslation": "Leaving him alone with the sweet jar is just asking for trouble.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "nl-de-aanhouder-wint",
+    "language": "nl",
+    "expression": "De aanhouder wint",
+    "literalTranslation": "The persistent one wins",
+    "meaning": "Persistence eventually pays off.",
+    "usageNote": "Use it to encourage someone to keep trying.",
+    "exampleSentence": "Blijf gewoon solliciteren, de aanhouder wint.",
+    "exampleTranslation": "Just keep applying, persistence pays off.",
+    "difficulty": "basic",
+    "tags": [
+      "motivation",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "nl-wie-goed-doet-goed-ontmoet",
+    "language": "nl",
+    "expression": "Wie goed doet, goed ontmoet",
+    "literalTranslation": "Who does good, meets good",
+    "meaning": "If you treat others well, good will come back to you.",
+    "usageNote": "Use it to encourage kindness, suggesting it is repaid.",
+    "exampleSentence": "Help haar gerust, wie goed doet, goed ontmoet.",
+    "exampleTranslation": "Go ahead and help her; do good and good comes back.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "nl-onbekend-maakt-onbemind",
+    "language": "nl",
+    "expression": "Onbekend maakt onbemind",
+    "literalTranslation": "Unknown makes unloved",
+    "meaning": "People tend to dislike or distrust what they don't know.",
+    "usageNote": "Use it to explain why something unfamiliar is unfairly rejected.",
+    "exampleSentence": "Niemand koos het nieuwe gerecht; onbekend maakt onbemind.",
+    "exampleTranslation": "Nobody chose the new dish; we shun what we don't know.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-oost-west-thuis-best",
+    "language": "nl",
+    "expression": "Oost west, thuis best",
+    "literalTranslation": "East west, home best",
+    "meaning": "However nice it is elsewhere, home is the best place to be.",
+    "usageNote": "Use it, warmly, after travelling or being away for a while.",
+    "exampleSentence": "De vakantie was heerlijk, maar oost west, thuis best.",
+    "exampleTranslation": "The holiday was lovely, but there's no place like home.",
+    "difficulty": "basic",
+    "tags": [
+      "daily-life",
+      "emotion"
+    ]
+  },
+  {
+    "id": "nl-beter-laat-dan-nooit",
+    "language": "nl",
+    "expression": "Beter laat dan nooit",
+    "literalTranslation": "Better late than never",
+    "meaning": "Doing something late is still better than not doing it at all.",
+    "usageNote": "Use it when something finally happens after a delay.",
+    "exampleSentence": "Hij bedankte me pas een jaar later, maar beter laat dan nooit.",
+    "exampleTranslation": "He only thanked me a year later, but better late than never.",
+    "difficulty": "basic",
+    "tags": [
+      "time",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "nl-nieuwe-bezems-vegen-schoon",
+    "language": "nl",
+    "expression": "Nieuwe bezems vegen schoon",
+    "literalTranslation": "New brooms sweep clean",
+    "meaning": "Someone new often brings fresh energy and change at first.",
+    "usageNote": "Use it when a newcomer makes visible changes early on.",
+    "exampleSentence": "De nieuwe manager veranderde meteen van alles; nieuwe bezems vegen schoon.",
+    "exampleTranslation": "The new manager changed everything right away; new brooms sweep clean.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-wie-het-onderste-uit-de-kan-wil-hebben-krijgt-het-deksel-op-de-neus",
+    "language": "nl",
+    "expression": "Wie het onderste uit de kan wil hebben, krijgt het deksel op de neus",
+    "literalTranslation": "Who wants the last bit out of the jug gets the lid on the nose",
+    "meaning": "Being too greedy for the last bit ends up backfiring on you.",
+    "usageNote": "Use it to warn that pushing for too much can cost you what you already have.",
+    "exampleSentence": "Vraag niet nog meer korting; wie het onderste uit de kan wil hebben, krijgt het deksel op de neus.",
+    "exampleTranslation": "Don't ask for even more discount; grab for too much and it backfires.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "nl-al-is-de-leugen-nog-zo-snel-de-waarheid-achterhaalt-haar-wel",
+    "language": "nl",
+    "expression": "Al is de leugen nog zo snel, de waarheid achterhaalt haar wel",
+    "literalTranslation": "However fast the lie may be, the truth will catch up with it",
+    "meaning": "Lies are eventually caught out by the truth.",
+    "usageNote": "Use it to warn that dishonesty gets exposed in the end.",
+    "exampleSentence": "Verzin maar geen smoes; al is de leugen nog zo snel, de waarheid achterhaalt haar wel.",
+    "exampleTranslation": "Don't bother making up an excuse; however fast the lie, the truth catches up.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "nl-de-kat-in-de-zak-kopen",
+    "language": "nl",
+    "expression": "De kat in de zak kopen",
+    "literalTranslation": "To buy the cat in the bag",
+    "meaning": "To buy something without checking it and get a bad deal.",
+    "usageNote": "Use it when someone ends up cheated because they didn't inspect first.",
+    "exampleSentence": "Koop de auto nooit ongezien, straks koop je de kat in de zak.",
+    "exampleTranslation": "Never buy the car unseen, or you'll buy a pig in a poke.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "nl-het-regent-pijpenstelen",
+    "language": "nl",
+    "expression": "Het regent pijpenstelen",
+    "literalTranslation": "It's raining pipe stems",
+    "meaning": "It is raining very heavily.",
+    "usageNote": "A vivid, everyday way to describe a downpour.",
+    "exampleSentence": "We blijven binnen, het regent pijpenstelen.",
+    "exampleTranslation": "We're staying in, it's raining cats and dogs.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-boter-bij-de-vis",
+    "language": "nl",
+    "expression": "Boter bij de vis",
+    "literalTranslation": "Butter with the fish",
+    "meaning": "Pay or deliver immediately, on the spot.",
+    "usageNote": "Use it to insist on payment or action right away, no delays.",
+    "exampleSentence": "Geen beloftes meer, boter bij de vis.",
+    "exampleTranslation": "No more promises, cash on the nail.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "work"
+    ]
+  },
+  {
+    "id": "nl-met-de-gebakken-peren-zitten",
+    "language": "nl",
+    "expression": "Met de gebakken peren zitten",
+    "literalTranslation": "To sit with the baked pears",
+    "meaning": "To be left dealing with the mess someone else caused.",
+    "usageNote": "Use it when you're stuck with the unpleasant consequences.",
+    "exampleSentence": "Hij vertrok en ik zat met de gebakken peren.",
+    "exampleTranslation": "He left and I was left to clean up the mess.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "nl-als-haringen-in-een-ton",
+    "language": "nl",
+    "expression": "Als haringen in een ton",
+    "literalTranslation": "Like herrings in a barrel",
+    "meaning": "Packed extremely tightly together.",
+    "usageNote": "Use it about a crowded, cramped space.",
+    "exampleSentence": "In de spits staan we als haringen in een ton in de tram.",
+    "exampleTranslation": "At rush hour we're packed like sardines on the tram.",
+    "difficulty": "intermediate",
+    "tags": [
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-de-draak-steken-met-iemand",
+    "language": "nl",
+    "expression": "De draak steken met iemand",
+    "literalTranslation": "To stab the dragon with someone",
+    "meaning": "To mock or make fun of someone or something.",
+    "usageNote": "Use it when someone is being ridiculed, often light-heartedly.",
+    "exampleSentence": "Ze staken de draak met zijn ouderwetse kleren.",
+    "exampleTranslation": "They poked fun at his old-fashioned clothes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "humor",
+      "communication"
+    ]
+  },
+  {
+    "id": "nl-spijkers-met-koppen-slaan",
+    "language": "nl",
+    "expression": "Spijkers met koppen slaan",
+    "literalTranslation": "To hit nails with heads",
+    "meaning": "To make firm, concrete decisions and get things done.",
+    "usageNote": "Use it when it's time to stop talking and settle matters.",
+    "exampleSentence": "Genoeg vergaderd, laten we spijkers met koppen slaan.",
+    "exampleTranslation": "Enough meetings, let's get down to business and decide.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "work"
+    ]
+  },
+  {
+    "id": "nl-in-de-wolken-zijn",
+    "language": "nl",
+    "expression": "In de wolken zijn",
+    "literalTranslation": "To be in the clouds",
+    "meaning": "To be overjoyed and delighted.",
+    "usageNote": "Use it when someone is thrilled about good news.",
+    "exampleSentence": "Ze was in de wolken met haar nieuwe baan.",
+    "exampleTranslation": "She was over the moon about her new job.",
+    "difficulty": "basic",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "nl-iets-voor-een-appel-en-een-ei-kopen",
+    "language": "nl",
+    "expression": "Iets voor een appel en een ei kopen",
+    "literalTranslation": "To buy something for an apple and an egg",
+    "meaning": "To buy something very cheaply.",
+    "usageNote": "Use it about a real bargain that cost almost nothing.",
+    "exampleSentence": "Deze kast kocht ik voor een appel en een ei.",
+    "exampleTranslation": "I bought this cabinet for next to nothing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "money",
+      "daily-life"
+    ]
+  }
+]

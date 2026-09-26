@@ -1,0 +1,156 @@
+[
+  {
+    "id": "pl-nie-moj-cyrk-nie-moje-ma-py-0",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-bu-ka-z-mas-em-1",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-miec-muchy-w-nosie-2",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-rzucac-grochem-o-sciane-3",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-miec-dwie-lewe-rece-4",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-jak-sobie-poscielesz-tak-sie-wyspisz-5",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-leje-jak-z-cebra-6",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-miec-zwiazane-rece-7",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-robic-z-ig-y-wid-y-8",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-byc-w-siodmym-niebie-9",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-miec-serce-na-d-oni-10",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-mowic-prosto-z-mostu-11",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-trzymac-kciuki-12",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-nawarzyc-sobie-piwa-13",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-co-ma-wisiec-nie-utonie-14",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-miec-olej-w-g-owie-15",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-chodzic-spac-z-kurami-16",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-spuscic-z-tonu-17",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-wyjsc-jak-zab-ocki-na-mydle-18",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-a-nuz-widelec-19",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "pl-nie-wszystko-zloto-co-sie-swieci",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "pl-co-nagle-to-po-diable",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  }
+]

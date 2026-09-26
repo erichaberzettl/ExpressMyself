@@ -1,0 +1,70 @@
+[
+  {
+    "id": "en-a-boon-and-a-bane-5",
+    "language": "en",
+    "expression": "A boon and a bane",
+    "meaning": "Something that brings both clear benefits and serious drawbacks.",
+    "usageNote": "Use it when a tool or change helps in one way but creates problems in another.",
+    "exampleSentence": "Remote work has been a boon and a bane for the team depending on the project.",
+    "exampleTranslation": "Remote work has been both helpful and difficult for the team depending on the project.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Not an established fixed idiom; a constructed phrase (the real idiom is 'a mixed blessing' / 'a double-edged sword').",
+    "discardedFrom": "en.json"
+  },
+  {
+    "id": "en-11th-commandment-6",
+    "language": "en",
+    "expression": "11th commandment",
+    "meaning": "An unwritten rule that people in a group treat as if it must never be broken.",
+    "usageNote": "Use it when a norm feels so strong that it functions like a sacred rule.",
+    "exampleSentence": "In that office, replying to the founder immediately is practically the 11th commandment.",
+    "exampleTranslation": "In that office, replying to the founder immediately feels like an untouchable rule.",
+    "difficulty": "intermediate",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Numbered list-header artifact with variable meaning, not a living standalone idiom.",
+    "discardedFrom": "en.json"
+  },
+  {
+    "id": "en-throw-in-the-towel-17",
+    "language": "en",
+    "expression": "Throw in the towel",
+    "meaning": "To give up and stop trying.",
+    "usageNote": "Use it when someone decides the effort is no longer worth continuing.",
+    "exampleSentence": "We were close to throwing in the towel before the final patch worked.",
+    "exampleTranslation": "We were close to giving up before the final patch worked.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Exact duplicate of curated en-throw-in-the-towel.",
+    "discardedFrom": "en.json"
+  },
+  {
+    "id": "en-costs-an-arm-and-a-leg-18",
+    "language": "en",
+    "expression": "Costs an arm and a leg",
+    "meaning": "To be extremely expensive.",
+    "usageNote": "Use it when the price of something feels unreasonably high.",
+    "exampleSentence": "That apartment is beautiful, but it costs an arm and a leg.",
+    "exampleTranslation": "That apartment is beautiful, but it is extremely expensive.",
+    "difficulty": "basic",
+    "tags": [
+      "idiom",
+      "imported",
+      "reviewed"
+    ],
+    "reason": "Exact duplicate of curated en-costs-an-arm-and-a-leg.",
+    "discardedFrom": "en.json"
+  }
+]

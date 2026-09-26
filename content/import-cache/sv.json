@@ -1,21 +1,5 @@
 [
   {
-    "id": "sv-ana-ugglor-i-mossen-0",
-    "language": "sv",
-    "expression": "Ana ugglor i mossen",
-    "literalTranslation": "To sense owls in the marsh",
-    "meaning": "To suspect that something is not right.",
-    "usageNote": "Use it when details do not add up and you feel there is a hidden problem.",
-    "exampleSentence": "När han ändrade sin historia började jag ana ugglor i mossen.",
-    "exampleTranslation": "When he changed his story, I started to suspect that something was wrong.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "sv-aldrig-i-livet-1",
     "language": "sv",
     "expression": "Aldrig i livet",
@@ -80,22 +64,6 @@
     ]
   },
   {
-    "id": "sv-be-tusen-ganger-om-ursakt-5",
-    "language": "sv",
-    "expression": "Be tusen gånger om ursäkt",
-    "literalTranslation": "To apologize a thousand times",
-    "meaning": "To apologize very deeply and repeatedly.",
-    "usageNote": "Use it when someone feels strongly at fault and wants to show sincere regret.",
-    "exampleSentence": "Han fick be tusen gånger om ursäkt efter sitt klumpiga skämt.",
-    "exampleTranslation": "He had to apologize profusely after his clumsy joke.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
     "id": "sv-bara-barnet-6",
     "language": "sv",
     "expression": "Bara barnet",
@@ -152,22 +120,6 @@
     "usageNote": "Use it when someone needs to avoid panicking and wait for the right moment.",
     "exampleSentence": "Vi måste ha is i magen tills kunden svarar.",
     "exampleTranslation": "We need to stay calm and patient until the client responds.",
-    "difficulty": "intermediate",
-    "tags": [
-      "idiom",
-      "imported",
-      "reviewed"
-    ]
-  },
-  {
-    "id": "sv-ingen-ko-pa-isen-10",
-    "language": "sv",
-    "expression": "Ingen ko på isen",
-    "literalTranslation": "No cow on the ice",
-    "meaning": "There is no real danger yet, so there is no need to panic.",
-    "usageNote": "Use it to calm someone who is worrying before the situation has actually turned serious.",
-    "exampleSentence": "Det är förseningar, men det är ingen ko på isen än.",
-    "exampleTranslation": "There are delays, but it is not a real crisis yet.",
     "difficulty": "intermediate",
     "tags": [
       "idiom",

@@ -3,6 +3,8 @@ import { createRoot } from "react-dom/client";
 import { HomeExperience } from "../../components/home-experience";
 import { LibraryExperience } from "../../components/library-experience";
 import { SavedExperience } from "../../components/saved-experience";
+import { PracticeExperience } from "../../components/practice-experience";
+import { SettingsExperience } from "../../components/settings-experience";
 import { ExpressionCard } from "../../components/expression-card";
 import { SaveExpressionButton } from "../../components/save-expression-button";
 import { fetchExpressionById, fetchExpressionsByIds, fetchExpressionsForLanguage } from "./extension-client-api";
@@ -16,6 +18,8 @@ type RouteView =
   | { kind: "home" }
   | { kind: "library" }
   | { kind: "saved" }
+  | { kind: "practice" }
+  | { kind: "settings" }
   | { kind: "expression"; id: string };
 
 function getRouteView(): RouteView {
@@ -25,7 +29,17 @@ function getRouteView(): RouteView {
 
   const route =
     explicitRoute ??
-    (view === "library" ? "/library" : view === "saved" ? "/saved" : view === "daily" ? "/" : "/");
+    (view === "library"
+      ? "/library"
+      : view === "saved"
+        ? "/saved"
+        : view === "practice"
+          ? "/practice"
+          : view === "settings"
+            ? "/settings"
+            : view === "daily"
+              ? "/"
+              : "/");
 
   if (route.startsWith("/expression/")) {
     const id = route.slice("/expression/".length);
@@ -38,6 +52,14 @@ function getRouteView(): RouteView {
 
   if (route === "/saved") {
     return { kind: "saved" };
+  }
+
+  if (route === "/practice") {
+    return { kind: "practice" };
+  }
+
+  if (route === "/settings") {
+    return { kind: "settings" };
   }
 
   return { kind: "home" };
@@ -139,6 +161,14 @@ function AppRouter() {
 
   if (routeView.kind === "saved") {
     return <SavedExperience loadExpressionsByIds={fetchExpressionsByIds} />;
+  }
+
+  if (routeView.kind === "practice") {
+    return <PracticeExperience loadExpressionsByIds={fetchExpressionsByIds} />;
+  }
+
+  if (routeView.kind === "settings") {
+    return <SettingsExperience />;
   }
 
   if (routeView.kind === "expression") {

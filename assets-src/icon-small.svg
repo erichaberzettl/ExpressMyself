@@ -1,0 +1,23 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo">
+  <!--
+    ExpressMyself logo — small-size artwork (used for 16/32px toolbar icons).
+    Same speech-bubble + quotation-mark shapes as icon-master.svg, but the
+    bubble fills more of the tile and the marks are scaled up so the mark
+    survives at 16px. Regenerate PNGs with: npm run build:icons
+  -->
+  <defs>
+    <linearGradient id="tileS" x1="44" y1="24" x2="212" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3714B"/>
+      <stop offset="1" stop-color="#C54D2A"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#tileS)"/>
+  <g>
+    <rect x="34" y="46" width="188" height="122" rx="42" fill="#FFF6EC"/>
+    <path d="M84 158 L124 158 L62 212 Z" fill="#FFF6EC"/>
+  </g>
+  <g fill="#C64E2B" transform="translate(60,66) scale(1.5)">
+    <path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z"/>
+    <path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z" transform="translate(48,0)"/>
+  </g>
+</svg>

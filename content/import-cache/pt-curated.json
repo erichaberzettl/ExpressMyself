@@ -1,0 +1,452 @@
+[
+  {
+    "id": "pt-ficar-a-ver-navios",
+    "language": "pt",
+    "expression": "Ficar a ver navios",
+    "literalTranslation": "To be left watching ships",
+    "meaning": "To be left disappointed and empty-handed after expecting something.",
+    "usageNote": "Use it when someone misses out and ends up with nothing.",
+    "exampleSentence": "Cheguei atrasado à promoção e fiquei a ver navios.",
+    "exampleTranslation": "I got to the sale late and was left empty-handed.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pt-tirar-o-cavalinho-da-chuva",
+    "language": "pt",
+    "expression": "Tirar o cavalinho da chuva",
+    "literalTranslation": "To take the little horse out of the rain",
+    "meaning": "To give up on an idea because it simply won't happen.",
+    "usageNote": "Use it, often bluntly, to tell someone not to get their hopes up.",
+    "exampleSentence": "Se achas que te empresto o carro, podes tirar o cavalinho da chuva.",
+    "exampleTranslation": "If you think I'll lend you the car, you can forget about it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pt-engolir-sapos",
+    "language": "pt",
+    "expression": "Engolir sapos",
+    "literalTranslation": "To swallow frogs",
+    "meaning": "To put up with unpleasant things without complaining.",
+    "usageNote": "Use it when someone has to bite their tongue and tolerate annoyances.",
+    "exampleSentence": "No trabalho tive de engolir muitos sapos para manter a paz.",
+    "exampleTranslation": "At work I had to put up with a lot to keep the peace.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-dar-o-braco-a-torcer",
+    "language": "pt",
+    "expression": "Dar o braço a torcer",
+    "literalTranslation": "To give the arm to be twisted",
+    "meaning": "To admit you were wrong or finally give in.",
+    "usageNote": "Use it when a stubborn person at last concedes.",
+    "exampleSentence": "Custou-lhe, mas acabou por dar o braço a torcer.",
+    "exampleTranslation": "It was hard for him, but he finally gave in and admitted it.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "pt-estar-com-os-azeites",
+    "language": "pt",
+    "expression": "Estar com os azeites",
+    "literalTranslation": "To be with the olive oils",
+    "meaning": "To be in a bad mood; to be irritated.",
+    "usageNote": "A casual, European Portuguese way to say someone is grumpy.",
+    "exampleSentence": "Não fales com ela agora, está com os azeites.",
+    "exampleTranslation": "Don't talk to her now, she's in a foul mood.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-ter-a-pulga-atras-da-orelha",
+    "language": "pt",
+    "expression": "Ter a pulga atrás da orelha",
+    "literalTranslation": "To have the flea behind the ear",
+    "meaning": "To be suspicious or to have a nagging doubt.",
+    "usageNote": "Use it when something feels off and you can't quite trust it.",
+    "exampleSentence": "As contas não batem certo e fiquei com a pulga atrás da orelha.",
+    "exampleTranslation": "The numbers don't add up and it left me suspicious.",
+    "difficulty": "intermediate",
+    "tags": [
+      "secrets",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "pt-ficar-em-aguas-de-bacalhau",
+    "language": "pt",
+    "expression": "Ficar em águas de bacalhau",
+    "literalTranslation": "To end up in codfish waters",
+    "meaning": "To come to nothing; to fizzle out.",
+    "usageNote": "Use it when a plan or promise ends without any result.",
+    "exampleSentence": "O projeto prometia muito, mas ficou em águas de bacalhau.",
+    "exampleTranslation": "The project promised a lot, but it came to nothing.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pt-fazer-das-tripas-coracao",
+    "language": "pt",
+    "expression": "Fazer das tripas coração",
+    "literalTranslation": "To make heart out of the guts",
+    "meaning": "To make a huge effort or sacrifice to manage something.",
+    "usageNote": "Use it when someone pushes through against the odds.",
+    "exampleSentence": "Fiz das tripas coração para acabar o trabalho a tempo.",
+    "exampleTranslation": "I gave it everything I had to finish the work on time.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-meter-o-bedelho",
+    "language": "pt",
+    "expression": "Meter o bedelho",
+    "literalTranslation": "To stick in the latch",
+    "meaning": "To butt in or meddle in something that isn't your business.",
+    "usageNote": "Use it, disapprovingly, about someone who interferes uninvited.",
+    "exampleSentence": "Ninguém te pediu opinião, não metas o bedelho.",
+    "exampleTranslation": "Nobody asked for your opinion, don't butt in.",
+    "difficulty": "intermediate",
+    "tags": [
+      "boundaries",
+      "communication"
+    ]
+  },
+  {
+    "id": "pt-fazer-ouvidos-de-mercador",
+    "language": "pt",
+    "expression": "Fazer ouvidos de mercador",
+    "literalTranslation": "To make merchant's ears",
+    "meaning": "To pretend not to hear; to ignore deliberately.",
+    "usageNote": "Use it when someone turns a deaf ear to a request or criticism.",
+    "exampleSentence": "Pedi ajuda várias vezes, mas ele fez ouvidos de mercador.",
+    "exampleTranslation": "I asked for help several times, but he turned a deaf ear.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "pt-bicho-de-sete-cabecas",
+    "language": "pt",
+    "expression": "Bicho de sete cabeças",
+    "literalTranslation": "A seven-headed beast",
+    "meaning": "Something made out to be far harder or scarier than it really is.",
+    "usageNote": "Usually with 'não é' to reassure that something is not that hard.",
+    "exampleSentence": "Calma, montar o móvel não é nenhum bicho de sete cabeças.",
+    "exampleTranslation": "Relax, assembling the furniture isn't rocket science.",
+    "difficulty": "intermediate",
+    "tags": [
+      "confusion",
+      "confidence"
+    ]
+  },
+  {
+    "id": "pt-farinha-do-mesmo-saco",
+    "language": "pt",
+    "expression": "Farinha do mesmo saco",
+    "literalTranslation": "Flour from the same sack",
+    "meaning": "People who share the same, usually bad, faults.",
+    "usageNote": "Use it, critically, about people who are equally guilty of something.",
+    "exampleSentence": "Os dois políticos são farinha do mesmo saco.",
+    "exampleTranslation": "The two politicians are cut from the same cloth.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "communication"
+    ]
+  },
+  {
+    "id": "pt-ter-memoria-de-elefante",
+    "language": "pt",
+    "expression": "Ter memória de elefante",
+    "literalTranslation": "To have an elephant's memory",
+    "meaning": "To have an excellent memory, especially for slights.",
+    "usageNote": "Use it about someone who never forgets, for better or worse.",
+    "exampleSentence": "Cuidado com o que dizes, ela tem memória de elefante.",
+    "exampleTranslation": "Careful what you say, she has a memory like an elephant.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-por-paninhos-quentes",
+    "language": "pt",
+    "expression": "Pôr paninhos quentes",
+    "literalTranslation": "To put on warm little cloths",
+    "meaning": "To smooth a problem over instead of really fixing it.",
+    "usageNote": "Use it when someone downplays an issue rather than tackling it head-on.",
+    "exampleSentence": "Não adianta pôr paninhos quentes, temos de resolver isto a sério.",
+    "exampleTranslation": "There's no point papering over it, we have to deal with this properly.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "pt-aguas-passadas-nao-movem-moinhos",
+    "language": "pt",
+    "expression": "Águas passadas não movem moinhos",
+    "literalTranslation": "Past waters don't move mills",
+    "meaning": "What's done is done; there's no use dwelling on the past.",
+    "usageNote": "Use it to let go of an old grievance or mistake.",
+    "exampleSentence": "Já pedimos desculpa um ao outro; águas passadas não movem moinhos.",
+    "exampleTranslation": "We've apologized to each other; that's all water under the bridge.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "time"
+    ]
+  },
+  {
+    "id": "pt-o-seguro-morreu-de-velho",
+    "language": "pt",
+    "expression": "O seguro morreu de velho",
+    "literalTranslation": "The careful one died of old age",
+    "meaning": "Being cautious keeps you safe in the long run.",
+    "usageNote": "Use it to justify taking a safe, careful approach.",
+    "exampleSentence": "Vou confirmar a reserva outra vez; o seguro morreu de velho.",
+    "exampleTranslation": "I'll double-check the booking; better safe than sorry.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "pt-a-esperanca-e-a-ultima-a-morrer",
+    "language": "pt",
+    "expression": "A esperança é a última a morrer",
+    "literalTranslation": "Hope is the last to die",
+    "meaning": "You keep hoping even when things look bleak.",
+    "usageNote": "Use it to stay hopeful in a difficult situation.",
+    "exampleSentence": "Ainda podemos ganhar; a esperança é a última a morrer.",
+    "exampleTranslation": "We can still win; hope is the last thing to die.",
+    "difficulty": "intermediate",
+    "tags": [
+      "encouragement",
+      "emotion"
+    ]
+  },
+  {
+    "id": "pt-em-casa-de-ferreiro-espeto-de-pau",
+    "language": "pt",
+    "expression": "Em casa de ferreiro, espeto de pau",
+    "literalTranslation": "In the blacksmith's house, a wooden spit",
+    "meaning": "People often lack for themselves the very thing they provide to others.",
+    "usageNote": "Use it about an expert who neglects their own skill at home.",
+    "exampleSentence": "O web designer não tem site próprio: em casa de ferreiro, espeto de pau.",
+    "exampleTranslation": "The web designer has no site of his own: the cobbler's children go barefoot.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "personality"
+    ]
+  },
+  {
+    "id": "pt-cao-que-ladra-nao-morde",
+    "language": "pt",
+    "expression": "Cão que ladra não morde",
+    "literalTranslation": "A dog that barks doesn't bite",
+    "meaning": "People who threaten loudly rarely act on it.",
+    "usageNote": "Use it to reassure someone not to fear loud threats.",
+    "exampleSentence": "O chefe grita muito, mas cão que ladra não morde.",
+    "exampleTranslation": "The boss shouts a lot, but his bark is worse than his bite.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "confidence"
+    ]
+  },
+  {
+    "id": "pt-quem-nao-tem-cao-caca-com-gato",
+    "language": "pt",
+    "expression": "Quem não tem cão, caça com gato",
+    "literalTranslation": "Who has no dog hunts with a cat",
+    "meaning": "You make do with whatever means you happen to have.",
+    "usageNote": "Use it about improvising with limited resources.",
+    "exampleSentence": "Não tinha batedeira, usei um garfo; quem não tem cão, caça com gato.",
+    "exampleTranslation": "I had no mixer, so I used a fork; you make do with what you have.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-a-pressa-e-inimiga-da-perfeicao",
+    "language": "pt",
+    "expression": "A pressa é inimiga da perfeição",
+    "literalTranslation": "Haste is the enemy of perfection",
+    "meaning": "Rushing leads to mistakes and poor quality.",
+    "usageNote": "Use it to argue for taking your time to do something well.",
+    "exampleSentence": "Não despaches isso à pressa; a pressa é inimiga da perfeição.",
+    "exampleTranslation": "Don't rush that; haste is the enemy of good work.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "time"
+    ]
+  },
+  {
+    "id": "pt-agua-mole-em-pedra-dura-tanto-bate-ate-que-fura",
+    "language": "pt",
+    "expression": "Água mole em pedra dura, tanto bate até que fura",
+    "literalTranslation": "Soft water on hard stone strikes until it pierces",
+    "meaning": "Persistent effort eventually overcomes any obstacle.",
+    "usageNote": "Use it to encourage patient, steady persistence.",
+    "exampleSentence": "Continua a insistir com calma; água mole em pedra dura, tanto bate até que fura.",
+    "exampleTranslation": "Keep at it calmly; steady persistence wears down any stone.",
+    "difficulty": "intermediate",
+    "tags": [
+      "motivation",
+      "time"
+    ]
+  },
+  {
+    "id": "pt-por-as-barbas-de-molho",
+    "language": "pt",
+    "expression": "Pôr as barbas de molho",
+    "literalTranslation": "To put one's beard to soak",
+    "meaning": "To be on your guard after a warning sign.",
+    "usageNote": "Use it when someone else's trouble is a warning to be careful yourself.",
+    "exampleSentence": "Se eles foram despedidos, é melhor pormos as barbas de molho.",
+    "exampleTranslation": "If they got laid off, we'd better be on our guard.",
+    "difficulty": "intermediate",
+    "tags": [
+      "decision-making",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "pt-estar-feito-ao-bife",
+    "language": "pt",
+    "expression": "Estar feito ao bife",
+    "literalTranslation": "To be done like a steak",
+    "meaning": "To be in serious trouble.",
+    "usageNote": "A casual way to say someone is in a hopeless fix.",
+    "exampleSentence": "Se o chefe descobre isto, estamos feitos ao bife.",
+    "exampleTranslation": "If the boss finds out about this, we're toast.",
+    "difficulty": "intermediate",
+    "tags": [
+      "mistakes",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-dar-uma-no-cravo-e-outra-na-ferradura",
+    "language": "pt",
+    "expression": "Dar uma no cravo e outra na ferradura",
+    "literalTranslation": "To hit one on the nail and another on the horseshoe",
+    "meaning": "To be inconsistent, or to try to please both sides at once.",
+    "usageNote": "Use it about someone who keeps hedging or blowing hot and cold.",
+    "exampleSentence": "O político dá uma no cravo e outra na ferradura para não perder votos.",
+    "exampleTranslation": "The politician plays both sides so as not to lose votes.",
+    "difficulty": "intermediate",
+    "tags": [
+      "communication",
+      "personality"
+    ]
+  },
+  {
+    "id": "pt-ter-macaquinhos-no-sotao",
+    "language": "pt",
+    "expression": "Ter macaquinhos no sótão",
+    "literalTranslation": "To have little monkeys in the attic",
+    "meaning": "To be a bit crazy or to imagine strange things.",
+    "usageNote": "An informal, teasing way to say someone isn't quite right in the head.",
+    "exampleSentence": "Ele acha que o vizinho o espia; tem macaquinhos no sótão.",
+    "exampleTranslation": "He thinks the neighbour spies on him; he's got a screw loose.",
+    "difficulty": "intermediate",
+    "tags": [
+      "personality",
+      "humor"
+    ]
+  },
+  {
+    "id": "pt-estar-nas-suas-sete-quintas",
+    "language": "pt",
+    "expression": "Estar nas suas sete quintas",
+    "literalTranslation": "To be in one's seven farms",
+    "meaning": "To be delighted and perfectly content.",
+    "usageNote": "Use it when someone is thoroughly happy in their element.",
+    "exampleSentence": "Com um livro e um café, ela está nas suas sete quintas.",
+    "exampleTranslation": "With a book and a coffee, she's in seventh heaven.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-andar-como-cao-e-gato",
+    "language": "pt",
+    "expression": "Andar como cão e gato",
+    "literalTranslation": "To get along like dog and cat",
+    "meaning": "To argue and clash constantly.",
+    "usageNote": "Use it about two people who can't stop bickering.",
+    "exampleSentence": "Os irmãos adoram-se, mas andam como cão e gato.",
+    "exampleTranslation": "The siblings love each other, but they fight like cats and dogs.",
+    "difficulty": "intermediate",
+    "tags": [
+      "emotion",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "pt-de-pequenino-se-torce-o-pepino",
+    "language": "pt",
+    "expression": "De pequenino se torce o pepino",
+    "literalTranslation": "The cucumber is bent while it's small",
+    "meaning": "Good habits and values are best instilled early in life.",
+    "usageNote": "Use it about the importance of teaching children while they are young.",
+    "exampleSentence": "Ensina-lhe a arrumar agora; de pequenino se torce o pepino.",
+    "exampleTranslation": "Teach him to tidy up now; you shape habits while they're young.",
+    "difficulty": "intermediate",
+    "tags": [
+      "learning",
+      "personality"
+    ]
+  },
+  {
+    "id": "pt-depressa-e-bem-ha-pouco-quem",
+    "language": "pt",
+    "expression": "Depressa e bem, há pouco quem",
+    "literalTranslation": "Fast and well, few can do",
+    "meaning": "Doing something both quickly and well is rare.",
+    "usageNote": "Use it to argue against rushing when quality matters.",
+    "exampleSentence": "Não te apresses tanto; depressa e bem, há pouco quem.",
+    "exampleTranslation": "Don't rush so much; hardly anyone does things fast and well.",
+    "difficulty": "intermediate",
+    "tags": [
+      "work",
+      "time"
+    ]
+  }
+]

@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ExpressMyself — Store promos</title>
+    <style>
+      /* ------------------------------------------------------------------
+         ExpressMyself — Chrome Web Store promotional shots.
+         Windscribe-inspired layout: dark, framed canvas with a dotted grid
+         and a warm terracotta glow; a bold sans headline on the left and a
+         real product-UI mockup floating on the right. Rendered to PNG by
+         scripts/generate-store-promos.mjs (headless Chrome, DPR 1).
+         Each <section.poster data-name> is captured with ?only=<name>.
+      ------------------------------------------------------------------ */
+      :root {
+        /* Dark canvas (warm, not cold navy — stays on the ExpressMyself palette) */
+        --ink0: #14100d;
+        --ink1: #1d1611;
+        --ink2: #2a1a12;
+        --warm-white: #fdf7f0;
+        --warm-muted: #b6a89c;
+        --warm-faint: #7d7267;
+        --accent: #e3714b;
+        --accent-deep: #d6613c;
+        --accent-strong: #b95535;
+        --accent-glow: rgba(226, 113, 75, 0.45);
+
+        /* Light product-UI card (the real extension look) */
+        --card: #fffdf8;
+        --card-2: #f8f0e7;
+        --card-line: rgba(120, 80, 48, 0.16);
+        --card-ink: #211b16;
+        --card-muted: #5f5346;
+        --card-accent: #c05230;
+        --card-eyebrow: #b0512f;
+
+        --sans: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        --serif: "Iowan Old Style", "Palatino Linotype", "Palatino", "Georgia", serif;
+      }
+
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; background: #0a0806; }
+      body { -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+
+      /* When ?only=<name> is set, only that poster is shown and the body is
+         sized to it exactly, so the headless screenshot is pixel-perfect. */
+      body.single .poster { display: none; }
+      body.single .poster.active { display: grid; }
+
+      .poster {
+        position: relative;
+        width: 1280px;
+        height: 800px;
+        padding: 14px;
+        background: #0a0806;
+        color: var(--warm-white);
+        font-family: var(--sans);
+        overflow: hidden;
+      }
+
+      /* Inner framed panel with the rounded Windscribe border */
+      .frame {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 26px;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        background:
+          radial-gradient(1100px 700px at 78% 46%, rgba(226,113,75,0.20), transparent 60%),
+          radial-gradient(900px 900px at 6% 8%, rgba(226,113,75,0.10), transparent 55%),
+          linear-gradient(157deg, var(--ink0) 0%, var(--ink1) 46%, var(--ink2) 100%);
+      }
+      /* dotted-square grid */
+      .frame::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image:
+          radial-gradient(rgba(255,255,255,0.05) 1.4px, transparent 1.6px);
+        background-size: 46px 46px;
+        background-position: 0 0;
+        -webkit-mask-image: linear-gradient(105deg, #000 0%, #000 46%, transparent 72%);
+        mask-image: linear-gradient(105deg, #000 0%, #000 46%, transparent 72%);
+        pointer-events: none;
+      }
+
+      /* two-column content */
+      .stage {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        align-items: center;
+        z-index: 2;
+      }
+
+      /* ---- Left column: headline block ---- */
+      .lead { padding: 0 40px 0 64px; }
+      .mark {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 30px;
+      }
+      .mark .logo { height: 47px; width: auto; display: block; filter: drop-shadow(0 6px 15px rgba(0,0,0,0.5)); }
+      .mark .wordmark { font-family: Georgia, "Times New Roman", "Times", serif; font-size: 25px; font-weight: 700; letter-spacing: 0; color: var(--warm-white); }
+      .mark .wordmark b { color: var(--accent); font-weight: 700; }
+
+      .headline {
+        font-size: 52px;
+        line-height: 1.06;
+        font-weight: 800;
+        letter-spacing: -0.022em;
+        margin: 0;
+        color: var(--warm-white);
+        text-wrap: balance;
+      }
+      .headline .u {
+        position: relative;
+        white-space: nowrap;
+      }
+      .headline .u::after {
+        content: "";
+        position: absolute;
+        left: 0; right: 0; bottom: 2px;
+        height: 6px;
+        border-radius: 4px;
+        background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+        opacity: 0.92;
+      }
+      .accent-word { color: var(--accent); }
+
+      .sub {
+        margin: 22px 0 0;
+        font-size: 20px;
+        line-height: 1.5;
+        color: var(--warm-muted);
+        max-width: 30ch;
+        font-weight: 400;
+      }
+      .feat {
+        margin: 30px 0 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        gap: 14px;
+      }
+      .feat li {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        font-size: 17px;
+        color: #ded2c6;
+        font-weight: 500;
+      }
+      .feat .dot {
+        width: 22px; height: 22px; border-radius: 8px; flex: none;
+        background: linear-gradient(150deg, var(--accent), var(--accent-strong));
+        display: grid; place-items: center;
+        color: #fff; font-size: 12px; font-weight: 800;
+        box-shadow: 0 6px 14px rgba(226,113,75,0.35);
+      }
+
+      /* ---- Right column: floating product mockup ---- */
+      .showcase {
+        position: relative;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        padding-right: 60px;
+      }
+      .glow {
+        position: absolute;
+        width: 460px; height: 460px; border-radius: 50%;
+        background: var(--accent-glow);
+        filter: blur(90px);
+        z-index: 0;
+      }
+
+      /* Generic light card (the real product surface) */
+      .ui {
+        position: relative;
+        z-index: 1;
+        background: linear-gradient(180deg, var(--card) 0%, var(--card-2) 100%);
+        border: 1px solid var(--card-line);
+        border-radius: 26px;
+        color: var(--card-ink);
+        box-shadow:
+          0 30px 70px rgba(0,0,0,0.5),
+          0 2px 0 rgba(255,255,255,0.6) inset;
+        overflow: hidden;
+      }
+      .eyebrow {
+        font-family: var(--sans);
+        font-size: 12.5px; font-weight: 800; letter-spacing: 0.14em;
+        text-transform: uppercase; color: var(--card-eyebrow);
+      }
+      .serif { font-family: var(--serif); }
+
+      /* pill / chips */
+      .pill {
+        display: inline-flex; align-items: center; gap: 7px;
+        border: 1px solid var(--card-line); border-radius: 999px;
+        padding: 7px 13px; font-size: 13.5px; font-weight: 600; color: var(--card-muted);
+        background: rgba(255,255,255,0.6);
+      }
+      .pill.on { background: var(--card-accent); color: #fff; border-color: transparent; }
+
+      .btn {
+        border-radius: 999px; padding: 12px 20px; font-size: 15px; font-weight: 700;
+        font-family: var(--sans); border: 1px solid var(--card-line);
+        display: inline-flex; align-items: center; gap: 9px;
+      }
+      .btn.primary { background: linear-gradient(150deg, var(--accent), var(--accent-strong)); color: #fff; border-color: transparent; box-shadow: 0 10px 22px rgba(214,97,60,0.35); }
+      .btn.ghost { background: rgba(255,255,255,0.7); color: var(--card-ink); }
+
+      .flame {
+        display: inline-flex; align-items: center; gap: 7px;
+        background: rgba(214,97,60,0.12); color: var(--card-accent);
+        border: 1px solid rgba(214,97,60,0.22); border-radius: 999px;
+        padding: 6px 12px; font-size: 14px; font-weight: 800; font-family: var(--sans);
+      }
+
+      /* ===== Poster 1 — Daily popup ===== */
+      .card-daily { width: 460px; padding: 30px 32px 26px; }
+      .card-daily .row { display: flex; align-items: center; justify-content: space-between; }
+      .card-daily .lang { font-size: 13px; font-weight: 700; color: var(--card-muted); letter-spacing: 0.02em; }
+      .card-daily h3 { font-size: 44px; line-height: 1.08; margin: 20px 0 0; letter-spacing: -0.01em; color: var(--card-ink); }
+      .card-daily .meaning { font-size: 19px; line-height: 1.5; color: #4a4038; margin: 16px 0 0; }
+      .card-daily .lit-label { margin-top: 22px; }
+      .card-daily .lit { font-family: var(--serif); font-size: 18px; color: var(--card-ink); margin-top: 6px; font-style: italic; }
+      .card-daily .actions { display: flex; gap: 12px; margin-top: 26px; }
+      .card-daily .hint { margin-top: 20px; font-size: 12.5px; color: #8a7d6f; font-weight: 600; font-family: var(--sans); letter-spacing: 0.01em; }
+
+      /* ===== Poster 2 — Languages list (Windscribe locations parallel) ===== */
+      .card-langs { width: 470px; padding: 0; }
+      .card-langs .head {
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 22px 24px; border-bottom: 1px solid var(--card-line);
+      }
+      .card-langs .head .title { font-size: 21px; font-weight: 800; font-family: var(--sans); letter-spacing: -0.01em; }
+      .card-langs .head .search {
+        width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
+        border: 1px solid var(--card-line); color: var(--card-muted); font-size: 16px; background: rgba(255,255,255,0.6);
+      }
+      .lang-row {
+        display: flex; align-items: center; gap: 16px;
+        padding: 15px 24px; border-bottom: 1px solid rgba(120,80,48,0.09);
+      }
+      .lang-row:last-child { border-bottom: 0; }
+      .lang-row.on { background: linear-gradient(90deg, rgba(214,97,60,0.10), rgba(214,97,60,0.02)); }
+      .lang-row .flag { font-size: 30px; line-height: 1; width: 40px; text-align: center; filter: drop-shadow(0 3px 5px rgba(0,0,0,0.15)); }
+      .lang-row .native { font-size: 19px; font-weight: 700; color: var(--card-ink); }
+      .lang-row .en { font-size: 13px; color: var(--card-muted); margin-top: 2px; }
+      .lang-row .count { margin-left: auto; font-size: 13px; font-weight: 700; color: var(--card-accent); }
+      .lang-row .chev { color: #b7a290; font-size: 18px; margin-left: 14px; }
+      .card-langs .foot { padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; }
+      .card-langs .foot .total { font-size: 14px; font-weight: 700; color: var(--card-muted); }
+
+      /* ===== Poster 3 — Library / search ===== */
+      .card-lib { width: 500px; padding: 24px; }
+      .searchbar {
+        display: flex; align-items: center; gap: 12px;
+        border: 1px solid var(--card-line); border-radius: 14px; padding: 13px 16px;
+        background: rgba(255,255,255,0.7); font-size: 17px; color: var(--card-ink); font-weight: 600;
+      }
+      .searchbar .mag { color: var(--card-accent); font-size: 17px; }
+      .searchbar .cursor { width: 2px; height: 20px; background: var(--card-accent); margin-left: 2px; border-radius: 2px; }
+      .filters { display: flex; flex-wrap: wrap; gap: 9px; margin: 16px 0 4px; }
+      .res { border: 1px solid var(--card-line); border-radius: 18px; padding: 18px 20px; margin-top: 14px; background: rgba(255,255,255,0.55); }
+      .res h4 { font-family: var(--serif); font-size: 25px; margin: 0; color: var(--card-ink); }
+      .res p { font-size: 15px; line-height: 1.45; color: var(--card-muted); margin: 8px 0 12px; }
+      .res .tags { display: flex; gap: 8px; }
+      .res .tag { font-size: 12px; font-weight: 700; color: var(--card-accent); border: 1px solid rgba(214,97,60,0.28); border-radius: 999px; padding: 4px 11px; }
+
+      /* ===== Poster 4 — Listen / speech ===== */
+      .card-listen { width: 470px; padding: 34px 34px 30px; text-align: center; }
+      .card-listen .eyebrow { display: block; }
+      .card-listen h3 { font-family: var(--serif); font-size: 40px; margin: 16px 0 0; color: var(--card-ink); }
+      .card-listen .lit { font-size: 16px; color: var(--card-muted); margin-top: 8px; font-style: italic; font-family: var(--serif); }
+      .play-wrap { display: flex; align-items: center; gap: 18px; justify-content: center; margin: 30px 0 8px; }
+      .play {
+        width: 84px; height: 84px; border-radius: 50%; flex: none;
+        background: linear-gradient(150deg, var(--accent), var(--accent-strong));
+        display: grid; place-items: center; color: #fff;
+        box-shadow: 0 16px 34px rgba(214,97,60,0.45);
+      }
+      .play svg { width: 30px; height: 30px; margin-left: 4px; }
+      .wave { display: flex; align-items: center; gap: 5px; height: 60px; }
+      .wave span { width: 6px; border-radius: 4px; background: linear-gradient(180deg, var(--accent), var(--accent-strong)); opacity: 0.85; }
+      .card-listen .speak-label { margin-top: 22px; font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--card-eyebrow); }
+
+      /* ===== Poster 5 — Save + streak ===== */
+      .card-save { width: 480px; padding: 0; }
+      .card-save .banner {
+        display: flex; align-items: center; gap: 16px; padding: 24px 26px;
+        background: linear-gradient(120deg, rgba(214,97,60,0.14), rgba(214,97,60,0.03));
+        border-bottom: 1px solid var(--card-line);
+      }
+      .card-save .banner .big { font-size: 46px; line-height: 1; }
+      .card-save .banner .n { font-size: 30px; font-weight: 800; font-family: var(--sans); color: var(--card-ink); letter-spacing: -0.01em; }
+      .card-save .banner .lbl { font-size: 14px; color: var(--card-muted); font-weight: 600; margin-top: 3px; }
+      .card-save .banner .save-tag { margin-left: auto; }
+      .saved-row { display: flex; align-items: center; gap: 14px; padding: 16px 26px; border-bottom: 1px solid rgba(120,80,48,0.09); }
+      .saved-row:last-child { border-bottom: 0; }
+      .saved-row .heart { color: var(--card-accent); font-size: 19px; flex: none; }
+      .saved-row .ph { font-family: var(--serif); font-size: 20px; color: var(--card-ink); }
+      .saved-row .mn { font-size: 13.5px; color: var(--card-muted); margin-top: 2px; }
+      .saved-row .flag { margin-left: auto; font-size: 20px; }
+
+      /* ===== Marquee 1400×560 ===== */
+      .poster.marquee { width: 1400px; height: 560px; }
+      .poster.marquee .stage { grid-template-columns: 52% 48%; }
+      .poster.marquee .lead { padding-left: 72px; }
+      .poster.marquee .headline { font-size: 66px; }
+      .poster.marquee .brand-wordmark { font-size: 33px; }
+      .poster.marquee .mark .logo { height: 56px; }
+
+      /* ===== Small promo tile 440×280 ===== */
+      .poster.tile { width: 440px; height: 280px; padding: 10px; }
+      .poster.tile .frame { border-radius: 20px; }
+      .poster.tile .tile-inner {
+        position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column;
+        justify-content: center; gap: 14px; padding: 30px 34px;
+      }
+      .poster.tile .logo { height: 56px; width: auto; filter: drop-shadow(0 8px 20px rgba(0,0,0,0.55)); }
+      .poster.tile .t-word { font-family: Georgia, "Times New Roman", "Times", serif; font-size: 33px; font-weight: 700; letter-spacing: 0; color: var(--warm-white); }
+      .poster.tile .t-sub { font-size: 16px; color: var(--warm-muted); font-weight: 500; line-height: 1.35; max-width: 26ch; }
+      .poster.tile .t-chips { display: flex; gap: 8px; margin-top: 4px; }
+      .poster.tile .t-chip { font-size: 12px; font-weight: 700; color: #e7d9cd; border: 1px solid rgba(255,255,255,0.14); border-radius: 999px; padding: 5px 11px; background: rgba(255,255,255,0.04); }
+      .poster.tile .glow { width: 300px; height: 300px; right: -60px; bottom: -60px; top: auto; left: auto; }
+
+      /* ===== Variant 2 — lighter "mocha" canvas + serif brand wordmark ===== */
+      body.v2 .poster { background: #150e08; }
+      body.v2 .frame {
+        border-color: rgba(255, 255, 255, 0.13);
+        background:
+          radial-gradient(1100px 720px at 78% 46%, rgba(226,113,75,0.26), transparent 60%),
+          radial-gradient(900px 900px at 6% 8%, rgba(226,113,75,0.14), transparent 55%),
+          linear-gradient(157deg, #241a14 0%, #34261c 48%, #47311f 100%);
+      }
+      body.v2 .frame::before {
+        background-image: radial-gradient(rgba(255,240,230,0.06) 1.4px, transparent 1.6px);
+      }
+      body.v2 .sub { color: #cdbfb1; }
+      body.v2 .feat li { color: #efe4d8; }
+      /* Wordmark font (Georgia Bold) and the unboxed bubble mark are shared by
+         both variants, so v2 only changes the background + body-text tones. */
+    </style>
+  </head>
+  <body>
+    <!-- ============ Poster 1 · Daily ============ -->
+    <section class="poster" data-name="1-daily">
+      <div class="frame">
+        <div class="stage">
+          <div class="lead">
+            <span class="mark">
+              <svg class="logo" viewBox="42 50 172 156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo"><rect x="48" y="56" width="160" height="106" rx="36" fill="#fff6ec"/><path d="M90 152 L124 152 L72 200 Z" fill="#fff6ec"/><g fill="#c64e2b" transform="translate(70,70) scale(1.22)"><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z"/><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z" transform="translate(52,0)"/></g></svg>
+              <span class="wordmark">Express<b>Myself</b></span>
+            </span>
+            <h1 class="headline">One fresh expression,<br />delivered <span class="u">every single day</span>.</h1>
+            <p class="sub">Open the popup and today's idiom is waiting — meaning, literal translation, and a tap to hear it.</p>
+          </div>
+          <div class="showcase">
+            <div class="glow"></div>
+            <div class="ui card-daily">
+              <div class="row">
+                <span class="eyebrow">Phrase of the day</span>
+                <span class="flame">🔥 7</span>
+              </div>
+              <div class="row" style="margin-top:14px">
+                <span class="lang">🇮🇹 Italiano</span>
+              </div>
+              <h3 class="serif">In bocca al lupo</h3>
+              <p class="meaning">A warm way to wish someone good luck right before a big moment.</p>
+              <div class="lit-label eyebrow">Literal</div>
+              <div class="lit">“Into the wolf's mouth.”</div>
+              <div class="actions">
+                <span class="btn primary">♥ Save</span>
+                <span class="btn ghost"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"/></svg>Listen</span>
+              </div>
+              <div class="hint">← → browse · S save · Space listen</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Poster 2 · Languages ============ -->
+    <section class="poster" data-name="2-languages">
+      <div class="frame">
+        <div class="stage">
+          <div class="lead">
+            <span class="mark">
+              <svg class="logo" viewBox="42 50 172 156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo"><rect x="48" y="56" width="160" height="106" rx="36" fill="#fff6ec"/><path d="M90 152 L124 152 L72 200 Z" fill="#fff6ec"/><g fill="#c64e2b" transform="translate(70,70) scale(1.22)"><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z"/><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z" transform="translate(52,0)"/></g></svg>
+              <span class="wordmark">Express<b>Myself</b></span>
+            </span>
+            <h1 class="headline"><span class="u">Ten languages.</span><br />Real idioms, not<br />textbook phrases.</h1>
+            <p class="sub">Switch your language in one tap and browse expressions people actually say.</p>
+          </div>
+          <div class="showcase">
+            <div class="glow"></div>
+            <div class="ui card-langs">
+              <div class="head">
+                <span class="title">Languages</span>
+                <span class="search">⌕</span>
+              </div>
+              <div class="lang-row">
+                <span class="flag">🇪🇸</span>
+                <span><div class="native">Español</div><div class="en">Spanish</div></span>
+                <span class="count">100</span><span class="chev">›</span>
+              </div>
+              <div class="lang-row on">
+                <span class="flag">🇮🇹</span>
+                <span><div class="native">Italiano</div><div class="en">Italian</div></span>
+                <span class="count">56</span><span class="chev">›</span>
+              </div>
+              <div class="lang-row">
+                <span class="flag">🇩🇪</span>
+                <span><div class="native">Deutsch</div><div class="en">German</div></span>
+                <span class="count">117</span><span class="chev">›</span>
+              </div>
+              <div class="lang-row">
+                <span class="flag">🇫🇷</span>
+                <span><div class="native">Français</div><div class="en">French</div></span>
+                <span class="count">61</span><span class="chev">›</span>
+              </div>
+              <div class="lang-row">
+                <span class="flag">🇸🇪</span>
+                <span><div class="native">Svenska</div><div class="en">Swedish</div></span>
+                <span class="count">127</span><span class="chev">›</span>
+              </div>
+              <div class="foot">
+                <span class="total">🇬🇧 🇵🇹 🇳🇱 🇩🇰 🇵🇱  + 5 more</span>
+                <span class="pill on">780 expressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Poster 3 · Library / search ============ -->
+    <section class="poster" data-name="3-library">
+      <div class="frame">
+        <div class="stage">
+          <div class="lead">
+            <span class="mark">
+              <svg class="logo" viewBox="42 50 172 156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo"><rect x="48" y="56" width="160" height="106" rx="36" fill="#fff6ec"/><path d="M90 152 L124 152 L72 200 Z" fill="#fff6ec"/><g fill="#c64e2b" transform="translate(70,70) scale(1.22)"><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z"/><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z" transform="translate(52,0)"/></g></svg>
+              <span class="wordmark">Express<b>Myself</b></span>
+            </span>
+            <h1 class="headline">Search the <span class="u">whole library</span> in a tap.</h1>
+            <p class="sub">Filter by language, topic, and type — idioms, colloquialisms, proverbs, and more.</p>
+          </div>
+          <div class="showcase">
+            <div class="glow"></div>
+            <div class="ui card-lib">
+              <div class="searchbar">
+                <span class="mag">⌕</span><span>pan comido</span><span class="cursor"></span>
+              </div>
+              <div class="filters">
+                <span class="pill on">Español</span>
+                <span class="pill">Idioms</span>
+                <span class="pill">Colloquial</span>
+                <span class="pill">Proverbs</span>
+              </div>
+              <div class="res">
+                <h4>Ser pan comido</h4>
+                <p>Use it like “a piece of cake” — something that takes no effort at all.</p>
+                <div class="tags"><span class="tag">Everyday</span><span class="tag">Idiom</span></div>
+              </div>
+              <div class="res">
+                <h4>Meter la pata</h4>
+                <p>A casual way to admit you slipped up or said the wrong thing.</p>
+                <div class="tags"><span class="tag">Mistakes</span><span class="tag">Colloquial</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Poster 4 · Listen ============ -->
+    <section class="poster" data-name="4-listen">
+      <div class="frame">
+        <div class="stage">
+          <div class="lead">
+            <span class="mark">
+              <svg class="logo" viewBox="42 50 172 156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo"><rect x="48" y="56" width="160" height="106" rx="36" fill="#fff6ec"/><path d="M90 152 L124 152 L72 200 Z" fill="#fff6ec"/><g fill="#c64e2b" transform="translate(70,70) scale(1.22)"><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z"/><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z" transform="translate(52,0)"/></g></svg>
+              <span class="wordmark">Express<b>Myself</b></span>
+            </span>
+            <h1 class="headline">Hear exactly <span class="u">how it should sound</span>.</h1>
+            <p class="sub">Built-in speech playback reads every phrase in its own language — no account, no setup.</p>
+          </div>
+          <div class="showcase">
+            <div class="glow"></div>
+            <div class="ui card-listen">
+              <span class="eyebrow">🇫🇷 Français</span>
+              <h3>Il pleut des cordes</h3>
+              <div class="lit">“It's raining ropes.” — it's pouring outside.</div>
+              <div class="play-wrap">
+                <span class="play">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </span>
+                <span class="wave">
+                  <span style="height:18px"></span><span style="height:34px"></span><span style="height:52px"></span>
+                  <span style="height:60px"></span><span style="height:40px"></span><span style="height:26px"></span>
+                  <span style="height:46px"></span><span style="height:58px"></span><span style="height:30px"></span>
+                  <span style="height:20px"></span><span style="height:38px"></span><span style="height:16px"></span>
+                </span>
+              </div>
+              <div class="speak-label">Native speech playback</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Poster 5 · Save + streak ============ -->
+    <section class="poster" data-name="5-streak">
+      <div class="frame">
+        <div class="stage">
+          <div class="lead">
+            <span class="mark">
+              <svg class="logo" viewBox="42 50 172 156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo"><rect x="48" y="56" width="160" height="106" rx="36" fill="#fff6ec"/><path d="M90 152 L124 152 L72 200 Z" fill="#fff6ec"/><g fill="#c64e2b" transform="translate(70,70) scale(1.22)"><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z"/><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z" transform="translate(52,0)"/></g></svg>
+              <span class="wordmark">Express<b>Myself</b></span>
+            </span>
+            <h1 class="headline">Save what clicks.<br /><span class="u">Keep the streak</span> alive.</h1>
+            <p class="sub">Star the phrases you love, review them anytime, and build a daily habit that sticks.</p>
+          </div>
+          <div class="showcase">
+            <div class="glow"></div>
+            <div class="ui card-save">
+              <div class="banner">
+                <span class="big">🔥</span>
+                <span><div class="n">12-day streak</div><div class="lbl">Longest yet — keep it going</div></span>
+                <span class="pill on save-tag">★ 3 saved</span>
+              </div>
+              <div class="saved-row">
+                <span class="heart">♥</span>
+                <span><div class="ph">Break a leg</div><div class="mn">Good luck before a big moment.</div></span>
+                <span class="flag">🇬🇧</span>
+              </div>
+              <div class="saved-row">
+                <span class="heart">♥</span>
+                <span><div class="ph">In bocca al lupo</div><div class="mn">Wishing someone luck, Italian style.</div></span>
+                <span class="flag">🇮🇹</span>
+              </div>
+              <div class="saved-row">
+                <span class="heart">♥</span>
+                <span><div class="ph">Ser pan comido</div><div class="mn">Something that's a piece of cake.</div></span>
+                <span class="flag">🇪🇸</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Marquee 1400×560 ============ -->
+    <section class="poster marquee" data-name="marquee">
+      <div class="frame">
+        <div class="stage">
+          <div class="lead">
+            <span class="mark">
+              <svg class="logo" viewBox="42 50 172 156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo"><rect x="48" y="56" width="160" height="106" rx="36" fill="#fff6ec"/><path d="M90 152 L124 152 L72 200 Z" fill="#fff6ec"/><g fill="#c64e2b" transform="translate(70,70) scale(1.22)"><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z"/><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z" transform="translate(52,0)"/></g></svg>
+              <span class="wordmark brand-wordmark">Express<b>Myself</b></span>
+            </span>
+            <h1 class="headline">Everyday idioms,<br />right in your browser.</h1>
+            <ul class="feat">
+              <li><span class="dot">✓</span> A fresh expression every day</li>
+              <li><span class="dot">✓</span> 780 phrases across 10 languages</li>
+              <li><span class="dot">✓</span> Listen, search, and save — no account</li>
+            </ul>
+          </div>
+          <div class="showcase">
+            <div class="glow"></div>
+            <div class="ui card-daily" style="width:430px">
+              <div class="row">
+                <span class="eyebrow">Phrase of the day</span>
+                <span class="flame">🔥 7</span>
+              </div>
+              <div class="row" style="margin-top:14px"><span class="lang">🇮🇹 Italiano</span></div>
+              <h3 class="serif" style="font-size:40px">In bocca al lupo</h3>
+              <p class="meaning">A warm way to wish someone good luck before a big moment.</p>
+              <div class="actions">
+                <span class="btn primary">♥ Save</span>
+                <span class="btn ghost"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"/></svg>Listen</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Small tile 440×280 ============ -->
+    <section class="poster tile" data-name="small-tile">
+      <div class="frame">
+        <div class="glow"></div>
+        <div class="tile-inner">
+          <svg class="logo" viewBox="42 50 172 156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ExpressMyself logo"><rect x="48" y="56" width="160" height="106" rx="36" fill="#fff6ec"/><path d="M90 152 L124 152 L72 200 Z" fill="#fff6ec"/><g fill="#c64e2b" transform="translate(70,70) scale(1.22)"><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z"/><path d="M43 21C43 9.4 33.6 0 22 0C10.4 0 1 9.4 1 21C1 30 6.6 36.4 15 38C10.5 43 5.5 47.5 2 53C16 50 29 41.5 37 29C41 24 43 22.6 43 21Z" transform="translate(52,0)"/></g></svg>
+          <div class="t-word">Express<span style="color:var(--accent)">Myself</span></div>
+          <div class="t-sub">Everyday idioms &amp; expressions in 10 languages — a fresh one daily.</div>
+          <div class="t-chips">
+            <span class="t-chip">Daily phrase</span>
+            <span class="t-chip">Listen</span>
+            <span class="t-chip">Save</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // ?v=2 → lighter "mocha" theme with the serif brand wordmark.
+      const params = new URLSearchParams(location.search);
+      if (params.get("v") === "2") {
+        document.body.classList.add("v2");
+      }
+      // ?only=<data-name> → show just that poster, sized exactly, for capture.
+      const only = params.get("only");
+      if (only) {
+        document.body.classList.add("single");
+        const target = document.querySelector('.poster[data-name="' + only + '"]');
+        if (target) {
+          target.classList.add("active");
+          const w = target.offsetWidth, h = target.offsetHeight;
+          document.body.style.width = w + "px";
+          document.body.style.height = h + "px";
+        }
+      }
+    </script>
+  </body>
+</html>

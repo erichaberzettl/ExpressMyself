@@ -32,6 +32,18 @@ describe("expression helpers", () => {
     expect(next.id).not.toBe(first.id);
   });
 
+  it("wraps safely for negative offsets (Previous) instead of going out of range", () => {
+    const date = new Date(Date.UTC(2026, 3, 19));
+    const base = getDailyExpressionAtOffset("en", 0, date);
+    const back = getDailyExpressionAtOffset("en", -1, date);
+    const forwardWrap = getDailyExpressionAtOffset("en", -1 + 1, date);
+
+    expect(back).toBeDefined();
+    expect(back.id).not.toBe(base.id);
+    // -1 then +1 lands back on the base expression.
+    expect(forwardWrap.id).toBe(base.id);
+  });
+
   it("keeps the seeded daily expression stable for the same user on the same day", () => {
     const entries = [
       {

@@ -1,0 +1,443 @@
+[
+  {
+    "id": "es-web-de-punta-en-blanco",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-web-tener-la-negra",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-web-dar-gato-por-liebre",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-web-no-pegar-un-ojo",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-web-andar-con-pies-de-plomo",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-web-entre-la-espada-y-la-pared",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Duplicate idiom (bare variant of curated es-estar-entre-la-espada-y-la-pared).",
+    "fix": null
+  },
+  {
+    "id": "es-web-cada-uno-sabe-donde-aprieta-el-zapato",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-web-haz-el-bien-y-no-mires-a-quien",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-buenas-horas-0",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-cal-y-canto-1",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-cada-rato-2",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Plain frequency adverbial (= constantly / all the time), not a figurative idiom.",
+    "fix": null
+  },
+  {
+    "id": "es-a-buenas-horas-mangas-verdes-3",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-bulto-4",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Plain manner adverbial (= roughly / by rough guess); alphabetical-scrape padding.",
+    "fix": null
+  },
+  {
+    "id": "es-a-buen-seguro-5",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Plain modal adverbial (= almost certainly); transparent, low learn-value.",
+    "fix": null
+  },
+  {
+    "id": "es-a-buen-recaudo-6",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-base-de-bien-7",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Colloquial intensity adverbial (= a lot); transparent scrape padding, not a real idiom.",
+    "fix": null
+  },
+  {
+    "id": "es-a-brazo-partido-8",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-bote-pronto-9",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-cara-de-perro-10",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-capa-y-espada-11",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-calzon-quitado-12",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-boca-de-jarro-13",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-a-campo-abierto-14",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Transparent descriptive locative (= out in the open); near-synonym of a-campo-raso.",
+    "fix": null
+  },
+  {
+    "id": "es-a-campo-raso-15",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Transparent descriptive locative (= exposed in the open); redundant with a-campo-abierto.",
+    "fix": null
+  },
+  {
+    "id": "es-a-buenas-16",
+    "verdict": "DISCARD",
+    "gate": 2,
+    "reason": "Plain adverbial (= willingly / amicably); transparent scrape padding.",
+    "fix": null
+  },
+  {
+    "id": "es-a-borbotones-17",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine idiom/proverb/set expression; correctly-formed data.",
+    "fix": null
+  },
+  {
+    "id": "es-dar-en-el-clavo-18",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated es-dar-en-el-clavo.",
+    "fix": null
+  },
+  {
+    "id": "es-estar-entre-la-espada-y-la-pared-19",
+    "verdict": "DISCARD",
+    "gate": 4,
+    "reason": "Exact duplicate of curated es-estar-entre-la-espada-y-la-pared.",
+    "fix": null
+  },
+  {
+    "id": "es-pan-comido",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-estar-en-las-nubes",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-meter-la-pata",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-tomar-el-pelo",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-sin-pelos-en-la-lengua",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-ponerse-las-pilas",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-costar-un-rinon",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-estar-hecho-polvo",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-ir-al-grano",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-ser-una-olla-de-grillos",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-dar-en-el-clavo",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-no-tener-pelos-en-la-lengua",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-estar-entre-la-espada-y-la-pared",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-tirar-la-toalla",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-buscarle-tres-pies-al-gato",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-quedarse-de-piedra",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-estar-como-una-cabra",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-a-donde-te-quieran-mucho-no-vayas-a-menudo",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-si-te-caes-siete-veces-levantate-ocho",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-el-que-mucho-abarca-poco-aprieta",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-zapatero-a-tus-zapatos",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-mas-sabe-el-diablo-por-viejo-que-por-diablo",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-a-palabras-necias-oidos-sordos",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-en-las-malas-se-conoce-a-los-amigos",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-perro-ladrador-poco-mordedor",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-mucho-ruido-y-pocas-nueces",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-no-hay-mal-que-por-bien-no-venga",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-mas-vale-tarde-que-nunca",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-cuando-hay-hambre-no-hay-mal-pan",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-no-hay-mal-que-dure-cien-anos",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-donde-fueres-haz-lo-que-vieres",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-tener-un-piano-no-te-hace-pianista",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-aunque-la-mona-se-vista-de-seda-mona-se-queda",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-el-mundo-es-un-panuelo",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  },
+  {
+    "id": "es-del-dicho-al-hecho-hay-mucho-trecho",
+    "verdict": "KEEP",
+    "gate": 5,
+    "reason": "Genuine curated idiom/proverb.",
+    "fix": null
+  }
+]

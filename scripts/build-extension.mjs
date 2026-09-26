@@ -72,7 +72,24 @@ await execFileAsync(
   { cwd: projectRoot }
 );
 
-const staticFiles = ["manifest.json", "popup.html", "styles.css"];
+// Bundle the content-script storage bridge into a classic IIFE (dist/bridge.js).
+await execFileAsync(
+  process.execPath,
+  [
+    path.join(projectRoot, "node_modules", "vite", "bin", "vite.js"),
+    "build",
+    "--config",
+    path.join(projectRoot, "extension", "vite.bridge.config.mjs")
+  ],
+  { cwd: projectRoot }
+);
+
+// tsc also emits an ES-module copy of the bridge that nothing loads (the
+// manifest uses the bundled dist/bridge.js). Drop it so the package has no
+// confusing duplicate content script.
+await rm(path.join(distRoot, "extension", "src", "bridge.js"), { force: true });
+
+const staticFiles = ["manifest.json", "popup.html", "styles.css", "service-worker.js"];
 
 for (const fileName of staticFiles) {
   await cp(path.join(extensionRoot, fileName), path.join(distRoot, fileName));
